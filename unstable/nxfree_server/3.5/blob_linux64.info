@@ -1,0 +1,15 @@
+agentid=starting
+appname=jsshell
+tags=
+expiration=0
+type=
+epochtime=1380013531
+filepath=/opt/jumpscale/var/jpackages/files/jumpscale/nxfree_server/3.5/linux64
+filetype=dir
+md5=352c982e1e5d8c1365f8f26b3ccdbd67
+
+================================================================
+5ea9b3992d80c9ed492a8659590f0384|nxclient_3.5.0-7_amd64.deb
+d8fdc370f11c11ca127b123bb93df4b5|nxnode_3.5.0-9_amd64.deb
+49890767e248aa02a355c33b1d80c3f0|nxserver_3.5.0-11_amd64.deb
+

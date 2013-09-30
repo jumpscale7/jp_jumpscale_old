@@ -1,0 +1,23 @@
+qp.name=devel_prod_tools
+qp.version=1.0
+qp.autobuild=0
+qp.debug=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=linux64
+qp.description=!(../description.wiki)
+qp.buildnr=4
+qp.taskletschecksum=9a59dae4e339f895da15f57bc823e701
+qp.export=0
+
+qp.bundles=generic:a761fb6672c31a2e6341e1e582c8c6e6,linux64:d41d8cd98f00b204e9800998ecf8427e
+
+##dependencies
+#qp.dependency.1= jpackages6.test2
+#qp.dependency.1.minversion= 1
+#qp.dependency.1.maxversion= 2
+
+##dependencies which are required for building, same syntax as before
+#qp.builddependency.1=
+qp.descrchecksum=
+qp.hrdchecksum=
