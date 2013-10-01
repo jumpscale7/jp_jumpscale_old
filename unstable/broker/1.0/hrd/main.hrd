@@ -13,3 +13,9 @@ qp.export=0
 qp.repositories.generic.jumpscale_jumpscale_grid=d3975b15c815
 qp.descrchecksum=
 qp.hrdchecksum=
+
+qp.dependency.1.name = broker_base
+qp.dependency.1.domain = jumpscale
+
+qp.dependency.2.name = logger
+qp.dependency.2.domain = jumpscale
