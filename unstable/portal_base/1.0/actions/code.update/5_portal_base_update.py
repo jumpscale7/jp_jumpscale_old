@@ -1,14 +1,16 @@
 def main(j,args,params,tags,tasklet):
    
-    #link info into local repo
-
+    #update info into local repo
+    
     qp=args.qp
 
     recipe=qp.actions.code_getRecipe()
 
-    recipe.link()
-    cwd = qp.getPathFilesPlatform('generic')
-    j.system.process.run("python setup.py develop", cwd=cwd)
+    if args.has_key("force"):
+        recipe.update(args.force)
+    else:
+        recipe.update()
+
     #this is the standard used function, can overrule to do custom work
     
     return params

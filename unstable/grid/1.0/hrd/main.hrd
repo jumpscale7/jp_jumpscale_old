@@ -6,7 +6,7 @@ qp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=generic
 qp.description=!(../description.wiki)
-qp.buildnr=15
+qp.buildnr=16
 qp.taskletschecksum=aa939456ec48654fe9ef090fa0c7c3de
 qp.export=0
 
