@@ -1,0 +1,16 @@
+qp.name=logger
+qp.version=1.0
+qp.autobuild=0
+qp.debug=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=generic
+qp.description=!(../description.wiki)
+qp.buildnr=2
+qp.taskletschecksum=6a9a099093c2792b0f6edac658e37ad5
+qp.export=0
+
+qp.bundles=generic:4e674af95d2550bd2967f85dc1ea4d8b
+qp.repositories.generic.jumpscale_jumpscale_grid=9e72a4e7df8c
+qp.descrchecksum=
+qp.hrdchecksum=

@@ -1,0 +1,25 @@
+qp.domain=jumpscale
+qp.name=base
+qp.version=2.7
+qp.autobuild=0
+
+qp.supportedplatforms=linux64
+qp.description=!(../description.wiki)
+qp.buildnr=16
+qp.export=0
+
+qp.taskletschecksum=5bc9f8c882837f9fac4686803e4b84ad
+qp.bundles=generic:,linux64:312e186048439e76d98fbb80d0a3b550,linux:c97731015daaf2eeb77a99f12f5975b6
+
+##dependencies
+qp.dependency.1.name = processmanager
+qp.dependency.1.domain = jumpscale
+#qp.dependency.1.minversion= 1
+#qp.dependency.1.maxversion= 2
+
+##dependencies which are required for building, same syntax as before
+#qp.builddependency.1=
+qp.descrchecksum=08decbb0c4cf70f7cb40bbb55d73c6a2
+qp.hrdchecksum=31ceaf236110e80b4e1b5e589a6c3e52
+qp.dependency.1.minversion=0
+qp.dependency.1.maxversion=0

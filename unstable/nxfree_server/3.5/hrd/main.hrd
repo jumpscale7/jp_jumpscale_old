@@ -1,0 +1,23 @@
+qp.name=nxfree_server
+qp.version=3.5
+qp.autobuild=0
+qp.debug=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=linux64
+qp.description=!(../description.wiki)
+qp.buildnr=0
+qp.taskletschecksum=55059f5a201069b1729700931344a5c7
+qp.export=0
+
+qp.bundles=linux64:24d6cdd5889ce17419104f79634cbcf9
+
+##dependencies
+#qp.dependency.1= jpackages6.test2
+#qp.dependency.1.minversion= 1
+#qp.dependency.1.maxversion= 2
+
+##dependencies which are required for building, same syntax as before
+#qp.builddependency.1=
+qp.descrchecksum=
+qp.hrdchecksum=
