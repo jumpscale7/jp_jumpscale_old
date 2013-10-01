@@ -5,7 +5,7 @@ def main(j,args,params,tags,tasklet):
     master_exists=False
     if j.application.config.getBool("grid.useavahi"):
         import JumpScale.lib.remote.avahi
-        s=j.remote.avahi.getServices():
+        s=j.remote.avahi.getServices()
         master_exists,services=s.exists(partofname="jsgrid.1.master")
         if master_exists:
             from IPython import embed
@@ -21,21 +21,15 @@ def main(j,args,params,tags,tasklet):
             if ismaster:
                 if j.console.askYesNo("Do you want to enable this node to become the master of the grid?"):
                     
-            from IPython import embed
-            print "DEBUG NOW question master grid"
-            embed()
+                    from IPython import embed
+                    print "DEBUG NOW question master grid"
+                    embed()
             
         else:
             
-
-
-
-
-        
-
-    from IPython import embed
-    print "DEBUG NOW configuregridnode"
-    embed()
+            from IPython import embed
+            print "DEBUG NOW configuregridnode"
+            embed()
     
 
     return params

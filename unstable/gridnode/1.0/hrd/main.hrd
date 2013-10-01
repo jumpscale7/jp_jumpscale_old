@@ -6,8 +6,8 @@ qp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=linux
 qp.description=!(../description.wiki)
-qp.buildnr=-1
-qp.taskletschecksum=
+qp.buildnr=0
+qp.taskletschecksum=29f383bd23f9eceeb4eca54888143b3f
 qp.export=0
 
 qp.bundles=
@@ -19,5 +19,5 @@ qp.bundles=
 
 ##dependencies which are required for building, same syntax as before
 #qp.builddependency.1=
-qp.descrchecksum=
-qp.hrdchecksum=
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=79c53a61b95a505007e69ff7dfcbfd79
