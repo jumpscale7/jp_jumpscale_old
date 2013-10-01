@@ -8,8 +8,6 @@ def main(j, args, params, tags, tasklet):
     j.system.platform.ubuntu.install('python-gevent')
     j.system.platform.ubuntu.install('libleveldb-dev')
     j.system.platform.ubuntu.install('libleveldb1')
-    _installPythonPackage('ujson') 
-    _installPythonPackage('pyzmq')
     
     params.result = True  # return True if result ok
     return params
