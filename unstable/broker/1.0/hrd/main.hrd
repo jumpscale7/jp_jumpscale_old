@@ -1,0 +1,15 @@
+qp.version=1.0
+qp.bundles=generic:6c7e25cece170a265748e303d53708b7
+qp.name=broker
+qp.autobuild=0
+qp.debug=0
+qp.mykey=test
+qp.description=!(../description.wiki)
+qp.repositories.generic.jumpscale.jumpscale.grid=9e72a4e7df8c
+qp.buildnr=6
+qp.supportedplatforms=generic
+qp.taskletschecksum=ed678b9949494377f4e8bee120a87e55
+qp.export=0
+qp.repositories.generic.jumpscale_jumpscale_grid=d3975b15c815
+qp.descrchecksum=
+qp.hrdchecksum=

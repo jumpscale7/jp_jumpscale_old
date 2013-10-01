@@ -1,0 +1,28 @@
+qp.name=grid
+qp.version=1.0
+qp.autobuild=0
+qp.debug=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=generic
+qp.description=!(../description.wiki)
+qp.buildnr=15
+qp.taskletschecksum=aa939456ec48654fe9ef090fa0c7c3de
+qp.export=0
+
+qp.bundles=generic:70f2de3811daa26bc392c9d0bcaa3ed2
+
+qp.repositories.generic.jumpscale_jumpscale_grid=d3975b15c815
+qp.repositories.none.jumpscale_jumpscale_grid=980249f346ae
+qp.descrchecksum=
+qp.hrdchecksum=
+
+qp.dependency.1.name = base
+qp.dependency.1.domain = jumpscale
+qp.dependency.1.minversion=
+qp.dependency.1.maxversion=
+
+qp.dependency.2.name = grid_base
+qp.dependency.2.domain = jumpscale
+qp.dependency.2.minversion=
+qp.dependency.2.maxversion=

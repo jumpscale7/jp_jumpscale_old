@@ -1,0 +1,8 @@
+h2. $(qp.name) $(qp.version)
+
+$(qp.description)
+
+download client from
+http://www.nomachine.com/download.php
+
+
