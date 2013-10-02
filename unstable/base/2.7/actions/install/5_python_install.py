@@ -25,6 +25,9 @@ def main(j,args,params,tags,tasklet):
         do.execute("pip install %s" % pp)
 
     #configuration is not done in this step !!!!!
+    distpath = "$(python.paths.local.distpackages)/jumpscale.pth"
+    if not j.system.fs.exists(distpath):
+        j.system.fs.writeFile(distpath, "$(python.paths.local.sitepackages)\n")
     
     params.result=True #return True if result ok
     return params

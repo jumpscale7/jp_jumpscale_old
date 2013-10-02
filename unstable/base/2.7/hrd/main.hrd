@@ -5,7 +5,7 @@ qp.autobuild=0
 
 qp.supportedplatforms=linux64
 qp.description=!(../description.wiki)
-qp.buildnr=18
+qp.buildnr=19
 qp.export=0
 
 qp.taskletschecksum=21e5061e7d596212529dc0c4ffe6d271

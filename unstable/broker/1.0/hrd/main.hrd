@@ -6,7 +6,7 @@ qp.debug=0
 qp.mykey=test
 qp.description=!(../description.wiki)
 qp.repositories.generic.jumpscale.jumpscale.grid=9e72a4e7df8c
-qp.buildnr=6
+qp.buildnr=7
 qp.supportedplatforms=generic
 qp.taskletschecksum=ed678b9949494377f4e8bee120a87e55
 qp.export=0
@@ -19,3 +19,5 @@ qp.dependency.2.domain = jumpscale
 
 qp.dependency.2.name = osis
 qp.dependency.2.domain = jumpscale
+qp.dependency.2.minversion=
+qp.dependency.2.maxversion=
