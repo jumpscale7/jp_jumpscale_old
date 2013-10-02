@@ -26,3 +26,4 @@ qp.dependency.2.name = grid_base
 qp.dependency.2.domain = jumpscale
 qp.dependency.2.minversion=
 qp.dependency.2.maxversion=
+

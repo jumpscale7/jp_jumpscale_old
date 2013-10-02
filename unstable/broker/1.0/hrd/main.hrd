@@ -16,3 +16,6 @@ qp.hrdchecksum=
 
 qp.dependency.2.name = logger
 qp.dependency.2.domain = jumpscale
+
+qp.dependency.2.name = osis
+qp.dependency.2.domain = jumpscale

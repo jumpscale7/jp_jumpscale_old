@@ -1,24 +1,23 @@
 qp.domain=jumpscale
-qp.name=libs
+qp.name=jpackages_server
 qp.version=1.0
 qp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=generic
 qp.description=!(../description.wiki)
-qp.buildnr=0
+qp.buildnr=-1
 
-qp.taskletschecksum=f659905117b94ea4988a286b9619e21b
-qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-qp.hrdchecksum=627e6e0d9b0ea2a0da44c228c76065a7
+qp.taskletschecksum=
+qp.descrchecksum=
+qp.hrdchecksum=
 
 qp.export=0
 
-qp.bundles=ubuntu64:30976b5c7cb0d45bf7918807575b527f
+qp.bundles=
 
 ##dependencies
 #qp.dependency.1.name = processmanager
 #qp.dependency.1.domain = jumpscale
 #qp.dependency.1.minversion= 1
 #qp.dependency.1.maxversion= 2
-qp.repositories.generic.jumpscale_jumpscale_lib=02557569f29d
