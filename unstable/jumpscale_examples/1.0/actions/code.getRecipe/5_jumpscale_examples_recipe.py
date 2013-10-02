@@ -1,7 +1,7 @@
 def main(j, args, params, tags, tasklet):
 
     recipe = j.packages.getCodeManagementRecipe()
-    repo = j.clients.bitbucket.getRepoConnection("jumpscale", "jumpscale-examples")
+    repo = j.clients.bitbucket.getRepoConnection("jumpscale", "jumpscale_examples")
 
     recipe.add(repo, "examples", "apps/examples")
     recipe.add(repo, "prototypes", "apps/prototypes")
