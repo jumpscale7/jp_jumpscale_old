@@ -2,11 +2,14 @@ def main(j,args,params,tags,tasklet):
 
     j.logger.consoleloglevel=6
    
-    debpackages = ('python2.7','python-gevent', 'python-simplejson', 'python-numpy','python-psutil'
+<<<<<<< local
+    debpackages = ('python2.7','python-gevent', 'python-simplejson', 'python-numpy','python-psutil',
                         'python-apt','python-pip','python-imaging','python-requests',"python-paramiko","python-mhash","python-snappy","python-beaker","python-mimeparse",
                         "python-m2crypto","python-iowait")
+=======
+    debpackages = ('python2.7','python-gevent', 'python-simplejson', 'python-numpy','python-psutil', 'python-apt','python-pip','python-imaging','python-requests',"python-paramiko","python-mhash","python-snappy","python-beaker","python-mimeparse", "python-m2crypto","python-iowait")
+>>>>>>> other
 
-    debpackages=[]
 
     for name in debpackages:
         print "check install %s"%name

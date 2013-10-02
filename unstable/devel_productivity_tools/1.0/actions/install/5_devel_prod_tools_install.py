@@ -2,6 +2,7 @@ def main(j,args,params,tags,tasklet):
 
     j.system.platform.ubuntu.install("tuxcmd")
     j.system.platform.ubuntu.install("xfe")
+    j.system.platform.ubuntu.install('lftp')
 
     p=j.packages.ui.find("sublimetext*")
     p.install()

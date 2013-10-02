@@ -1,6 +1,6 @@
 def main(j,args,params,tags,tasklet):
-    args.qp.copyFileParts('apps/portalbase', '/opt/jumpscale/apps/portalbase') #  will copy files to sandbox
-    args.qp.copyFileParts('apps/portalftpgateway', '/opt/jumpscale/apps/portalftpgateway') #  will copy files to sandbox
+    args.qp.copyFiles('apps/portalbase', j.system.fs.joinPaths(j.dirs.baseDir, 'apps/portalbase'))
+    args.qp.copyFiles('apps/portalftpgateway', j.system.fs.joinPaths(j.dirs.baseDir,'apps/portalftpgateway'))
    
     cwd = args.qp.getPathFilesPlatform('generic')
     j.system.process.run("pip install .", cwd=cwd)

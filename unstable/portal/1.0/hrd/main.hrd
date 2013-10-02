@@ -12,25 +12,18 @@ qp.export=0
 
 qp.bundles=generic:2af2ba6d738bb81ec2393168bffc1aea
 
-##dependencies
-#qp.dependency.1= jpackages6.test2
-#qp.dependency.1.minversion= 1
-#qp.dependency.1.maxversion= 2
-
 ##dependencies which are required for building, same syntax as before
 #qp.builddependency.1=
 qp.dependency.0.domain=jumpscale
-qp.dependency.0.name=grid
-qp.dependency.0.supportedplatforms=generic
+qp.dependency.0.name=osis
 qp.dependency.0.minversion=
 qp.dependency.0.maxversion=
-qp.dependency.0.dependencytype=runtime
+
 qp.dependency.1.domain=jumpscale
-qp.dependency.1.name=osis
-qp.dependency.1.supportedplatforms=generic
+qp.dependency.1.name=portal_base
 qp.dependency.1.minversion=
 qp.dependency.1.maxversion=
-qp.dependency.1.dependencytype=runtime
+
 qp.repositories.generic.jumpscale_jumpscale_portal=e6c41d2b9807
 qp.descrchecksum=
 qp.hrdchecksum=
