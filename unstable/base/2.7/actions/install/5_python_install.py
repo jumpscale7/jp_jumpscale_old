@@ -6,7 +6,6 @@ def main(j,args,params,tags,tasklet):
                         'python-apt','python-pip','python-imaging','python-requests',"python-paramiko","python-mhash","python-snappy","python-beaker","python-mimeparse",
                         "python-m2crypto","python-iowait")
 
-    debpackages=[]
 
     for name in debpackages:
         print "check install %s"%name
