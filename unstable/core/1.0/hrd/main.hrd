@@ -6,18 +6,19 @@ qp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=generic
 qp.description=!(../description.wiki)
-qp.buildnr=-1
+qp.buildnr=1
 
-qp.taskletschecksum=
-qp.descrchecksum=
-qp.hrdchecksum=
+qp.taskletschecksum=319e5f3412d0ca5fbcb2dbd4b4c24884
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=a7262da2997a6ea3a251e3eba4dc2551
 
 qp.export=0
 
-qp.bundles=
+qp.bundles=ubuntu64:1580c0474ef403bfc1f8942ad52167e1
 
 ##dependencies
 #qp.dependency.1.name = processmanager
 #qp.dependency.1.domain = jumpscale
 #qp.dependency.1.minversion= 1
 #qp.dependency.1.maxversion= 2
+qp.repositories.generic.jumpscale_jumpscale_core=9c5f721a358c+
