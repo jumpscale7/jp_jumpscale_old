@@ -1,12 +1,12 @@
 qp.domain=jumpscale
-qp.name=broker_base
+qp.name=libs
 qp.version=1.0
 qp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=generic
 qp.description=!(../description.wiki)
-qp.buildnr=0
+qp.buildnr=-1
 
 qp.taskletschecksum=
 qp.descrchecksum=

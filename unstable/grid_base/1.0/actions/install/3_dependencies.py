@@ -6,7 +6,7 @@ def main(j, args, params, tags, tasklet):
     
     _installPythonPackage('msgpack-python')
     j.system.platform.ubuntu.install('python-gevent')
-    j.system.platform.ubuntu.install('libleveldb-dev')
+    # j.system.platform.ubuntu.install('libleveldb-dev')
     j.system.platform.ubuntu.install('libleveldb1')
     
     params.result = True  # return True if result ok
