@@ -5,10 +5,10 @@ qp.autobuild=0
 
 qp.supportedplatforms=linux64
 qp.description=!(../description.wiki)
-qp.buildnr=17
+qp.buildnr=18
 qp.export=0
 
-qp.taskletschecksum=ea93996f9e3eb0261a342dfb7c79df01
+qp.taskletschecksum=21e5061e7d596212529dc0c4ffe6d271
 qp.bundles=generic:,linux64:312e186048439e76d98fbb80d0a3b550,linux:c97731015daaf2eeb77a99f12f5975b6
 
 ##dependencies
