@@ -7,7 +7,7 @@ def main(j,args,params,tags,tasklet):
     recipe=qp.actions.code_getRecipe()
 
     recipe.link()
-    cwd = qp.getPathFilesPlatform('generic')
+    cwd = recipe.items[0].coderepoConnection.basedir
     j.system.process.run("python setup.py develop", cwd=cwd)
     #this is the standard used function, can overrule to do custom work
     
