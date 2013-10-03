@@ -18,3 +18,5 @@ qp.bundles=
 
 qp.dependency.1.name = base
 qp.dependency.1.domain = jumpscale
+qp.dependency.1.minversion=
+qp.dependency.1.maxversion=
