@@ -17,7 +17,7 @@ qp.repositories.none.jumpscale_jumpscale_grid=980249f346ae
 qp.descrchecksum=
 qp.hrdchecksum=
 
-qp.dependency.1.name = base
+qp.dependency.1.name = core
 qp.dependency.1.domain = jumpscale
 qp.dependency.1.minversion=
 qp.dependency.1.maxversion=
