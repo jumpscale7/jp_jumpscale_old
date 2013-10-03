@@ -6,11 +6,11 @@ qp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=generic
 qp.description=!(../description.wiki)
-qp.buildnr=24
-qp.taskletschecksum=18bad134b65fe2455db43341f4481e44
+qp.buildnr=26
+qp.taskletschecksum=a64c701523d8c5f0db0193b5c4a340f6
 qp.export=0
 
-qp.bundles=generic:2af2ba6d738bb81ec2393168bffc1aea
+qp.bundles=generic:911ccf1393d2ac22afbbd5ff3f0aae76
 
 ##dependencies which are required for building, same syntax as before
 #qp.builddependency.1=
@@ -24,6 +24,6 @@ qp.dependency.1.name=portal_base
 qp.dependency.1.minversion=
 qp.dependency.1.maxversion=
 
-qp.repositories.generic.jumpscale_jumpscale_portal=e6c41d2b9807
-qp.descrchecksum=
-qp.hrdchecksum=
+qp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=b6f684c18b66696873e9c201ea1bfa97

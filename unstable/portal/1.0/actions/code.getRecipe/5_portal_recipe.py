@@ -7,10 +7,9 @@ def main(j,args,params,tags,tasklet):
     repo=j.clients.bitbucket.getRepoConnection("jumpscale","jumpscale_portal")
     
     #recipe.add(repo, sourcePath, destinationPath, branch='')
-    recipe.add(repo,"apps","apps")
-    recipe.add(repo,"lib","lib")
-    recipe.add(repo,"setup.py","setup.py")  
-    recipe.add(repo,"MANIFEST.in","MANIFEST.in")  
+    recipe.add(repo,"apps/portalbase","apps/portalbase", platform='generic')
+    recipe.add(repo,"apps/portalftpgateway","apps/portalftpgateway", platform='generic')
+    recipe.add(repo,"lib/JumpScale/portal","site-packages/JumpScale/portal", systemdest="$(python.paths.local.sitepackages)/JumpScale/portal", platform='generic')
     
     params.result=recipe  #remember for further usage
     
