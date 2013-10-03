@@ -5,8 +5,7 @@ def main(j, args, params, tags, tasklet):
 
     recipe = j.packages.getCodeManagementRecipe()
     repo=j.clients.bitbucket.getRepoConnection("jumpscale","jumpscale_grid")
-    for component in ('lib', 'setup.py'):
-        recipe.add(repo,component,component)
+    recipe.add(repo, "lib/JumpScale/grid", "site-packages/JumpScale/grid", systemdest="$(python.paths.local.sitepackages)/JumpScale/grid", platform='generic')
 
     params.result = recipe  # remember for further usage
 

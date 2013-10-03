@@ -1,8 +1,5 @@
 def main(j, args, params, tags, tasklet):
-
-    qp = args.qp
-    cwd = qp.getPathFilesPlatform('generic')
-    j.system.process.run("pip install .", cwd=cwd)
+    args.qp.copyPythonLibs()
 
     params.result = True  # return True if result ok
     return params
