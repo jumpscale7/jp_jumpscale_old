@@ -3,11 +3,12 @@ def main(j,args,params,tags,tasklet):
     j.system.platform.ubuntu.install("tuxcmd")
     j.system.platform.ubuntu.install("xfe")
     j.system.platform.ubuntu.install('lftp')
+    j.system.platform.ubuntu.install('software-properties-common')
 
-    p=j.packages.ui.find("sublimetext*")
+    p=j.packages.findByName("sublimetext*")[0]
     p.install()
 
-    p=j.packages.ui.find("nxfree_server*")
+    p=j.packages.findByName("nxfree_server*")[0]
     p.install()
 
     e="add-apt-repository ppa:alexx2000/doublecmd"
