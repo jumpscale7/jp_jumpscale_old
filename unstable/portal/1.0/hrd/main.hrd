@@ -6,11 +6,11 @@ qp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=generic
 qp.description=!(../description.wiki)
-qp.buildnr=26
-qp.taskletschecksum=a64c701523d8c5f0db0193b5c4a340f6
+qp.buildnr=28
+qp.taskletschecksum=2a1328e877e8f46642a3c045ee270b5a
 qp.export=0
 
-qp.bundles=generic:911ccf1393d2ac22afbbd5ff3f0aae76
+qp.bundles=generic:d7771ed72ef459c88d9927b9d7f9559e
 
 ##dependencies which are required for building, same syntax as before
 #qp.builddependency.1=
