@@ -3,10 +3,10 @@ appname=jpackage
 tags=
 expiration=0
 type=
-epochtime=1380783349
+epochtime=1380784671
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/core/1.0/generic
 filetype=dir
-md5=78f5878760bf9a385e03eaea37188b9d
+md5=d1be0199940aacf9fa86059d7eb84062
 
 ================================================================
 3122c380ee60d678c8717dc6f0591890|bin/_jpackage_build
@@ -106,7 +106,8 @@ d41d8cd98f00b204e9800998ecf8427e|site-packages/JumpScale/baselib/expect/__init__
 1cd7c1b1fbf7172958908666fd8bd3f4|site-packages/JumpScale/baselib/hash/HashTool.py
 c7a8aabcc68fad9c606c07faab16a9eb|site-packages/JumpScale/baselib/hash/__init__.py
 2a5afd8e6e5ff13f46b78ef9a9f39481|site-packages/JumpScale/baselib/hash/extension.cfg
-9f323be772a2dfcae36e1d72edb256cf|site-packages/JumpScale/baselib/hrd/HumanReadableData.py
+5b4bbaacae6a9083f33d6f05b4ec1d35|site-packages/JumpScale/baselib/hrd/.HumanReadableData.py.swp
+733b86e4acedd996717170e4fe993ece|site-packages/JumpScale/baselib/hrd/HumanReadableData.py
 e8fe9e91790c36635b76f283e605be78|site-packages/JumpScale/baselib/hrd/__init__.py
 043627151e89a3188b947d14909e617b|site-packages/JumpScale/baselib/hrd/extension.cfg
 0f8957f48c8a63832f6935703666214d|site-packages/JumpScale/baselib/http_client/HttpClient.py
@@ -123,7 +124,6 @@ f7a91ea1ae721a0ba6a5b8aed46255fa|site-packages/JumpScale/baselib/installtools/In
 7c915b9a1e4aa977a90f4e6a928d86c2|site-packages/JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|site-packages/JumpScale/baselib/installtools/extension.cfg
 5c6b7c85dfbceb157a08f5c644b10f78|site-packages/JumpScale/baselib/jpackages/.ActionManager.py.swp
-a877bf1acf88bf6d246c7f1fd07f1d1d|site-packages/JumpScale/baselib/jpackages/.PythonPackage.py.swp
 e4e1c6a6ba2b1c6da2baa58b30136118|site-packages/JumpScale/baselib/jpackages/ActionManager.py
 2747eeaaaa97a2e5d22d6aca9a94c8b0|site-packages/JumpScale/baselib/jpackages/CodeManagementRecipe.py
 27148774f88c8e331ee7b9dd2189e57c|site-packages/JumpScale/baselib/jpackages/Domain.py
