@@ -26,10 +26,10 @@ def main(j,args,params,tags,tasklet):
                     embed()
             
         else:
-            
-            from IPython import embed
-            print "DEBUG NOW configuregridnode"
-            embed()
+            pass 
+            #from IPython import embed
+            #print "DEBUG NOW configuregridnode"
+            #embed()
     
 
     return params
