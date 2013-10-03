@@ -4,7 +4,7 @@ def main(j, args, params, tags, tasklet):
     j.system.platform.ubuntu.install('python-imaging')
     j.system.platform.ubuntu.install('nginx-full')
     j.system.platform.ubuntu.install('python-beaker')
-    j.system.platform.ubuntu.install('python-mimeparser')
+    j.system.platform.ubuntu.install('python-mimeparse')
 
     params.result = True  # return True if result ok
     return params
