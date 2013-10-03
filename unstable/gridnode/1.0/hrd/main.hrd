@@ -13,9 +13,8 @@ qp.export=0
 qp.bundles=
 
 ##dependencies
-#qp.dependency.1= jpackages6.test2
-#qp.dependency.1.minversion= 1
-#qp.dependency.1.maxversion= 2
+qp.dependency.1.name = grid
+qp.dependency.1.domain = jumpscale
 
 ##dependencies which are required for building, same syntax as before
 #qp.builddependency.1=
