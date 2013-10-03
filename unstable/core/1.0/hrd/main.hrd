@@ -16,7 +16,7 @@ qp.export=0
 
 qp.bundles=ubuntu64:78dc0845394202b7cfa7e961bb9fb5e4
 
-qp.dependency.1.name = processmanager
+qp.dependency.1.name = base
 qp.dependency.1.domain = jumpscale
 qp.dependency.1.minversion=
 qp.dependency.1.maxversion=
