@@ -3,7 +3,6 @@ qp.name=elasticsearch
 qp.version=0.90.5
 qp.autobuild=0
 
-#supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=ubuntu
 qp.description=!(../description.wiki)
 qp.buildnr=2
@@ -17,7 +16,5 @@ qp.export=0
 qp.bundles=ubuntu:ba3b33f200a62ec27dfa5b6356a00a6f,linux:ae32b3ac4e2d2ef46295418008337b24
 
 ##dependencies
-#qp.dependency.1.name= test2
-#qp.dependency.1.domain= jpackagesdomain
-#qp.dependency.1.minversion=
-#qp.dependency.1.maxversion=
+qp.dependency.1.name= circus
+qp.dependency.1.domain= jumpscale

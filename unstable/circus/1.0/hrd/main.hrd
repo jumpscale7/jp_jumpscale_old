@@ -1,5 +1,5 @@
 qp.domain=jumpscale
-qp.name=processmanager
+qp.name=circus
 qp.version=1.0
 qp.autobuild=0
 
