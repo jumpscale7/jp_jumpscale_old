@@ -5,7 +5,6 @@ def main(j,args,params,tags,tasklet):
     #kill remainders
     for tcpport in [5555,5556,5557]:
     	j.system.process.killProcessByPort(tcpport)
-    j.system.process.killProcessByName("circus") 
 
     do=j.system.installtools
 
@@ -13,7 +12,6 @@ def main(j,args,params,tags,tasklet):
         # do.execute("pip uninstall %s" % pp)
         do.execute("pip install %s" % pp)
 
-    args.qp.copyFiles(subdir="root",destination="/",applyhrd=True)
 
     params.result=True #return True if result ok
     return params

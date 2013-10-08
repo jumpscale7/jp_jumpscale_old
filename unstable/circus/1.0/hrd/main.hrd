@@ -6,7 +6,7 @@ qp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=linux64
 qp.description=!(../description.wiki)
-qp.buildnr=0
+qp.buildnr=1
 
 qp.taskletschecksum=
 qp.descrchecksum=
