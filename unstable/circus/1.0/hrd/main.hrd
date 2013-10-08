@@ -6,11 +6,11 @@ qp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=linux64
 qp.description=!(../description.wiki)
-qp.buildnr=1
+qp.buildnr=3
 
-qp.taskletschecksum=
-qp.descrchecksum=
-qp.hrdchecksum=
+qp.taskletschecksum=f8a93fbe78dbae2f6a60a8562cca045a
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=28d5a3ca88204232ee057361324eda50
 
 qp.export=0
 
