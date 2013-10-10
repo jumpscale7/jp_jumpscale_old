@@ -3,10 +3,10 @@ appname=jpackages
 tags=
 expiration=0
 type=
-epochtime=1381161034
+epochtime=1381404421
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/core/1.0/generic
 filetype=dir
-md5=cd1efd33362b3c6a05c3197ecd3c5845
+md5=a2039588b61e8e63f3e159f798a9abc6
 
 ================================================================
 fd17ee121ff2d104f3db33d6aca051d7|bin/jpackage_build
@@ -58,7 +58,7 @@ edd4f52f8cd7f575e8a8875561dc5fdc|site-packages/JumpScale/baselib/bitbucket/Bitbu
 94b8bbddd167ed9333c7942bc5491697|site-packages/JumpScale/baselib/blobstor/BlobStorConfigManagement.py
 4b898febfc0e1fc0e40c8ad9a7963d22|site-packages/JumpScale/baselib/blobstor/__init__.py
 06ab52c045591e08091be081fc7dce7f|site-packages/JumpScale/baselib/circus/CircusCL.py
-8df1a49fec83b8c6f1d56f268a9a27ca|site-packages/JumpScale/baselib/circus/CircusManager.py
+3106c0924768c6d748403e7f3b9aca2e|site-packages/JumpScale/baselib/circus/CircusManager.py
 f1a2473e5473ab520d98accec8ccb5ac|site-packages/JumpScale/baselib/circus/__init__.py
 6f21e1debac58d3056761aabd24e829e|site-packages/JumpScale/baselib/cloudsystemfs/CifsFS.py
 f3f2ec6544a607bbc3a6dca374b241d5|site-packages/JumpScale/baselib/cloudsystemfs/CloudSystemFS.py
@@ -104,6 +104,8 @@ d83bef2d2514ccc6cd96870a26036d57|site-packages/JumpScale/baselib/elasticsearch/e
 cc552d5cb60a8abbd214a0180971d5a1|site-packages/JumpScale/baselib/expect/QExpect.py
 d41d8cd98f00b204e9800998ecf8427e|site-packages/JumpScale/baselib/expect/__init__.py
 250fd5cad22e166b485fcff49e85ac6c|site-packages/JumpScale/baselib/expect/extension.cfg
+ac630c6540707a7209b79f662a747983|site-packages/JumpScale/baselib/github/__init__.py
+88de07beed990be511ae40c4796cd981|site-packages/JumpScale/baselib/github/github.py
 1cd7c1b1fbf7172958908666fd8bd3f4|site-packages/JumpScale/baselib/hash/HashTool.py
 c7a8aabcc68fad9c606c07faab16a9eb|site-packages/JumpScale/baselib/hash/__init__.py
 2a5afd8e6e5ff13f46b78ef9a9f39481|site-packages/JumpScale/baselib/hash/extension.cfg
@@ -184,7 +186,7 @@ c0fa7026f36fa4fc023c543284f02f06|site-packages/JumpScale/baselib/mercurial/HgLib
 c6210aa55815247b7ee684cc8e36ae95|site-packages/JumpScale/baselib/mercurial/__init__.py
 53665df450577a0b632c041434e44bb7|site-packages/JumpScale/baselib/mercurial/extension.cfg
 2867d3e61b0a53e43c1f7e8ea6b45b25|site-packages/JumpScale/baselib/mercurial/hglib/__init__.py
-80cb7f973c31b1052bc2786b95cf855c|site-packages/JumpScale/baselib/mercurial/hglib/client.py
+32e17abaa0f17142f80b02a9f3e7764c|site-packages/JumpScale/baselib/mercurial/hglib/client.py
 c55980e4e3c9a307afb3654698b3eda1|site-packages/JumpScale/baselib/mercurial/hglib/context.py
 61080a054ee94b8792a3f48cc7fad002|site-packages/JumpScale/baselib/mercurial/hglib/error.py
 3f96f8f29c379368c1291b905ac2f0fd|site-packages/JumpScale/baselib/mercurial/hglib/merge.py
@@ -197,7 +199,7 @@ cd1768d9b6ec7b217c1fd69c154896dc|site-packages/JumpScale/baselib/params/extensio
 8bc5ff552e45bc38893c294c24d65cae|site-packages/JumpScale/baselib/performancetrace/__init__.py
 8b9b10be2f65097b0ce1f18330919fc0|site-packages/JumpScale/baselib/performancetrace/extension.cfg
 3e479ebbed9fc91d3a6ebfeface65e8f|site-packages/JumpScale/baselib/platforms/__init__.py
-4f486ab8e56f94bdd81ff5212f1fa472|site-packages/JumpScale/baselib/platforms/ubuntu/Ubuntu.py
+44ffe5ab699e59871060ad3c10efc69d|site-packages/JumpScale/baselib/platforms/ubuntu/Ubuntu.py
 d41d8cd98f00b204e9800998ecf8427e|site-packages/JumpScale/baselib/platforms/ubuntu/__init__.py
 9f30eefd6efb050cfe936967e9f9e106|site-packages/JumpScale/baselib/platforms/ubuntu/extension.cfg
 c08c4b0b9db931cc8b05fe60843c512d|site-packages/JumpScale/baselib/portapps/PortApps.py
