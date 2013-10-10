@@ -8,11 +8,8 @@ check_delay = 5
 """
     j.system.fs.writeFile(j.system.fs.joinPaths(cfgpath, 'server.ini'), config)
     j.system.installtools.execute("circusd --daemon %s" % j.system.fs.joinPaths(cfgpath, 'server.ini'))
-    rclocal = """#!/bin/sh -e
-circusd --daemon %s
-exit 0
-""" % j.system.fs.joinPaths(cfgpath, 'server.ini')
-    j.system.fs.writeFile(j.system.fs.joinPaths('/etc', 'rc.local'), rclocal)
+    
+    j.system.platform.ubuntu.serviceInstall('circus', '/usr/local/bin/circusd', '--daemon %s' % j.system.fs.joinPaths(cfgpath, 'server.ini'))
 
     return params
     
