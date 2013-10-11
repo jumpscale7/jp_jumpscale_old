@@ -6,7 +6,7 @@ def main(j,args,params,tags,tasklet):
 
     recipe=qp.actions.code_getRecipe()
 
-    recipe.package(qp, args.platform)
+    recipe.package(qp, "linux64")
     #this is the standard used package function, can overrule to do custom work
     
     return params

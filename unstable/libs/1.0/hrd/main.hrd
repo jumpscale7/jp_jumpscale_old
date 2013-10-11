@@ -21,4 +21,4 @@ qp.bundles=ubuntu64:30976b5c7cb0d45bf7918807575b527f
 #qp.dependency.1.domain = jumpscale
 #qp.dependency.1.minversion= 1
 #qp.dependency.1.maxversion= 2
-qp.repositories.generic.jumpscale_jumpscale_lib=02557569f29d
+qp.repositories.generic.jumpscale_jumpscale_lib=b6de8fa1d51f
