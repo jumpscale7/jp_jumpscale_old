@@ -5,7 +5,7 @@ def main(j, args, params, tags, tasklet):
     #removed "psutil"
 
     for name in ["dataprocessors","mailrobot","numtools","objectinspector","platform","puppet","redisclient","remote","sheet"]:
-        recipe.add(repo,"JumpScale/lib/%s/"%name,"$(python.paths.local.sitepackages)/%s/"%name)
+        recipe.add(repo,"JumpScale/lib/%s/"%name,"$(python.paths.local.sitepackages)/JumpScale/lib/%s/"%name)
 
     params.result = recipe
 
