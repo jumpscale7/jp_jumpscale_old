@@ -320,7 +320,7 @@ a9a18b7c132b3a47a3597f81189d231e|site-packages/JumpScale/core/logging/logtargets
 11a581928e6718fafdbab03cd9c2e7d7|site-packages/JumpScale/core/logging/logtargets/LogTargetFS.py
 9160b951bac8d8fce2bc44268e3e39a2|site-packages/JumpScale/core/logging/logtargets/LogTargetScribe.py
 fcaddaa14dcda1bbacda81c032fce670|site-packages/JumpScale/core/logging/logtargets/LogTargetStdOut.py
-19e9f09c4a051ae1a05d5cfa7dad4b10|site-packages/JumpScale/core/logging/logtargets/LogTargetToPylabsLogConsole.py
+19e9f09c4a051ae1a05d5cfa7dad4b10|site-packages/JumpScale/core/logging/logtargets/LogTargetToJumpScaleLogConsole.py
 68b329da9893e34099c7d8ad5cb9c940|site-packages/JumpScale/core/logging/logtargets/__init__.py
 2097cfd35e95082194ececa49d977ee9|site-packages/JumpScale/core/pmtypes/CollectionTypes.py
 0f676b397c4467778eec67c4562fa117|site-packages/JumpScale/core/pmtypes/CustomTypes.py

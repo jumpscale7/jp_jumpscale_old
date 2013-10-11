@@ -30,7 +30,6 @@ def main(j,args,params,tags,tasklet):
             j.system.fs.writeFile("/root/.hgrc",C2)
         
 
-    # import JumpScale.lib.psutil
     initJumpscaleUser(jumpscalepasswd)
 
     j.system.platform.ubuntu.install("proftpd-basic")

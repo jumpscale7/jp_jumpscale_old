@@ -462,10 +462,10 @@ d41d8cd98f00b204e9800998ecf8427e|apps/portalbase/wiki/Docs/Macros/Wiki/Wiki.wiki
 915d18d335d76c9b25e31bf3f8145849|apps/portalbase/wiki/Docs/OSIS/OSISRemote.wiki
 22ae9e311fe07766ee7cce71fdb71c00|apps/portalbase/wiki/Docs/OSIS/OsisModelSpec.wiki
 b1028051cdd07406b7b8f9dba0cf8686|apps/portalbase/wiki/Docs/OSIS/Types.wiki
-dae36d369295fc1c8c972b07d337df98|apps/portalbase/wiki/Docs/PylabsExtensions/AsanaClient/AsanaClient.wiki
-20d369895e9ea679d3bb7338026d26a6|apps/portalbase/wiki/Docs/PylabsExtensions/AsanaClient/ExportedAll.png
-a6204d5ecb2076ce4b79dcb77783b841|apps/portalbase/wiki/Docs/PylabsExtensions/AsanaClient/ExportedTask.png
-d0837d92a7166626da6f00e9eccd0fb7|apps/portalbase/wiki/Docs/PylabsExtensions/PylabsExtensions.wiki
+dae36d369295fc1c8c972b07d337df98|apps/portalbase/wiki/Docs/JumpScaleExtensions/AsanaClient/AsanaClient.wiki
+20d369895e9ea679d3bb7338026d26a6|apps/portalbase/wiki/Docs/JumpScaleExtensions/AsanaClient/ExportedAll.png
+a6204d5ecb2076ce4b79dcb77783b841|apps/portalbase/wiki/Docs/JumpScaleExtensions/AsanaClient/ExportedTask.png
+d0837d92a7166626da6f00e9eccd0fb7|apps/portalbase/wiki/Docs/JumpScaleExtensions/JumpScaleExtensions.wiki
 23f2468f84611f5f89615e60d3c89156|apps/portalbase/wiki/Docs/RestFullWebservices/RestFullWebservices.wiki
 b5de8f5fd0e66a3d7ea2800d72c210a6|apps/portalbase/wiki/Docs/RestWebservices/RestWebservices.wiki
 a4dddafb4c00812c04c8013cbaeba58d|apps/portalbase/wiki/Docs/SpaceConfiguration/SpaceConfiguration.wiki
@@ -506,7 +506,7 @@ c5fc7cf26a35fddabe7ff09ab67ff917|apps/portalbase/wiki/System/OverviewAccess/Over
 7c989057092bb32d08a85aa86d445fd3|apps/portalbase/wiki/System/Reload/Reload.wiki
 3a84746f19e152dc7b1c7f71867fc994|apps/portalbase/wiki/System/Reload/ReloadApplication/ReloadApplication.wiki
 07893a5227e37aa041b60e1831fd772c|apps/portalbase/wiki/System/Reload/ReloadSpace/ReloadSpace.wiki
-d41d8cd98f00b204e9800998ecf8427e|apps/portalbase/wiki/System/Reload/pylabs-core-6.0.tgz
+d41d8cd98f00b204e9800998ecf8427e|apps/portalbase/wiki/System/Reload/JumpScale-core-6.0.tgz
 ec503c91cea22674b7ce5d9810f91767|apps/portalbase/wiki/System/ResetAccessLog/ResetAccessLog.wiki
 802366b64d7e5eb39584a8ff0869075e|apps/portalbase/wiki/System/Rest/Rest.wiki
 91d15963150998c45247bdecad4256c8|apps/portalbase/wiki/System/Rest/RestResult/RestResult.wiki

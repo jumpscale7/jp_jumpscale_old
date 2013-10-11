@@ -17,7 +17,7 @@ d41d8cd98f00b204e9800998ecf8427e|usr/local/lib/python2.7/site-packages/dataproce
 72a2449ab30e63cafb02e59e7f404fa0|usr/local/lib/python2.7/site-packages/numtools/NumTools.py
 d41d8cd98f00b204e9800998ecf8427e|usr/local/lib/python2.7/site-packages/numtools/__init__.py
 103480376a5be972bf3228ba0ee96476|usr/local/lib/python2.7/site-packages/numtools/extension.cfg
-7dd472c5d35556a6747775c60cb587aa|usr/local/lib/python2.7/site-packages/objectinspector/PylabsTools.py
+7dd472c5d35556a6747775c60cb587aa|usr/local/lib/python2.7/site-packages/objectinspector/JumpScaleTools.py
 7058c26527adc845b1df9c078b0fed95|usr/local/lib/python2.7/site-packages/objectinspector/__init__.py
 20c56db82b286d23a5792871dadb3320|usr/local/lib/python2.7/site-packages/objectinspector/extension.cfg
 d41d8cd98f00b204e9800998ecf8427e|usr/local/lib/python2.7/site-packages/platform/__init__.py
