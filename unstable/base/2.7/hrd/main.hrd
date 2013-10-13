@@ -1,0 +1,15 @@
+qp.domain=jumpscale
+qp.name=base
+qp.version=2.7
+qp.autobuild=0
+
+qp.supportedplatforms=linux64
+qp.description=!(../description.wiki)
+qp.buildnr=21
+qp.export=0
+
+qp.taskletschecksum=d2943c75d688d78409e4e466d03d035b
+qp.bundles=generic:,linux64:312e186048439e76d98fbb80d0a3b550,linux:2ff690fd37c926d3032a447d0285521a
+
+qp.descrchecksum=08decbb0c4cf70f7cb40bbb55d73c6a2
+qp.hrdchecksum=9467a885e12d52ed7ac00a17b57a97dd

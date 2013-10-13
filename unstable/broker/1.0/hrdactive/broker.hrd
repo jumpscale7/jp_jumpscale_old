@@ -1,0 +1,4 @@
+broker.id=@ASK
+broker.domain=@ASK descr:is__a__unique__name__for__a__domain
+broker.osis.ip=127.0.0.1
+broker.osis.port=5544

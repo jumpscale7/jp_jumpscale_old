@@ -1,0 +1,21 @@
+qp.domain=jumpscale
+qp.name=shorewall
+qp.version=4.5
+qp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=linux
+qp.description=!(../description.wiki)
+qp.buildnr=-1
+
+qp.taskletschecksum=
+qp.descrchecksum=
+qp.hrdchecksum=
+
+qp.export=0
+
+qp.bundles=
+
+##dependencies
+qp.dependency.1.name = circus
+qp.dependency.1.domain = jumpscale

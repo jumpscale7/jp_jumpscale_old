@@ -1,0 +1,25 @@
+qp.domain=jumpscale
+qp.name=circus
+qp.version=1.0
+qp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=linux64
+qp.description=!(../description.wiki)
+qp.buildnr=5
+
+qp.taskletschecksum=56fd782f4d9454018123d757f0c5b9b5
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=28d5a3ca88204232ee057361324eda50
+
+qp.export=0
+
+qp.bundles=
+
+qp.dependency.1.name = base
+qp.dependency.1.domain = jumpscale
+qp.dependency.1.minversion=
+qp.dependency.1.maxversion=
+
+qp.dependency.2.name = libs
+qp.dependency.2.domain = jumpscale

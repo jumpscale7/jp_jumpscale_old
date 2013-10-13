@@ -1,0 +1,21 @@
+qp.name=logger
+qp.version=1.0
+qp.autobuild=0
+qp.debug=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=generic
+qp.description=!(../description.wiki)
+qp.buildnr=4
+qp.taskletschecksum=710683a7dc4fbbfde4cfae3ff0f6fde2
+qp.export=0
+
+qp.bundles=generic:4e674af95d2550bd2967f85dc1ea4d8b
+qp.repositories.generic.jumpscale_jumpscale_grid=86f25532657c
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=b6f684c18b66696873e9c201ea1bfa97
+
+qp.dependency.1.name = osis
+qp.dependency.1.domain = jumpscale
+qp.dependency.1.minversion=
+qp.dependency.1.maxversion=

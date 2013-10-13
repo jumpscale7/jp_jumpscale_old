@@ -1,0 +1,29 @@
+qp.name=portal
+qp.version=1.0
+qp.autobuild=0
+qp.debug=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=generic
+qp.description=!(../description.wiki)
+qp.buildnr=28
+qp.taskletschecksum=2a1328e877e8f46642a3c045ee270b5a
+qp.export=0
+
+qp.bundles=generic:d7771ed72ef459c88d9927b9d7f9559e
+
+##dependencies which are required for building, same syntax as before
+#qp.builddependency.1=
+qp.dependency.0.domain=jumpscale
+qp.dependency.0.name=osis
+qp.dependency.0.minversion=
+qp.dependency.0.maxversion=
+
+qp.dependency.1.domain=jumpscale
+qp.dependency.1.name=portal_base
+qp.dependency.1.minversion=
+qp.dependency.1.maxversion=
+
+qp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=b6f684c18b66696873e9c201ea1bfa97
