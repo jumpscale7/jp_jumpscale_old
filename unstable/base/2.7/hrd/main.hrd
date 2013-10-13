@@ -5,11 +5,11 @@ qp.autobuild=0
 
 qp.supportedplatforms=linux64
 qp.description=!(../description.wiki)
-qp.buildnr=20
+qp.buildnr=23
 qp.export=0
 
-qp.taskletschecksum=21e5061e7d596212529dc0c4ffe6d271
-qp.bundles=generic:,linux64:312e186048439e76d98fbb80d0a3b550,linux:c97731015daaf2eeb77a99f12f5975b6
+qp.taskletschecksum=d2943c75d688d78409e4e466d03d035b
+qp.bundles=generic:,linux64:cc9be138336f6c5beec4aee03e73903f,linux:f2ecf2737714ad7e06a77af47ff4b2e0
 
 qp.descrchecksum=08decbb0c4cf70f7cb40bbb55d73c6a2
-qp.hrdchecksum=51802e27438da2cdc5838fa4789c2a3c
+qp.hrdchecksum=9467a885e12d52ed7ac00a17b57a97dd

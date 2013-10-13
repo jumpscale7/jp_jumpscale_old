@@ -3,12 +3,13 @@ appname=jpackage
 tags=
 expiration=0
 type=
-epochtime=1380445045
-filepath=/opt/jumpscale/var/jpackages/files/jumpscale/python/2.7/linux
+epochtime=1381652611
+filepath=/opt/jumpscale/var/jpackages/files/jumpscale/base/2.7/linux
 filetype=dir
-md5=751438ceffcb1539bbd289f66d90abf4
+md5=c853940788a0d605de17d05ab542de44
 
 ================================================================
+d41d8cd98f00b204e9800998ecf8427e|site-packages/urllib3-1.7.1.egg-info/.keep
 ecd379ceb9e67f8021df3fa7a5418e5f|site-packages/urllib3/__init__.py
 a1161b052569ab60f321a993591992af|site-packages/urllib3/_collections.py
 8a6434836c4fb8c0eb110268343e64b4|site-packages/urllib3/connectionpool.py
