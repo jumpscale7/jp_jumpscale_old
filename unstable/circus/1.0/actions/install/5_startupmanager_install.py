@@ -1,7 +1,7 @@
 def main(j,args,params,tags,tasklet):
    
     # pypackages = ['circus','circus-web','chaussette']
-    pypackages = ['tomako','tornadio2']
+    pypackages = ['tomako','tornadio2','psutil']
 
     do=j.system.installtools
 
