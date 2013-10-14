@@ -3,16 +3,23 @@ def main(j,args,params,tags,tasklet):
     #configure the package
     cfgpath = j.system.fs.joinPaths(j.dirs.cfgDir, 'startup')
     j.system.fs.createDir(cfgpath)
-    config = """[circus]
-check_delay = 5
-httpd = True
-httpd_host = localhost
-httpd_port = 8080
-statsd = True
-include = *.more.config.ini
-"""
-    j.system.fs.writeFile(j.system.fs.joinPaths(cfgpath, 'server.ini'), config)
+
+    cfg = j.system.fs.joinPaths(cfgpath, 'server.ini')
+
+    ini = j.tools.inifile.open(cfg)
+    ini.addSection('circus')
+    ini.addParam('circus', 'include_dir', "*.more.config.ini")
+    ini.addParam('circus','check_delay',5)
+    ini.addParam('circus','httpd','True')
+    ini.addParam('circus','httpd_host','localhost')
+    ini.addParam('circus','httpd_port',8080)
+    ini.addParam('circus','statsd','True')
+    ini.addParam('circus','check_delay',5)
     
+    ini.save()
+    
+    j.system.platform.ubuntu.serviceInstall('circus', '/usr/local/bin/circusd', '--daemon %s' % j.system.fs.joinPaths(cfgpath, 'server.ini'))
+
     # j.system.installtools.execute("circusd --daemon %s" % j.system.fs.joinPaths(cfgpath, 'server.ini'))    
     j.system.platform.ubuntu.serviceUninstall('circus')
     for port in [5555,5556,5557,8080]:
