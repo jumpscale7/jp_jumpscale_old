@@ -6,15 +6,15 @@ qp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=linux
 qp.description=!(../description.wiki)
-qp.buildnr=-1
+qp.buildnr=0
 
-qp.taskletschecksum=
-qp.descrchecksum=
-qp.hrdchecksum=
+qp.taskletschecksum=dc52c3821ae0fc21360de90ea82379b7
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=ebfbdc5078e6a2f0d41194af10f9e148
 
 qp.export=0
 
-qp.bundles=
+qp.bundles=linux:c74a61ce722f37b879a381430d880cf6
 
 ##dependencies
 qp.dependency.1.name = shorewall

@@ -6,15 +6,15 @@ qp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=linux
 qp.description=!(../description.wiki)
-qp.buildnr=-1
+qp.buildnr=0
 
-qp.taskletschecksum=
-qp.descrchecksum=
-qp.hrdchecksum=
+qp.taskletschecksum=f3de08c146ef481d2d8ea71842f152bd
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=199ec7d01135e62923abef74900056b5
 
 qp.export=0
 
-qp.bundles=
+qp.bundles=linux:3787bb57ab6ce865da084a19ba730270
 
 ##dependencies
 qp.dependency.1.name = circus

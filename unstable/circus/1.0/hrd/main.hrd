@@ -6,15 +6,15 @@ qp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=linux64
 qp.description=!(../description.wiki)
-qp.buildnr=6
+qp.buildnr=7
 
-qp.taskletschecksum=51252c22a0b75424f0710f17448e7e3a
+qp.taskletschecksum=89751e536356cc5dcfa4e2776a6493f3
 qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
 qp.hrdchecksum=28d5a3ca88204232ee057361324eda50
 
 qp.export=0
 
-qp.bundles=generic:01b3cefc075fd7cbb157dfaccdfb76dd,linux:91beb3f97db70f3b6324ab4040fc2f7e
+qp.bundles=generic:01b3cefc075fd7cbb157dfaccdfb76dd,linux:8ef566ac20307336af25982a502d0b2c
 
 qp.dependency.1.name = base
 qp.dependency.1.domain = jumpscale

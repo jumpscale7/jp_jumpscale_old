@@ -8,15 +8,13 @@ def main(j,args,params,tags,tasklet):
 
     ini = j.tools.inifile.open(cfg)
     ini.addSection('circus')
-    ini.addParam('circus', 'include_dir', "*.more.config.ini")
+    ini.addParam('circus', 'include', "*.more.config.ini")
     ini.addParam('circus','check_delay',5)
     ini.addParam('circus','httpd','True')
     ini.addParam('circus','httpd_host','localhost')
     ini.addParam('circus','httpd_port',8080)
     ini.addParam('circus','statsd','True')
     ini.addParam('circus','check_delay',5)
-    
-    ini.save()
     
     j.system.platform.ubuntu.serviceInstall('circus', '/usr/local/bin/circusd', '--daemon %s' % j.system.fs.joinPaths(cfgpath, 'server.ini'))
 

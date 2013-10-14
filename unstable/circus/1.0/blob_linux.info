@@ -1,18 +1,14 @@
 agentid=starting
-appname=jpackage
+appname=jpackages
 tags=
 expiration=0
 type=
-epochtime=1381672997
+epochtime=1381732564
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/circus/1.0/linux
 filetype=dir
-md5=9669af0f5c17d5448b93455c15741e0a
+md5=164a9470253f9deb1b2b98ba9403cb88
 
 ================================================================
-ea789010e5415d394543c0cf22987479|bin/circus-plugin
-4ddef4ad5f9c6a4ecbf3cac92ec3f441|bin/circus-top
-af68ae9e7fe3a8ab638f6b64f8a07c14|bin/circusctl
-4d8f8f10c6768dad4c35cf759fd34f64|bin/circusd
-8dbf955e832db02d0ee0ea8c3c728d4b|bin/circusd-stats
-2e60ff32c5b4100dc12c425556cf7493|bin/circushttpd
+453adeffab90c21d30b2a5153375ed1d|bin/circusctl
+051d06ca98d6f1d090c3a967ee64da35|bin/circusd
 
