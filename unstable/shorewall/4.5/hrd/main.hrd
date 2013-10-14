@@ -19,3 +19,5 @@ qp.bundles=
 ##dependencies
 qp.dependency.1.name = circus
 qp.dependency.1.domain = jumpscale
+qp.dependency.1.minversion=
+qp.dependency.1.maxversion=

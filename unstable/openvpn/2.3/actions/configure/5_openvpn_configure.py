@@ -1,4 +1,3 @@
-import pexpect
 
 def main(j,args,params,tags,tasklet):
 
@@ -22,23 +21,39 @@ def main(j,args,params,tags,tasklet):
     if not j.system.fs.exists(keydir) or True:
         j.system.fs.createDir(keydir)
         j.system.fs.changeDir(appdir)
-        # cmd=";source vars;./openvpn-build-server"%appdir
-        e = pexpect.spawn ("sh")
-        e.send("PS1=\"#.#.#\"\n")
-        e.expect("#.#.#",timeout=1)
-        e.send("cd %s\n"%appdir)
-        e.expect("#.#.#",timeout=1)
-        e.send("ls\n")
-        e.expect("#.#.#",timeout=1)
-
-        from IPython import embed
-        print "DEBUG NOW oooe"
-        embed()
         
-        #execute()
-        #execute("cd %s;source vars;./openvpn-build-client"%appdir)
+        # cmd="source %s/vars;./openvpn-build-server"%appdir
+        # print execute(cmd)
 
+        # do=e.execShellCmd
 
+        #server certificate
+        steps=[]
+        for i in range(18):
+            steps.append([":","\n"])
+        steps.append(["y\/n\]\:","y\n","sign"])
+        steps.append(["y\/n\]","y\n","confirmSign"])
+        
+        e=j.tools.expect.new("sh")
+        
+        cmd=". %s/vars;./openvpn-build-server"%appdir
+        res=e.executeSequence(steps,cmd)
+
+        #client certificate
+        steps=[]
+        steps.append(["client\?","aclient\n","client"])
+        for i in range(10):
+            steps.append([":","\n"])
+        steps.append(["y\/n\]\:","y\n","sign"])
+        steps.append(["y\/n\]","y\n","confirmSign"])
+        steps.append(["Data Base Updated","","done"])
+        
+        e=j.tools.expect.new("sh")
+        
+        cmd=". %s/vars;./openvpn-build-client"%appdir
+        res=e.executeSequence(steps,cmd)
+
+        
     path="%s/keys"%appdir
     for filter in ["*.crt","*.key","client_*","dh1024.pem"]:
         for source in j.system.fs.listFilesInDir( path, recursive=False, filter=filter):
@@ -57,8 +72,10 @@ def main(j,args,params,tags,tasklet):
 
     cmd="sysctl -p"
     execute(cmd)
-    cmd="service openvpn start"
-    execute(cmd)
+
+    cmd="cd /etc/openvpn;openvpn --config /etc/openvpn/server.conf"    
+    
+    j.tools.circus.manager.addProcess("openvpn", cmd, args="", warmup_delay=0, numprocesses=1, priority=0, autostart=True, workingdir= "/etc/openvpn")
 
     return params
     

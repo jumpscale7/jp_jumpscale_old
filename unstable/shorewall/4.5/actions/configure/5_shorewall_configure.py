@@ -13,13 +13,19 @@ def main(j,args,params,tags,tasklet):
             if item.find("tun")<>-1:
                 j.application.config.set("firewall.nics.vpn",item)
     intnic=j.application.config.get("firewall.nics.vpn").strip()
-    nics.pop(nics.index(intnic))
+    try:
+        nics.pop(nics.index(intnic))
+    except:
+        pass
 
     if j.application.config.get("firewall.nics.pub").strip()=="":
         intnic=j.console.askChoice(nics,"Choose nics which are public")
         j.application.config.set("firewall.nics.pub",intnic)
     intnic=j.application.config.get("firewall.nics.pub").strip()
-    nics.pop(nics.index(intnic))
+    try:
+        nics.pop(nics.index(intnic))
+    except:
+        pass
 
     if j.application.config.get("firewall.nics.private").strip()=="":    
         intnics=j.console.askChoiceMultiple(nics,"Choose nics which are private")

@@ -24,3 +24,5 @@ qp.dependency.1.maxversion=
 
 qp.dependency.2.name = circus
 qp.dependency.2.domain = jumpscale
+qp.dependency.2.minversion=
+qp.dependency.2.maxversion=
