@@ -1,7 +1,7 @@
 def main(j, args, params, tags, tasklet):
 
     j.logger.consoleloglevel = 6
-    debpackages = ('python2.7', 'libleveldb1', 'ipython', 'python-gevent', 'python-simplejson', 'python-numpy', 'python-psutil', 'python-apt', 'python-pip', 'python-requests', "python-paramiko", "python-mhash", "python-snappy", "python-m2crypto", "python-iowait")
+    debpackages = ('python2.7', 'libleveldb1', 'ipython', 'python-gevent', 'python-simplejson', 'python-numpy', 'python-apt', 'python-pip', 'python-requests', "python-paramiko", "python-mhash", "python-snappy", "python-m2crypto", "python-iowait")
 
     for name in debpackages:
         print "check install %s" % name
@@ -11,8 +11,14 @@ def main(j, args, params, tags, tasklet):
     toremove = ["blosc", "msgpack", "zmq", "pylzma", "ujson", "urllib3"]  # DO NOT REMOVE ipython or circus
 
     #"cauchyec","galoisbuffer"
-
+    
     j.system.platform.python.remove(toremove)
+
+    toinstall = ['psutil']
+    for i in toinstall:
+        j.system.platform.python.install(i)
+
+
 
     args.qp.copyPythonLibs()
 
