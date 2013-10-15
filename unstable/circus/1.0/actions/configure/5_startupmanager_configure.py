@@ -14,7 +14,7 @@ def main(j,args,params,tags,tasklet):
     ini.addParam('circus','httpd_host','localhost')
     ini.addParam('circus','httpd_port',8080)
     ini.addParam('circus','statsd','True')
-    ini.addParam('circus','check_delay',5)
+
     
     j.system.platform.ubuntu.serviceInstall('circus', '/usr/local/bin/circusd', '--daemon %s' % j.system.fs.joinPaths(cfgpath, 'server.ini'))
 
