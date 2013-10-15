@@ -6,7 +6,7 @@ qp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 qp.supportedplatforms=generic
 qp.description=!(../description.wiki)
-qp.buildnr=16
+qp.buildnr=18
 
 qp.taskletschecksum=5e57fa435bdff4f8c788fe1e5224cd58
 qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
@@ -14,10 +14,10 @@ qp.hrdchecksum=a7262da2997a6ea3a251e3eba4dc2551
 
 qp.export=0
 
-qp.bundles=generic:061847aae8ea3e4a300c6fcd384d500f,ubuntu64:78dc0845394202b7cfa7e961bb9fb5e4
+qp.bundles=generic:b843ef6186b5f22ca2caddd06736b226,ubuntu64:78dc0845394202b7cfa7e961bb9fb5e4
 
 qp.dependency.1.name = base
 qp.dependency.1.domain = jumpscale
 qp.dependency.1.minversion=
 qp.dependency.1.maxversion=
-qp.repositories.generic.jumpscale_jumpscale_core=dbe131b9d946
+qp.repositories.generic.jumpscale_jumpscale_core=7f69c397e1a1
