@@ -3,10 +3,10 @@ appname=jpackages
 tags=
 expiration=0
 type=
-epochtime=1381843518
+epochtime=1381844663
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/core/1.0/generic
 filetype=dir
-md5=0a13248d0c6da8345c498a06d9792686
+md5=fa1fade7876ca2d77200057ace7acef8
 
 ================================================================
 ee6206b9010f4e4abe8eb275fbcc347d|bin/jpackage_configure
@@ -58,7 +58,7 @@ edd4f52f8cd7f575e8a8875561dc5fdc|site-packages/JumpScale/baselib/bitbucket/Bitbu
 94b8bbddd167ed9333c7942bc5491697|site-packages/JumpScale/baselib/blobstor/BlobStorConfigManagement.py
 4b898febfc0e1fc0e40c8ad9a7963d22|site-packages/JumpScale/baselib/blobstor/__init__.py
 0f6f3dbf33f8d55e345c7c993a02b629|site-packages/JumpScale/baselib/circus/CircusCL.py
-d86af103f235e359fe6f4cd10913a39c|site-packages/JumpScale/baselib/circus/CircusManager.py
+367a4128b7f03122d2713b20116cc205|site-packages/JumpScale/baselib/circus/CircusManager.py
 f1a2473e5473ab520d98accec8ccb5ac|site-packages/JumpScale/baselib/circus/__init__.py
 6f21e1debac58d3056761aabd24e829e|site-packages/JumpScale/baselib/cloudsystemfs/CifsFS.py
 f3f2ec6544a607bbc3a6dca374b241d5|site-packages/JumpScale/baselib/cloudsystemfs/CloudSystemFS.py
