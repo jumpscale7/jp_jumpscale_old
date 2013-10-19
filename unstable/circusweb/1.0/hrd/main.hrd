@@ -1,0 +1,26 @@
+qp.domain=jumpscale
+qp.name=circusweb
+qp.version=1.0
+qp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+qp.supportedplatforms=linux
+qp.description=!(../description.wiki)
+qp.buildnr=2
+
+qp.taskletschecksum=5f669d285a9c303c3d66a5c74966a5b3
+qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+qp.hrdchecksum=8cf5efc68aaf83655d76da7e9a121b60
+
+qp.export=0
+
+qp.bundles=generic:08a9e3f71f672bdc56deb04817a3995c
+
+##dependencies
+qp.dependency.1.name = circus
+qp.dependency.1.domain = jumpscale
+qp.dependency.1.minversion=
+qp.dependency.1.maxversion=
+
+qp.dependency.1.name = tornado
+qp.dependency.1.domain = jumpscale
