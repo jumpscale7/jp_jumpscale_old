@@ -11,14 +11,7 @@ def main(j, args, params, tags, tasklet):
     toremove = ["blosc", "msgpack", "zmq", "pylzma", "ujson", "urllib3"]  # DO NOT REMOVE ipython or circus
 
     #"cauchyec","galoisbuffer"
-    
     j.system.platform.python.remove(toremove)
-
-    toinstall = ['psutil']
-    for i in toinstall:
-        j.system.platform.python.install(i)
-
-
 
     args.qp.copyPythonLibs()
 
