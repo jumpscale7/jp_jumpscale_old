@@ -14,10 +14,17 @@ qp.repositories.generic.jumpscale_jumpscale_grid=86f25532657c
 qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
 qp.hrdchecksum=b6f684c18b66696873e9c201ea1bfa97
 
-qp.dependency.2.name = logger
-qp.dependency.2.domain = jumpscale
+qp.dependency.1.name = osis
+qp.dependency.1.domain = jumpscale
+qp.dependency.1.minversion=
+qp.dependency.1.maxversion=
 
-qp.dependency.2.name = osis
+qp.dependency.2.name = logger
 qp.dependency.2.domain = jumpscale
 qp.dependency.2.minversion=
 qp.dependency.2.maxversion=
+
+qp.dependency.3.name = gridnode
+qp.dependency.3.domain = jumpscale
+qp.dependency.3.minversion=
+qp.dependency.3.maxversion=
