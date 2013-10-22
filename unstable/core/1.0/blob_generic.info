@@ -3,10 +3,10 @@ appname=jpackages
 tags=
 expiration=0
 type=
-epochtime=1381852888
+epochtime=1382448034
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/core/1.0/generic
 filetype=dir
-md5=360a1345d84a7eac4797ffe6a4867350
+md5=b9773145de65d1fe19d057ae4801e79f
 
 ================================================================
 ee6206b9010f4e4abe8eb275fbcc347d|bin/jpackage_configure
@@ -127,7 +127,7 @@ e7c301b883aaf038e042c4892646de88|site-packages/JumpScale/baselib/inifile/extensi
 e4e1c6a6ba2b1c6da2baa58b30136118|site-packages/JumpScale/baselib/jpackages/ActionManager.py
 d189fc840a4b8c3136b9f48b2654818f|site-packages/JumpScale/baselib/jpackages/CodeManagementRecipe.py
 27148774f88c8e331ee7b9dd2189e57c|site-packages/JumpScale/baselib/jpackages/Domain.py
-77f7814961d7de56cdbf8b2744ab5dad|site-packages/JumpScale/baselib/jpackages/JPackageClient.py
+f745d9de32936c5e9c60542ca0e93d11|site-packages/JumpScale/baselib/jpackages/JPackageClient.py
 6c3781f9f2b80f8ef3a3f1175674f019|site-packages/JumpScale/baselib/jpackages/JPackageMetadataScanner.py
 04d15f05e5c5dca96a8eb611bb4e8fd5|site-packages/JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|site-packages/JumpScale/baselib/jpackages/JPackageStateObject.py
@@ -161,8 +161,8 @@ e4ccc300b17532f0f05b9b03a1e2b7ad|site-packages/JumpScale/baselib/jpackages/templ
 6b711dedc99282728286064a1b33becb|site-packages/JumpScale/baselib/jpackages/templates/hrdactive/_example.$(qp.domain)_$(qp.name).hrd
 c41a8583ecea369917c697a5c5ebab20|site-packages/JumpScale/baselib/jpackages/templates/hrdactive/readme.txt
 447f0d8aafc1bae84a07bc377cdb5e47|site-packages/JumpScale/baselib/jpackages/templates/releasenotes.wiki
-48cd4e9a88bc7b1c80120c4ec8d31006|site-packages/JumpScale/baselib/jsdeveltools/JSDevelTools.py
-9f3c5b374e8872c357659478fd9ad562|site-packages/JumpScale/baselib/jsdeveltools/JSDevelToolsInstaller.py
+731a4f1b172250ba9ff08567c98f1616|site-packages/JumpScale/baselib/jsdeveltools/JSDevelTools.py
+40988a98d8b7d46b88c09e808c44b4fe|site-packages/JumpScale/baselib/jsdeveltools/JSDevelToolsInstaller.py
 7b2bc26cb62a84ef16f2fc8d49da28d5|site-packages/JumpScale/baselib/jsdeveltools/__init__.py
 3a6fa24c61c2d77888bcbf71dcb3e942|site-packages/JumpScale/baselib/key_value_store/__init__.py
 763de41018ba01de641704027e06d077|site-packages/JumpScale/baselib/key_value_store/arakoon_store.py
@@ -182,7 +182,7 @@ df69fd931770afcf7774102ae9bbad55|site-packages/JumpScale/baselib/lrucache/__init
 5753e8adb05dde5608c69b7cda04d0d7|site-packages/JumpScale/baselib/manage/managerbase.py
 d68209ed95288ee960733ff61b3073d5|site-packages/JumpScale/baselib/mercurial/HgLibClient.py
 f1ce0d703713ac60302ce3a926af3352|site-packages/JumpScale/baselib/mercurial/HgLibFactory.py
-c6210aa55815247b7ee684cc8e36ae95|site-packages/JumpScale/baselib/mercurial/__init__.py
+6fe0e3eb4f585a60030ce74fe732efc4|site-packages/JumpScale/baselib/mercurial/__init__.py
 53665df450577a0b632c041434e44bb7|site-packages/JumpScale/baselib/mercurial/extension.cfg
 2867d3e61b0a53e43c1f7e8ea6b45b25|site-packages/JumpScale/baselib/mercurial/hglib/__init__.py
 32e17abaa0f17142f80b02a9f3e7764c|site-packages/JumpScale/baselib/mercurial/hglib/client.py
@@ -345,7 +345,7 @@ f6194342524aea73ee826511790b9754|site-packages/JumpScale/core/system/__init__.py
 4341bd6735ef351088a89f1544d8e667|site-packages/JumpScale/core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|site-packages/JumpScale/core/system/fswalker.py
 f11c4390ec45c19d26d88982a0781e42|site-packages/JumpScale/core/system/net.py
-d653da60886bbb790bc4a95ec5d9dcae|site-packages/JumpScale/core/system/process.py
+3d8470a73077ffb81151e3800775ed72|site-packages/JumpScale/core/system/process.py
 2087b5562b95e19fd89e8251a744fb3c|site-packages/JumpScale/core/system/processhelper.py
 80bd0458289bbb37833230b9652401dd|site-packages/JumpScale/core/system/string.py
 4f7849725988ef618a5f7cfb87f81e14|site-packages/JumpScale/core/system/text.py
