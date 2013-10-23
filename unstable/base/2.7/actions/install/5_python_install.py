@@ -1,4 +1,5 @@
 def main(j, args, params, tags, tasklet):
+    import sys
 
     j.logger.consoleloglevel = 6
     debpackages = ('python2.7', 'libleveldb1', 'ipython', 'python-gevent', 'python-simplejson', 'python-numpy', 'python-apt', 'python-pip', 'python-requests', "python-paramiko", "python-mhash", "python-snappy", "python-m2crypto", "python-iowait", "python-psutil")
@@ -18,6 +19,8 @@ def main(j, args, params, tags, tasklet):
     distpath = "$(python.paths.local.distpackages)/jumpscale.pth"
     if not j.system.fs.exists(distpath):
         j.system.fs.writeFile(distpath, "$(python.paths.local.sitepackages)\n")
+        # make sure currnt process can access site-oackage
+        sys.path.append("$(python.paths.local.sitepackages)")
 
     params.result = True  # return True if result ok
     return params
