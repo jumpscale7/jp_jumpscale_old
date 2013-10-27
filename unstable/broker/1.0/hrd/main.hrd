@@ -1,18 +1,18 @@
 qp.version=1.0
-qp.bundles=generic:6c7e25cece170a265748e303d53708b7
+qp.bundles=generic:1ab024ffd76e14e03db656cb92412042
 qp.name=broker
 qp.autobuild=0
 qp.debug=0
 qp.mykey=test
 qp.description=!(../description.wiki)
 qp.repositories.generic.jumpscale.jumpscale.grid=9e72a4e7df8c
-qp.buildnr=9
+qp.buildnr=12
 qp.supportedplatforms=generic
 qp.taskletschecksum=36fa3f6e368c27630b741902b76dabe6
 qp.export=0
 qp.repositories.generic.jumpscale_jumpscale_grid=86f25532657c
 qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-qp.hrdchecksum=b6f684c18b66696873e9c201ea1bfa97
+qp.hrdchecksum=9ba5b70a2a2f59091b2e7874ae1570f1
 
 qp.dependency.1.name = osis
 qp.dependency.1.domain = jumpscale
