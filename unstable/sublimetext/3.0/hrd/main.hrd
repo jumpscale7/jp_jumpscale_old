@@ -1,23 +1,23 @@
-qp.name=sublimetext
-qp.version=3.0
-qp.autobuild=0
-qp.debug=0
+jp.name=sublimetext
+jp.version=3.0
+jp.autobuild=0
+jp.debug=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-qp.supportedplatforms=linux64
-qp.description=!(../description.wiki)
-qp.buildnr=2
-qp.taskletschecksum=3071e0564bc26a699d576ee723b8e881
-qp.export=0
+jp.supportedplatforms=linux64
+jp.description=!(../description.wiki)
+jp.buildnr=2
+jp.taskletschecksum=3071e0564bc26a699d576ee723b8e881
+jp.export=0
 
-qp.bundles=generic:d41d8cd98f00b204e9800998ecf8427e,linux64:4870823a1bbc970181e8e6b81baf33da
+jp.bundles=generic:d41d8cd98f00b204e9800998ecf8427e,linux64:4870823a1bbc970181e8e6b81baf33da
 
 ##dependencies
-#qp.dependency.1= jpackages6.test2
-#qp.dependency.1.minversion= 1
-#qp.dependency.1.maxversion= 2
+#jp.dependency.1= jpackages6.test2
+#jp.dependency.1.minversion= 1
+#jp.dependency.1.maxversion= 2
 
 ##dependencies which are required for building, same syntax as before
-#qp.builddependency.1=
-qp.descrchecksum=
-qp.hrdchecksum=
+#jp.builddependency.1=
+jp.descrchecksum=
+jp.hrdchecksum=

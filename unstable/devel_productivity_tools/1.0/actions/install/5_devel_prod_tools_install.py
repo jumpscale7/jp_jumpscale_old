@@ -25,7 +25,7 @@ def main(j,args,params,tags,tasklet):
         j.system.installtools.execute(e)
         j.system.platform.ubuntu.install("doublecmd-gtk")
 
-    args.qp.copyFiles(destination="/")
+    args.jp.copyFiles(destination="/")
 
 
     params.result=True #return True if result ok

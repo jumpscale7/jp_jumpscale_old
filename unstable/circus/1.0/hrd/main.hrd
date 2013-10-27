@@ -1,27 +1,27 @@
-qp.domain=jumpscale
-qp.name=circus
-qp.version=1.0
-qp.autobuild=0
+jp.domain=jumpscale
+jp.name=circus
+jp.version=1.0
+jp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-qp.supportedplatforms=linux64
-qp.description=!(../description.wiki)
-qp.buildnr=7
+jp.supportedplatforms=linux64
+jp.description=!(../description.wiki)
+jp.buildnr=7
 
-qp.taskletschecksum=89751e536356cc5dcfa4e2776a6493f3
-qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-qp.hrdchecksum=28d5a3ca88204232ee057361324eda50
+jp.taskletschecksum=89751e536356cc5dcfa4e2776a6493f3
+jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+jp.hrdchecksum=28d5a3ca88204232ee057361324eda50
 
-qp.export=0
+jp.export=0
 
-qp.bundles=generic:01b3cefc075fd7cbb157dfaccdfb76dd,linux:8ef566ac20307336af25982a502d0b2c
+jp.bundles=generic:01b3cefc075fd7cbb157dfaccdfb76dd,linux:8ef566ac20307336af25982a502d0b2c
 
-qp.dependency.1.name = base
-qp.dependency.1.domain = jumpscale
-qp.dependency.1.minversion=
-qp.dependency.1.maxversion=
+jp.dependency.1.name = base
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
 
-qp.dependency.2.name = libs
-qp.dependency.2.domain = jumpscale
-qp.dependency.2.minversion=
-qp.dependency.2.maxversion=
+jp.dependency.2.name = libs
+jp.dependency.2.domain = jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=

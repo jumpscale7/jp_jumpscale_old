@@ -1,24 +1,24 @@
-qp.domain=jumpscale
-qp.name=jumpscale_examples
-qp.version=1.0
-qp.autobuild=0
+jp.domain=jumpscale
+jp.name=jumpscale_examples
+jp.version=1.0
+jp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-qp.supportedplatforms=generic
-qp.description=!(../description.wiki)
-qp.buildnr=1
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=1
 
-qp.taskletschecksum=e34e17bb00e9101f6124746b2847c760
-qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-qp.hrdchecksum=a1fc09f426443f34163ed11c9de73ac5
+jp.taskletschecksum=e34e17bb00e9101f6124746b2847c760
+jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+jp.hrdchecksum=a1fc09f426443f34163ed11c9de73ac5
 
-qp.export=0
+jp.export=0
 
-qp.bundles=ubuntu64:23dc154b39e9279cafa94602b62b822d
+jp.bundles=ubuntu64:23dc154b39e9279cafa94602b62b822d
 
 ##dependencies
-#qp.dependency.1.name = processmanager
-#qp.dependency.1.domain = jumpscale
-#qp.dependency.1.minversion= 1
-#qp.dependency.1.maxversion= 2
-qp.repositories.generic.jumpscale_jumpscale_examples=77316fcf290e
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
+#jp.dependency.1.minversion= 1
+#jp.dependency.1.maxversion= 2
+jp.repositories.generic.jumpscale_jumpscale_examples=77316fcf290e

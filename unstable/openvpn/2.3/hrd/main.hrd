@@ -1,28 +1,28 @@
-qp.domain=jumpscale
-qp.name=openvpn
-qp.version=2.3
-qp.autobuild=0
+jp.domain=jumpscale
+jp.name=openvpn
+jp.version=2.3
+jp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-qp.supportedplatforms=linux
-qp.description=!(../description.wiki)
-qp.buildnr=0
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=0
 
-qp.taskletschecksum=dc52c3821ae0fc21360de90ea82379b7
-qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-qp.hrdchecksum=ebfbdc5078e6a2f0d41194af10f9e148
+jp.taskletschecksum=dc52c3821ae0fc21360de90ea82379b7
+jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+jp.hrdchecksum=ebfbdc5078e6a2f0d41194af10f9e148
 
-qp.export=0
+jp.export=0
 
-qp.bundles=linux:c74a61ce722f37b879a381430d880cf6
+jp.bundles=linux:c74a61ce722f37b879a381430d880cf6
 
 ##dependencies
-qp.dependency.1.name = shorewall
-qp.dependency.1.domain = jumpscale
-qp.dependency.1.minversion=
-qp.dependency.1.maxversion=
+jp.dependency.1.name = shorewall
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
 
-qp.dependency.2.name = circus
-qp.dependency.2.domain = jumpscale
-qp.dependency.2.minversion=
-qp.dependency.2.maxversion=
+jp.dependency.2.name = circus
+jp.dependency.2.domain = jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=

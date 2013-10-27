@@ -2,11 +2,11 @@ def main(j,args,params,tags,tasklet):
    
     #package code from codemgmt recipe
 
-    qp=args.qp
+    jp=args.jp
 
-    recipe=qp.actions.code_getRecipe()
+    recipe=jp.actions.code_getRecipe()
 
-    recipe.package(qp, "generic")
+    recipe.package(jp, "generic")
     #this is the standard used package function, can overrule to do custom work
     
     return params

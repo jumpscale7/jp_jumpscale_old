@@ -8,8 +8,8 @@ def main(j,args,params,tags,tasklet):
     privnet=j.application.config.set("openvpn.privatenet.mask",str(ip.netmask()))
     privnet=j.application.config.set("openvpn.privatenet.net",str(ip.net()))
 
-    args.qp.copyFiles(subdir="easy-rsa",destination="%s/apps/easy-rsa"%j.dirs.baseDir,applyhrd=True) #  will copy files from subdir called root of platforms to root of system (carefull), will also use templateEngine for hrd 
-    args.qp.copyFiles(subdir="openvpnconfig",destination="/etc/openvpn",applyhrd=True)
+    args.jp.copyFiles(subdir="easy-rsa",destination="%s/apps/easy-rsa"%j.dirs.baseDir,applyhrd=True) #  will copy files from subdir called root of platforms to root of system (carefull), will also use templateEngine for hrd 
+    args.jp.copyFiles(subdir="openvpnconfig",destination="/etc/openvpn",applyhrd=True)
    
     #configure the package 
     keydir="%s/cfg/rsakeys"%j.dirs.baseDir

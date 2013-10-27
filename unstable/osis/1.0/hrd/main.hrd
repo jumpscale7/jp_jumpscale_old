@@ -1,25 +1,25 @@
-qp.name=osis
-qp.version=1.0
-qp.autobuild=0
-qp.debug=0
+jp.name=osis
+jp.version=1.0
+jp.autobuild=0
+jp.debug=0
 
-qp.supportedplatforms=linux
-qp.description=!(../description.wiki)
-qp.buildnr=30
-qp.export=0
-qp.bundles=generic:8d773154a4bd8d281976ad28134f54dd
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=30
+jp.export=0
+jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd
 
-qp.taskletschecksum=6e3932d9061a65ae51982abe272c1f62
-qp.descrchecksum=
-qp.hrdchecksum=
+jp.taskletschecksum=6e3932d9061a65ae51982abe272c1f62
+jp.descrchecksum=
+jp.hrdchecksum=
 
 ##dependencies
-qp.dependency.0.domain= jumpscale
-qp.dependency.0.name= grid
-qp.dependency.0.minversion=
-qp.dependency.0.maxversion=
+jp.dependency.0.domain= jumpscale
+jp.dependency.0.name= grid
+jp.dependency.0.minversion=
+jp.dependency.0.maxversion=
 
-qp.dependency.1.domain= jumpscale
-qp.dependency.1.name= elasticsearch
-qp.dependency.1.minversion=
-qp.dependency.1.maxversion=
+jp.dependency.1.domain= jumpscale
+jp.dependency.1.name= elasticsearch
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

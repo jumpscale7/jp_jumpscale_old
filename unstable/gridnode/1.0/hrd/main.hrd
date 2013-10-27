@@ -1,22 +1,22 @@
-qp.domain=jumpscale
-qp.name=gridnode
-qp.version=1.0
-qp.autobuild=0
+jp.domain=jumpscale
+jp.name=gridnode
+jp.version=1.0
+jp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-qp.supportedplatforms=linux
-qp.description=!(../description.wiki)
-qp.buildnr=2
-qp.taskletschecksum=a3c060910df8e95921d112df8ec71077
-qp.export=0
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=2
+jp.taskletschecksum=a3c060910df8e95921d112df8ec71077
+jp.export=0
 
-qp.bundles=
+jp.bundles=
 
 ##dependencies
-qp.dependency.1.name = grid
-qp.dependency.1.domain = jumpscale
+jp.dependency.1.name = grid
+jp.dependency.1.domain = jumpscale
 
 ##dependencies which are required for building, same syntax as before
-#qp.builddependency.1=
-qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-qp.hrdchecksum=79c53a61b95a505007e69ff7dfcbfd79
+#jp.builddependency.1=
+jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+jp.hrdchecksum=79c53a61b95a505007e69ff7dfcbfd79

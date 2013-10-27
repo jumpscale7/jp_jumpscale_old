@@ -1,23 +1,23 @@
-qp.domain=jumpscale
-qp.name=shorewall
-qp.version=4.5
-qp.autobuild=0
+jp.domain=jumpscale
+jp.name=shorewall
+jp.version=4.5
+jp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-qp.supportedplatforms=linux
-qp.description=!(../description.wiki)
-qp.buildnr=0
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=0
 
-qp.taskletschecksum=f3de08c146ef481d2d8ea71842f152bd
-qp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-qp.hrdchecksum=199ec7d01135e62923abef74900056b5
+jp.taskletschecksum=f3de08c146ef481d2d8ea71842f152bd
+jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+jp.hrdchecksum=199ec7d01135e62923abef74900056b5
 
-qp.export=0
+jp.export=0
 
-qp.bundles=linux:3787bb57ab6ce865da084a19ba730270
+jp.bundles=linux:3787bb57ab6ce865da084a19ba730270
 
 ##dependencies
-qp.dependency.1.name = circus
-qp.dependency.1.domain = jumpscale
-qp.dependency.1.minversion=
-qp.dependency.1.maxversion=
+jp.dependency.1.name = circus
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

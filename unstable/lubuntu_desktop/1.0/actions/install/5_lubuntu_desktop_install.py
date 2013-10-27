@@ -5,7 +5,7 @@ def main(j,args,params,tags,tasklet):
     ## j.system.platform.ubuntu.install(packagename)
     # can happen by copying files from the jpackages included files (they come from the bundle) e.g. by
     
-    #args.qp.copyFiles() #  will copy files to sandbox
+    #args.jp.copyFiles() #  will copy files to sandbox
     
     ##params.jpackages.copyFiles(destination="/opt/qbase3") #  will copy files to sandbox qbase3
     

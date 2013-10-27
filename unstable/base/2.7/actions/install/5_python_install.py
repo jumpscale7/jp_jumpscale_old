@@ -14,7 +14,7 @@ def main(j, args, params, tags, tasklet):
     #"cauchyec","galoisbuffer"
     j.system.platform.python.remove(toremove)
 
-    args.qp.copyPythonLibs()
+    args.jp.copyPythonLibs()
 
     distpath = "$(python.paths.local.distpackages)/jumpscale.pth"
     if not j.system.fs.exists(distpath):

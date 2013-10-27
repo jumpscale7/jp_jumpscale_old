@@ -5,10 +5,10 @@ def main(j,args,params,tags,tasklet):
     ## j.system.platform.ubuntu.install(packagename)
     # can happen by copying files from the jpackages included files (they come from the bundle) e.g. by
     
-    #args.qp.copyFiles() #  will copy files to sandbox
+    #args.jp.copyFiles() #  will copy files to sandbox
 
 
-    path = args.qp.getPathFilesPlatform('linux64')
+    path = args.jp.getPathFilesPlatform('linux64')
 
     packages = ('nxclient_3.5.0-7_amd64.deb',
                 'nxnode_3.5.0-9_amd64.deb',

@@ -4,7 +4,7 @@ def main(j,args,params,tags,tasklet):
     toremove = ['circus-web'] 
     j.system.platform.python.remove(toremove)
 
-    args.qp.copyPythonLibs()
+    args.jp.copyPythonLibs()
 
     params.result=True #return True if result ok
     return params

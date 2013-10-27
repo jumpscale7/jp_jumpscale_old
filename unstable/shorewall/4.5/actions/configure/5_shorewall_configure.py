@@ -50,7 +50,7 @@ def main(j,args,params,tags,tasklet):
     j.application.config.set("firewall.type","shorewall")
 
 
-    args.qp.copyFiles(subdir=fwtype,destination="/etc/shorewall",applyhrd=True) #  will copy files from subdir called root of platforms to root of system (carefull), will also use templateEngine for hrd 
+    args.jp.copyFiles(subdir=fwtype,destination="/etc/shorewall",applyhrd=True) #  will copy files from subdir called root of platforms to root of system (carefull), will also use templateEngine for hrd 
 
     do=j.system.installtools
     rescode,res=j.system.process.execute("shorewall restart")

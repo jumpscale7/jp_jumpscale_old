@@ -13,7 +13,7 @@ def main(j,args,params,tags,tasklet):
         # do.execute("pip uninstall %s" % pp)
         do.execute("pip install %s" % pp)
 
-    args.qp.copyPythonLibs()
+    args.jp.copyPythonLibs()
 
     params.result=True #return True if result ok
     return params

@@ -10,10 +10,10 @@ def main(j,args,params,tags,tasklet):
     
 
     ##copy python libs: then need to be in subdir site-packages of one of the platforms, they will all be copied to site-packages in local python dir
-    #args.qp.copyPythonLibs(remove=False)
+    #args.jp.copyPythonLibs(remove=False)
 
     #install found debs they need to be in debs dir of one or more of the platforms (all relevant platforms will be used)
-    #args.qp.installUbuntuDebs()
+    #args.jp.installUbuntuDebs()
     
     #shortcut to some usefull install tools
     #do=j.system.installtools

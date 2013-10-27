@@ -1,16 +1,16 @@
-qp.name=devel_productivity_tools
-qp.version=1.0
-qp.autobuild=0
-qp.debug=0
+jp.name=devel_productivity_tools
+jp.version=1.0
+jp.autobuild=0
+jp.debug=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-qp.supportedplatforms=linux64
-qp.description=!(../description.wiki)
-qp.buildnr=5
-qp.taskletschecksum=9a59dae4e339f895da15f57bc823e701
-qp.export=0
+jp.supportedplatforms=linux64
+jp.description=!(../description.wiki)
+jp.buildnr=5
+jp.taskletschecksum=9a59dae4e339f895da15f57bc823e701
+jp.export=0
 
-qp.bundles=generic:a761fb6672c31a2e6341e1e582c8c6e6,linux64:d41d8cd98f00b204e9800998ecf8427e
+jp.bundles=generic:a761fb6672c31a2e6341e1e582c8c6e6,linux64:d41d8cd98f00b204e9800998ecf8427e
 
-qp.descrchecksum=
-qp.hrdchecksum=
+jp.descrchecksum=
+jp.hrdchecksum=
