@@ -3,10 +3,10 @@ appname=jpackages
 tags=
 expiration=0
 type=
-epochtime=1380809844
+epochtime=1382965968
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/portal/1.0/generic
 filetype=dir
-md5=d55df3d21d597b02cb73f906a014f020
+md5=c91b5878185762ba9f0f7fa0d88ddf60
 
 ================================================================
 f1ec06b54ced7eb192dec57621ee7efb|apps/portalbase/cfg/appserver.cfg
@@ -99,6 +99,10 @@ f47ee7854cf0aa9fe24fa42473c19917|apps/portalbase/system/system__contentmanager/m
 c9b179cdb46c8c80e10ec9c3dbb74e57|apps/portalbase/system/system__contentmanager/macros/page/htmlloadbody/1_main.py
 c5c31b73034a1bd92b5e0439a9b62598|apps/portalbase/system/system__contentmanager/macros/page/htmlloadheader/1_main.py
 86fb15788397f0f6d24ec8c6240b4a52|apps/portalbase/system/system__contentmanager/macros/page/jgauge/1_main.py
+e9924a612389cbd0cc734e56cb4e2d12|apps/portalbase/system/system__contentmanager/macros/page/jpackageblob/3_main.py
+797f4786337d8488b0fa06f744e593d6|apps/portalbase/system/system__contentmanager/macros/page/jpackageshow/3_main.py
+eb4fc8e11275662d1122cf4d36bc771c|apps/portalbase/system/system__contentmanager/macros/page/jpackageslist/3_main.py
+61045ffa2656720f1da329b44109c400|apps/portalbase/system/system__contentmanager/macros/page/jpackagetasklets/3_main.py
 19c361641c26fceda9e7296223d3f8e9|apps/portalbase/system/system__contentmanager/macros/page/jscript/1_main.py
 42c945fddcf387c02dd0c2b68dcb7abd|apps/portalbase/system/system__contentmanager/macros/page/login/1_main.py
 332806f395a177e54b5bbed01d2dffb6|apps/portalbase/system/system__contentmanager/macros/page/logo/1_main.py
@@ -462,10 +466,10 @@ d41d8cd98f00b204e9800998ecf8427e|apps/portalbase/wiki/Docs/Macros/Wiki/Wiki.wiki
 915d18d335d76c9b25e31bf3f8145849|apps/portalbase/wiki/Docs/OSIS/OSISRemote.wiki
 22ae9e311fe07766ee7cce71fdb71c00|apps/portalbase/wiki/Docs/OSIS/OsisModelSpec.wiki
 b1028051cdd07406b7b8f9dba0cf8686|apps/portalbase/wiki/Docs/OSIS/Types.wiki
-dae36d369295fc1c8c972b07d337df98|apps/portalbase/wiki/Docs/JumpScaleExtensions/AsanaClient/AsanaClient.wiki
-20d369895e9ea679d3bb7338026d26a6|apps/portalbase/wiki/Docs/JumpScaleExtensions/AsanaClient/ExportedAll.png
-a6204d5ecb2076ce4b79dcb77783b841|apps/portalbase/wiki/Docs/JumpScaleExtensions/AsanaClient/ExportedTask.png
-d0837d92a7166626da6f00e9eccd0fb7|apps/portalbase/wiki/Docs/JumpScaleExtensions/JumpScaleExtensions.wiki
+dae36d369295fc1c8c972b07d337df98|apps/portalbase/wiki/Docs/PylabsExtensions/AsanaClient/AsanaClient.wiki
+20d369895e9ea679d3bb7338026d26a6|apps/portalbase/wiki/Docs/PylabsExtensions/AsanaClient/ExportedAll.png
+a6204d5ecb2076ce4b79dcb77783b841|apps/portalbase/wiki/Docs/PylabsExtensions/AsanaClient/ExportedTask.png
+d0837d92a7166626da6f00e9eccd0fb7|apps/portalbase/wiki/Docs/PylabsExtensions/PylabsExtensions.wiki
 23f2468f84611f5f89615e60d3c89156|apps/portalbase/wiki/Docs/RestFullWebservices/RestFullWebservices.wiki
 b5de8f5fd0e66a3d7ea2800d72c210a6|apps/portalbase/wiki/Docs/RestWebservices/RestWebservices.wiki
 a4dddafb4c00812c04c8013cbaeba58d|apps/portalbase/wiki/Docs/SpaceConfiguration/SpaceConfiguration.wiki
@@ -481,7 +485,7 @@ efd280dee2a01ee1e042519cf5bd0099|apps/portalbase/wiki/System/.files/toggle/toggl
 364dcca7711977ebea148e5e877617c5|apps/portalbase/wiki/System/.space/acl.cfg
 a794e58c8a4340a671d69d30c129259d|apps/portalbase/wiki/System/.space/default.wiki
 dccd1e30a6841ced696889a8b49ca223|apps/portalbase/wiki/System/.space/main.cfg
-84c8d9f7d12a59f681848c95640149a1|apps/portalbase/wiki/System/.space/nav.wiki
+5247ddb17d678fea4289594056890458|apps/portalbase/wiki/System/.space/nav.wiki
 b8af6978955bc21d04eb5677e57577a9|apps/portalbase/wiki/System/.space/notfound.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/portalbase/wiki/System/.space/template.wiki
 b04c72651b4e4b7116a8e3e764157ae1|apps/portalbase/wiki/System/AccessDenied/AccessDenied.wiki
@@ -494,6 +498,8 @@ bc6634cb4f0e2dd5567fd98e540c6d9f|apps/portalbase/wiki/System/Explorer/Explorer.w
 73d8bc5a3d9bf2e37a6a6b4bf1785c65|apps/portalbase/wiki/System/Explorer/ExplorerOverview/ExplorerOverview.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/portalbase/wiki/System/Find/Find.wiki
 09c219c54c1b27866869697842e600dc|apps/portalbase/wiki/System/Groups/Groups.wiki
+5abe947ad7fcf5d6537556816edc5ea1|apps/portalbase/wiki/System/JPackageShow/JPackageShow.wiki
+6ed800b595bb975778c02f69b8bfc470|apps/portalbase/wiki/System/JPackages/JPackages.wiki
 49a6267338021a516fb8fed9ba2cc716|apps/portalbase/wiki/System/Login/Login.wiki
 be86ca353ba8a11ccef8676fc019e521|apps/portalbase/wiki/System/Logs/Eshead/Eshead.wiki
 84177ad887365962ece32afb1f391ca6|apps/portalbase/wiki/System/Logs/Logs.wiki
@@ -506,7 +512,7 @@ c5fc7cf26a35fddabe7ff09ab67ff917|apps/portalbase/wiki/System/OverviewAccess/Over
 7c989057092bb32d08a85aa86d445fd3|apps/portalbase/wiki/System/Reload/Reload.wiki
 3a84746f19e152dc7b1c7f71867fc994|apps/portalbase/wiki/System/Reload/ReloadApplication/ReloadApplication.wiki
 07893a5227e37aa041b60e1831fd772c|apps/portalbase/wiki/System/Reload/ReloadSpace/ReloadSpace.wiki
-d41d8cd98f00b204e9800998ecf8427e|apps/portalbase/wiki/System/Reload/JumpScale-core-6.0.tgz
+d41d8cd98f00b204e9800998ecf8427e|apps/portalbase/wiki/System/Reload/pylabs-core-6.0.tgz
 ec503c91cea22674b7ce5d9810f91767|apps/portalbase/wiki/System/ResetAccessLog/ResetAccessLog.wiki
 802366b64d7e5eb39584a8ff0869075e|apps/portalbase/wiki/System/Rest/Rest.wiki
 91d15963150998c45247bdecad4256c8|apps/portalbase/wiki/System/Rest/RestResult/RestResult.wiki
