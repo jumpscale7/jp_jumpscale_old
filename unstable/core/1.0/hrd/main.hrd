@@ -6,15 +6,15 @@ jp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=28
+jp.buildnr=30
 
-jp.taskletschecksum=5e57fa435bdff4f8c788fe1e5224cd58
-jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-jp.hrdchecksum=a7262da2997a6ea3a251e3eba4dc2551
+jp.taskletschecksum=7ef9921610d7b866cea2d0e347af0787
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=f2a6e2dd428020a4e793d921e08489b9
 
 jp.export=0
 
-jp.bundles=generic:112da9284ce014f150a5f00b6ec8e989,ubuntu64:78dc0845394202b7cfa7e961bb9fb5e4
+jp.bundles=generic:29a4eb4e8ab41f449101b7dd99ba30de,ubuntu64:78dc0845394202b7cfa7e961bb9fb5e4
 
 jp.dependency.1.name = base
 jp.dependency.1.domain = jumpscale
