@@ -3,10 +3,10 @@ appname=jpackages
 tags=
 expiration=0
 type=
-epochtime=1382951475
+epochtime=1383064410
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/core/1.0/generic
 filetype=dir
-md5=621263e3085a453dd4eb42140fa461c6
+md5=1dc5b09fc3c6b1c69d1a53e62c6ea8d5
 
 ================================================================
 ee6206b9010f4e4abe8eb275fbcc347d|bin/jpackage_configure
@@ -30,7 +30,7 @@ d76f4ab0d88c2e95eae2051c77fdf12e|bin/jscode_push
 138178f52ffc81388371e7bf17639904|bin/jsdevelop
 609ca7d415b62d4ecaed80e9b89ab94b|bin/jsdeveloplink
 013c19d985b47db154efa85d33f71f2a|bin/jsreinstall
-0976791c7d07240cc196566520535fe2|bin/jsshell
+641b818d101e893ea62a6c9a79239bac|bin/jsshell
 b3d7d0ef865b5caacd74f2473ed39a23|site-packages/JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|site-packages/JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|site-packages/JumpScale/base/ERRORHANDLER.py
@@ -92,11 +92,13 @@ b584fee65c25aa83eb7442cb3b5bd5dd|site-packages/JumpScale/baselib/codetools/Metho
 6feb5e7b4139b7645338bcc23998433d|site-packages/JumpScale/baselib/codetools/TemplateEngine.py
 930bf5f3d1f27f3b234894a0c234405d|site-packages/JumpScale/baselib/codetools/TemplateEngineWrapper.py
 2321d0c1082a25946d390929c87d21ab|site-packages/JumpScale/baselib/codetools/TextCharEditor.py
-f7af468664c9791c0545be74e88db618|site-packages/JumpScale/baselib/codetools/TextFileEditor.py
+4e2d9f48384e05465f1bac4a53c71fda|site-packages/JumpScale/baselib/codetools/TextFileEditor.py
 6997376877c2930e18162d45697b141a|site-packages/JumpScale/baselib/codetools/TextLineEditor.py
 34bef67286b2d135bc7e8898a641053c|site-packages/JumpScale/baselib/codetools/WordReplacer.py
 ad0445f07e5abfa3f8eaddf3a8d6215c|site-packages/JumpScale/baselib/codetools/__init__.py
 57a20b245138d2d551c28c011cbebb90|site-packages/JumpScale/baselib/codetools/extension.cfg
+9e76083920a1d8db07c2b2cec43880f9|site-packages/JumpScale/baselib/dnsmasq/__init__.py
+e49ab803af52a656a24cf7baf5fb09b5|site-packages/JumpScale/baselib/dnsmasq/dnsmasq.py
 1826c1b4a970e9975f3d6d7bb8380f15|site-packages/JumpScale/baselib/elasticsearch/Elasticsearch.py
 488caa794fc405c664338e14c5f47dc5|site-packages/JumpScale/baselib/elasticsearch/__init__.py
 3db0078211e4b1a4c7968fbf83e42b5d|site-packages/JumpScale/baselib/elasticsearch/extension.cfg
@@ -129,7 +131,7 @@ a3a035be32fa07ae2bda99296b5fec4f|site-packages/JumpScale/baselib/jpackages/Actio
 fd02db49a6a1f10edebfd011f34cdc2f|site-packages/JumpScale/baselib/jpackages/Domain.py
 18a7f9ef926059eaa50bea60d6ff0269|site-packages/JumpScale/baselib/jpackages/JPackageClient.py
 49bc3e95d8d6fe921e757147d1dda955|site-packages/JumpScale/baselib/jpackages/JPackageMetadataScanner.py
-0ca7453694e5d8a3fc2534b80a600d88|site-packages/JumpScale/baselib/jpackages/JPackageObject.py
+cad67f7df292bda65793574ce151d677|site-packages/JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|site-packages/JumpScale/baselib/jpackages/JPackageStateObject.py
 838c79708002e752e64eb1c5d8233d65|site-packages/JumpScale/baselib/jpackages/PythonPackage.py
 da3d09031196ad227188ac48358e6a1c|site-packages/JumpScale/baselib/jpackages/ReleaseMgmt.py
