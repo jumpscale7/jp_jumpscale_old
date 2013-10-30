@@ -5,10 +5,10 @@ jp.autobuild=0
 
 jp.supportedplatforms=ubuntu
 jp.description=!(../description.wiki)
-jp.buildnr=2
+jp.buildnr=4
 
-jp.taskletschecksum=574018761de25e6607a5b95ef3d2102e
-jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
+jp.taskletschecksum=e93b5996d1a795aa54b041710a09fc87
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=379304cecd3c2c3c75ec27fc7c13960f
 
 jp.export=0
