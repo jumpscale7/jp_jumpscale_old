@@ -8,7 +8,7 @@ def main(j,args,params,tags,tasklet):
     ini = j.tools.inifile.open(cfg)
     ini.addSection('circus')
     ini.addParam('circus', 'include', "*.ini")
-    ini.addParam('circus','check_delay', 30)
+    ini.addParam('circus','check_delay', 5)
     ini.addParam('circus','httpd','True')
     ini.addParam('circus','httpd_host','localhost')
     ini.addParam('circus','httpd_port',8080)
