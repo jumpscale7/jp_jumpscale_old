@@ -3,10 +3,10 @@ appname=jpackages
 tags=
 expiration=0
 type=
-epochtime=1383170422
+epochtime=1383223472
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/core/1.0/generic
 filetype=dir
-md5=7174b5bd5f901de8defed24ed35b41d1
+md5=c4069b043f35a07dc372640dc420c182
 
 ================================================================
 ee6206b9010f4e4abe8eb275fbcc347d|bin/jpackage_configure
@@ -98,7 +98,7 @@ b584fee65c25aa83eb7442cb3b5bd5dd|site-packages/JumpScale/baselib/codetools/Metho
 ad0445f07e5abfa3f8eaddf3a8d6215c|site-packages/JumpScale/baselib/codetools/__init__.py
 57a20b245138d2d551c28c011cbebb90|site-packages/JumpScale/baselib/codetools/extension.cfg
 9e76083920a1d8db07c2b2cec43880f9|site-packages/JumpScale/baselib/dnsmasq/__init__.py
-1a5e810ffb71d171ec4125a83c594107|site-packages/JumpScale/baselib/dnsmasq/dnsmasq.py
+eb03f96c1adab2ff14361e6cab5c5fe0|site-packages/JumpScale/baselib/dnsmasq/dnsmasq.py
 1826c1b4a970e9975f3d6d7bb8380f15|site-packages/JumpScale/baselib/elasticsearch/Elasticsearch.py
 488caa794fc405c664338e14c5f47dc5|site-packages/JumpScale/baselib/elasticsearch/__init__.py
 3db0078211e4b1a4c7968fbf83e42b5d|site-packages/JumpScale/baselib/elasticsearch/extension.cfg
