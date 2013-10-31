@@ -3,10 +3,10 @@ appname=jpackages
 tags=
 expiration=0
 type=
-epochtime=1382603510
+epochtime=1383227687
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/grid/1.0/generic
 filetype=dir
-md5=cd235730af5cb3e5ecd0830b34ed8194
+md5=e9c923fff779859afbd6b5f76b92ebd6
 
 ================================================================
 0d3794ba47871f55658fb632f6654f09|site-packages/JumpScale/grid/__init__.py
@@ -54,16 +54,16 @@ e50b17fdf903d7df25f15b2b81741f54|site-packages/JumpScale/grid/messagehandling/se
 fed5c39f66e2bc3a468bf5d3c9409d3c|site-packages/JumpScale/grid/messagehandling/test/test_performance.py
 7e493c7611150e78e500289c4d3c0724|site-packages/JumpScale/grid/messagehandling/utils.py
 d916b8cc11da5ff0c322c1ef4b932a90|site-packages/JumpScale/grid/osis/OSIS.py
-f633831d7cba54870c3af58f7d96e008|site-packages/JumpScale/grid/osis/OSISCMDS.py
-edd622007f564691b819fad5e5a03d3d|site-packages/JumpScale/grid/osis/OSISClient.py
-f0ec3f51de969f339070a5a6ac485215|site-packages/JumpScale/grid/osis/OSISClientForCat.py
+42b7899eb28b80407391cd99d90597f2|site-packages/JumpScale/grid/osis/OSISCMDS.py
+4b1336231028f32f502de02e8814c93a|site-packages/JumpScale/grid/osis/OSISClient.py
+96615df02d3389716dde7bd92db45689|site-packages/JumpScale/grid/osis/OSISClientForCat.py
 5654b653c435d5475f380381b6fea3f0|site-packages/JumpScale/grid/osis/OSISFactory.py
-85c7780868254c3d210f96a7b17b17f4|site-packages/JumpScale/grid/osis/OSISStore.py
+efc0837225cf128906faead9104cb82c|site-packages/JumpScale/grid/osis/OSISStore.py
 10e51dff00e240c6fd7238a40167db32|site-packages/JumpScale/grid/osis/__init__.py
 18e3bff3ff0a7ea8c0de4b3c3ae139ca|site-packages/JumpScale/grid/osis/extension.cfg
 f4d003ed6b96903120f9d9de6667820e|site-packages/JumpScale/grid/osismodel/IndexerWhoosh.py
 cbb7b4a32a35b879cbb58029687e3fd5|site-packages/JumpScale/grid/osismodel/OSIS.py
-ca4436b397ecf3b175d9b13062565172|site-packages/JumpScale/grid/osismodel/OSISInstance.py
+1a053edd719dbcd978dca64c548efa3a|site-packages/JumpScale/grid/osismodel/OSISInstance.py
 7a719aff5884e310a3c8cdc36f1acba3|site-packages/JumpScale/grid/osismodel/__init__.py
 1fada5c9f4d625d8e545fd058860a1d9|site-packages/JumpScale/grid/osismodel/extension.cfg
 724267cb24aef2eff3664d072f12fe7b|site-packages/JumpScale/grid/serverbase/Daemon.py
