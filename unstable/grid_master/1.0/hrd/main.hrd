@@ -13,7 +13,7 @@ jp.export=0
 jp.bundles=
 
 ##dependencies
-jp.dependency.1.name = grid
+jp.dependency.1.name = grid_broker
 jp.dependency.1.domain = jumpscale
 
 jp.taskletschecksum=

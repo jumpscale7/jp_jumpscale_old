@@ -6,18 +6,18 @@ jp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=-1
+jp.buildnr=0
 
-jp.taskletschecksum=
-jp.descrchecksum=
-jp.hrdchecksum=
+jp.taskletschecksum=70e31e1ad85b4adf75eeb63509e5ca57
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=810f19912f0f21bc636b308a659f464b
 
 jp.export=0
 
-jp.bundles=
+jp.bundles=linux:d7949e15185c77123eb4ecf973915bfb
 
-##dependencies
-#jp.dependency.1.name = processmanager
-#jp.dependency.1.domain = jumpscale
-#jp.dependency.1.minversion= 1
-#jp.dependency.1.maxversion= 2
+jp.dependency.1.name = grid
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.2.name = osis
+jp.dependency.2.domain = jumpscale

@@ -5,3 +5,6 @@ allows executing tasks async
 
 the only thing this jpackage does is to make sure the broker appfiles are copied to /opt/jumpscale/apps/broker
 
+it depends on osis & local logger which forwards to osis
+
+
