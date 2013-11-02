@@ -5,15 +5,15 @@ jp.autobuild=0
 
 jp.supportedplatforms=ubuntu
 jp.description=!(../description.wiki)
-jp.buildnr=4
+jp.buildnr=5
 
-jp.taskletschecksum=e93b5996d1a795aa54b041710a09fc87
+jp.taskletschecksum=991afa26cf6054fecd784d27a01a4463
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=379304cecd3c2c3c75ec27fc7c13960f
 
 jp.export=0
 
-jp.bundles=ubuntu:ba3b33f200a62ec27dfa5b6356a00a6f,linux:ae32b3ac4e2d2ef46295418008337b24
+jp.bundles=linux:c116aad6ea37ff53d53485498dd8b7d3,ubuntu:ba3b33f200a62ec27dfa5b6356a00a6f
 
 ##dependencies
 jp.dependency.1.name= circus

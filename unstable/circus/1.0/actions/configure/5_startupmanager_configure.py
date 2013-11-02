@@ -22,7 +22,15 @@ def main(j,args,params,tags,tasklet):
     
     cmd="python /usr/local/lib/python2.7/site-packages/circus/circusd.py --log-output /var/log/circus.log --log-level info /opt/jumpscale/cfg/startup/server.ini "
     j.system.platform.ubuntu.serviceInstall('circus', cmd, "")
-    j.system.platform.ubuntu.startService('circus')
+
+    try:
+        j.system.platform.ubuntu.startService('circus')
+    except:
+        cmd='sh /etc/init/circus.conf 2>&1 > /dev/null &'
+        try:
+            j.system.process.execute(cmd)
+        except:
+            pass
 
     return params
     

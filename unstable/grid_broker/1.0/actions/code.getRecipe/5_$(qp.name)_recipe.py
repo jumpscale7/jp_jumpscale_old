@@ -11,7 +11,6 @@ def main(j,args,params,tags,tasklet):
     recipe.add(repo,"apps/broker","apps/broker")  #when outside of sandbox use e.g. /qbase3/... (start with / )
     recipe.add(repo,"apps/gridportal","apps/gridportal",type="config")
     recipe.add(repo,"apps/gridportal/utils/","apps/gridportal/utils")
-    recipe.add(repo,"apps/logger","apps/logger",type="config")
     
     params.result=recipe  #remember for further usage
     

@@ -6,14 +6,14 @@ jp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=4
-jp.taskletschecksum=710683a7dc4fbbfde4cfae3ff0f6fde2
+jp.buildnr=5
+jp.taskletschecksum=89ea9a94383397233d56a853912640eb
 jp.export=0
 
-jp.bundles=generic:4e674af95d2550bd2967f85dc1ea4d8b
+jp.bundles=generic:4e674af95d2550bd2967f85dc1ea4d8b,linux:4e674af95d2550bd2967f85dc1ea4d8b
 jp.repositories.generic.jumpscale_jumpscale_grid=86f25532657c
-jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-jp.hrdchecksum=b6f684c18b66696873e9c201ea1bfa97
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=722f57964b33d6633b66c4f032746efd
 
 jp.dependency.1.name = osis
 jp.dependency.1.domain = jumpscale

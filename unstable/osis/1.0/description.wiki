@@ -1,5 +1,8 @@
-h2. logger
+h2. osis
 
-is a local daemon which gets the logging info & forwards it to the osis server.
-the osis server is a daemon which is installed on the master.
+Object Storage & Indexing Server
+
+is main db frontend layer storing & indexing objects.
+OSIS is a required component by broker, appserver, ...
+
 

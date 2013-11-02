@@ -1,12 +1,12 @@
 agentid=starting
-appname=jsshell
+appname=jpackage
 tags=
 expiration=0
 type=
-epochtime=1383146129
+epochtime=1383383943
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/osis/1.0/linux
 filetype=dir
-md5=d3e051c4e07486aa8e09abfee9824824
+md5=3e4a4eaef8c80ecac94fab255a21915c
 
 ================================================================
 eba65ee18488af74fd88bc0384451a34|apps/osis/_templates/category/category.hrd
@@ -15,7 +15,7 @@ eba65ee18488af74fd88bc0384451a34|apps/osis/_templates/category/category.hrd
 42f4326cfbba274750fa96ddd2b8bf42|apps/osis/_templates/namespace/namespaceid.hrd
 2e3194d47eb895949da7a169faf0eac3|apps/osis/arakoonStart.py
 bed3542f7d26f480a28c033a7a8fd74c|apps/osis/cfg/arakoon.hrd
-3fba67e1d0aefabf6e3a045e6fc643cf|apps/osis/cfg/id.hrd
+a560ca362fe01909e92b4f2e3aa8d397|apps/osis/cfg/id.hrd
 810897c1156818fbdc303d10af110b7e|apps/osis/cfg/main.hrd
 49a7d72f266b3f508f4ee54d5a410501|apps/osis/logic/_arakoonmodelobjects/OSIS_category_template.py
 b048993579431f8a4249b92f4e130a7b|apps/osis/logic/_arakoonmodelobjects/OSIS_parent.py
@@ -35,9 +35,9 @@ b6a0f828e09cc71a766387d820fb1e08|apps/osis/logic/_modelobjects/OSIS_parent.py
 d243f24d37ef23b7c58285e7449cc118|apps/osis/logic/logger/OSIS_parent.py
 722c1804ac5177ec671fd35f1d03989d|apps/osis/logic/logger/log/OSIS_log_impl.py
 eba65ee18488af74fd88bc0384451a34|apps/osis/logic/logger/log/category.hrd
-1f6e51bcdea2088b8e1b4151aa586bac|apps/osis/logic/logger/log/categoryid.hrd
+2abec9c5fa809362a0e47583760a7f6b|apps/osis/logic/logger/log/categoryid.hrd
 11c071a45ba3f2211c645caaa22d4999|apps/osis/logic/logger/namespace.hrd
-6a0bbb723c6422d651fcd8e4dd17305d|apps/osis/logic/logger/namespaceid.hrd
+43b3878797c0639059ef96f90e50b307|apps/osis/logic/logger/namespaceid.hrd
 8aae1aa054222e2e618cd43e5b5cad6b|apps/osis/osisClient.py
 263e6650145830efc214232ad8bb4397|apps/osis/osisServerStart.py
 160b249cb0d7955519e29bedd7c688d6|apps/osis/tests/osis/test_1.py

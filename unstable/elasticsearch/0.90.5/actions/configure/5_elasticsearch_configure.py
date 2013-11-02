@@ -2,8 +2,12 @@ def main(j,args,params,tags,tasklet):
     import JumpScale.baselib.circus
     #make sure there are no traces of elastic search any more
     j.system.process.killProcessByPort(9200)
-    cmd="/usr/share/elasticsearch/bin/elasticsearch"
+    cmd="/opt/elasticsearch/bin/elasticsearch"
     args="-fD es.config=/etc/elasticsearch/elasticsearch.yml"
+
+    j.system.fs.createDir("/opt/data/elasticsearch/data")
+    j.system.fs.createDir("/opt/data/elasticsearch/tmp")
+    j.system.fs.createDir("/opt/data/elasticsearch/logs")
 
     j.tools.circus.manager.addProcess(name="elasticsearch", cmd=cmd, args=args, priority=1)
     j.tools.circus.manager.apply()
