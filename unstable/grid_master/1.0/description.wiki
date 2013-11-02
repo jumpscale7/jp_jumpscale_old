@@ -1,0 +1,12 @@
+h2. grid_master
+
+is the master for a grid.
+
+runs a broker on port 5651 for client access
+& 5650 for workers access.
+
+this broker is called the amster broker
+
+depends on grid which depends on grid_base
+
+

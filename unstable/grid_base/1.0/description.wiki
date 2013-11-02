@@ -1,5 +1,12 @@
 h2. $(jp.name) $(jp.version)
 
-$(jp.description)
+is a quite empty jpackage, only make sure 2 dependencies get installed
 
-#@todo fill in description
+installs the following  (through install tasklets)
+- msgpack-python
+- python-gevent
+
+no bundles attached.
+no hrd active
+
+configure tasklet does nothing
