@@ -14,6 +14,11 @@ def main(j,args,params,tags,tasklet):
 
     args.jp.copyFiles(subdir="root",destination="/",applyhrd=False)
 
+    j.system.fs.createDir("/opt/data/elasticsearch/data")
+    j.system.fs.createDir("/opt/data/elasticsearch/tmp")
+    j.system.fs.createDir("/opt/data/elasticsearch/logs")
+
+
     params.result=True #return True if result ok
     return params
     

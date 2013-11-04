@@ -5,10 +5,6 @@ def main(j,args,params,tags,tasklet):
     cmd="/opt/elasticsearch/bin/elasticsearch"
     args="-fD es.config=/etc/elasticsearch/elasticsearch.yml"
 
-    j.system.fs.createDir("/opt/data/elasticsearch/data")
-    j.system.fs.createDir("/opt/data/elasticsearch/tmp")
-    j.system.fs.createDir("/opt/data/elasticsearch/logs")
-
     j.tools.circus.manager.addProcess(name="elasticsearch", cmd=cmd, args=args, priority=1)
     j.tools.circus.manager.apply()
     j.tools.circus.manager.startProcess('elasticsearch')
