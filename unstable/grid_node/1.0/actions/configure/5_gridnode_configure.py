@@ -1,36 +1,41 @@
 def main(j,args,params,tags,tasklet):
    
-    #configure the package 
+    #configure the package
+
+    gridid=j.application.config.getInt("grid.id")
 
     master_exists=False
+    masterip=""
     if j.application.config.getBool("grid.useavahi"):
         import JumpScale.lib.remote.avahi
         s=j.remote.avahi.getServices()
-        master_exists,services=s.exists(partofname="jsgrid.1.master")
+        master_exists,services=s.exists(partofname="js_grid_%s"%gridid)
         if master_exists:
-            from IPython import embed
-            print "DEBUG NOW master exist"
-            embed()
-            
-            masterip=1
-        master_exists=True
+            for service in services:                
+                if j.system.net.tcpPortConnectionTest(service.address, 5544):
+                    masterip=service.address
 
-    if master_exists==False:
-        if j.application.config.get("grid.ismaster")=="":
-            ismaster=j.console.askYesNo("Is this node the master of the grid?")
-            if ismaster:
-                if j.console.askYesNo("Do you want to enable this node to become the master of the grid?"):
-                    
-                    from IPython import embed
-                    print "DEBUG NOW question master grid"
-                    embed()
+    if masterip=="":
+        raise RuntimeError("Could not find ip addr of master")
             
-        else:
-            pass 
-            #from IPython import embed
-            #print "DEBUG NOW configuregridnode"
-            #embed()
     
+    #remember master ip for further usage
+    j.application.config.set("grid.master.ip",masterip)
+
+    #now register node
+    import JumpScale.grid.osis
+    client = j.core.osis.getClient(masterip)
+    client_node=j.core.osis.getClientForCategory(client,"system","node")
+    client_grid=j.core.osis.getClientForCategory(client,"system","grid")
+
+    obj = client_node.new()
+    obj.initFromLocalNodeInfo()
+    key, new, changed = client_node.set(obj)
+
+    obj=client_node.get(key)
+
+    j.application.config.set("grid.node.id",obj.id)
+    j.application.config.set("grid.node.machineguid",obj.machineguid)
 
     return params
     
