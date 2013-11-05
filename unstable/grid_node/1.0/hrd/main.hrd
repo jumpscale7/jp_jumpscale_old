@@ -1,5 +1,5 @@
 jp.domain=jumpscale
-jp.name=gridnode
+jp.name=grid_node
 jp.version=1.0
 jp.autobuild=0
 
