@@ -1,13 +1,13 @@
 jp.domain=jumpscale
-jp.name=grid_node
+jp.name=gridnode
 jp.version=1.0
 jp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=2
-jp.taskletschecksum=a3c060910df8e95921d112df8ec71077
+jp.buildnr=4
+jp.taskletschecksum=d99d6b29ff937e5f3f81b0b1ce9f9071
 jp.export=0
 
 jp.bundles=
@@ -16,7 +16,7 @@ jp.bundles=
 jp.dependency.1.name = grid
 jp.dependency.1.domain = jumpscale
 
-jp.descrchecksum=8f63070303b9a212fd0fe688a677078e
-jp.hrdchecksum=79c53a61b95a505007e69ff7dfcbfd79
-jp.dependency.1.minversion=
-jp.dependency.1.maxversion=
+##dependencies which are required for building, same syntax as before
+#jp.builddependency.1=
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=9a3833a705f86b26022dc96ecb6d8ef1
