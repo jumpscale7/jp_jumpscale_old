@@ -6,7 +6,7 @@ jp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=2
+jp.buildnr=3
 
 jp.export=0
 
@@ -16,8 +16,6 @@ jp.bundles=
 jp.dependency.1.name = grid_broker
 jp.dependency.1.domain = jumpscale
 
-jp.taskletschecksum=
-jp.descrchecksum=
-jp.hrdchecksum=
-
-
+jp.taskletschecksum=5e41b02450b276f28395f5b2f4d43a88
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=56bfe3cb7146bbe364fa23a73c6f1d44
