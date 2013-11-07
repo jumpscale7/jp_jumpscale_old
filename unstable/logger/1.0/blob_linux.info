@@ -1,26 +1,26 @@
 agentid=starting
-appname=jpackages
+appname=jpackage
 tags=
 expiration=0
 type=
-epochtime=1383383507
+epochtime=1383822660
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/logger/1.0/linux
 filetype=dir
-md5=52e96798a28874034483fdeebead470d
+md5=b35617625159dd1b49a10a7635be5962
 
 ================================================================
 9e79e6059253007745430a4a54fb22f5|apps/logger/cfg/logging.hrd
 935f229f2854033869e318237dc71972|apps/logger/eventhandling/2_del_fromkeywords.py
 037bdf82c680fdef913a16342425437d|apps/logger/eventhandling/5_findDuplicates.py
-201fe05a0bc87f9a69fdd55e87213ff1|apps/logger/eventhandling/6_forwardToOsis.py
+ecab34ae2808fb59028f5dffb0320f1f|apps/logger/eventhandling/6_forwardToOsis.py
 69e4d49905b135714cde5e4cf814b485|apps/logger/eventhandling/8_storeInElasticSearchCluster.py
 22a12c2f97182a325e7044918b430612|apps/logger/loggerStart.py
 d447cf38f957f6802c167ab9a6ee6d07|apps/logger/loghandling/1_toStdOut.py
-d58c29a15e8c834c4e504d5a7559ee68|apps/logger/loghandling/2_ignoreNonCategorized.py
-0867bbd5cec0fb53ea242fca5285fb4a|apps/logger/loghandling/9_return.py
+ea0867556cf762601f461e8f17a9985a|apps/logger/loghandling/2_ignoreNonCategorized.py
+aedc0f8081efb3096cba837819d63c74|apps/logger/loghandling/9_return.py
 32a8368c84a57183d7f48ec0466ea661|apps/logger/loghandlingbatched/1_stdout.py
 0e0b36cda5db9a72607814fdd005d97e|apps/logger/loghandlingbatched/2_batch2listCompress.py
 45477dd00249cb7c3ab02e2e077bbe23|apps/logger/loghandlingbatched/5_send2elasticSearch.py
-3b700b06385ecc1a060aadd1e5362c7a|apps/logger/loghandlingbatched/5_send2osis.py
+43e572d287986acfeb75085d00a2a41f|apps/logger/loghandlingbatched/5_send2osis.py
 c2622365cc99208aaca0f6c222aa8635|apps/logger/testLogger.py
 
