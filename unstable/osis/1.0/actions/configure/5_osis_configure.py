@@ -2,7 +2,8 @@ def main(j,args,params,tags,tasklet):
     import JumpScale.baselib.circus
 
     cmd = 'python'
-    args = 'osisServerStart.py'
+    logfile = j.system.fs.joinPaths(j.dirs.logDir, 'osis.log')
+    args = 'osisServerStart.py >> %s' % logfile
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'osis')
     j.tools.circus.manager.addProcess('osis', cmd, args, priority=2, workingdir=workingdir, before_start='JumpScale.baselib.circus.CircusManager.checkPort')
     env_vars = {'WAIT_FOR_PORT': 9200}
