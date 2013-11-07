@@ -5,11 +5,11 @@ jp.debug=0
 
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=34
+jp.buildnr=35
 jp.export=0
-jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:8d773154a4bd8d281976ad28134f54dd
+jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:830f44339ec43e7716a2a8391ca92877
 
-jp.taskletschecksum=51679faebc6fde2a5664563f7b7903c0
+jp.taskletschecksum=a490bf2f5bc233585cfdb3b4333538f6
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=722f57964b33d6633b66c4f032746efd
 
