@@ -3,10 +3,10 @@ appname=jpackage
 tags=
 expiration=0
 type=
-epochtime=1383389032
+epochtime=1383902392
 filepath=/opt/jumpscale/var/jpackages/files/jumpscale/elasticsearch/0.90.5/linux
 filetype=dir
-md5=b576738d242922a777a69c402d788b8b
+md5=cc1f71abbb345f3a8f854430f0676be6
 
 ================================================================
 fecd62d052d39d0a8f84943c2a83dabe|root/opt/elasticsearch/NOTICE.txt
@@ -37,6 +37,6 @@ f3c28eb9c50fcc1a87e724cc2c01e975|root/opt/elasticsearch/lib/lucene-queries-4.4.0
 50773c8726537662e6042e96441e35d2|root/opt/elasticsearch/lib/sigar/libsigar-x86-linux.so
 85d4a580bcd31802064024d33f668e9a|root/opt/elasticsearch/lib/sigar/sigar-1.6.4.jar
 96c66a753b5a88235af32f36e7b7b4ee|root/opt/elasticsearch/lib/spatial4j-0.3.jar
-23da4cc04f275b1e4d583c061e2b0943|rootconfig/etc/elasticsearch/elasticsearch.yml
+018c49bc9d0d3f13bd4327ce91d0f7eb|rootconfig/etc/elasticsearch/elasticsearch.yml
 b114b7900c5cc0d7cdd29c467008eebb|rootconfig/etc/elasticsearch/logging.yml
 
