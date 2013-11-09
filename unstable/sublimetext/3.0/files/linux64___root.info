@@ -1,14 +1,4 @@
-agentid=starting
-appname=jpackage
-tags=
-expiration=0
-type=
-epochtime=1380082875
-filepath=/opt/jumpscale/var/jpackages/files/jumpscale/sublimetext/3.0/linux64
-filetype=dir
-md5=541c3b6b5fdcdc5dadb9659ce4c886e7
-
-================================================================
+4870823a1bbc970181e8e6b81baf33da
 f0402b443f103fdd78541a5afaf24e2c|opt/sublimetext/Icon/128x128/sublime_text.png
 ec9d6de9fe5c7d77238c574903061d46|opt/sublimetext/Icon/16x16/sublime_text.png
 5653f0b0f119c66a18c8afd51654badf|opt/sublimetext/Icon/256x256/sublime_text.png
@@ -69,4 +59,3 @@ ca2d212fddc711077c1478974ae87497|opt/sublimetext/Pristine Packages/XML.sublime-p
 1a735cf4d3317fcacfcb8f563142e4ba|opt/sublimetext/lib/python26.zip
 063978da3fb756e8fddfba866a662218|opt/sublimetext/sublime_plugin.py
 0e30bb9f52a418deed94a6d85a1d50d1|opt/sublimetext/sublime_text
-

@@ -21,3 +21,4 @@ jp.bundles=linux64:24d6cdd5889ce17419104f79634cbcf9
 #jp.builddependency.1=
 jp.descrchecksum=
 jp.hrdchecksum=
+jp.domain=jumpscale
