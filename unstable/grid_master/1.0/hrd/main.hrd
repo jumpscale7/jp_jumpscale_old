@@ -19,3 +19,5 @@ jp.dependency.1.domain = jumpscale
 jp.taskletschecksum=5e41b02450b276f28395f5b2f4d43a88
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=56bfe3cb7146bbe364fa23a73c6f1d44
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

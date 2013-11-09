@@ -26,3 +26,4 @@ jp.dependency.2.name = grid_base
 jp.dependency.2.domain = jumpscale
 jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
+jp.domain=jumpscale

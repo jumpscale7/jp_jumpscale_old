@@ -4,7 +4,7 @@ def main(j,args,params,tags,tasklet):
 
     jp=args.jp
 
-    recipe=jp.actions.code_getRecipe()
+    recipe=jp.getCodeMgmtRecipe()
 
     recipe.link()
     #this is the standard used function, can overrule to do custom work

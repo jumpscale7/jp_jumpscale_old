@@ -1,5 +1,4 @@
 def main(j, args, params, tags, tasklet):
-    args.jp.copyPythonLibs()
 
     params.result = True  # return True if result ok
     return params

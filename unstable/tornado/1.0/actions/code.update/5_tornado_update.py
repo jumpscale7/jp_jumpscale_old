@@ -4,7 +4,7 @@ def main(j,args,params,tags,tasklet):
     
     jp=args.jp
 
-    recipe=jp.actions.code_getRecipe()
+    recipe=jp.getCodeMgmtRecipe()
 
     if args.has_key("force"):
         recipe.update(args.force)
