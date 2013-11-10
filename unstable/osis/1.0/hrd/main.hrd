@@ -5,13 +5,13 @@ jp.debug=0
 
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=36
+jp.buildnr=42
 jp.export=0
 jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:830f44339ec43e7716a2a8391ca92877
 
-jp.taskletschecksum=7e70c1c2df442b8e8a9d00c46aa87aa3
-jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=722f57964b33d6633b66c4f032746efd
+jp.taskletschecksum=45bd946704578cf2a9c13e34968c5f86
+jp.descrchecksum=e97c7617cedebc3b55880686925a01b8
+jp.hrdchecksum=82c3a33ed3ae3edf4ae700cb17a131a4
 
 ##dependencies
 jp.dependency.0.domain= jumpscale
