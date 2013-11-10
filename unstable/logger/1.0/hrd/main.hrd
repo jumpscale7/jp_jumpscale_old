@@ -19,3 +19,4 @@ jp.dependency.1.name = osis
 jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
+jp.domain=jumpscale

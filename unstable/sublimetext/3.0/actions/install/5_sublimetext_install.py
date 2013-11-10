@@ -6,12 +6,8 @@ def main(j,args,params,tags,tasklet):
     # can happen by copying files from the jpackages included files (they come from the bundle) e.g. by
     
     #args.jp.copyFiles() #  will copy files to sandbox
-    
-    j.system.platformtype.dieIfNotPlatform("linux64")
 
     j.system.fs.removeDirTree("/opt/sublimetext")
-
-    args.jp.copyFiles(destination="/") #  will copy files to root
         
     e="sh /opt/sublimetext/install.sh"
     j.system.process.execute(e)

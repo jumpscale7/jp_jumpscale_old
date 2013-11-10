@@ -14,6 +14,8 @@ def main(j,args,params,tags,tasklet):
     #configuration is not done in this step !!!!!
     #copying files from files section of jpackages is not done in this step
     
+    j.system.platformtype.dieIfNotPlatform("linux64")
+    
     params.result=True #return True if result ok
     return params
     

@@ -11,16 +11,8 @@ def main(j,args,params,tags,tasklet):
     
     #configuration is not done in this step !!!!!
 
-    j.system.platformtype.dieIfNotPlatform("linux64")
-
-    j.system.platform.ubuntu.updatePackageMetadata()
-
     j.system.platform.ubuntu.install("lubuntu-desktop")
 
-    e="apt-get autoclean"
-    j.system.installtools.execute(e)
-    e="rm /var/cache/apt/archives/*.deb"
-    j.system.installtools.execute(e)
     
     params.result=True #return True if result ok
     return params
