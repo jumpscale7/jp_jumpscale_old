@@ -1,4 +1,5 @@
 jp.name=portal
+jp.domain=jumpscale
 jp.version=1.0
 jp.autobuild=0
 jp.debug=0
