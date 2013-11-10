@@ -7,7 +7,6 @@ def main(j,args,params,tags,tasklet):
 
     j.tools.circus.manager.addProcess(name="elasticsearch", cmd=cmd, args=args, priority=1)
     j.tools.circus.manager.apply()
-    j.tools.circus.manager.startProcess('elasticsearch')
 
     return params
     
