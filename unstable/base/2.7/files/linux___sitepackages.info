@@ -1,4 +1,4 @@
-9f32b04759a9bbf8106581bf426ce1bc
+e1c81eeaba3f5f5cfc5145c03a2604e0
 17151da3db063a7f5524e05dfa5b2cbb|cuisine.py
 647da33de4772af1fdae384d25eadcbe|fabfile/__init__.py
 e3743986eb34ed05c40363f64f221edd|fabfile/docs.py
@@ -45,4 +45,21 @@ b20d19da11dd6afe8a8c03b7551bb04d|urllib3/packages/ssl_match_hostname/__init__.py
 e1420c1f0925780b05cae7df1c0a73a3|urllib3/poolmanager.py
 4a5995f77ffa042f434fe9c34f5c1882|urllib3/request.py
 56a2074bcac0709015d5ee2cbcaf0880|urllib3/response.py
+ecd379ceb9e67f8021df3fa7a5418e5f|urllib3/urllib3/__init__.py
+a1161b052569ab60f321a993591992af|urllib3/urllib3/_collections.py
+8a6434836c4fb8c0eb110268343e64b4|urllib3/urllib3/connectionpool.py
+d41d8cd98f00b204e9800998ecf8427e|urllib3/urllib3/contrib/__init__.py
+5d9af521c38324069bc0ecf6f3ea093f|urllib3/urllib3/contrib/ntlmpool.py
+d21af46ecb51753ba02ca0c47aa011e0|urllib3/urllib3/contrib/pyopenssl.py
+657240754c55afa6fd48b3e96049bce5|urllib3/urllib3/exceptions.py
+bda16c5526525b140f31d886559781b9|urllib3/urllib3/fields.py
+2192b3f42c5806461be54a32720746e9|urllib3/urllib3/filepost.py
+9ff999f275483e0669aa22417e3a374f|urllib3/urllib3/packages/__init__.py
+77b68f9ab1b803b612b88b0b0b3e72f8|urllib3/urllib3/packages/ordered_dict.py
+a36f9de9934af633a7f47234699e36f5|urllib3/urllib3/packages/six.py
+b20d19da11dd6afe8a8c03b7551bb04d|urllib3/urllib3/packages/ssl_match_hostname/__init__.py
+e1420c1f0925780b05cae7df1c0a73a3|urllib3/urllib3/poolmanager.py
+4a5995f77ffa042f434fe9c34f5c1882|urllib3/urllib3/request.py
+56a2074bcac0709015d5ee2cbcaf0880|urllib3/urllib3/response.py
+c61c3c72708b7147b56406f3dea5e4e3|urllib3/urllib3/util.py
 c61c3c72708b7147b56406f3dea5e4e3|urllib3/util.py

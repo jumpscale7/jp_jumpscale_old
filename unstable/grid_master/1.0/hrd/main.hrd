@@ -4,9 +4,9 @@ jp.version=1.0
 jp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-jp.supportedplatforms=linux
+jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=3
+jp.buildnr=6
 
 jp.export=0
 
@@ -16,8 +16,8 @@ jp.bundles=
 jp.dependency.1.name = grid_broker
 jp.dependency.1.domain = jumpscale
 
-jp.taskletschecksum=5e41b02450b276f28395f5b2f4d43a88
+jp.taskletschecksum=38704a70a2b3b6739f79059b47802626
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=56bfe3cb7146bbe364fa23a73c6f1d44
+jp.hrdchecksum=0be78cba2b666ee32002b2f229b20196
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=

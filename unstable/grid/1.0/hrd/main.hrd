@@ -6,8 +6,8 @@ jp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=26
-jp.taskletschecksum=e811096e7381e11affe702f5cd2efeef
+jp.buildnr=27
+jp.taskletschecksum=5f14d925bcf6f5b99defd5c93578ec02
 jp.export=0
 
 jp.bundles=generic:a674da16648ae0ec010b69d8df5b9c55
@@ -15,15 +15,9 @@ jp.bundles=generic:a674da16648ae0ec010b69d8df5b9c55
 jp.repositories.generic.jumpscale_jumpscale_grid=668888051a45
 jp.repositories.none.jumpscale_jumpscale_grid=980249f346ae
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=722f57964b33d6633b66c4f032746efd
+jp.hrdchecksum=86a31ac4a97adc1681bf7a298c109f33
 
 jp.dependency.1.name = core
 jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
-
-jp.dependency.2.name = grid_base
-jp.dependency.2.domain = jumpscale
-jp.dependency.2.minversion=
-jp.dependency.2.maxversion=
-jp.domain=jumpscale

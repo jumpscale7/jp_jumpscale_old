@@ -13,6 +13,12 @@ def main(j,args,params,tags,tasklet):
 
     #configuration is not done in this step !!!!!
     #copying files from files section of jpackages is not done in this step
+
+    j.system.platform.ubuntu.install('msgpack-python')
+    j.system.platform.ubuntu.install('python-gevent')
+
+    if j.system.platform.ubuntu.check():
+        j.system.platform.ubuntu.install('avahi-utils')
     
     params.result=True #return True if result ok
     return params

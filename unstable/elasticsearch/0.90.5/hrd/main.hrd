@@ -3,13 +3,13 @@ jp.name=elasticsearch
 jp.version=0.90.5
 jp.autobuild=0
 
-jp.supportedplatforms=ubuntu
+jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=6
+jp.buildnr=8
 
-jp.taskletschecksum=e6a5a578702c8d36cd3bc32be9f18d54
+jp.taskletschecksum=589bcaba30906ecb10146fef708a2e04
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=379304cecd3c2c3c75ec27fc7c13960f
+jp.hrdchecksum=58e4a28fda511f1d0673c7197bf602d8
 
 jp.export=0
 
