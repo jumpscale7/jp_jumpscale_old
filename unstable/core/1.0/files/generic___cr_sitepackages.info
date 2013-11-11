@@ -1,4 +1,4 @@
-6b1b1f4fbcda82aae99ed2cb7096ecb2
+91a4c69207d8a4f37a9fec85eb44d19d
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -26,7 +26,7 @@ edd4f52f8cd7f575e8a8875561dc5fdc|JumpScale/baselib/bitbucket/BitbucketConfigMana
 94b8bbddd167ed9333c7942bc5491697|JumpScale/baselib/blobstor/BlobStorConfigManagement.py
 4b898febfc0e1fc0e40c8ad9a7963d22|JumpScale/baselib/blobstor/__init__.py
 3a5b143f3c7098af0abb2385313fe07f|JumpScale/baselib/circus/CircusCL.py
-a0a125c80361873d1bcaecd4daa5dae7|JumpScale/baselib/circus/CircusManager.py
+a454457cf5c47330aa95d2f000b082a2|JumpScale/baselib/circus/CircusManager.py
 a486069639d6e564cda6ec3fc7429a8c|JumpScale/baselib/circus/__init__.py
 6f21e1debac58d3056761aabd24e829e|JumpScale/baselib/cloudsystemfs/CifsFS.py
 f3f2ec6544a607bbc3a6dca374b241d5|JumpScale/baselib/cloudsystemfs/CloudSystemFS.py
@@ -40,7 +40,7 @@ d149af2aeae0ffacf8882ae81afaab99|JumpScale/baselib/cloudsystemfs/HttpFS.py
 cae921cfeb0ec2550eec6844b4c23753|JumpScale/baselib/cmdline/Options.py
 8bc5ff552e45bc38893c294c24d65cae|JumpScale/baselib/cmdline/__init__.py
 b9cc5f93f1ca22488a9115115b0d18c3|JumpScale/baselib/cmdline/extension.cfg
-c250740a433601136fe65b727fcaad92|JumpScale/baselib/cmdutils/__init__.py
+70570cad25ac0746ba60871663a20b9b|JumpScale/baselib/cmdutils/__init__.py
 653a6a6a6f979eaf9ecd835d4489a011|JumpScale/baselib/code/Appserver6GreenletBase.py
 8e263208375c21e8e28b3e4a6b6dab1b|JumpScale/baselib/code/Appserver6GreenletScheduleBase.py
 023045bafca5ac278b6f4618415ff468|JumpScale/baselib/code/Appserver6GreenletTaskletsBase.py
@@ -98,7 +98,7 @@ a3a035be32fa07ae2bda99296b5fec4f|JumpScale/baselib/jpackages/ActionManager.py
 3948a677ba90bf35867da48b0f37f515|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 fd02db49a6a1f10edebfd011f34cdc2f|JumpScale/baselib/jpackages/Domain.py
 66d277161c7757ea340ec90ed3df9242|JumpScale/baselib/jpackages/JPackageClient.py
-559e17683c45f04e4783c7a94e432d82|JumpScale/baselib/jpackages/JPackageObject.py
+03a49967db06dfe3aafe34832f3728b5|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
 c3e7272809fb9c6dfd5e68e25763454f|JumpScale/baselib/jpackages/JPackagesGenDocs.py
 838c79708002e752e64eb1c5d8233d65|JumpScale/baselib/jpackages/PythonPackage.py
