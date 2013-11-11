@@ -4,7 +4,7 @@ def main(j,args,params,tags,tasklet):
     #make sure you doublecheck that the app is really started (DO THIS CAREFULLY) e.g. check process & port if network daemon & eventually even a selftest in the app
     import JumpScale.baselib.circus
     
-    j.tools.circus.manager.startProcess('logger')
+    j.tools.startupmanager.startProcess('logger')
 
     print "test if logger started by doing a port test"  #@todo why does it take so long?
     if j.system.net.waitConnectionTest("127.0.0.1",4443,60)==False:

@@ -5,8 +5,8 @@ def main(j,args,params,tags,tasklet):
     cmd="/opt/elasticsearch/bin/elasticsearch"
     args="-fD es.config=/etc/elasticsearch/elasticsearch.yml"
 
-    j.tools.circus.manager.addProcess(name="elasticsearch", cmd=cmd, args=args, priority=1)
-    j.tools.circus.manager.apply()
+    j.tools.startupmanager.addProcess(name="elasticsearch", cmd=cmd, args=args, priority=1)
+    j.tools.startupmanager.apply()
 
     return params
     

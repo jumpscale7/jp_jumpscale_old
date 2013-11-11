@@ -3,7 +3,7 @@ def main(j,args,params,tags,tasklet):
     
 
     import JumpScale.baselib.circus
-    status = j.tools.circus.manager.status('elasticsearch')
+    status = j.tools.startupmanager.status('elasticsearch')
     if not status in ['active', 'stopped']:
         j.errorconditionhandler.raiseMonitoringError('elasticsearch is failing')
 

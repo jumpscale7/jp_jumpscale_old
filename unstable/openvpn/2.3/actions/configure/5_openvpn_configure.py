@@ -75,7 +75,7 @@ def main(j,args,params,tags,tasklet):
 
     cmd="cd /etc/openvpn;openvpn --config /etc/openvpn/server.conf"    
     
-    j.tools.circus.manager.addProcess("openvpn", cmd, args="", warmup_delay=0, numprocesses=1, priority=0, autostart=True, workingdir= "/etc/openvpn")
+    j.tools.startupmanager.addProcess("openvpn", cmd, args="", warmup_delay=0, numprocesses=1, priority=0, autostart=True, workingdir= "/etc/openvpn")
 
     return params
     

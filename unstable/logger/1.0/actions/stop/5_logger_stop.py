@@ -5,7 +5,7 @@ def main(j,args,params,tags,tasklet):
 
     import JumpScale.baselib.circus
     args.jp.log("stop logger")
-    j.tools.circus.manager.stopProcess('logger')
+    j.tools.startupmanager.stopProcess('logger')
 
     args.jp.log("test if logger got stopped by doing a port test")
     if not j.system.net.waitConnectionTestStopped("127.0.0.1",4443,5):

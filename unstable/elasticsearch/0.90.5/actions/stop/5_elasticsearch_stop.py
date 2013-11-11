@@ -5,7 +5,7 @@ def main(j,args,params,tags,tasklet):
     
     import JumpScale.baselib.circus
     args.jp.log("stop elasticsearch")
-    j.tools.circus.manager.stopProcess('elasticsearch')
+    j.tools.startupmanager.stopProcess('elasticsearch')
 
     args.jp.log("test if elasticsearch got stopped by doing a port test")
     if not j.system.net.waitConnectionTestStopped("127.0.0.1",9200,5):

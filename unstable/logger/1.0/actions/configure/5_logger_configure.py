@@ -16,15 +16,15 @@ def main(j,args,params,tags,tasklet):
     cmd = 'python'
     args = 'loggerStart.py'
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'logger')
-    kwargs = {'stdout_stream.class': 'FileStream', 'stdout_stream.filename': j.system.fs.joinPaths(j.dirs.logDir, 'logger.log'),
-              'stdout_stream.time_format': '%Y-%m-%d %H:%M:%S', 'stdout_stream.max_bytes': 104857600,
-              'stdout_stream.backup_count': 3}
-    j.tools.circus.manager.addProcess('logger', cmd, args, priority=3, workingdir=workingdir, \
-        **kwargs)
+    # kwargs = {'stdout_stream.class': 'FileStream', 'stdout_stream.filename': j.system.fs.joinPaths(j.dirs.logDir, 'logger.log'),
+    #           'stdout_stream.time_format': '%Y-%m-%d %H:%M:%S', 'stdout_stream.max_bytes': 104857600,
+    #           'stdout_stream.backup_count': 3}
+    j.tools.startupmanager.addProcess('logger', cmd, args, priority=3, workingdir=workingdir)#, \
+        #**kwargs)
 
     env_vars = {}
-    j.tools.circus.manager.addEnv('logger', env_vars)
-    j.tools.circus.manager.apply()
+    j.tools.startupmanager.addEnv('logger', env_vars)
+    j.tools.startupmanager.apply()
 
     params.result = True
     return params

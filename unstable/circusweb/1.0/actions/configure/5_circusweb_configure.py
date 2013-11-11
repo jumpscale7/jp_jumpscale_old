@@ -10,8 +10,8 @@ def main(j,args,params,tags,tasklet):
     ini.addParam('circus','httpd_port',8080)
 
     
-    j.tools.circus.manager.apply()
-    # j.tools.circus.manager.startProcess('elasticsearch')
+    j.tools.startupmanager.apply()
+    # j.tools.startupmanager.startProcess('elasticsearch')
 
     return params
     

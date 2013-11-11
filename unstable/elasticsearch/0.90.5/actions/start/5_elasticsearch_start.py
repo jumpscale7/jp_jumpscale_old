@@ -5,7 +5,7 @@ def main(j,args,params,tags,tasklet):
     
     import JumpScale.baselib.circus
     
-    j.tools.circus.manager.startProcess('elasticsearch')
+    j.tools.startupmanager.startProcess('elasticsearch')
 
     print "test if elasticsearch started by doing a port test"  #@todo why does it take so long?
     if j.system.net.waitConnectionTest("127.0.0.1",9200,60)==False:
