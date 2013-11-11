@@ -11,7 +11,8 @@ def main(j,args,params,tags,tasklet):
     #args.qp.installUbuntuDebs()
     
     #shortcut to some usefull install tools
-    #do=j.system.installtools
+    do=j.system.installtools
+    do.execute("killall screen")
 
     #configuration is not done in this step !!!!!
     #copying files from files section of jpackages is not done in this step

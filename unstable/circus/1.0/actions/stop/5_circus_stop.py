@@ -9,7 +9,10 @@ def main(j,args,params,tags,tasklet):
 
     # args.jp.log("test if osis got started by doing a port test")
     # if j.system.net.waitConnectionTestStopped("127.0.0.1",5544,5)==False:
-    #    j.system.process.killProcessByPort(5544)
+    
+    for port in [5555,5556,5557,8080]:
+        j.system.process.killProcessByPort(port)
+
 
     # if j.system.net.waitConnectionTestStopped("127.0.0.1",5544,1)==False:
     #    raise RuntimeError("Could not stop osis, osis did not stop on port 5544.")
