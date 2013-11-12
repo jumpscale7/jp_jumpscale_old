@@ -1,10 +1,6 @@
+from JumpScale import j
 def main(jp):
-   
-    #configure the application to autostart
-    
-    # jp.log("set autostart $(jp.name)")
 
-    # #example start elasticsearch
     j.system.process.killProcessByPort(9200)
 
     name="elasticsearch"
