@@ -14,3 +14,4 @@ def main(jp):
     #configuration is not done in this step !!!!!
     #copying files from files section of jpackages is not done in this step
     
+    pass

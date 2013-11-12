@@ -4,4 +4,5 @@ def main(jp):
 
     #example:
     #j.monitoring.stats.log("$(node.name).$(qp.name).iops 1000")
+    pass
     
