@@ -1,6 +1,6 @@
 from JumpScale import j
 def main(jp):
-    import JumpScale.baselib.circus
+    import JumpScale.baselib.startupmanager
     cmd = 'python'
     args2 = 'osisServerStart.py'
 

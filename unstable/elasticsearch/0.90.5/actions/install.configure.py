@@ -1,6 +1,6 @@
 from JumpScale import j
 def main(jp):
-    import JumpScale.baselib.circus
+    import JumpScale.baselib.startupmanager
     #make sure there are no traces of elastic search any more
     j.system.process.killProcessByPort(9200)
     cmd="/opt/jumpscale/apps/elasticsearch/bin/elasticsearch"
