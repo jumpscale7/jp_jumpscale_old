@@ -1,3 +1,3 @@
+from JumpScale import j
 def main(jp):
-   
-    jp._uninstall()
+    j.system.platform.python.remove('JumpScale-core')
