@@ -1,6 +1,8 @@
+from JumpScale import j
 def main(jp):
-   
     #configure the package 
-
-    pass
+    e="apt-get autoclean"
+    j.system.installtools.execute(e)
+    e="rm /var/cache/apt/archives/*.deb"
+    j.system.installtools.execute(e)
     

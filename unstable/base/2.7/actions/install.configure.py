@@ -1,6 +1,4 @@
+from JumpScale import j
 def main(jp):
-   
-    #configure the package 
+    j.application.config.set("jumpscale.paths.base",j.dirs.baseDir)
 
-    pass
-    

@@ -1,17 +1,13 @@
+from JumpScale import j
 def main(jp):
-   
-    #prepare the platform before copying the files
-
-    # can happen by e.g. installing a debian package e.g. by
-    ## j.system.platform.ubuntu.install(packagename)
-       
-    #install found debs they need to be in debs dir of one or more of the platforms (all relevant platforms will be used)
-    #args.qp.installUbuntuDebs()
-    
-    #shortcut to some usefull install tools
-    #do=j.system.installtools
-
-    #configuration is not done in this step !!!!!
-    #copying files from files section of jpackages is not done in this step
-    
-    pass
+    j.system.platform.ubuntu.install('php5-cgi')
+    try:
+        j.system.platform.ubuntu.install('php5-json')
+    except:
+        pass #needed on systems where it exists on other systems this is bundled with php5
+    j.system.platform.ubuntu.install('python-imaging')
+    j.system.platform.ubuntu.install('nginx-full')
+    j.system.platform.ubuntu.install('python-beaker')
+    j.system.platform.ubuntu.install('python-mimeparse')
+    j.system.platform.ubuntu.install('redis-server')
+    j.system.platform.ubuntu.install('python-redis')

@@ -1,8 +1,6 @@
+from JumpScale import j
 def main(jp):
-   
-    #gather statistics to do with your app, standard they will be collected every 5 min
-
-    #example:
-    #j.monitoring.stats.log("$(node.name).$(qp.name).iops 1000")
-    pass
-    
+    import JumpScale.baselib.circus
+    status = j.tools.startupmanager.status('elasticsearch')
+    if not status in ['active', 'stopped']:
+        j.errorconditionhandler.raiseMonitoringError('elasticsearch is failing')
