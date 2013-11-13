@@ -1,6 +1,5 @@
 from JumpScale import j
 def main(jp):
-
     j.system.process.killProcessByPort(9200)
 
     name="elasticsearch"
@@ -8,9 +7,5 @@ def main(jp):
     cmd="%s/elasticsearch"%workingdir
     args="-fD es.config=/etc/elasticsearch/elasticsearch.yml"
 
-    
-    j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=1, shell=False, workingdir="",jpackage=jp,domain="",ports=[9200])
-    
-
-
-    pass
+    j.tools.startupmanager.addProcess(name, cmd, args=args, jpackage=jp,ports=[9200])
+    j.tools.startupmanager.startJPackage(jp)
