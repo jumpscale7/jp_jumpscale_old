@@ -1,3 +1,5 @@
+from JumpScale import j
+
 def main(jp):
    
     #configure the application to autostart
