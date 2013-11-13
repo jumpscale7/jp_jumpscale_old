@@ -1,4 +1,4 @@
-09df8d0412c2916fce989f7f24110840
+48ed2b1375523dced274dbbe4e660ebb
 7548de4e4f35ffef85fc80fef500dfa4|.jpackage_package.swp
 0121aed80332ead8b91002448d2e7102|.jpackage_publish.swp
 9cb52ff8a3ed51e967296eb33380880d|.jpackage_upload.swp
@@ -27,5 +27,6 @@ d76f4ab0d88c2e95eae2051c77fdf12e|jscode_push
 34d1e5ade7924efccb0bde1e17988818|jscode_update
 138178f52ffc81388371e7bf17639904|jsdevelop
 609ca7d415b62d4ecaed80e9b89ab94b|jsdeveloplink
+53df949b6b67db2ff106967ca97a5536|jsprocess_startAllReset
 013c19d985b47db154efa85d33f71f2a|jsreinstall
 641b818d101e893ea62a6c9a79239bac|jsshell
