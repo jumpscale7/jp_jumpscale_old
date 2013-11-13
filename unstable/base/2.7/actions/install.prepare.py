@@ -4,7 +4,7 @@ def main(jp):
 
     j.logger.consoleloglevel = 6
     debpackages = ('python2.7', 'libleveldb1', 'ipython', 'python-gevent', 'python-simplejson', 'python-numpy', \
-        'python-apt', 'python-pip', 'python-requests', "byobu", "tmux"\
+        'python-apt', 'python-pip', 'python-requests', "byobu", "tmux",\
         "python-paramiko", "python-mhash", "python-snappy", "python-m2crypto", "python-iowait", "python-psutil")
 
     for name in debpackages:
