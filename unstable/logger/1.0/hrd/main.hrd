@@ -1,0 +1,22 @@
+jp.name=logger
+jp.version=1.0
+jp.autobuild=0
+jp.debug=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=8
+jp.taskletschecksum=27fba688635532bd9000b06303eb7c0d
+jp.export=0
+
+jp.bundles=generic:4e674af95d2550bd2967f85dc1ea4d8b,linux:8650692222d400a5b404a5740bc8441d
+jp.repositories.generic.jumpscale_jumpscale_grid=86f25532657c
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=e44f84faab81d55bc763c0786fbfcfff
+
+jp.dependency.1.name = osis
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+jp.domain=jumpscale
