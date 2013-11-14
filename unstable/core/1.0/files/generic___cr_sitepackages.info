@@ -1,4 +1,4 @@
-842e77dcd99140a53359ca312d678ee1
+986e3a19da0a2125b01b27695bd4bf6b
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -207,7 +207,8 @@ e0bd3623ca693862f2d526fe4a667b39|JumpScale/baselib/specparser/__init__.py
 2a9202cf2095fb4f409ab405825e431e|JumpScale/baselib/ssl/SSL.py
 d18bc2e58a151750012977ddc03ebac9|JumpScale/baselib/ssl/__init__.py
 f44de53c0524f056ae69777448583877|JumpScale/baselib/ssl/extension.cfg
-f84c9806109336c09d3621f0b3479d7d|JumpScale/baselib/startupmanager/StartupManager.py
+e4c85528cd6c8524b9300b716668395d|JumpScale/baselib/startupmanager/.StartupManager.py.swp
+2c4662671dfe073788a81e86fa6411be|JumpScale/baselib/startupmanager/StartupManager.py
 eb77908b00053af412691b2739295481|JumpScale/baselib/startupmanager/__init__.py
 7d2b22dc67b1924c810373ac663d9152|JumpScale/baselib/tags/Tags.py
 5f17fdbcfbf8f2e74eb392d7a09348fd|JumpScale/baselib/tags/TagsFactory.py

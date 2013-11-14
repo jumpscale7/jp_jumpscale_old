@@ -6,7 +6,7 @@ jp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=7
+jp.buildnr=8
 
 jp.export=0
 
@@ -15,9 +15,14 @@ jp.bundles=
 ##dependencies
 jp.dependency.1.name = grid_broker
 jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
+jp.dependency.2.name = portal
+jp.dependency.2.domain = jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
 
 jp.taskletschecksum=38704a70a2b3b6739f79059b47802626
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=0be78cba2b666ee32002b2f229b20196
-jp.dependency.1.minversion=
-jp.dependency.1.maxversion=
