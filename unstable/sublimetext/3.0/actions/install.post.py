@@ -1,4 +1,4 @@
-from JumpScale import j
+
 def main(j,jp):
     j.system.fs.removeDirTree("/opt/sublimetext")
         

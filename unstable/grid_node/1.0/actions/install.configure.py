@@ -1,4 +1,4 @@
-from JumpScale import j
+
 def main(j,jp):
     gridid=j.application.config.getInt("grid.id")
 

@@ -1,4 +1,4 @@
-from JumpScale import j
+
 def main(j,jp):
     j.system.process.killProcessByPort(9200)
 

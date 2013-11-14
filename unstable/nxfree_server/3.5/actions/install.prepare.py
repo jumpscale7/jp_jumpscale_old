@@ -1,4 +1,4 @@
-from JumpScale import j
+
 def main(j,jp):
     path = jp.getPathFilesPlatform('linux64')
 
