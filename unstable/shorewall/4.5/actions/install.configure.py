@@ -1,4 +1,4 @@
-from JumpScale import j
+
 def main(j,jp):
     fwtypes=["shorewall_protect_node","shorewall_dual_nic"]
 

@@ -1,4 +1,4 @@
-from JumpScale import j
+
 def main(j,jp):
     do = j.system.installtools
     passwd = "$(ftpserver.password)"

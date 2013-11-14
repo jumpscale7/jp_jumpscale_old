@@ -1,4 +1,4 @@
-from JumpScale import j
+
 def main(j,jp):
    
     # pypackages = ['circus','circus-web','chaussette']

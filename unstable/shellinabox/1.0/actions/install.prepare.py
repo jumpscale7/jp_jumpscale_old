@@ -1,4 +1,4 @@
-from JumpScale import j
+
 def main(j,jp):
     #install the required files onto the system
 
