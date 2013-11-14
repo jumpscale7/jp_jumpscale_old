@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     gridid=j.application.config.getInt("gridmaster.grid.id")
 
 

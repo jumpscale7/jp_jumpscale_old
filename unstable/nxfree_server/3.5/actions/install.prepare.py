@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     path = jp.getPathFilesPlatform('linux64')
 
     packages = ('nxclient_3.5.0-7_amd64.deb',

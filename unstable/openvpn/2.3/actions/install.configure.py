@@ -1,7 +1,7 @@
 from JumpScale import j
 
 
-def main(jp):
+def main(j,jp):
     from IPy import IP
 
     privnet = j.application.config.get("openvpn.privatenet")

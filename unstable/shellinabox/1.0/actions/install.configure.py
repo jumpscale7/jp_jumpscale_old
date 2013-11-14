@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     jp.log("autostart main byobu session")
     cmd = 'byobu -S shellinabox -t shellinabox'
     args2 = ''

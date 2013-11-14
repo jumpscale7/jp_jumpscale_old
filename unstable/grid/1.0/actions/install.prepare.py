@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     j.system.platform.ubuntu.install('msgpack-python')
     j.system.platform.ubuntu.install('python-gevent')
 

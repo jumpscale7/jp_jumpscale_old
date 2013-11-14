@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     j.system.fs.removeDirTree("/opt/sublimetext")
         
     e="sh /opt/sublimetext/install.sh"

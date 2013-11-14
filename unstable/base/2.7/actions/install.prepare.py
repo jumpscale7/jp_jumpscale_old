@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     import sys
 
     j.logger.consoleloglevel = 6

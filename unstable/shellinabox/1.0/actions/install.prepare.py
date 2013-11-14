@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     #install the required files onto the system
 
     # can happen by e.g. installing a debian package e.g. by

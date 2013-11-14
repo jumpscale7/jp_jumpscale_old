@@ -1,6 +1,6 @@
 from JumpScale import j
 
-def main(jp):
+def main(j,jp):
     #configure the application to autostart
     jp.log("set autostart $(jp.name)")
     # #example start osis

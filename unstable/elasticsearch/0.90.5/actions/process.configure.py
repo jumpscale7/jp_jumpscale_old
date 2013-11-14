@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     j.system.process.killProcessByPort(9200)
 
     name="elasticsearch"

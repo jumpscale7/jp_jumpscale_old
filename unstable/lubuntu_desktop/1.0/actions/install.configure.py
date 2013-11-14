@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     #configure the package 
     e="apt-get autoclean"
     j.system.installtools.execute(e)

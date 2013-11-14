@@ -1,3 +1,3 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
     pass

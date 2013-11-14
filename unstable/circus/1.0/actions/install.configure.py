@@ -1,5 +1,5 @@
 from JumpScale import j
-def main(jp):
+def main(j,jp):
    
     cfgpath = j.system.fs.joinPaths(j.dirs.cfgDir, 'startup')
     j.system.fs.createDir(cfgpath)
