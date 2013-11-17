@@ -4,13 +4,13 @@ jp.version=1.0
 jp.autobuild=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-jp.supportedplatforms=linux
+jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=1
+jp.buildnr=6
 
-jp.taskletschecksum=8181a281fc0226ddddf81b4ecfdaea50
+jp.taskletschecksum=c87f0a8ca23fe40be91d91681a08ce74
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=810f19912f0f21bc636b308a659f464b
+jp.hrdchecksum=a0d8c7eca86084684b788c14d0ddaab6
 
 jp.export=0
 
@@ -21,3 +21,7 @@ jp.dependency.1.domain = jumpscale
 
 jp.dependency.2.name = osis
 jp.dependency.2.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=

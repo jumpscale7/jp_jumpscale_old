@@ -1,0 +1,23 @@
+jp.domain=jumpscale
+jp.name=agentcontroller
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=4
+
+jp.taskletschecksum=a17868dd56409253d0f6859315af9936
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=cb253b7b306c6912380f4bc9e5cfa67a
+
+jp.export=0
+
+jp.bundles=
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
+#jp.dependency.1.minversion= 1
+#jp.dependency.1.maxversion= 2

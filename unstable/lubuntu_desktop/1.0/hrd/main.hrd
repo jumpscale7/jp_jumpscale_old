@@ -6,7 +6,7 @@ jp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=0
+jp.buildnr=1
 jp.taskletschecksum=57436e67b895c8d226019b9b5b6ca538
 jp.export=0
 
@@ -21,3 +21,4 @@ jp.bundles=
 #jp.builddependency.1=
 jp.descrchecksum=
 jp.hrdchecksum=
+jp.domain=jumpscale

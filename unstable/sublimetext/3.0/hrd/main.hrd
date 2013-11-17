@@ -6,8 +6,8 @@ jp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux64
 jp.description=!(../description.wiki)
-jp.buildnr=2
-jp.taskletschecksum=3071e0564bc26a699d576ee723b8e881
+jp.buildnr=4
+jp.taskletschecksum=207291362f4183553e87954b2501939c
 jp.export=0
 
 jp.bundles=generic:d41d8cd98f00b204e9800998ecf8427e,linux64:4870823a1bbc970181e8e6b81baf33da
@@ -19,5 +19,6 @@ jp.bundles=generic:d41d8cd98f00b204e9800998ecf8427e,linux64:4870823a1bbc970181e8
 
 ##dependencies which are required for building, same syntax as before
 #jp.builddependency.1=
-jp.descrchecksum=
-jp.hrdchecksum=
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=11c48af374668b2e9e6480f9c321b64c
+jp.domain=jumpscale

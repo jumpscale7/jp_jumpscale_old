@@ -3,15 +3,15 @@ jp.version=1.0
 jp.autobuild=0
 jp.debug=0
 
-jp.supportedplatforms=linux
+jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=38
+jp.buildnr=48
 jp.export=0
-jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:8d773154a4bd8d281976ad28134f54dd
+jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:830f44339ec43e7716a2a8391ca92877
 
-jp.taskletschecksum=cdba79440b70e366572c94e9eda42027
-jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=722f57964b33d6633b66c4f032746efd
+jp.taskletschecksum=7b9fca8d19e458963b0ef641f981f9ca
+jp.descrchecksum=e97c7617cedebc3b55880686925a01b8
+jp.hrdchecksum=5ab81d8d977adbea0df1404c3ff07418
 
 ##dependencies
 jp.dependency.0.domain= jumpscale
@@ -23,3 +23,4 @@ jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 jp.dependency.0.minversion=
 jp.dependency.0.maxversion=
+jp.domain=jumpscale
