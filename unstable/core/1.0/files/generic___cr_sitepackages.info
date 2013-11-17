@@ -1,4 +1,4 @@
-0b4dbf3529e96137b4565c58793828f5
+2934c545bd55eeabd1c975e0e8017315
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -91,7 +91,6 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 777a188dc22916b8a2a32db32e414ae1|JumpScale/baselib/installtools/InstallTools.py
 7c915b9a1e4aa977a90f4e6a928d86c2|JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
-02abd7af385370ede984706456bbc879|JumpScale/baselib/jpackages/.CodeManagementRecipe.py.swp
 02f6f356a46272b2f04e9d49f09b8658|JumpScale/baselib/jpackages/ActionManager.py
 d7f35d59109659e5397a052fd1175fb7|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 fd02db49a6a1f10edebfd011f34cdc2f|JumpScale/baselib/jpackages/Domain.py
