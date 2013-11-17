@@ -14,3 +14,5 @@ jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=08df92267401014b94a5c351885508a2
 jp.domain=jumpscale
 jp.bundles=
+jp.process.tcpports=
+jp.process.startuptime=30

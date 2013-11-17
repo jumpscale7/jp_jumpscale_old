@@ -22,3 +22,5 @@ jp.bundles=generic:d41d8cd98f00b204e9800998ecf8427e,linux64:4870823a1bbc970181e8
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=11c48af374668b2e9e6480f9c321b64c
 jp.domain=jumpscale
+jp.process.tcpports=
+jp.process.startuptime=30

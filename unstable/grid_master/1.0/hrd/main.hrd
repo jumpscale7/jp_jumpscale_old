@@ -26,3 +26,5 @@ jp.dependency.2.maxversion=
 jp.taskletschecksum=9aedf6c411a513b8aff8317082665702
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=a56459140d589c581290fe286cea35af
+jp.process.tcpports=
+jp.process.startuptime=30

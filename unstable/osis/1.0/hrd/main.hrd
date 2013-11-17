@@ -24,3 +24,5 @@ jp.dependency.1.maxversion=
 jp.dependency.0.minversion=
 jp.dependency.0.maxversion=
 jp.domain=jumpscale
+jp.process.tcpports=
+jp.process.startuptime=30

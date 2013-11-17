@@ -20,3 +20,5 @@ jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=32f8c276c8ec93617650654cf68e0e63
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
+jp.process.tcpports=
+jp.process.startuptime=30

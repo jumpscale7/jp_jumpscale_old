@@ -26,3 +26,5 @@ jp.dependency.2.name = circus
 jp.dependency.2.domain = jumpscale
 jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
+jp.process.tcpports=
+jp.process.startuptime=30
