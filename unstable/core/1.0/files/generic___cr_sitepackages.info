@@ -1,4 +1,4 @@
-8d1216674d9ea8a83154b995cad625be
+0b4dbf3529e96137b4565c58793828f5
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -91,10 +91,11 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 777a188dc22916b8a2a32db32e414ae1|JumpScale/baselib/installtools/InstallTools.py
 7c915b9a1e4aa977a90f4e6a928d86c2|JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
+02abd7af385370ede984706456bbc879|JumpScale/baselib/jpackages/.CodeManagementRecipe.py.swp
 02f6f356a46272b2f04e9d49f09b8658|JumpScale/baselib/jpackages/ActionManager.py
-3948a677ba90bf35867da48b0f37f515|JumpScale/baselib/jpackages/CodeManagementRecipe.py
+d7f35d59109659e5397a052fd1175fb7|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 fd02db49a6a1f10edebfd011f34cdc2f|JumpScale/baselib/jpackages/Domain.py
-a8ad3e99a6df548e0a26093e61272168|JumpScale/baselib/jpackages/JPackageClient.py
+5251abc329ea97dba6d95372eb1287e4|JumpScale/baselib/jpackages/JPackageClient.py
 cd672d621a29ce2100650d3d869e2822|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
 c3e7272809fb9c6dfd5e68e25763454f|JumpScale/baselib/jpackages/JPackagesGenDocs.py
@@ -197,6 +198,8 @@ cd249eec250ab88d6f26462c99e6df69|JumpScale/baselib/serializers/SerializerHRD.py
 26bd3ef5949230374596cb9593327451|JumpScale/baselib/serializers/SerializerUJson.py
 077594d4d109fe842d6a2e1afca37e54|JumpScale/baselib/serializers/SerializersFactory.py
 4b1eb3ec312f0079b7b56cd7a6f6244e|JumpScale/baselib/serializers/__init__.py
+aa60a561f18709b2606f0b587385dab2|JumpScale/baselib/servers/__init__.py
+2d37d96388ef090398ec26ae05cb8218|JumpScale/baselib/servers/cloudbroker.py
 e31b1d0f64138a74b727ee54b1ad6507|JumpScale/baselib/sort/Sort.py
 8bc5ff552e45bc38893c294c24d65cae|JumpScale/baselib/sort/__init__.py
 d22b4ee122faf1feceb0bf77e1495f4f|JumpScale/baselib/sort/extension.cfg

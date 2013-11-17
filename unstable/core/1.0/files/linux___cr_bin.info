@@ -1,6 +1,4 @@
-096d86f71609a19dbaf9646d74a897f5
-a7700a0983358489d9cb2b7897d3a9d3|.jpackage_publish.swp
-8dde062f691d8b49e012731387e17b25|.jpackage_repackage.swp
+c31751eac58b678faa7594a7bf60db0f
 44919fb63af47a85f1f640ed61e968d6|jpackage_configure
 d383617f55c4feb5100bafe76d4d3c45|jpackage_create
 9f85275b91c3fdef624af281dec6ed7f|jpackage_debugClear
@@ -29,4 +27,3 @@ d76f4ab0d88c2e95eae2051c77fdf12e|jscode_push
 53df949b6b67db2ff106967ca97a5536|jsprocess_startAllReset
 013c19d985b47db154efa85d33f71f2a|jsreinstall
 641b818d101e893ea62a6c9a79239bac|jsshell
-4dc7622ffc13d51627eed626c57dfaa6|tmux-client-18133.log
