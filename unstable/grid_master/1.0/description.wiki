@@ -2,11 +2,14 @@ h2. grid_master
 
 is the master for a grid.
 
-runs a broker on port 5651 for client access
-& 5650 for workers access.
-
-this broker is called the amster broker
-
-depends on grid which depends on grid_base
+this package just calls the other packages required to get required functionality to run
+e.g. 
+- osis
+- logger 
+- grid_portal
+- masterbroker (optional)
+- 1 or more workers
+- agentcontroller
+- 1 or more agents 
 
 

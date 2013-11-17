@@ -12,19 +12,25 @@ jp.export=0
 
 jp.bundles=
 
+jp.net.ports=
+
 ##dependencies
 jp.dependency.1.name = grid_broker
 jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 
-jp.dependency.2.name = portal
+jp.dependency.2.name = osis
 jp.dependency.2.domain = jumpscale
 jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
 
+
+jp.dependency.3.name = portal
+jp.dependency.3.domain = jumpscale
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
+
 jp.taskletschecksum=9aedf6c411a513b8aff8317082665702
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=a56459140d589c581290fe286cea35af
-jp.process.tcpports=
-jp.process.startuptime=30
