@@ -1,0 +1,26 @@
+jp.name=lubuntu_desktop
+jp.version=1.0
+jp.autobuild=0
+jp.debug=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=1
+jp.taskletschecksum=57436e67b895c8d226019b9b5b6ca538
+jp.export=0
+
+jp.bundles=
+
+##dependencies
+#jp.dependency.1= jpackages6.test2
+#jp.dependency.1.minversion= 1
+#jp.dependency.1.maxversion= 2
+
+##dependencies which are required for building, same syntax as before
+#jp.builddependency.1=
+jp.descrchecksum=
+jp.hrdchecksum=
+jp.domain=jumpscale
+jp.process.tcpports=
+jp.process.startuptime=30
