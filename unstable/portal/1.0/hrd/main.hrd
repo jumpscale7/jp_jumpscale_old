@@ -24,3 +24,5 @@ jp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=8364b736ae5bb6b22d3aa433ac0cb47e
 jp.domain=jumpscale
+jp.process.tcpports=9999
+jp.process.startuptime=30

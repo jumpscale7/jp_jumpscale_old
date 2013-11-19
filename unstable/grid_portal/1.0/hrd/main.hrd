@@ -1,5 +1,7 @@
 jp.domain=jumpscale
 jp.name=grid_portal
+jp.process.tcpports=9999
+jp.process.startuptime=30
 jp.version=1.0
 jp.autobuild=0
 
@@ -19,3 +21,5 @@ jp.hrdchecksum=
 ##dependencies
 jp.dependency.1.name = grid_master
 jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
