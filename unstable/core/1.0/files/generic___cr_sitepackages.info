@@ -1,4 +1,4 @@
-22c4d3a92b766952ea26d1ec203e3bda
+893da3270fc60ad525d7891ea7370def
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -298,7 +298,7 @@ ac6bd5fb1040b16bf1a4ba7fa43b4b9e|JumpScale/core/logging/RedirectStreams.py
 2023a20645e9355ed291a9a2878650da|JumpScale/core/logging/__init__.py
 aae24867b4a4b84bfee844a08e960152|JumpScale/core/logging/logtargets/LogTargetElasticSearch.py
 dade566f126104245d90b5fbb9c1e760|JumpScale/core/logging/logtargets/LogTargetFS.py
-85175cc27c3dab6322768907934b4953|JumpScale/core/logging/logtargets/LogTargetLogForwarder.py
+2ab1da562667874c47964c01aa74f7ef|JumpScale/core/logging/logtargets/LogTargetLogForwarder.py
 9160b951bac8d8fce2bc44268e3e39a2|JumpScale/core/logging/logtargets/LogTargetScribe.py
 fcaddaa14dcda1bbacda81c032fce670|JumpScale/core/logging/logtargets/LogTargetStdOut.py
 7af5c43b2ace9e613df0b4efdbf61622|JumpScale/core/logging/logtargets/LogTargetToPylabsLogConsole.py
