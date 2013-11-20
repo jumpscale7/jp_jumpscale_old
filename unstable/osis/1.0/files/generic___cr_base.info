@@ -1,4 +1,4 @@
-b58d417beb286df2edfd7844f5c9e0c3
+9a2ab500e8ce0431b6d7037cfe4d4bd2
 cac1300be7dc8f750b886dc7455024c7|apps/osis/_templates/category/category.hrd
 4f8b94395da85ebc201cfd12fbda077d|apps/osis/_templates/namespace/namespace.hrd
 2e3194d47eb895949da7a169faf0eac3|apps/osis/arakoonStart.py
@@ -28,7 +28,7 @@ f09e0a2674ee2f24b7543bbb4d50965d|apps/osis/logic/_coreobjects/process/OSIS_proce
 f09e0a2674ee2f24b7543bbb4d50965d|apps/osis/logic/_coreobjects/processdef/OSIS_processdef_impl.py
 9cf4514326e650552d2bf4a11d629603|apps/osis/logic/_coreobjects/processdef/model.py
 8d8cb332db6aff6075e86db124038a2c|apps/osis/logic/_modelobjects/OSIS_category_template.py
-b6a0f828e09cc71a766387d820fb1e08|apps/osis/logic/_modelobjects/OSIS_parent.py
+eaeede9640589cdd3e83661a56deb189|apps/osis/logic/_modelobjects/OSIS_parent.py
 3c4c84cd95c6b9112094152112c77d78|apps/osis/logic/logger/OSIS_category_template.py
 2d1fd880342f2cda2208a6e9ff4d94c7|apps/osis/logic/logger/OSIS_parent.py
 722c1804ac5177ec671fd35f1d03989d|apps/osis/logic/logger/log/OSIS_log_impl.py
