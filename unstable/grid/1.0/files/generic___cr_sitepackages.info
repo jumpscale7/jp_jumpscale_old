@@ -1,4 +1,4 @@
-495fff3c58d4b3abc7e3aca78193f7da
+397e7b877dc3b351447fca80742746c4
 0d3794ba47871f55658fb632f6654f09|JumpScale/grid/__init__.py
 891c78b57d97a0409beeea6082dae38a|JumpScale/grid/gevent/GeventLoop.py
 5bbab9bcb2fed28c0ed724b9c43842fa|JumpScale/grid/gevent/GeventLoopFactory.py
@@ -39,15 +39,15 @@ e50b17fdf903d7df25f15b2b81741f54|JumpScale/grid/messagehandling/server_managemen
 fed5c39f66e2bc3a468bf5d3c9409d3c|JumpScale/grid/messagehandling/test/test_performance.py
 7e493c7611150e78e500289c4d3c0724|JumpScale/grid/messagehandling/utils.py
 354801f790b32329a2cae510ee2fc350|JumpScale/grid/osis/OSISBaseObject.py
-3695082fed1f26a578d9f1a2fc99c296|JumpScale/grid/osis/OSISCMDS.py
+889dab0057dd12dc029943d516271589|JumpScale/grid/osis/OSISCMDS.py
 05fa54b7d93ef31535f93c85198146a5|JumpScale/grid/osis/OSISClientForCat.py
 ea65930546210b53f217344d4824e72b|JumpScale/grid/osis/OSISFactory.py
-36df6498206e653bbbcd11c3fe5ea608|JumpScale/grid/osis/OSISStore.py
+248ac575f267ccd8519e1d2c4f49e65d|JumpScale/grid/osis/OSISStore.py
 10e51dff00e240c6fd7238a40167db32|JumpScale/grid/osis/__init__.py
 18e3bff3ff0a7ea8c0de4b3c3ae139ca|JumpScale/grid/osis/extension.cfg
 7b6ad4683b53f8a11e796002059ef4a3|JumpScale/grid/osismodel/IndexerWhoosh.py
 cbb7b4a32a35b879cbb58029687e3fd5|JumpScale/grid/osismodel/OSIS.py
-1a053edd719dbcd978dca64c548efa3a|JumpScale/grid/osismodel/OSISInstance.py
+85bee6aa6bbf819f8cb1ed7d071c2843|JumpScale/grid/osismodel/OSISInstance.py
 7a719aff5884e310a3c8cdc36f1acba3|JumpScale/grid/osismodel/__init__.py
 1fada5c9f4d625d8e545fd058860a1d9|JumpScale/grid/osismodel/extension.cfg
 81ee9b33fe5febee500648454dc363f9|JumpScale/grid/serverbase/Daemon.py
