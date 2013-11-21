@@ -1,4 +1,4 @@
-be7003a80d77c182a9a77ac409452f01
+3cb6341e740b05f7403e544f24884c9d
 a48aa94463d4dcbffbf0aadac2e0c711|apps/portalbase/cfg/appserver.cfg
 c91448b4afb61908797b30f08b3ab6e1|apps/portalbase/cfg/currencies.cfg
 3a51db19e924f9c4f391e205fd316b17|apps/portalbase/cfg/extdirs.cfg
@@ -76,6 +76,7 @@ b5825b78b5f8da7f26d424ac34790065|apps/portalbase/system/system__contentmanager/m
 96a1c21e62e06f7146232e1d333b2ea2|apps/portalbase/system/system__contentmanager/macros/page/div9/1_main.py
 b15fc5ad11a16d7e8711b26f67d50a92|apps/portalbase/system/system__contentmanager/macros/page/dropdown/1_dropdown.py
 65e1b5c8894cd9db149b965efcbfb0f2|apps/portalbase/system/system__contentmanager/macros/page/echo/1_main.py
+b02dbeb87eb6c64f3e8bd2f3659a327f|apps/portalbase/system/system__contentmanager/macros/page/ecos/3_main.py
 c708d98449bb4263e2cab8d0bc05f4fa|apps/portalbase/system/system__contentmanager/macros/page/edit/1_edit_macro.py
 4f60f52e3fe08327697db7c1cff2522a|apps/portalbase/system/system__contentmanager/macros/page/email/1_main.py
 202f90d1379d81b00eec6a12ab334afd|apps/portalbase/system/system__contentmanager/macros/page/explorer/1_main.py
@@ -157,7 +158,7 @@ f125b98ad52ad49ed2226f39bb800016|apps/portalbase/system/system__contentmanager/m
 6eeda335598762491d8a750aa6e48f2d|apps/portalbase/system/system__contentmanager/macros/wiki/spaceaccesslog/1_main.py
 e19c25a79b78718b86c023edd586df71|apps/portalbase/system/system__contentmanager/macros/wiki/spaces/1_main.py
 454b4777207d19efdaabd18458bf9a1e|apps/portalbase/system/system__contentmanager/macros/wiki/testwikiout/1_main.py
-1dbe41729e25960ffef7c0b5b2abea37|apps/portalbase/system/system__contentmanager/methodclass/system_contentmanager.py
+f86354aa2c44573869d820d2c4eb8ebb|apps/portalbase/system/system__contentmanager/methodclass/system_contentmanager.py
 fb993df49f1581ad849f0c12babda8d9|apps/portalbase/system/system__contentmanager/methodclass/system_contentmanager_copy.py
 55d2ddae47dd8e6c9dfa51b16a3c7d42|apps/portalbase/system/system__contentmanager/methodtasklets/method_notifySpaceNewDir/.templates/.macros/defaultpagemacro.py
 479343ab6958909af5604e05ddb688e9|apps/portalbase/system/system__contentmanager/methodtasklets/method_notifySpaceNewDir/.templates/.macros/defaultpreprocessmacro.py
@@ -506,8 +507,9 @@ ffb36a3fc54f6d8d1e75cc4e0ecd061b|apps/portalbase/wiki/System/JPackages/JPackageA
 889a70580aba1767d0fdd9057ae63b3b|apps/portalbase/wiki/System/JPackages/JPackageShow.wiki
 15e75cfb45465200ea2934061a239afe|apps/portalbase/wiki/System/JPackages/JPackages.wiki
 49a6267338021a516fb8fed9ba2cc716|apps/portalbase/wiki/System/Login/Login.wiki
+ccf88ff41e7c1dcbb6bf0a1e19d62e5a|apps/portalbase/wiki/System/Logs/ECOs/ECOs.wiki
 be86ca353ba8a11ccef8676fc019e521|apps/portalbase/wiki/System/Logs/Eshead/Eshead.wiki
-84177ad887365962ece32afb1f391ca6|apps/portalbase/wiki/System/Logs/Logs.wiki
+b19decba3810bfa6504e63968b995082|apps/portalbase/wiki/System/Logs/Logs.wiki
 a1e5142a18229637f1080007c98d63ac|apps/portalbase/wiki/System/Logs/ResetAccessLog/ResetAccessLog.wiki
 2a1aebd194536bb2fc44cb1a23c49c3e|apps/portalbase/wiki/System/Logs/ShowSpaceAccessLog/ShowSpaceAccessLog.wiki
 224f758002c82ae4e9649b8fdcec7501|apps/portalbase/wiki/System/Logs/SystemLogs/SystemLogs.wiki
