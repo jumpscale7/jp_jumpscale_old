@@ -1,8 +1,14 @@
 def main(j,jp):
    
-    #check dependencies for process to start e.g. can I reach local or remote app
+    #check can access osis
 
-    #e.g.
-    #return j.system.net.tcpPortConnectionTest(ipaddr, 9200)
+    print "test if osis is reachable by doing a port test"
 
-    pass
+    masterip=j.application.config.get("grid.master.ip")
+
+    if j.system.net.waitConnectionTest(masterip,5544,2)==False:
+        raise RuntimeError("Could not configure logger, osis was not found to be active on %s on port 5544."%masterip)       
+
+    print "osis reachable" 
+
+    return True
