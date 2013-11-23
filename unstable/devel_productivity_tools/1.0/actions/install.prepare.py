@@ -8,8 +8,8 @@ def main(j,jp):
     p=j.packages.findByName("sublimetext*")[0]
     p.install()
 
-    p=j.packages.findByName("nxfree_server*")[0]
-    p.install()
+#    p=j.packages.findByName("nxfree_server*")[0]
+#    p.install()
 
     e="add-apt-repository ppa:alexx2000/doublecmd"
     j.system.installtools.execute(e)
