@@ -1,4 +1,4 @@
-8887492bcd70f28ca6d853e1844c74db
+2de323629be0370cf472d7bf494f4d9c
 a48aa94463d4dcbffbf0aadac2e0c711|apps/portalbase/cfg/appserver.cfg
 c91448b4afb61908797b30f08b3ab6e1|apps/portalbase/cfg/currencies.cfg
 3a51db19e924f9c4f391e205fd316b17|apps/portalbase/cfg/extdirs.cfg
@@ -91,7 +91,7 @@ f47ee7854cf0aa9fe24fa42473c19917|apps/portalbase/system/system__contentmanager/m
 c9b179cdb46c8c80e10ec9c3dbb74e57|apps/portalbase/system/system__contentmanager/macros/page/htmlloadbody/1_main.py
 c5c31b73034a1bd92b5e0439a9b62598|apps/portalbase/system/system__contentmanager/macros/page/htmlloadheader/1_main.py
 86fb15788397f0f6d24ec8c6240b4a52|apps/portalbase/system/system__contentmanager/macros/page/jgauge/1_main.py
-a8177c511225cd8743d13d646f0bbe37|apps/portalbase/system/system__contentmanager/macros/page/jpackageaction/3_main.py
+5af8bf16d9f992b6e81c7a3f1b868780|apps/portalbase/system/system__contentmanager/macros/page/jpackageaction/3_main.py
 d0d5afdfd21929eda06eb9b1647b7bcc|apps/portalbase/system/system__contentmanager/macros/page/jpackageblob/3_main.py
 75d508673f58fceb9ef3a8bd08730f87|apps/portalbase/system/system__contentmanager/macros/page/jpackagebrowser/3_main.py
 7fa91839bdd23c1edc65fa9bd4235397|apps/portalbase/system/system__contentmanager/macros/page/jpackagecodeeditors/3_main.py
@@ -311,7 +311,7 @@ aa40f230354f0a77c1c3671d2c970f8f|apps/portalbase/system/system__usermanager/spac
 c4dca73a258e1c0ccd6ef213b9a1450c|apps/portalbase/system/system__usermanager/space_system__usermanager/space_usermanager.wiki
 4755131cf8be08401f9de93c89e13694|apps/portalbase/system/system__usermanager/specs/actors.spec
 f5ee7fb5eb90bc2a1c852d3bda31bb8c|apps/portalbase/system/system__usermanager/specs/enums.spec
-49c66cf0342468306ac128470f569c1a|apps/portalbase/system/system__usermanager/specs/model.spec
+f5c563864a2be72c5e07549c0e90923e|apps/portalbase/system/system__usermanager/specs/model.spec
 86a73a4e562fd001808cf6d80cc876da|apps/portalbase/wiki/Docs/.files/.files.wiki
 61b80952fac5252162c929437c293a5e|apps/portalbase/wiki/Docs/.files/img/bear.jpg
 630fd66efb2c736010c6bca81c729b34|apps/portalbase/wiki/Docs/.files/img/favicon.png
@@ -585,6 +585,11 @@ f8275f4cd07e41892cbcf94d84529654|apps/portalbase/wiki/TestWebsite/ProductBrief2.
 9b156224a4395de6be042d1b7734508c|apps/portalbase/wiki/TestWebsite/test.html
 bcaf7f5b68832a3b20c0fcf381635f61|apps/portalbase/wiki/TestWebsite/test.wiki
 ff0017ff320c449fe6db986a43a7278b|apps/portalbase/wiki/TestWebsite/test2.wiki
+37b37ecc04c906941ce6621aa3ec5a7e|apps/portalexample/cfg/appserver.cfg
+e05ea7dcfa1fd6a9c13fa5704883f7b7|apps/portalexample/cfg/users.cfg
+743044708bae169dd766ccd6976a7c60|apps/portalexample/createUsersGroups.py
+1f2d084ddf3b38137fb2ca3edd5690a3|apps/portalexample/portal_client.py
+eab3c4d3e497c93357cb9e4114466447|apps/portalexample/portal_start.py
 ab1b8bac8d3660c4a387a2c5c6148493|apps/portalftpgateway/FSIdentifier.py
 38e08643c6d7fb91c3638ed2cc0d8389|apps/portalftpgateway/FilesystemBase.py
 f9117da905d64aad7e6ccae7326e87cd|apps/portalftpgateway/FilesystemDD.py
