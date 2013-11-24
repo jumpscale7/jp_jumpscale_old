@@ -1,4 +1,4 @@
-cf8dd12d030544997ecc7932fc209627
+90b1c07a3fa2a1ce8f652b038a45db8d
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -93,7 +93,7 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
 6a56fa2c656db46ab51bc7b295ccbfea|JumpScale/baselib/jpackages/ActionManager.py
 7c6465f15862728e5775b0f8c03536d4|JumpScale/baselib/jpackages/CodeManagementRecipe.py
-e5f2753f6304e9cd7e964ccf6dd48041|JumpScale/baselib/jpackages/Domain.py
+bf8577a094a6fece4e92739c14021bf9|JumpScale/baselib/jpackages/Domain.py
 74885d94026b0d18ab83d3103294f1c6|JumpScale/baselib/jpackages/JPackageClient.py
 b92e2aa96eddf98ed5ad59e04b509ad7|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
@@ -138,7 +138,7 @@ ccc35ca973eeb347435798ce5e799870|JumpScale/baselib/jpackages/templates/hrd/main.
 c41a8583ecea369917c697a5c5ebab20|JumpScale/baselib/jpackages/templates/hrdactive/readme.txt
 6e7d8564ed9247cc3d008da87d9d5a65|JumpScale/baselib/jpackages/templates/releasenotes.wiki
 9dc85cd45515dfb11b410c444843e9b9|JumpScale/baselib/jsdeveltools/JSDevelTools.py
-2fef9d8cda78c1253e09182bde101c58|JumpScale/baselib/jsdeveltools/JSDevelToolsInstaller.py
+e9f225378a89b5521030ba94a6ad289f|JumpScale/baselib/jsdeveltools/JSDevelToolsInstaller.py
 7b2bc26cb62a84ef16f2fc8d49da28d5|JumpScale/baselib/jsdeveltools/__init__.py
 3a6fa24c61c2d77888bcbf71dcb3e942|JumpScale/baselib/key_value_store/__init__.py
 763de41018ba01de641704027e06d077|JumpScale/baselib/key_value_store/arakoon_store.py
@@ -179,7 +179,7 @@ d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/platforms/ubuntu/__init__.py
 9f30eefd6efb050cfe936967e9f9e106|JumpScale/baselib/platforms/ubuntu/extension.cfg
 c08c4b0b9db931cc8b05fe60843c512d|JumpScale/baselib/portapps/PortApps.py
 00ddc917cabd40209eb0ed6a1fcfcd6c|JumpScale/baselib/screen/Screen.py
-28ee2d79bc74b0b689d8a953d6b0439f|JumpScale/baselib/screen/Tmux.py
+4f60aecbc95815e972e0c49e19401183|JumpScale/baselib/screen/Tmux.py
 5a65f4c18c3aa8d8b6bdf83b15cef021|JumpScale/baselib/screen/__init__.py
 f619b426e7b753e4a5de7b21d9d72dc7|JumpScale/baselib/screen/extension.cfg
 77bed4a140744453aaa63516f3d44054|JumpScale/baselib/serializers/SerializerBase64.py
@@ -209,7 +209,7 @@ e0bd3623ca693862f2d526fe4a667b39|JumpScale/baselib/specparser/__init__.py
 2a9202cf2095fb4f409ab405825e431e|JumpScale/baselib/ssl/SSL.py
 d18bc2e58a151750012977ddc03ebac9|JumpScale/baselib/ssl/__init__.py
 f44de53c0524f056ae69777448583877|JumpScale/baselib/ssl/extension.cfg
-5f81ee28b1aec9b077df9d331611e5e5|JumpScale/baselib/startupmanager/StartupManager.py
+c96bfa3d2725d26d1089a18e08c1dce9|JumpScale/baselib/startupmanager/StartupManager.py
 eb77908b00053af412691b2739295481|JumpScale/baselib/startupmanager/__init__.py
 7d2b22dc67b1924c810373ac663d9152|JumpScale/baselib/tags/Tags.py
 5f17fdbcfbf8f2e74eb392d7a09348fd|JumpScale/baselib/tags/TagsFactory.py
@@ -293,12 +293,12 @@ c86b7a9be4fc234558126c972ce713e7|JumpScale/core/gui/dialog/EasyDialogWizardServe
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/core/gui/dialog/__init__.py
 c6f1688507e97b1aa66499c4371d5695|JumpScale/core/locale/__init__.py
 1be562bbf480db4a1414d6b504677ef5|JumpScale/core/locale/locale.py
-50fee9dbaccf5c013a30d391ec86a41b|JumpScale/core/logging/LogHandler.py
+13af4245f6746b2ff27e22b7e2d2bc39|JumpScale/core/logging/LogHandler.py
 ac6bd5fb1040b16bf1a4ba7fa43b4b9e|JumpScale/core/logging/RedirectStreams.py
 2023a20645e9355ed291a9a2878650da|JumpScale/core/logging/__init__.py
 aae24867b4a4b84bfee844a08e960152|JumpScale/core/logging/logtargets/LogTargetElasticSearch.py
 dade566f126104245d90b5fbb9c1e760|JumpScale/core/logging/logtargets/LogTargetFS.py
-1677c1b5fbb3bc5449b4acf9b2df4aec|JumpScale/core/logging/logtargets/LogTargetLogForwarder.py
+8e149edecb0e076fc1b62721daf8486a|JumpScale/core/logging/logtargets/LogTargetLogForwarder.py
 9160b951bac8d8fce2bc44268e3e39a2|JumpScale/core/logging/logtargets/LogTargetScribe.py
 fcaddaa14dcda1bbacda81c032fce670|JumpScale/core/logging/logtargets/LogTargetStdOut.py
 7af5c43b2ace9e613df0b4efdbf61622|JumpScale/core/logging/logtargets/LogTargetToPylabsLogConsole.py
