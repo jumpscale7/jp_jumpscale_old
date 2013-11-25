@@ -1,0 +1,29 @@
+jp.domain=jumpscale
+jp.name=circus
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=13
+
+jp.taskletschecksum=82766511814e3a7f9da246dc29b604e6
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=516b79d25281b12094a31431aca78444
+
+jp.export=0
+
+jp.bundles=generic:01b3cefc075fd7cbb157dfaccdfb76dd,linux:8ef566ac20307336af25982a502d0b2c
+
+jp.dependency.1.name = base
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
+jp.dependency.2.name = libs
+jp.dependency.2.domain = jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+jp.process.tcpports=
+jp.process.startuptime=30

@@ -1,0 +1,25 @@
+jp.domain=jumpscale
+jp.name=jsagent
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux,win
+jp.description=!(../description.wiki)
+jp.buildnr=2
+
+jp.taskletschecksum=854dd46919e6bdc93271cc54918f52ea
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=58e0dd9f91b014cf1bb3a8d03674bb67
+
+jp.export=0
+
+jp.bundles=
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
+#jp.dependency.1.minversion= 1
+#jp.dependency.1.maxversion= 2
+jp.process.tcpports=
+jp.process.startuptime=30
