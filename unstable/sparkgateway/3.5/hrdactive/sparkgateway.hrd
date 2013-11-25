@@ -1,0 +1,1 @@
+sparkgateway.port=@ASK type:int default:8080 descr:listening_port
