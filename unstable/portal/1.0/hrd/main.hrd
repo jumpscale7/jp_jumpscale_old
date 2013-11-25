@@ -7,7 +7,7 @@ jp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=53
+jp.buildnr=54
 jp.taskletschecksum=adf20cbfe0c458a3207bb152e742412f
 jp.export=0
 
@@ -19,6 +19,16 @@ jp.dependency.0.domain=jumpscale
 jp.dependency.0.name=osis
 jp.dependency.0.minversion=
 jp.dependency.0.maxversion=
+
+jp.dependency.1.domain=jumpscale
+jp.dependency.1.name=nginx
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
+jp.dependency.2.domain=jumpscale
+jp.dependency.2.name=php5
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
 
 jp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
