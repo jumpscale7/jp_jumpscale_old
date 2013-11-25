@@ -5,11 +5,16 @@ def main(j,jp):
     # jp.log("set autostart $(jp.name)")
 
     # #example start osis
-    # cmd = 'python'
-    # args = 'osisServerStart.py'
-    # workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'osis')
-    # j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=1, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[])
+    cmd = 'python'
+    args = 'controller.py'
+    workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agentcontroller')
+    name="agentcontroller"
+    j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=1, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[4444])
     
-
-
-    pass
+    for i in range($(agent.nrinstances)):
+        cmd = 'python'
+        args = 'agent.py'
+        name="agent_%s"%i
+        workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agentcontroller')
+        j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=1, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[])
+        
