@@ -17,6 +17,8 @@ jp.bundles=ubuntu:ba3b33f200a62ec27dfa5b6356a00a6f,linux:67007dfa764c3c484eb0693
 
 jp.dependency.1.name = java
 jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
 
 jp.process.tcpports=9200
 jp.process.startuptime=30
