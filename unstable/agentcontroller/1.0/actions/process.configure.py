@@ -8,7 +8,7 @@ def main(j,jp):
     name="agentcontroller"
     j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=1, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[4444])
 
-    for i in range($(agent.nrinstances)):
+    for i in range(j.basetype.integer.fromString('$(agent.nrinstances)')):
         cmd = 'python'
         args = 'agent.py'
         name="agent_%s"%i
