@@ -1,4 +1,4 @@
-de21c4a926d51ed106d6065d388109fc
+6d026b3dacac03e260136fc95274ee1c
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -354,5 +354,5 @@ b209d73ded63d177b53a3ef12ae7bf23|JumpScale/core/system/fs.py
 2087b5562b95e19fd89e8251a744fb3c|JumpScale/core/system/processhelper.py
 80bd0458289bbb37833230b9652401dd|JumpScale/core/system/string.py
 4f7849725988ef618a5f7cfb87f81e14|JumpScale/core/system/text.py
-a8db39da3c9334aeee87f2a3a46bbd1d|JumpScale/core/system/unix.py
+5ef6591b9e3efb65b3aa9f36f4faea13|JumpScale/core/system/unix.py
 51c6b8c5aa6505d93d0e29108c85cef1|JumpScale/core/system/windows.py
