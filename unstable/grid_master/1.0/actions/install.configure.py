@@ -18,5 +18,5 @@ def main(j,jp):
     key, new, changed = client_grid.set(gridobj)
 
     #configure avahi
-    import JumpScale.lib.remote.avahi
+    import JumpScale.baselib.remote.avahi
     j.remote.avahi.registerService("js_grid_%s"%gridid,5544)

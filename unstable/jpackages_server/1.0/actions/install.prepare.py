@@ -6,7 +6,7 @@ def main(j,jp):
     def initJumpscaleUser(passwd):
         home = "/home/jumpscale"
         name = "jumpscale"
-        import JumpScale.lib.remote.cuisine  # @todo see how to do noninteractive
+        import JumpScale.baselib.remote.cuisine  # @todo see how to do noninteractive
 
         homeexists = j.system.fs.exists(home)
 
@@ -92,7 +92,7 @@ AllowOverwrite  on
 """
     j.system.fs.writeFile("/etc/proftpd/proftpd.conf", C)
 
-    import JumpScale.lib.remote.cuisine
+    import JumpScale.baselib.remote.cuisine
 
     c = j.remote.cuisine.api
     c.dir_ensure(ftphome, owner=ftpname, group=ftpname, mode=770, recursive=True)

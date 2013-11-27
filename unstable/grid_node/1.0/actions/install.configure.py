@@ -5,7 +5,7 @@ def main(j,jp):
     master_exists=False
     masterip=""
     if j.application.config.getBool("grid.useavahi"):
-        import JumpScale.lib.remote.avahi
+        import JumpScale.baselib.remote.avahi
         s=j.remote.avahi.getServices()
         master_exists,services=s.exists(partofname="js_grid_%s"%gridid)
         if master_exists:
