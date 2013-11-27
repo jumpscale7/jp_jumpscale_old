@@ -15,4 +15,5 @@ jp.hrdchecksum=aeec1eb7273791f2b5a2914cc2a99f3c
 jp.export=0
 
 jp.bundles=linux:3787bb57ab6ce865da084a19ba730270
-
+jp.process.tcpports=
+jp.process.startuptime=30

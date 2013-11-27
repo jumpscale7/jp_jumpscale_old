@@ -8,13 +8,20 @@ def main(j,jp):
         import JumpScale.baselib.remote.avahi
         s=j.remote.avahi.getServices()
         master_exists,services=s.exists(partofname="js_grid_%s"%gridid)
+
+
+        if master_exists==False:
+            raise RuntimeError("Could not find master. Is avahi installed on your master node in your network. Grid id='%s'\nCheck with 'avahi-browse -a'. \nThere should be something like 'despiegk-desktop                    _js_grid_1._tcp      local'"%gridid)
+
         if master_exists:
             for service in services:
                 if j.system.net.tcpPortConnectionTest(service.address, 5544):
                     masterip=service.address
 
     if masterip=="":
-        raise RuntimeError("Could not find ip addr of master")
+        
+        raise RuntimeError("Could not find ip addr of master, is master osis running? We did connection test on port 5544, but failed")
+
 
     #remember master ip for further usage
     j.application.config.set("grid.master.ip",masterip)
