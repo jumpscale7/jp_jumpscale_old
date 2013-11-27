@@ -7,5 +7,5 @@ def main(j,jp):
     cmd="%s/elasticsearch"%workingdir
     args="-fD es.config=/etc/elasticsearch/elasticsearch.yml"
 
-    j.tools.startupmanager.addProcess(name, cmd, args=args, jpackage=jp,ports=[9200])
-    j.tools.startupmanager.startJPackage(jp)
+    j.tools.startupmanager.addProcess(name, cmd, args=args, jpackage=jp,ports=[9200],priority=1)
+    # j.tools.startupmanager.startJPackage(jp)
