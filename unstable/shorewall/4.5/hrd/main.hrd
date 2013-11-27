@@ -16,10 +16,3 @@ jp.export=0
 
 jp.bundles=linux:3787bb57ab6ce865da084a19ba730270
 
-##dependencies
-jp.dependency.1.name = circus
-jp.dependency.1.domain = jumpscale
-jp.dependency.1.minversion=
-jp.dependency.1.maxversion=
-jp.process.tcpports=
-jp.process.startuptime=30
