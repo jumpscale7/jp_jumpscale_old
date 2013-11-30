@@ -17,9 +17,8 @@ jp.export=0
 jp.bundles=
 
 ##dependencies
-#jp.dependency.1.name = processmanager
-#jp.dependency.1.domain = jumpscale
-#jp.dependency.1.minversion= 1
-#jp.dependency.1.maxversion= 2
+jp.dependency.1.name = agent
+jp.dependency.1.domain = jumpscale
+
 jp.process.tcpports=
 jp.process.startuptime=30
