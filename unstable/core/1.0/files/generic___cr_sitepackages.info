@@ -1,4 +1,4 @@
-35470f641f23f497fe19d1710f829731
+d8c67335a19976e9e7f17c9bee9a59ca
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -140,7 +140,7 @@ ccc35ca973eeb347435798ce5e799870|JumpScale/baselib/jpackages/templates/hrd/main.
 c41a8583ecea369917c697a5c5ebab20|JumpScale/baselib/jpackages/templates/hrdactive/readme.txt
 6e7d8564ed9247cc3d008da87d9d5a65|JumpScale/baselib/jpackages/templates/releasenotes.wiki
 9dc85cd45515dfb11b410c444843e9b9|JumpScale/baselib/jsdeveltools/JSDevelTools.py
-e9f225378a89b5521030ba94a6ad289f|JumpScale/baselib/jsdeveltools/JSDevelToolsInstaller.py
+7271013a249860f124dd36d688116b6d|JumpScale/baselib/jsdeveltools/JSDevelToolsInstaller.py
 7b2bc26cb62a84ef16f2fc8d49da28d5|JumpScale/baselib/jsdeveltools/__init__.py
 3a6fa24c61c2d77888bcbf71dcb3e942|JumpScale/baselib/key_value_store/__init__.py
 763de41018ba01de641704027e06d077|JumpScale/baselib/key_value_store/arakoon_store.py
@@ -234,7 +234,7 @@ e0bd3623ca693862f2d526fe4a667b39|JumpScale/baselib/specparser/__init__.py
 2a9202cf2095fb4f409ab405825e431e|JumpScale/baselib/ssl/SSL.py
 d18bc2e58a151750012977ddc03ebac9|JumpScale/baselib/ssl/__init__.py
 f44de53c0524f056ae69777448583877|JumpScale/baselib/ssl/extension.cfg
-800b91e4039280084f25cd3c0b0c1931|JumpScale/baselib/startupmanager/StartupManager.py
+8907a137b689a53e931672fbe484d615|JumpScale/baselib/startupmanager/StartupManager.py
 eb77908b00053af412691b2739295481|JumpScale/baselib/startupmanager/__init__.py
 0d2ed006a2711f30c3027f08605f3561|JumpScale/baselib/statmanager/StatManager.py
 e1e62dbfdd06abe6690c0144c846f027|JumpScale/baselib/statmanager/__init__.py
