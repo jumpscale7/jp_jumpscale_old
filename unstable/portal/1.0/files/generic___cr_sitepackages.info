@@ -1,4 +1,4 @@
-ebe47346feab56e49ee352d8ff85e457
+31aa1b9e7e6dcbcb6665e0ae536d9c21
 13def916c97584b46a1bcda9329e03c4|JumpScale/portal/__init__.py
 4e57bdc3f6a479918914ac4f751a1f69|JumpScale/portal/codegentools/CodeGenerator.py
 368e9f473acbcdcd5af1000e8a53bda6|JumpScale/portal/codegentools/CodeGeneratorActorClass.py
@@ -18,7 +18,7 @@ bec679e8a06a4357ba98c52f6e36b708|JumpScale/portal/docgenerator/Confluence2HTML.p
 53e6ef902152d9c06b230ff40f2ef1b0|JumpScale/portal/docgenerator/PageAlkira.py
 cf4a496e3faabcc862f5bb91b2403885|JumpScale/portal/docgenerator/PageConfluence.py
 416e3e67c69adc109623914d19c0db2f|JumpScale/portal/docgenerator/PageGroup.py
-08e821ce08e36192e64dc8d157d774c6|JumpScale/portal/docgenerator/PageHTML.py
+46c2b36edf279b7d5aa6c9fcd8373bfc|JumpScale/portal/docgenerator/PageHTML.py
 0305ab52de828fb7c46f602b5bb39cdb|JumpScale/portal/docgenerator/WikiClientAlkira.py
 f2ee5666386e507148937174980aa4aa|JumpScale/portal/docgenerator/WikiClientConfluence.py
 832854cd44a959d089662e01b7d80a43|JumpScale/portal/docgenerator/__init__.py

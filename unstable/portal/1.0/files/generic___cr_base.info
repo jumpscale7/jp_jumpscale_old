@@ -1,4 +1,4 @@
-f9cfbf162d2f4b9d761cb48483239a76
+d0a06e6faf4ecb1c4f918e7dba34f2a8
 a48aa94463d4dcbffbf0aadac2e0c711|apps/portalbase/cfg/appserver.cfg
 c91448b4afb61908797b30f08b3ab6e1|apps/portalbase/cfg/currencies.cfg
 3a51db19e924f9c4f391e205fd316b17|apps/portalbase/cfg/extdirs.cfg
@@ -38,6 +38,10 @@ daa3b4047623ddf27221e38fc70b0ee0|apps/portalbase/system/system__contentmanager/e
 e54a63e074c9354d9741ede20dfa3cc6|apps/portalbase/system/system__contentmanager/extensions/extension_datatable/extension.cfg
 77fe002f00b45a4d44c31ee658b89c12|apps/portalbase/system/system__contentmanager/extensions/extension_defmgr/DefManager.py
 944806110805c5357f942493f43565e1|apps/portalbase/system/system__contentmanager/extensions/extension_defmgr/extension.cfg
+9324618c728c589eea568a0f453eb828|apps/portalbase/system/system__contentmanager/macros/page/ac_job/1_main.py
+9c80fce312464e72f81ac046d15a9768|apps/portalbase/system/system__contentmanager/macros/page/ac_joblist/1_main.py
+6e7bbfe1e10ca894e06da372c9593e24|apps/portalbase/system/system__contentmanager/macros/page/ac_session/1_main.py
+1df8abffc2756908adfdbedcc38c0156|apps/portalbase/system/system__contentmanager/macros/page/ac_sessionlist/1_main.py
 7f5b9f47305ad637f36e71d8eecb03a6|apps/portalbase/system/system__contentmanager/macros/page/actiondetail/1_main.py
 2daf93b347ea18439349a80bee1af534|apps/portalbase/system/system__contentmanager/macros/page/actionlocations/1_main.py
 ddfb354134a7bd5812707a19628c539f|apps/portalbase/system/system__contentmanager/macros/page/actionslist/1_main.py
@@ -338,6 +342,10 @@ e41a4fb18d3dbafdf008d36566f33908|apps/portalbase/wiki/Docs/Actors/GenericSpecFor
 c200f046f9283e753e63c116fb96ecc7|apps/portalbase/wiki/Docs/Blogs/Blogs.wiki
 9b7b01e94df543f43f3240bd184b1ec4|apps/portalbase/wiki/Docs/DocConverter/DocConverter.wiki
 3ec861356e28b034b852aa7986d59996|apps/portalbase/wiki/Docs/Docs.wiki
+97cfe298118eb38d2539fc3471b0dbf3|apps/portalbase/wiki/Docs/Macros/Element/ACJob/ACJob.wiki
+69f0294e3891d493e55fb14dc3e0b370|apps/portalbase/wiki/Docs/Macros/Element/ACJobList/ACJobList.wiki
+2aa4540e0af5ef23c166babf81f239bf|apps/portalbase/wiki/Docs/Macros/Element/ACSession/ACSession.wiki
+8f23a263169b89676dbad02e14242eed|apps/portalbase/wiki/Docs/Macros/Element/ACSessionList/ACSessionList.wiki
 a1f955c46fcd0d405486bed19d05a27c|apps/portalbase/wiki/Docs/Macros/Element/BarChart/BarChart.wiki
 acaa25e0613f8702d7c3dd5add435db8|apps/portalbase/wiki/Docs/Macros/Element/Body/Body.wiki
 24d2510961b415e3415e90667d625cd2|apps/portalbase/wiki/Docs/Macros/Element/Bootstrap/Bootstrap.wiki
