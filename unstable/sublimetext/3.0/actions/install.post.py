@@ -1,4 +1,6 @@
 
 def main(j,jp):
-    e="sh /opt/sublimetext/install.sh"
-    j.system.process.execute(e)
+
+    j.system.fs.remove("/usr/bin/sublime_text")
+
+    j.system.fs.symlink(path="/opt/sublimetext/sublime_text", target="/usr/bin/sublime_text", overwriteTarget=True)
