@@ -1,4 +1,4 @@
-d0a06e6faf4ecb1c4f918e7dba34f2a8
+969ff236e1d522bc03f297e4f2b597c2
 a48aa94463d4dcbffbf0aadac2e0c711|apps/portalbase/cfg/appserver.cfg
 c91448b4afb61908797b30f08b3ab6e1|apps/portalbase/cfg/currencies.cfg
 3a51db19e924f9c4f391e205fd316b17|apps/portalbase/cfg/extdirs.cfg
@@ -38,8 +38,8 @@ daa3b4047623ddf27221e38fc70b0ee0|apps/portalbase/system/system__contentmanager/e
 e54a63e074c9354d9741ede20dfa3cc6|apps/portalbase/system/system__contentmanager/extensions/extension_datatable/extension.cfg
 77fe002f00b45a4d44c31ee658b89c12|apps/portalbase/system/system__contentmanager/extensions/extension_defmgr/DefManager.py
 944806110805c5357f942493f43565e1|apps/portalbase/system/system__contentmanager/extensions/extension_defmgr/extension.cfg
-9324618c728c589eea568a0f453eb828|apps/portalbase/system/system__contentmanager/macros/page/ac_job/1_main.py
-9c80fce312464e72f81ac046d15a9768|apps/portalbase/system/system__contentmanager/macros/page/ac_joblist/1_main.py
+3a98efe4dcb234cb9d19ba69f83ab26b|apps/portalbase/system/system__contentmanager/macros/page/ac_job/1_main.py
+2754fd82706937b6288c508b20d34793|apps/portalbase/system/system__contentmanager/macros/page/ac_joblist/1_main.py
 6e7bbfe1e10ca894e06da372c9593e24|apps/portalbase/system/system__contentmanager/macros/page/ac_session/1_main.py
 1df8abffc2756908adfdbedcc38c0156|apps/portalbase/system/system__contentmanager/macros/page/ac_sessionlist/1_main.py
 7f5b9f47305ad637f36e71d8eecb03a6|apps/portalbase/system/system__contentmanager/macros/page/actiondetail/1_main.py
@@ -117,7 +117,7 @@ c5d5324955f3481c3577722ccdb7d5c5|apps/portalbase/system/system__contentmanager/m
 d00ab9c4a7b3e41cbcf6340bec2baa3b|apps/portalbase/system/system__contentmanager/macros/page/stats/1_main.py
 f25d9f90aa3769c23cfd3b1540043227|apps/portalbase/system/system__contentmanager/macros/page/statsdata/1_main.py
 c07c04f60845dffdf13b6191ac86e160|apps/portalbase/system/system__contentmanager/macros/page/submit/1_main.py
-6c63815808a0083fcdb888af58d19689|apps/portalbase/system/system__contentmanager/macros/page/systemlogs/1_main.py
+a9d0b5789ff8f6d73e1e0e1d65c163d5|apps/portalbase/system/system__contentmanager/macros/page/systemlogs/1_main.py
 519ad966182e9a4e1c31d551b70e1b61|apps/portalbase/system/system__contentmanager/macros/page/test/1_main.py
 bab4711276be45b4925cfa17d3af45ce|apps/portalbase/system/system__contentmanager/macros/page/text/1_main.py
 3e946ee16ba6eb77555d010dae36a090|apps/portalbase/system/system__contentmanager/macros/page/textarea/1_main.py
@@ -518,7 +518,9 @@ bc6634cb4f0e2dd5567fd98e540c6d9f|apps/portalbase/wiki/System/Explorer/Explorer.w
 49a6267338021a516fb8fed9ba2cc716|apps/portalbase/wiki/System/Login/Login.wiki
 ccf88ff41e7c1dcbb6bf0a1e19d62e5a|apps/portalbase/wiki/System/Logs/ECOs/ECOs.wiki
 be86ca353ba8a11ccef8676fc019e521|apps/portalbase/wiki/System/Logs/Eshead/Eshead.wiki
-b19decba3810bfa6504e63968b995082|apps/portalbase/wiki/System/Logs/Logs.wiki
+eb70a26a89fb783c8418c90c8cc7dae4|apps/portalbase/wiki/System/Logs/Jobs/Job/Job.wiki
+2cd0f114aa5110338df0e2fccef21189|apps/portalbase/wiki/System/Logs/Jobs/Jobs.wiki
+7fcc1bf6233d7a771ef14f4f6f48e95b|apps/portalbase/wiki/System/Logs/Logs.wiki
 a1e5142a18229637f1080007c98d63ac|apps/portalbase/wiki/System/Logs/ResetAccessLog/ResetAccessLog.wiki
 2a1aebd194536bb2fc44cb1a23c49c3e|apps/portalbase/wiki/System/Logs/ShowSpaceAccessLog/ShowSpaceAccessLog.wiki
 224f758002c82ae4e9649b8fdcec7501|apps/portalbase/wiki/System/Logs/SystemLogs/SystemLogs.wiki
