@@ -1,16 +1,16 @@
 jp.domain=jumpscale
-jp.name=nxfree_server
-jp.version=3.5
+jp.name=jpackageserver
+jp.version=1.0
 jp.autobuild=0
 
 jp.export=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-jp.supportedplatforms=
+jp.supportedplatforms=generic
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=0
+jp.buildnr=-1
 
 jp.taskletschecksum=
 jp.descrchecksum=
