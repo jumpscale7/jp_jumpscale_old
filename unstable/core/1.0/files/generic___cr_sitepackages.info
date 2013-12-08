@@ -1,4 +1,4 @@
-86f1649c64ab7890caa9f7fbb206dc4d
+10c65182cd8b3c059dbb3a220eaf9ffc
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -93,11 +93,11 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 777a188dc22916b8a2a32db32e414ae1|JumpScale/baselib/installtools/InstallTools.py
 7c915b9a1e4aa977a90f4e6a928d86c2|JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
-c00569ae35acc3f5913cea3d078bbaf8|JumpScale/baselib/jpackages/ActionManager.py
+2e6ad80dbae9ccce7652847723604d7c|JumpScale/baselib/jpackages/ActionManager.py
 0c36c7aebcf7f218f15103fb1e31d192|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 bf8577a094a6fece4e92739c14021bf9|JumpScale/baselib/jpackages/Domain.py
 24062b9eb3d4949f590ff7698901507c|JumpScale/baselib/jpackages/JPackageClient.py
-da5df0713e669bc8a998bca5226a27b7|JumpScale/baselib/jpackages/JPackageObject.py
+31e63754f4da1e306b76bb8168bd9f3c|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
 c3e7272809fb9c6dfd5e68e25763454f|JumpScale/baselib/jpackages/JPackagesGenDocs.py
 838c79708002e752e64eb1c5d8233d65|JumpScale/baselib/jpackages/PythonPackage.py
@@ -117,7 +117,7 @@ a55cc24169949a427d4f5108d4b029c6|JumpScale/baselib/jpackages/templates/actions/d
 23c5174437e9cd3837a11b10b0a11add|JumpScale/baselib/jpackages/templates/actions/data.logrotate.py
 ec8dbef907ba04d39fa0103e383ee373|JumpScale/baselib/jpackages/templates/actions/install.configure.py
 5e654aa0bc66a8e8ebdcadbc87bc5f4e|JumpScale/baselib/jpackages/templates/actions/install.copy.py
-3c90d5c72d8dc02fa22e479062d1b0cf|JumpScale/baselib/jpackages/templates/actions/install.download.py
+7cef79e973d210c32ea79e1883d500b4|JumpScale/baselib/jpackages/templates/actions/install.download.py
 691a1b22d50d096d2900ffbcf3433600|JumpScale/baselib/jpackages/templates/actions/install.post.py
 2427875729d94a6fb5c497358e04b464|JumpScale/baselib/jpackages/templates/actions/install.prepare.py
 e9c32e62260b62854537a269e95d41d8|JumpScale/baselib/jpackages/templates/actions/monitor.getstats.py
@@ -130,7 +130,7 @@ d92c7e6b3fbd346e1068cb9ecdafeacb|JumpScale/baselib/jpackages/templates/actions/p
 5c1987dfc1023011e8721c17b60e827a|JumpScale/baselib/jpackages/templates/actions/process.stop.py
 ea61ca37e96f830dd719354f5575b4d1|JumpScale/baselib/jpackages/templates/actions/process.unconfigure.py
 2ad026610dc02b1ea83507c2f9ec6b22|JumpScale/baselib/jpackages/templates/actions/uninstall.py
-ce9b6886f8503eef5e1c7358e80b700c|JumpScale/baselib/jpackages/templates/actions/upload.py
+f60cfbcbdffd3b2461b7313612e139d5|JumpScale/baselib/jpackages/templates/actions/upload.py
 f4321408dc1307fbf25f398294739d4c|JumpScale/baselib/jpackages/templates/coderecipe.cfg
 053615ab6f0c7f0dc949def3b06c4443|JumpScale/baselib/jpackages/templates/description.wiki
 1569bafaf18d7cba956ae71a74109f6d|JumpScale/baselib/jpackages/templates/documentation/main.wiki
