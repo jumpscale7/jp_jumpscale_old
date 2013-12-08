@@ -1,6 +1,6 @@
-7039007edb8c2037ef74909b5c29bc1d
+89016b98d87c3541d8685b3c94c7b7a0
 3558e29406506fa20bb26c52326aecf0|apps/broker/INSTALL.TXT
-48113ea2204a71fdef37d1dc8cf7e5d4|apps/broker/deploy.py
+1b56f9667abbe7e53a06f3d073cf834a|apps/broker/deploy.py
 3d6aa39b38623ecb387ec0f3c8c6dede|apps/broker/startAll.py
 6113fe1a70c750188cbaa2571179a9d1|apps/broker/test_workerclient.py
 9699ea304f75fb04a20bb0c02578b1f1|apps/broker/test_workerclient_perftest.py

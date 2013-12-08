@@ -1,4 +1,4 @@
-6ba93c94316f7f1d5138ff742b45af0a
+86f1649c64ab7890caa9f7fbb206dc4d
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -94,10 +94,10 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 7c915b9a1e4aa977a90f4e6a928d86c2|JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
 c00569ae35acc3f5913cea3d078bbaf8|JumpScale/baselib/jpackages/ActionManager.py
-4286a7784b3273b14ad38805d2519d52|JumpScale/baselib/jpackages/CodeManagementRecipe.py
+0c36c7aebcf7f218f15103fb1e31d192|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 bf8577a094a6fece4e92739c14021bf9|JumpScale/baselib/jpackages/Domain.py
 24062b9eb3d4949f590ff7698901507c|JumpScale/baselib/jpackages/JPackageClient.py
-b2b247bd1d2442af4a3f1736cfa7384e|JumpScale/baselib/jpackages/JPackageObject.py
+da5df0713e669bc8a998bca5226a27b7|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
 c3e7272809fb9c6dfd5e68e25763454f|JumpScale/baselib/jpackages/JPackagesGenDocs.py
 838c79708002e752e64eb1c5d8233d65|JumpScale/baselib/jpackages/PythonPackage.py

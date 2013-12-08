@@ -1,4 +1,4 @@
-0079b0a27d4718cec641d6aec36f4678
+af0eaa2af4b332bd182023141ced8e39
 35c97e77519f92d645bf2f50e58e39c2|apps/examples/exampleportal/base/MySpace/.macros/page/ListBuckets/5_ListBuckets.py
 86a73a4e562fd001808cf6d80cc876da|apps/examples/exampleportal/base/MySpace/.quarantine/.quarantine.wiki
 524849d77da4f4670c198d1e3f0e9bc6|apps/examples/exampleportal/base/MySpace/.space/acl.cfg
@@ -26,13 +26,13 @@ bfec551b5e33df490e60094e6ed501a6|apps/examples/geventwsdaemon/sslclient.py
 5e3e3c67fecaccccddf5895403ee6a62|apps/examples/hrdtest/_main.hrd
 b01857b4ec9216f317850bfaf4ad1fb8|apps/examples/hrdtest/hrdtest.py
 a71dd0888cdf0307601c1d5c50468540|apps/examples/hrdtest/main.hrd
-2bc49270367666fa7caa924e30b4cd49|apps/examples/jpackages/test.py
+cd2bd1061325dce723f81825f1c1600d|apps/examples/jpackages/test.py
 7927d84055b00cffa3843f3b01d5f514|apps/examples/lrucache/lrucache.py
 863eddf9b459073b677998070aefa822|apps/examples/pexpect/test.py
 a12501c16c1460e93ee603ed8f97781b|apps/examples/puppet/manifests/filetest.pp
 1930760c9836c4682c67276e4f7e920c|apps/examples/puppet/manifests/test.pp
 2451d4abcedaba29e99189d5e2787f75|apps/examples/puppet/manifests/usertest.pp
-b7dd63a95f1c6556ca5b48e30c54cb4d|apps/examples/puppet/test.py
+3e6f0fdcf2e06b4e171b02d1a3e52c58|apps/examples/puppet/test.py
 d0e6de341edf3af9d93c9d009f1ba1ce|apps/examples/rsa_encrypt_decrypt/rsa.py
 e7f09053b9553dd4e986b740d5d6a215|apps/examples/sandboxer/build.sh
 74ee3772b7e948ea11672b31ea327828|apps/examples/sandboxer/cfg/owconfig/bitbucket.cfg
@@ -54,7 +54,7 @@ bfec551b5e33df490e60094e6ed501a6|apps/examples/tornadodaemon/sslclient.py
 b03418c692696c67ab156d9f13bea819|apps/examples/zdaemon/zdaemon_ssl_client.py
 55b559321bf5d116ef39b29e12fea04b|apps/examples/zdaemon/zdaemon_ssl_client_init.py
 1fbcd6c3446c069032e691488fb0fe9d|apps/examples/zdaemon/zdaemon_ssl_init.py
-7ba96d0d226ec44318932f7a56f9e296|apps/prototypes/arch_installer/arch_installer.py
+8d1e8b18ceac43c25faeacdc39e97b03|apps/prototypes/arch_installer/arch_installer.py
 d41d8cd98f00b204e9800998ecf8427e|apps/prototypes/celery/__init__.py
 d41d8cd98f00b204e9800998ecf8427e|apps/prototypes/celery/proj/__init__.py
 790f7367183c74b9fd172346c631ea4c|apps/prototypes/celery/proj/celery.py
@@ -85,6 +85,9 @@ db28a52b2824547a3282fdecfdd88db3|apps/prototypes/datastructures/tarTestAlternati
 9e201546c9465d78652a383dbf6f9302|apps/prototypes/geventinotifyx/gevent_inotifyx.py
 d90401df80ce775f709a77a74a7f85dd|apps/prototypes/geventinotifyx/inotify.py
 835f6e4cc945fc0f2e72da93001b1fbc|apps/prototypes/gmail-mirror
+9093bbb55c7ca458b22721f8f922efb4|apps/prototypes/jsdocmgmt/cfg/main.hrd
+14e38fbcf5afaf95e1df1d577805d23f|apps/prototypes/jsdocmgmt/fileserver.py
+439145d2a053c319e3371ee0c7c85bce|apps/prototypes/jsdocmgmt/zdaemon_simple_client.py
 2438bbe784f35d8ec3b121667d408414|apps/prototypes/mailfetcher2log/mailfetcher2log.py
 083d78c9cb2720405ab0148a75190d38|apps/prototypes/mailfetcher2log/querytest.py
 a8a2067f7ee720ddfd120fb8bed0db76|apps/prototypes/mailfetcher2log/readlogs.py

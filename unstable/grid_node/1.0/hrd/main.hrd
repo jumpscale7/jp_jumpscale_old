@@ -6,8 +6,8 @@ jp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=8
-jp.taskletschecksum=a0466ddc8e02d7fa73068223d1b57e94
+jp.buildnr=9
+jp.taskletschecksum=f3c0e8023cf9d7ea91c9f15d120acdda
 jp.export=0
 
 jp.bundles=
@@ -17,7 +17,7 @@ jp.dependency.1.name = grid
 jp.dependency.1.domain = jumpscale
 
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=32f8c276c8ec93617650654cf68e0e63
+jp.hrdchecksum=852ca2973f40d5b81459cd64e4aa8697
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 jp.process.tcpports=
