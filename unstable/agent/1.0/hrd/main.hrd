@@ -1,0 +1,23 @@
+jp.domain=jumpscale
+jp.name=agent
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=6
+
+jp.taskletschecksum=b4a0430130fa570ce3a1a0636ef8644c
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=39513231783104859c525627aa8f1b5e
+
+##dependencies
+#jp.dependency.1.name = processmanager
+#jp.dependency.1.domain = jumpscale
+jp.process.tcpports=
+jp.process.startuptime=30
