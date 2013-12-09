@@ -1,4 +1,4 @@
-10c65182cd8b3c059dbb3a220eaf9ffc
+515d8d99d245a4f28d239237d434dc34
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -176,7 +176,7 @@ cd1768d9b6ec7b217c1fd69c154896dc|JumpScale/baselib/params/extension.cfg
 8bc5ff552e45bc38893c294c24d65cae|JumpScale/baselib/performancetrace/__init__.py
 8b9b10be2f65097b0ce1f18330919fc0|JumpScale/baselib/performancetrace/extension.cfg
 3e479ebbed9fc91d3a6ebfeface65e8f|JumpScale/baselib/platforms/__init__.py
-7e8ab6e39b9dbe1402ccfee0c7c4d21b|JumpScale/baselib/platforms/ubuntu/Ubuntu.py
+bf4bc14f851fa116d962660626582291|JumpScale/baselib/platforms/ubuntu/Ubuntu.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/platforms/ubuntu/__init__.py
 9f30eefd6efb050cfe936967e9f9e106|JumpScale/baselib/platforms/ubuntu/extension.cfg
 c08c4b0b9db931cc8b05fe60843c512d|JumpScale/baselib/portapps/PortApps.py
@@ -204,7 +204,7 @@ db0d916ddaa7db6700bb31591309a7ea|JumpScale/baselib/remote/ssh/SSHTool.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/remote/ssh/__init__.py
 533d2a22366b29bcc9d563502711b4e1|JumpScale/baselib/remote/ssh/extension.cfg
 00ddc917cabd40209eb0ed6a1fcfcd6c|JumpScale/baselib/screen/Screen.py
-9614a586e21d888480e6db645293eeb6|JumpScale/baselib/screen/Tmux.py
+376f95e5381afc61a8f54edc338d0500|JumpScale/baselib/screen/Tmux.py
 5a65f4c18c3aa8d8b6bdf83b15cef021|JumpScale/baselib/screen/__init__.py
 f619b426e7b753e4a5de7b21d9d72dc7|JumpScale/baselib/screen/extension.cfg
 77bed4a140744453aaa63516f3d44054|JumpScale/baselib/serializers/SerializerBase64.py
@@ -234,7 +234,7 @@ e0bd3623ca693862f2d526fe4a667b39|JumpScale/baselib/specparser/__init__.py
 2a9202cf2095fb4f409ab405825e431e|JumpScale/baselib/ssl/SSL.py
 d18bc2e58a151750012977ddc03ebac9|JumpScale/baselib/ssl/__init__.py
 f44de53c0524f056ae69777448583877|JumpScale/baselib/ssl/extension.cfg
-7be91991d955e3ca7994224664783c9b|JumpScale/baselib/startupmanager/StartupManager.py
+f6f0effbd122280cdfa73f9f0663b7d7|JumpScale/baselib/startupmanager/StartupManager.py
 eb77908b00053af412691b2739295481|JumpScale/baselib/startupmanager/__init__.py
 0d2ed006a2711f30c3027f08605f3561|JumpScale/baselib/statmanager/StatManager.py
 e1e62dbfdd06abe6690c0144c846f027|JumpScale/baselib/statmanager/__init__.py
@@ -249,7 +249,7 @@ ffd8ccd42be34b93c7e9ba36d5bd59d1|JumpScale/baselib/winconsole/WinConsole.py
 c9b5be36a67fd6c42adc625d47fe62fa|JumpScale/baselib/winconsole/extension.cfg
 393507a8f97f82307ea3b28587e76a80|JumpScale/baselib/yaml/YAMLTool.py
 9df215ae1640e0d5a9a4ab84de259e15|JumpScale/baselib/yaml/extension.cfg
-1fcc2a4f767d6f061326a8fb5934ec6a|JumpScale/core/Application.py
+2c1ff81bbbde4805a5df478a523be4eb|JumpScale/core/Application.py
 7d9a9cdbe3dba222568d464bd8b5e726|JumpScale/core/Dirs.py
 68ffaaa78730e8dac5092efa0af3a304|JumpScale/core/PlatformTypes.py
 8bc5d426eb36e74e8dc177988f410a63|JumpScale/core/Shell.py
@@ -301,7 +301,7 @@ c2244a432d0235647a9981ff820b6b18|JumpScale/core/enumerators/ErrorConditionLevel.
 3a623a3a0ff9681d401f81b6cd3a286c|JumpScale/core/enumerators/WinRegHiveType.py
 08067b5dfc9e8cf2ab35e72bd51d7d5e|JumpScale/core/enumerators/WinRegValueType.py
 413920c50ff92c45b1fe288e481eb108|JumpScale/core/enumerators/__init__.py
-ef3c84e3a69319284e5aa0330860e98b|JumpScale/core/errorhandling/ErrorConditionHandler.py
+2c3e96447e7780884a8e9bee03856ba5|JumpScale/core/errorhandling/ErrorConditionHandler.py
 08e45e1a179774865d5544391101bffc|JumpScale/core/errorhandling/ErrorConditionObject.py
 147fcecb77ef8e4c8d2dca1696fc83b7|JumpScale/core/errorhandling/__init__.py
 76b26984c883864a40058d409376e100|JumpScale/core/extensions/PMExtension.py
