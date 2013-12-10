@@ -1,0 +1,24 @@
+jp.domain=jumpscale
+jp.name=grid_node
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=11
+jp.taskletschecksum=20c0454a3295e1bb2b0b87b1fd09b2aa
+jp.export=0
+
+jp.bundles=
+
+##dependencies
+jp.dependency.1.name = grid
+jp.dependency.1.domain = jumpscale
+
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=852ca2973f40d5b81459cd64e4aa8697
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+jp.process.tcpports=
+jp.process.startuptime=30
