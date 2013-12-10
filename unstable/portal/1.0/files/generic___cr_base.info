@@ -1,4 +1,4 @@
-47fa866584da1e363f2072a8088ca22d
+345ba87f5239faff7d826fc2703d42c8
 a48aa94463d4dcbffbf0aadac2e0c711|apps/portalbase/cfg/appserver.cfg
 c91448b4afb61908797b30f08b3ab6e1|apps/portalbase/cfg/currencies.cfg
 3a51db19e924f9c4f391e205fd316b17|apps/portalbase/cfg/extdirs.cfg
@@ -104,7 +104,7 @@ eb4fc8e11275662d1122cf4d36bc771c|apps/portalbase/system/system__contentmanager/m
 19c361641c26fceda9e7296223d3f8e9|apps/portalbase/system/system__contentmanager/macros/page/jscript/1_main.py
 42c945fddcf387c02dd0c2b68dcb7abd|apps/portalbase/system/system__contentmanager/macros/page/login/1_main.py
 332806f395a177e54b5bbed01d2dffb6|apps/portalbase/system/system__contentmanager/macros/page/logo/1_main.py
-ad09c6ee7ceaa7386e38b0e7dc96024e|apps/portalbase/system/system__contentmanager/macros/page/menu/1_main.py
+606972ca79253e8b720ca26b8130a98f|apps/portalbase/system/system__contentmanager/macros/page/menu/1_main.py
 a3f84a3f1fb2b70b2cac306276668107|apps/portalbase/system/system__contentmanager/macros/page/menudropdown/1_main.py
 6acdac4a35b40f4e3c3c882f1c38153d|apps/portalbase/system/system__contentmanager/macros/page/navigation/1_main.py
 faa4de7411c2395d490f2ccda1479256|apps/portalbase/system/system__contentmanager/macros/page/padding/1_main.py
@@ -117,7 +117,7 @@ c5d5324955f3481c3577722ccdb7d5c5|apps/portalbase/system/system__contentmanager/m
 d00ab9c4a7b3e41cbcf6340bec2baa3b|apps/portalbase/system/system__contentmanager/macros/page/stats/1_main.py
 f25d9f90aa3769c23cfd3b1540043227|apps/portalbase/system/system__contentmanager/macros/page/statsdata/1_main.py
 c07c04f60845dffdf13b6191ac86e160|apps/portalbase/system/system__contentmanager/macros/page/submit/1_main.py
-5ba3b5777044c1a7ec6318792eb7c09a|apps/portalbase/system/system__contentmanager/macros/page/systemlogs/1_main.py
+2635f9f84a9d94a2087a98dccbd8f715|apps/portalbase/system/system__contentmanager/macros/page/systemlogs/1_main.py
 519ad966182e9a4e1c31d551b70e1b61|apps/portalbase/system/system__contentmanager/macros/page/test/1_main.py
 bab4711276be45b4925cfa17d3af45ce|apps/portalbase/system/system__contentmanager/macros/page/text/1_main.py
 3e946ee16ba6eb77555d010dae36a090|apps/portalbase/system/system__contentmanager/macros/page/textarea/1_main.py
