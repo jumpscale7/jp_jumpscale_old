@@ -1,4 +1,4 @@
-515d8d99d245a4f28d239237d434dc34
+00780bf535850d1b5b3f6a428b4a5313
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -234,8 +234,10 @@ e0bd3623ca693862f2d526fe4a667b39|JumpScale/baselib/specparser/__init__.py
 2a9202cf2095fb4f409ab405825e431e|JumpScale/baselib/ssl/SSL.py
 d18bc2e58a151750012977ddc03ebac9|JumpScale/baselib/ssl/__init__.py
 f44de53c0524f056ae69777448583877|JumpScale/baselib/ssl/extension.cfg
-f6f0effbd122280cdfa73f9f0663b7d7|JumpScale/baselib/startupmanager/StartupManager.py
+329861237d46bd191fdfce84b8d7fb33|JumpScale/baselib/startupmanager/StartupManager.py
 eb77908b00053af412691b2739295481|JumpScale/baselib/startupmanager/__init__.py
+617c996d266673026c9732ba9a598a4a|JumpScale/baselib/stataggregator/StatAggregator.py
+6859875858ae676698ae7a59d432a1b4|JumpScale/baselib/stataggregator/__init__.py
 0d2ed006a2711f30c3027f08605f3561|JumpScale/baselib/statmanager/StatManager.py
 e1e62dbfdd06abe6690c0144c846f027|JumpScale/baselib/statmanager/__init__.py
 7d2b22dc67b1924c810373ac663d9152|JumpScale/baselib/tags/Tags.py
@@ -302,7 +304,7 @@ c2244a432d0235647a9981ff820b6b18|JumpScale/core/enumerators/ErrorConditionLevel.
 08067b5dfc9e8cf2ab35e72bd51d7d5e|JumpScale/core/enumerators/WinRegValueType.py
 413920c50ff92c45b1fe288e481eb108|JumpScale/core/enumerators/__init__.py
 2c3e96447e7780884a8e9bee03856ba5|JumpScale/core/errorhandling/ErrorConditionHandler.py
-08e45e1a179774865d5544391101bffc|JumpScale/core/errorhandling/ErrorConditionObject.py
+fd12d6d6b01c2f4367fa1e23d933e878|JumpScale/core/errorhandling/ErrorConditionObject.py
 147fcecb77ef8e4c8d2dca1696fc83b7|JumpScale/core/errorhandling/__init__.py
 76b26984c883864a40058d409376e100|JumpScale/core/extensions/PMExtension.py
 80b2470c52b8842c04e4fb83c0a7dc5c|JumpScale/core/extensions/PMExtensions.py
