@@ -7,8 +7,8 @@ jp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=72
-jp.taskletschecksum=1f879bbfe3687cd9df292a17393b9ea9
+jp.buildnr=75
+jp.taskletschecksum=103c2fd83d791be1f623731bcc76766a
 jp.export=0
 
 jp.bundles=generic:44e16e68277b5cb8201af50de4b4345e
