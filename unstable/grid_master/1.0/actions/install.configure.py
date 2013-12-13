@@ -5,7 +5,8 @@ def main(j,jp):
 
     #check osis installed
     if not j.system.net.tcpPortConnectionTest("127.0.0.1", 5544):
-        raise RuntimeError("Cannot find local osis running, needs to run on port 5544")
+        j.tools.startupmanager.startProcess('jumpscale', 'elasticsearch')
+        j.tools.startupmanager.startProcess('jumpscale', 'osis')
 
     #register in osis
     import JumpScale.grid.osis
