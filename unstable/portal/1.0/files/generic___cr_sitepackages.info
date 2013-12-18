@@ -1,4 +1,4 @@
-6a9a680dd5d051d26598c6c6e7a7c749
+77e63b23de42c5f7dc237bf20563c912
 13def916c97584b46a1bcda9329e03c4|JumpScale/portal/__init__.py
 96ae5402bccef9a7133c4ba2fa664375|JumpScale/portal/codegentools/CodeGenerator.py
 7a4649aaa5b8bae5856035a78da2749f|JumpScale/portal/codegentools/CodeGeneratorActorClass.py
@@ -484,7 +484,7 @@ d199ca73360d79c93d92dc317ab469f2|JumpScale/portal/portalcore/configtemplates/ngi
 d9787f3700f6bdf19520ff1fddadad22|JumpScale/portal/portalcore/configtemplates/redis/redis_template.conf
 470dff982aa1f6c76f87a839932c5619|JumpScale/portal/portalcore/start_server.py
 af5bc1ab93d7ff9e1ffb72c6a8711bfd|JumpScale/portal/portalcore/start_worker.py
-4a908d2fdc9026de3d5f406913ef52a0|JumpScale/portal/portalloaders/ActorsLoader.py
+35f4cc6df2323cc2117c3c0919c7b2be|JumpScale/portal/portalloaders/ActorsLoader.py
 88c00320844c6d76063ef90dfcabd7e8|JumpScale/portal/portalloaders/BucketLoader.py
 fcfc59f29e428a9c7322610e6f7d679a|JumpScale/portal/portalloaders/LoaderBase.py
 c08a43f186eea85f40198f6c092d1c15|JumpScale/portal/portalloaders/PortalLoaderFactory.py
