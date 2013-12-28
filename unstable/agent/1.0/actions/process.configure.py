@@ -7,4 +7,4 @@ def main(j,jp):
         args = 'agent.py'
         name="agent_%s"%i
         workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agent')
-        j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=99, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[4444])
+        j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=99, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[])
