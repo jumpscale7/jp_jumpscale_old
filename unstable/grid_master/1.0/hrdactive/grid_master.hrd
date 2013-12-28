@@ -1,0 +1,16 @@
+
+
+#gridmaster.useavahi=@ASK name:useavahi descr:use_avahi_yn type:bool default:1
+
+gridmaster.useavahi=1
+
+gridmaster.grid.id=@ASK descr:specify__id__for__this__grid__needs__to__be__unique__globally type:int default:1
+
+#is the default broker for the master of the grid
+gridmaster.mainbroker.port.clients=5651
+gridmaster.mainbroker.port.workers=5650
+gridmaster.mainbroker.id = 1
+
+
+
+
