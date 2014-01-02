@@ -55,4 +55,4 @@ def main(j,jp):
     print "initialize disks"
     import JumpScale.lib.diskmanager
 
-    j.system.platform.diskmanager.partitionsFind(initialize=True,forceinitialize=True)
+    j.system.platform.diskmanager.partitionsFind(initialize=True,forceinitialize=False)
