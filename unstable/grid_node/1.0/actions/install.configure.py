@@ -50,9 +50,3 @@ def main(j,jp):
 
     print "save to local hrd"
     print "initialization of node done"
-
-
-    print "initialize disks"
-    import JumpScale.lib.diskmanager
-
-    j.system.platform.diskmanager.partitionsFind(initialize=True,forceinitialize=False)
