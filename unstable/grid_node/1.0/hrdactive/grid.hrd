@@ -1,8 +1,7 @@
 
+grid.useavahi=@ASK name:useavahi descr:use_avahi_yn type:bool default:1
 
-#grid.useavahi=@ASK name:useavahi descr:use_avahi_yn type:bool default:1
-
-grid.useavahi=1
+#grid.useavahi=1
 
 #grid.master.ip=@ASK type:str default:localhost
 grid.master.ip=

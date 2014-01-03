@@ -18,8 +18,7 @@ def main(j,jp):
                 if j.system.net.tcpPortConnectionTest(service.address, 5544):
                     masterip=service.address
 
-    if masterip=="":
-        
+    if masterip=="":        
         raise RuntimeError("Could not find ip addr of master, is master osis running? We did connection test on port 5544, but failed")
 
     print "found master ip from avahi"

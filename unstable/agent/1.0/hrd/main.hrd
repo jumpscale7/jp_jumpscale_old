@@ -19,7 +19,7 @@ jp.hrdchecksum=39513231783104859c525627aa8f1b5e
 ##dependencies
 jp.dependency.1.name = grid_node
 jp.dependency.1.domain = jumpscale
-jp.dependency.1.minversion =
+jp.dependency.1.minversion=
 jp.dependency.1.maxversion =
 
 
