@@ -11,3 +11,7 @@
 
 #test.askint=@ASK type:int default:5
 #test.askfloat=@ASK type:float default:5.5
+
+redis.cache.port=7767
+redis.prod.port=7768
+
