@@ -10,6 +10,3 @@ def main(j,jp):
     #install found debs they need to be in debs dir of one or more of the platforms (all relevant platforms will be used)
     #args.qp.installUbuntuDebs()
     
-    #shortcut to some usefull install tools
-    do=j.system.installtools
-    do.execute("killall screen")
