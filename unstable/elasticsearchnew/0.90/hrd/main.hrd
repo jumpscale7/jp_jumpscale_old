@@ -1,5 +1,5 @@
 jp.domain=jumpscale
-jp.name=elasticsearch
+jp.name=elasticsearchnew
 jp.version=0.90
 jp.autobuild=0
 
