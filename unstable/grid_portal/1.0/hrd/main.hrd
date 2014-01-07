@@ -1,6 +1,6 @@
 jp.domain=jumpscale
 jp.name=grid_portal
-jp.process.tcpports=80
+jp.process.tcpports=81
 jp.process.startuptime=30
 jp.version=1.0
 jp.autobuild=0
