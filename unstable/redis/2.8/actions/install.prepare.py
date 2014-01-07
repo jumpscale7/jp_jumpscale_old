@@ -3,7 +3,8 @@ def main(j,jp):
     #prepare the platform before copying the files
 
 
-    j.system.platform.ubuntu.checkInstall(["python-redis", "redis-server"], "redis-server")
+    j.system.platform.ubuntu.install("python-redis")
+    j.system.platform.ubuntu.checkInstall("redis-server", "redis-server")
 
     j.system.fs.createDir("/opt/redis/db/redis_cache")
     j.system.fs.createDir("/opt/redis/db/redis_prod")
