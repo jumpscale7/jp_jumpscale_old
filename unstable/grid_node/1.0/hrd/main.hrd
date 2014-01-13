@@ -6,7 +6,7 @@ jp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=17
+jp.buildnr=20
 jp.taskletschecksum=a9f4841c2829eabc4ce779abdda6ecf7
 jp.export=0
 
