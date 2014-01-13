@@ -6,7 +6,7 @@ jp.debug=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=15
+jp.buildnr=18
 jp.taskletschecksum=013b9d0ceea118e856aae275440eaadf
 jp.export=0
 
