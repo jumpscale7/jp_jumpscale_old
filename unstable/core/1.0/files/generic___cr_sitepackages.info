@@ -1,4 +1,4 @@
-1ef518dbf3bd46aa0e393dc156d44fb4
+3aacea28fba323e9376e2e5bbb014281
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -18,7 +18,7 @@ bc0aa28ef752bee229b2d2260de3786f|JumpScale/baselib/actions/action/ActionControll
 b908d6012b786ab9391ef3bda3529c9f|JumpScale/baselib/actions/transaction/TransactionController.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/actions/transaction/__init__.py
 ab3220765645fa3c0722123b3ec48808|JumpScale/baselib/actions/transaction/extension.cfg
-d41f938eb0aa62c126731e1b0400d850|JumpScale/baselib/bitbucket/Bitbucket.py
+826d9f35e359728a883dd3a834d11c9f|JumpScale/baselib/bitbucket/Bitbucket.py
 edd4f52f8cd7f575e8a8875561dc5fdc|JumpScale/baselib/bitbucket/BitbucketConfigManagement.py
 afb8061aba87613982bbef74c857edd3|JumpScale/baselib/bitbucket/BitbucketInterface.py
 244a70049e04d5129667ba356bc883d2|JumpScale/baselib/bitbucket/__init__.py
@@ -356,7 +356,7 @@ f6194342524aea73ee826511790b9754|JumpScale/core/system/__init__.py
 a4d517ec694a406b06c2ef8117dc1414|JumpScale/core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|JumpScale/core/system/fswalker.py
 2a12bef5669afa0c98abf1d27ae1c4d7|JumpScale/core/system/net.py
-c164fa838188cef6a2d6acac05e488db|JumpScale/core/system/process.py
+31a9635242af82a04fdb2704cc050711|JumpScale/core/system/process.py
 2087b5562b95e19fd89e8251a744fb3c|JumpScale/core/system/processhelper.py
 80bd0458289bbb37833230b9652401dd|JumpScale/core/system/string.py
 4f7849725988ef618a5f7cfb87f81e14|JumpScale/core/system/text.py
