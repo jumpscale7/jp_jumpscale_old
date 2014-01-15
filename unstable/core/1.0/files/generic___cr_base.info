@@ -1,0 +1,14 @@
+f1dffcb21758c0f8ea5b8eddb646a8e9
+1f0f15c1d226f1877b995954f7437fe1|apps/autodeploy/cfg/hrd/agent.hrd
+54aeb463752aba6acf47557a60ff56f7|apps/autodeploy/cfg/hrd/elasticsearch.hrd
+fcce6b33c135da2cc0144c38077849be|apps/autodeploy/cfg/hrd/grid.hrd
+5afc8c16163a5bc0a2a9fa11060adece|apps/autodeploy/cfg/hrd/grid_master.hrd
+0f55d982bf8fa970d184eafc858533ba|apps/autodeploy/cfg/hrd/jumpscale.hrd
+9231c7ba97d557c5a44fdf6af74fdabe|apps/autodeploy/cfg/hrd/python.hrd
+40f06c9a71934a218a79fb09899290af|apps/autodeploy/cfg/hrd/system.hrd
+f596acb2c49a942a550cfbd7885d8eed|apps/autodeploy/cfg/hrd/system_root_credentials.hrd
+62df956441dc3512de3eb732d1e31c76|apps/autodeploy/cfg/jpackages/sources.cfg
+fba53e9bcfa9181f2b2ae12e926be47f|apps/autodeploy/cfg/jsconfig/blobstor.cfg
+9eee1c6e9eb56a238f2eb333a1dc45e8|apps/autodeploy/installer.py
+769312de827a2f1cd29111340d92cf64|apps/autodeploy/jsmachine
+b8c0e0dd01b11db896eea2407c77f61b|apps/autodeploy/jsmachine2
