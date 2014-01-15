@@ -1,4 +1,4 @@
-3aacea28fba323e9376e2e5bbb014281
+4cf4b4fd8cef4b1e8f75b1997dcc177e
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -18,7 +18,7 @@ bc0aa28ef752bee229b2d2260de3786f|JumpScale/baselib/actions/action/ActionControll
 b908d6012b786ab9391ef3bda3529c9f|JumpScale/baselib/actions/transaction/TransactionController.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/actions/transaction/__init__.py
 ab3220765645fa3c0722123b3ec48808|JumpScale/baselib/actions/transaction/extension.cfg
-826d9f35e359728a883dd3a834d11c9f|JumpScale/baselib/bitbucket/Bitbucket.py
+c56660e8d7d1b318d36e86b96d68ffb3|JumpScale/baselib/bitbucket/Bitbucket.py
 edd4f52f8cd7f575e8a8875561dc5fdc|JumpScale/baselib/bitbucket/BitbucketConfigManagement.py
 afb8061aba87613982bbef74c857edd3|JumpScale/baselib/bitbucket/BitbucketInterface.py
 244a70049e04d5129667ba356bc883d2|JumpScale/baselib/bitbucket/__init__.py
@@ -95,8 +95,8 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
 0863dedf041970069e38a277836f995d|JumpScale/baselib/jpackages/ActionManager.py
 9c1abc1ed8b8c21c04344486d3ef2ffb|JumpScale/baselib/jpackages/CodeManagementRecipe.py
-42e2eebb88e90b5af2d273741c77520c|JumpScale/baselib/jpackages/Domain.py
-faaad17502677fdf67cbfffd53b5d257|JumpScale/baselib/jpackages/JPackageClient.py
+de744f544c3797e9e8e5939453583d39|JumpScale/baselib/jpackages/Domain.py
+a816fe032f731a1b3699c45e53175946|JumpScale/baselib/jpackages/JPackageClient.py
 19916214e0fa6d5ed16750db519b4757|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
 c3e7272809fb9c6dfd5e68e25763454f|JumpScale/baselib/jpackages/JPackagesGenDocs.py
