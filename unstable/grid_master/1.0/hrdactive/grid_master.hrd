@@ -4,7 +4,7 @@ gridmaster.useavahi=@ASK name:useavahi descr:use_avahi_yn type:bool default:1
 
 #gridmaster.useavahi=1
 
-gridmaster.grid.id=@ASK descr:specify__id__for__this__grid__needs__to__be__unique__globally type:int default:1
+gridmaster.grid.id=@ASK descr:specify__id__for__this__grid__needs__to__be__unique__globally type:int default:1 minValue:-32768 maxValue:32767 retry:5
 
 gridmaster.superadminpasswd=
 
