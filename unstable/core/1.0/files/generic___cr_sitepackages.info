@@ -1,4 +1,4 @@
-4cf4b4fd8cef4b1e8f75b1997dcc177e
+aea720f5dc5af600ce55ff53cb4c5381
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -18,7 +18,7 @@ bc0aa28ef752bee229b2d2260de3786f|JumpScale/baselib/actions/action/ActionControll
 b908d6012b786ab9391ef3bda3529c9f|JumpScale/baselib/actions/transaction/TransactionController.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/actions/transaction/__init__.py
 ab3220765645fa3c0722123b3ec48808|JumpScale/baselib/actions/transaction/extension.cfg
-c56660e8d7d1b318d36e86b96d68ffb3|JumpScale/baselib/bitbucket/Bitbucket.py
+ff021307b88582220f7783dd0036bb08|JumpScale/baselib/bitbucket/Bitbucket.py
 edd4f52f8cd7f575e8a8875561dc5fdc|JumpScale/baselib/bitbucket/BitbucketConfigManagement.py
 afb8061aba87613982bbef74c857edd3|JumpScale/baselib/bitbucket/BitbucketInterface.py
 244a70049e04d5129667ba356bc883d2|JumpScale/baselib/bitbucket/__init__.py
@@ -77,7 +77,7 @@ ceb2c608fea62cfb0648adcd96319033|JumpScale/baselib/graphite/__init__.py
 1cd7c1b1fbf7172958908666fd8bd3f4|JumpScale/baselib/hash/HashTool.py
 c7a8aabcc68fad9c606c07faab16a9eb|JumpScale/baselib/hash/__init__.py
 2a5afd8e6e5ff13f46b78ef9a9f39481|JumpScale/baselib/hash/extension.cfg
-f2216b79f2f851221e61d19bc657f442|JumpScale/baselib/hrd/HumanReadableData.py
+136c716b7b72537eca6f54a480d8d7b2|JumpScale/baselib/hrd/HumanReadableData.py
 e8fe9e91790c36635b76f283e605be78|JumpScale/baselib/hrd/__init__.py
 043627151e89a3188b947d14909e617b|JumpScale/baselib/hrd/extension.cfg
 0f8957f48c8a63832f6935703666214d|JumpScale/baselib/http_client/HttpClient.py
