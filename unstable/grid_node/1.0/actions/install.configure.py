@@ -11,7 +11,7 @@ def main(j,jp):
 
         import JumpScale.baselib.remote.avahi
         s=j.remote.avahi.getServices()
-        master_exists,services=s.exists(partofname="js_grid_%s"%gridid)
+        master_exists,services=s.exists(partofname="js_grid_%s."%gridid)
 
         if master_exists==False:
             raise RuntimeError("Could not find master. Is avahi installed on your master node in your network. Grid id='%s'\nCheck with 'avahi-browse -a'. \nThere should be something like 'despiegk-desktop                    _js_grid_1._tcp      local'"%gridid)
