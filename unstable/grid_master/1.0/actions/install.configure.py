@@ -12,7 +12,7 @@ def main(j,jp):
 
     #make sure superadminpasswd is known
     if j.application.config.get("gridmaster.superadminpasswd")=="":
-        passwdmd5=j.tools.hash.md5_string(j.console.askString("Please provide: gridmaster.superadminpasswd"))
+        passwdmd5=j.tools.hash.md5_string(j.console.askString("Please provide: gridmaster.superadminpasswd", regex="^(?!\s*$).+", retry=5))
         j.application.config.set("gridmaster.superadminpasswd",passwdmd5)
 
     #register in osis

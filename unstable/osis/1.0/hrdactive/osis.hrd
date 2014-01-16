@@ -4,6 +4,6 @@ osis.elasticsearch.port=9200
 
 osis.db.type=filesystem
 
-osis.key=@ASK encryptionkey:var descr:give_encryption_key_for_osis type:str 
+osis.key=@ASK encryptionkey:var descr:give_encryption_key_for_osis type:str regex:^(?!\s*$).+ retry:5
 
 #arakoon.cluster=localhost:3445,192.168.1.1:3445,192.168.1.2:3445

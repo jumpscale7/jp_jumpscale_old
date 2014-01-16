@@ -6,8 +6,7 @@ def main(j,jp):
     masterip=""
     if j.application.config.getBool("grid.useavahi"):
         if gridid==0:
-            while gridid > 32767 or gridid <= 0:
-                gridid = j.console.askInteger("Please provide grid id. Grid id must be in range 0 - 32767")
+            gridid = j.console.askInteger("Please provide grid id. Grid id must be in range 1 - 32767", minValue=1, maxValue=32767, retry=5)
             j.application.config.set("grid.id", gridid)
 
         import JumpScale.baselib.remote.avahi
@@ -52,8 +51,7 @@ def main(j,jp):
     if gridid:
         obj.gid = gridid
     else:
-        while obj.gid > 32767 or obj.gid <= 0:
-            obj.gid = j.console.askInteger("Please provide grid id. Grid id must be in range 0 - 32767")
+        obj.gid = j.console.askInteger("Please provide grid id. Grid id must be in range 1 - 32767", minValue=1, maxValue=32767, retry=5)
         j.application.config.set("grid.id",obj.gid)
 
     obj.initFromLocalNodeInfo()
