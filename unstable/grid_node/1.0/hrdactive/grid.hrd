@@ -9,4 +9,4 @@ grid.node.id =
 grid.node.roles = @ASK name:roles descr:roles__comma_separated type:str default:node,computenode.kvm
 grid.node.machineguid =
 gridmaster.superadminpasswd=
-
+gridmaster.superadminuser=root
