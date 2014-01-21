@@ -36,14 +36,17 @@ def main(j,jp):
     j.application.config.set("grid.master.ip",masterip)
 
     #make sure superadminpasswd is known
-    if j.application.config.get("gridmaster.superadminpasswd") == "":
-        passwdmd5 = j.tools.hash.md5_string(j.console.askString("Please provide: gridmaster.superadminpasswd", regex="^(?!\s*$).+", retry=5))
-        j.application.config.set("gridmaster.superadminpasswd", passwdmd5)
+    if j.application.config.get("grid.master.superadminpasswd") == "" and j.application.config.get("grid.master.superadminpasswd").lower() <> "none":
+        passwdmd5 = j.tools.hash.md5_string(j.console.askString("Please provide: grid.master.superadminpasswd", regex="^(?!\s*$).+", retry=5))
+        if not j.console.askYesNo("do you want to remember the superadmin passwd for the grid (only do this on trusted machines)"):
+            j.application.config.set("grid.master.superadminpasswd", passwdmd5)
+        else:
+            j.application.config.set("grid.master.superadminpasswd", "None")
 
     #now register node
     import JumpScale.grid.osis
     print "make connection to master osis"
-    client = j.core.osis.getClient(masterip, user='root')
+    client = j.core.osis.getClient(masterip, user='root',passwd=j.application.config.get("grid.master.superadminpasswd"))
     print "client ok"
     client_node=j.core.osis.getClientForCategory(client,"system","node")
     print "client for client 'node' ok"
