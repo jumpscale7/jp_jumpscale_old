@@ -1,4 +1,4 @@
-62e4860b97c46874c683d6306bd77721
+99a5869a8b21255e9a26d3d19668a7b2
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -18,7 +18,7 @@ bc0aa28ef752bee229b2d2260de3786f|JumpScale/baselib/actions/action/ActionControll
 b908d6012b786ab9391ef3bda3529c9f|JumpScale/baselib/actions/transaction/TransactionController.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/actions/transaction/__init__.py
 ab3220765645fa3c0722123b3ec48808|JumpScale/baselib/actions/transaction/extension.cfg
-9dfe4261d3f1e85fc7d0e9242ba04670|JumpScale/baselib/bitbucket/Bitbucket.py
+5698b5cda7141f9b28b94170c6a0e8ce|JumpScale/baselib/bitbucket/Bitbucket.py
 edd4f52f8cd7f575e8a8875561dc5fdc|JumpScale/baselib/bitbucket/BitbucketConfigManagement.py
 afb8061aba87613982bbef74c857edd3|JumpScale/baselib/bitbucket/BitbucketInterface.py
 244a70049e04d5129667ba356bc883d2|JumpScale/baselib/bitbucket/__init__.py
@@ -37,7 +37,7 @@ d149af2aeae0ffacf8882ae81afaab99|JumpScale/baselib/cloudsystemfs/HttpFS.py
 cae921cfeb0ec2550eec6844b4c23753|JumpScale/baselib/cmdline/Options.py
 8bc5ff552e45bc38893c294c24d65cae|JumpScale/baselib/cmdline/__init__.py
 b9cc5f93f1ca22488a9115115b0d18c3|JumpScale/baselib/cmdline/extension.cfg
-daf5faa4fe9ece6eae84cb9340f4cd2e|JumpScale/baselib/cmdutils/__init__.py
+0ad24669fb795b38e4d4d7afd5dbb1a1|JumpScale/baselib/cmdutils/__init__.py
 653a6a6a6f979eaf9ecd835d4489a011|JumpScale/baselib/code/Appserver6GreenletBase.py
 8e263208375c21e8e28b3e4a6b6dab1b|JumpScale/baselib/code/Appserver6GreenletScheduleBase.py
 023045bafca5ac278b6f4618415ff468|JumpScale/baselib/code/Appserver6GreenletTaskletsBase.py
@@ -93,10 +93,9 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 497bb5b694d58a3a35d3a3c2901af87e|JumpScale/baselib/installtools/InstallTools.py
 7c915b9a1e4aa977a90f4e6a928d86c2|JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
-c1efd51e4cbe422474b785978913ccd0|JumpScale/baselib/jpackages/.Domain.py.swp
 ccf01c131b9418f9e02581550914a953|JumpScale/baselib/jpackages/.JPackageObject.py.swp
-0863dedf041970069e38a277836f995d|JumpScale/baselib/jpackages/ActionManager.py
-13f69c0a325b3babd6b312542fa49c49|JumpScale/baselib/jpackages/CodeManagementRecipe.py
+a934d8a5929a50d89cf6323236c3d60a|JumpScale/baselib/jpackages/ActionManager.py
+3d446d89253f9b8b1f60ac4aa78472a9|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 de744f544c3797e9e8e5939453583d39|JumpScale/baselib/jpackages/Domain.py
 a816fe032f731a1b3699c45e53175946|JumpScale/baselib/jpackages/JPackageClient.py
 236e5af5032e01abe990f574247b9cdb|JumpScale/baselib/jpackages/JPackageObject.py
@@ -159,6 +158,7 @@ b8de973c764339377f4baf5d8cf9ea7b|JumpScale/baselib/lrucache/RWCache.py
 df69fd931770afcf7774102ae9bbad55|JumpScale/baselib/lrucache/__init__.py
 815969c78589b425436bf12599dc4e97|JumpScale/baselib/manage/__init__.py
 5753e8adb05dde5608c69b7cda04d0d7|JumpScale/baselib/manage/managerbase.py
+ae86c1324210cdb6dcf109be27a1f4e1|JumpScale/baselib/mercurial/.HgLibClient.py.swp
 302464b704420f5f170464cf6297509b|JumpScale/baselib/mercurial/HgLibClient.py
 9e87b7fa8cba1976db77a8aeda655ec3|JumpScale/baselib/mercurial/HgLibFactory.py
 6fe0e3eb4f585a60030ce74fe732efc4|JumpScale/baselib/mercurial/__init__.py
@@ -306,9 +306,11 @@ c2244a432d0235647a9981ff820b6b18|JumpScale/core/enumerators/ErrorConditionLevel.
 3a623a3a0ff9681d401f81b6cd3a286c|JumpScale/core/enumerators/WinRegHiveType.py
 08067b5dfc9e8cf2ab35e72bd51d7d5e|JumpScale/core/enumerators/WinRegValueType.py
 413920c50ff92c45b1fe288e481eb108|JumpScale/core/enumerators/__init__.py
-09e0c8358b9e04634e92f973472fce1c|JumpScale/core/errorhandling/ErrorConditionHandler.py
-103929cd686582a7fc7ef678bbb6d5f3|JumpScale/core/errorhandling/ErrorConditionObject.py
+ca3f831c2cd1dfc5ca700d55a88954f5|JumpScale/core/errorhandling/ErrorConditionHandler.py
+2fe5d0a4b4dbc335cb7db7920e5a1eed|JumpScale/core/errorhandling/ErrorConditionObject.py
 147fcecb77ef8e4c8d2dca1696fc83b7|JumpScale/core/errorhandling/__init__.py
+b569bdc3cd263791176b8fde8a3a2028|JumpScale/core/errorhandling/six.py
+48290cfc1e556dfbe3b07071ec4c0e63|JumpScale/core/errorhandling/stacks.py
 76b26984c883864a40058d409376e100|JumpScale/core/extensions/PMExtension.py
 80b2470c52b8842c04e4fb83c0a7dc5c|JumpScale/core/extensions/PMExtensions.py
 460587d9296f2bd412737a6d48da68cc|JumpScale/core/extensions/PMExtensionsGroup.py

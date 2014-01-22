@@ -1,8 +1,8 @@
-b6bce9552ce50ca6e9ea99a995f659a6
+3b23265a4c59eee59f3fe783081c2239
 1f0f15c1d226f1877b995954f7437fe1|apps/autodeploy/cfgs/lxctest/hrd/agent.hrd
 4ee0734859e2b930552958e23b5773d1|apps/autodeploy/cfgs/lxctest/hrd/elasticsearch.hrd
 2e492d093904b98663c8fc3d85efbb37|apps/autodeploy/cfgs/lxctest/hrd/grid.hrd
-e2e780405f09cf0328df0f363b4b6e10|apps/autodeploy/cfgs/lxctest/hrd/grid_master.hrd
+5c5436b5135f803ba01c36de6b5059cc|apps/autodeploy/cfgs/lxctest/hrd/grid_master.hrd
 00c6b4c6abe4d5ecf9fbf2d29dfa8fbc|apps/autodeploy/cfgs/lxctest/hrd/incubaid.portals.hrd
 0f55d982bf8fa970d184eafc858533ba|apps/autodeploy/cfgs/lxctest/hrd/jumpscale.hrd
 961ce1421839efd74feb8349d6561bee|apps/autodeploy/cfgs/lxctest/hrd/osis.hrd
@@ -14,7 +14,7 @@ e2e780405f09cf0328df0f363b4b6e10|apps/autodeploy/cfgs/lxctest/hrd/grid_master.hr
 1cc1dac9db0124f30dcd831ed5f687c6|apps/autodeploy/cfgs/lxctest/jsconfig/bitbucket.cfg
 3e04eb38bbfd22ff4cd52acbc2ffb311|apps/autodeploy/cfgs/lxctest/jsconfig/blobstor.cfg
 0bc22fcc6f2965b87edd25ce757e3e4a|apps/autodeploy/fwtest/rules
-63eccd8e8d0cbc0f1c9aac7e0669ef07|apps/autodeploy/installer.py
+ba8b733809fa8f2806dc344f19bf4813|apps/autodeploy/installer.py
 769312de827a2f1cd29111340d92cf64|apps/autodeploy/jsmachine
 b8c0e0dd01b11db896eea2407c77f61b|apps/autodeploy/jsmachine2
 5dc1c97752bddf194cadc063a2b8d2af|apps/autodeploy/testmachines.py
