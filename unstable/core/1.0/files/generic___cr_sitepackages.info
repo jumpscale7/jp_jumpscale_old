@@ -1,4 +1,4 @@
-3570a174c2e34ba49acce257ecb99d6a
+62e4860b97c46874c683d6306bd77721
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -18,7 +18,7 @@ bc0aa28ef752bee229b2d2260de3786f|JumpScale/baselib/actions/action/ActionControll
 b908d6012b786ab9391ef3bda3529c9f|JumpScale/baselib/actions/transaction/TransactionController.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/actions/transaction/__init__.py
 ab3220765645fa3c0722123b3ec48808|JumpScale/baselib/actions/transaction/extension.cfg
-0828ffcdc1c89733fa71136814ea50e5|JumpScale/baselib/bitbucket/Bitbucket.py
+9dfe4261d3f1e85fc7d0e9242ba04670|JumpScale/baselib/bitbucket/Bitbucket.py
 edd4f52f8cd7f575e8a8875561dc5fdc|JumpScale/baselib/bitbucket/BitbucketConfigManagement.py
 afb8061aba87613982bbef74c857edd3|JumpScale/baselib/bitbucket/BitbucketInterface.py
 244a70049e04d5129667ba356bc883d2|JumpScale/baselib/bitbucket/__init__.py
@@ -93,11 +93,13 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 497bb5b694d58a3a35d3a3c2901af87e|JumpScale/baselib/installtools/InstallTools.py
 7c915b9a1e4aa977a90f4e6a928d86c2|JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
+c1efd51e4cbe422474b785978913ccd0|JumpScale/baselib/jpackages/.Domain.py.swp
+ccf01c131b9418f9e02581550914a953|JumpScale/baselib/jpackages/.JPackageObject.py.swp
 0863dedf041970069e38a277836f995d|JumpScale/baselib/jpackages/ActionManager.py
-9c1abc1ed8b8c21c04344486d3ef2ffb|JumpScale/baselib/jpackages/CodeManagementRecipe.py
+13f69c0a325b3babd6b312542fa49c49|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 de744f544c3797e9e8e5939453583d39|JumpScale/baselib/jpackages/Domain.py
 a816fe032f731a1b3699c45e53175946|JumpScale/baselib/jpackages/JPackageClient.py
-484f0463b447aa352c665095ef6fe55e|JumpScale/baselib/jpackages/JPackageObject.py
+236e5af5032e01abe990f574247b9cdb|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
 c3e7272809fb9c6dfd5e68e25763454f|JumpScale/baselib/jpackages/JPackagesGenDocs.py
 5eeb432f3597909767f68411fcafe079|JumpScale/baselib/jpackages/PythonPackage.py
