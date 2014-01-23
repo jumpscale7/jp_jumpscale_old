@@ -8,7 +8,7 @@ def main(j,jp):
     # name="agent_%s"%i
     name="agent"
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agent')
-    j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=99, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[])
+    j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=39, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[])
 
 
     #e.g. default:2,hypervisor:1,io:1
@@ -27,5 +27,5 @@ def main(j,jp):
             else:
                 args = 'worker.py -a $(agent.redis.addr) -p $(agent.redis.port) -qn %s -wn %s'%(qname,wname)
             workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agent')
-            j.tools.startupmanager.addProcess(wname, cmd, args=args, env={}, numprocesses=1, priority=99, shell=False, \
+            j.tools.startupmanager.addProcess(wname, cmd, args=args, env={}, numprocesses=1, priority=21, shell=False, \
                 workingdir=workingdir,jpackage=jp,domain="workers",ports=[])

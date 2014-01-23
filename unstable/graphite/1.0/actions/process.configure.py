@@ -11,7 +11,7 @@ def main(j,jp):
     name = 'graphite'
     domain = "serverapps"
     ports = [8081]
-    j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=80, \
+    j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=30, \
        shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports)
 
     #start carbon
@@ -21,7 +21,7 @@ def main(j,jp):
     name = 'carbon'
     domain = "serverapps"
     ports = [2003]
-    j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=81, \
+    j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=31, \
        shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports)
     
     #can configure more apps to start than just 1 linked to the jpackage
