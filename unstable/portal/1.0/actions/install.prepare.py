@@ -6,3 +6,4 @@ def main(j,jp):
     j.system.platform.ubuntu.install('python-mimeparse')
     j.system.platform.ubuntu.install('redis-server')
     j.system.platform.ubuntu.install('python-redis')
+    j.system.platform.ubuntu.install('graphviz')
