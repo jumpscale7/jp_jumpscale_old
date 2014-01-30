@@ -1,4 +1,4 @@
-3b23265a4c59eee59f3fe783081c2239
+8b51ef623f50ae632edc3674434c16e3
 1f0f15c1d226f1877b995954f7437fe1|apps/autodeploy/cfgs/lxctest/hrd/agent.hrd
 4ee0734859e2b930552958e23b5773d1|apps/autodeploy/cfgs/lxctest/hrd/elasticsearch.hrd
 2e492d093904b98663c8fc3d85efbb37|apps/autodeploy/cfgs/lxctest/hrd/grid.hrd
@@ -14,7 +14,7 @@
 1cc1dac9db0124f30dcd831ed5f687c6|apps/autodeploy/cfgs/lxctest/jsconfig/bitbucket.cfg
 3e04eb38bbfd22ff4cd52acbc2ffb311|apps/autodeploy/cfgs/lxctest/jsconfig/blobstor.cfg
 0bc22fcc6f2965b87edd25ce757e3e4a|apps/autodeploy/fwtest/rules
-ba8b733809fa8f2806dc344f19bf4813|apps/autodeploy/installer.py
+2a4a22efb9d77df7010b14ca4a9e95f2|apps/autodeploy/installer.py
 769312de827a2f1cd29111340d92cf64|apps/autodeploy/jsmachine
 b8c0e0dd01b11db896eea2407c77f61b|apps/autodeploy/jsmachine2
 5dc1c97752bddf194cadc063a2b8d2af|apps/autodeploy/testmachines.py
