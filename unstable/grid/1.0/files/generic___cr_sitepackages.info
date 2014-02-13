@@ -1,4 +1,4 @@
-5d46a2f5f2bbcbeb2ea240e7678bdada
+d77620f34ae7b2f48f484063f965b0d6
 0d3794ba47871f55658fb632f6654f09|JumpScale/grid/__init__.py
 e785064fc46fe7740fd78447b63e8828|JumpScale/grid/agentcontroller/AgentControllerFactory.py
 fa0bfe91579adf988f164d7968fc7b4c|JumpScale/grid/agentcontroller/__init__.py
@@ -42,11 +42,12 @@ fed5c39f66e2bc3a468bf5d3c9409d3c|JumpScale/grid/messagehandling/test/test_perfor
 7e493c7611150e78e500289c4d3c0724|JumpScale/grid/messagehandling/utils.py
 03929ec3ce8fb0a12d3dab11a7fbe96e|JumpScale/grid/osis/OSISBaseObject.py
 4d4a3dde0a556ec72802d985a9c066fc|JumpScale/grid/osis/OSISBaseObjectComplexType.py
-7f157c64331064955b3468e94a6c34b7|JumpScale/grid/osis/OSISCMDS.py
+1769a569278ea593bf144b5f76f6bdcc|JumpScale/grid/osis/OSISCMDS.py
 c8d08ba91231d883556c503622acb0dc|JumpScale/grid/osis/OSISClientForCat.py
-3247131b36e908073ac5030df3a0d3dd|JumpScale/grid/osis/OSISFactory.py
+e60ee7813d370250c4474e88a979ba63|JumpScale/grid/osis/OSISFactory.py
 bcd04788cd205ed127e5bf1dd0525d57|JumpScale/grid/osis/OSISStore.py
 10e51dff00e240c6fd7238a40167db32|JumpScale/grid/osis/__init__.py
+e78a671dda880435b8a841769c4e8afc|JumpScale/grid/osis/_templates/model_template.py
 69ce00b4c2f13e5b73581e3765a240e0|JumpScale/grid/osis/_templates/osiscomplextypes/OSIS_auth.py
 cccaaf0eeb58dafbc420a3ff3fcab024|JumpScale/grid/osis/_templates/osiscomplextypes/OSIS_category_template.py
 0b1c810a67481b91c9ce3ceee48f394c|JumpScale/grid/osis/_templates/osiscomplextypes/OSIS_parent.py
