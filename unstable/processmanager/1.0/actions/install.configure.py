@@ -1,11 +1,10 @@
 def main(j,jp):
    
-   masterip=""
+    masterip=""
 
     if j.application.config.get("processmanager.osis.addr")=="":
         if not j.console.askYesNo("Do you want to log to the log master? or to other node? (Y means to gridmaster)"):
             masterip =j.application.config.get("grid.master.ip")
-            passwd=
             port=5544
         else:
             masterip=j.console.askString("addr of logmaster")

@@ -1,4 +1,4 @@
-c818b4a6bae020215b6f5f8ee47a18e4
+49439737c3f5b006371e9c276d8f73f6
 e9ab5755ba0c653a9c5fbd86c6bd6ff4|JumpScale/portal/__init__.py
 86aca37a31285cf5ad70ec47e12a42e4|JumpScale/portal/_socketprocess/MessageRouter.py
 5987b0566e1b8dc324d24291a84728b4|JumpScale/portal/_socketprocess/SQLDBClient6.py
@@ -35,6 +35,7 @@ d984e3c0f5930db1c01d70df356245b0|JumpScale/portal/docgenerator/templates/chart.j
 ca5147a9081b0f35b7af57641209f664|JumpScale/portal/docgenerator/templates/pie.js
 c1a9e0ba84afdbd2ef28e8a9d8793dbc|JumpScale/portal/docpreprocessor/DocParser.py
 0b4db2523aab1118046a5c8cfc06089c|JumpScale/portal/docpreprocessor/DocPreprocessor.py
+1ca209fb57e95909b275aabe8357147c|JumpScale/portal/docpreprocessor/DocPreprocessor.py.orig
 aab25bddfc54b52d7fe083146ab2ca28|JumpScale/portal/docpreprocessor/DocPreprocessorFactory.py
 11e4a14113675dc29d4d8666cbc75b67|JumpScale/portal/docpreprocessor/__init__.py
 b0a0986a57ba33bb523cb8bb9fbe7d30|JumpScale/portal/docpreprocessor/extension.cfg
