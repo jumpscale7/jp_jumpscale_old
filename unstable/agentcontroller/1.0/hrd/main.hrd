@@ -17,7 +17,7 @@ jp.export=0
 jp.bundles=
 
 ##dependencies
-jp.dependency.1.name = agent
+jp.dependency.1.name = workers
 jp.dependency.1.domain = jumpscale
 
 jp.process.tcpports=
