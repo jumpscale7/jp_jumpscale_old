@@ -1,4 +1,4 @@
-b8f82dd88a82cc3b61a3fe5b194164fb
+932ac762e34bf7b05808f933dd0d1f3a
 1f0f15c1d226f1877b995954f7437fe1|apps/autodeploy/cfgs/example/hrd/agent.hrd
 4ee0734859e2b930552958e23b5773d1|apps/autodeploy/cfgs/example/hrd/elasticsearch.hrd
 2e492d093904b98663c8fc3d85efbb37|apps/autodeploy/cfgs/example/hrd/grid.hrd
@@ -11,10 +11,11 @@ b8f82dd88a82cc3b61a3fe5b194164fb
 40f06c9a71934a218a79fb09899290af|apps/autodeploy/cfgs/example/hrd/system.hrd
 345bb0cb2c92a5d3f8e93a773a7311e9|apps/autodeploy/cfgs/example/hrd/system_root_credentials.hrd
 0e6889c897cefb610955d785b1348a2f|apps/autodeploy/cfgs/example/jpackages/sources.cfg
-18a3c245619955173c630c9ae8fcca87|apps/autodeploy/cfgs/example/jsconfig/bitbucket.cfg
+a5e016d05e1e8a5776bb5dfec0a4b277|apps/autodeploy/cfgs/example/jsconfig/bitbucket.cfg
 82acbab16842f51f0897db43fd599e77|apps/autodeploy/cfgs/example/jsconfig/blobstor.cfg
 0bc22fcc6f2965b87edd25ce757e3e4a|apps/autodeploy/fwtest/rules
-2a4a22efb9d77df7010b14ca4a9e95f2|apps/autodeploy/installer.py
+ad8caec96f88de4b1bc1c9a3aafb15c5|apps/autodeploy/install_grid_local.sh
+5c7d858926b038ed3de8e4aa087b8471|apps/autodeploy/installer.py
 769312de827a2f1cd29111340d92cf64|apps/autodeploy/jsmachine
 b8c0e0dd01b11db896eea2407c77f61b|apps/autodeploy/jsmachine2
 5dc1c97752bddf194cadc063a2b8d2af|apps/autodeploy/testmachines.py

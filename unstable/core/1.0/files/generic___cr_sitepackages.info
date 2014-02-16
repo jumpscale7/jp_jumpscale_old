@@ -1,4 +1,4 @@
-8bfd611ba59842abb926ea62fc55a3c9
+3ecb1fdf5e8ed1a4bf1867d0629c3f66
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -18,7 +18,7 @@ bc0aa28ef752bee229b2d2260de3786f|JumpScale/baselib/actions/action/ActionControll
 b908d6012b786ab9391ef3bda3529c9f|JumpScale/baselib/actions/transaction/TransactionController.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/actions/transaction/__init__.py
 ab3220765645fa3c0722123b3ec48808|JumpScale/baselib/actions/transaction/extension.cfg
-6ad6f134476dccf72be2204ab20990ce|JumpScale/baselib/bitbucket/Bitbucket.py
+7e4687e94eb37df11a708c9c4712f418|JumpScale/baselib/bitbucket/Bitbucket.py
 4fd96e2a082567efe94459921fdb431f|JumpScale/baselib/bitbucket/BitbucketConfigManagement.py
 afb8061aba87613982bbef74c857edd3|JumpScale/baselib/bitbucket/BitbucketInterface.py
 244a70049e04d5129667ba356bc883d2|JumpScale/baselib/bitbucket/__init__.py
@@ -61,8 +61,8 @@ b584fee65c25aa83eb7442cb3b5bd5dd|JumpScale/baselib/codetools/MethodDef.py
 6feb5e7b4139b7645338bcc23998433d|JumpScale/baselib/codetools/TemplateEngine.py
 930bf5f3d1f27f3b234894a0c234405d|JumpScale/baselib/codetools/TemplateEngineWrapper.py
 2321d0c1082a25946d390929c87d21ab|JumpScale/baselib/codetools/TextCharEditor.py
-4e2d9f48384e05465f1bac4a53c71fda|JumpScale/baselib/codetools/TextFileEditor.py
-6997376877c2930e18162d45697b141a|JumpScale/baselib/codetools/TextLineEditor.py
+025e4faf0736c69161ccad6c02ac7dcf|JumpScale/baselib/codetools/TextFileEditor.py
+b9c597307997459f9191c3274a889dd3|JumpScale/baselib/codetools/TextLineEditor.py
 34bef67286b2d135bc7e8898a641053c|JumpScale/baselib/codetools/WordReplacer.py
 ad0445f07e5abfa3f8eaddf3a8d6215c|JumpScale/baselib/codetools/__init__.py
 57a20b245138d2d551c28c011cbebb90|JumpScale/baselib/codetools/extension.cfg
@@ -74,7 +74,7 @@ ad0445f07e5abfa3f8eaddf3a8d6215c|JumpScale/baselib/codetools/__init__.py
 79c0bb8e613c0e5f5bbaa6d103c935a2|JumpScale/baselib/expect/Expect.py
 da3a9425440f0725d2fdbcabc369790e|JumpScale/baselib/expect/__init__.py
 4db269bd4d54ac2c4db8c7e966d0edd9|JumpScale/baselib/expect/extension.cfg
-1d3f9365d547b24d192215d60bf892e0|JumpScale/baselib/git/GitClient.py
+672fb549f768928ee78da30619314e5e|JumpScale/baselib/git/GitClient.py
 8b275c824eb088661250475ccf7bf3e9|JumpScale/baselib/git/GitFactory.py
 53544271dd1eeebd6d57f934fba6d13a|JumpScale/baselib/git/__init__.py
 ac630c6540707a7209b79f662a747983|JumpScale/baselib/github/__init__.py
@@ -90,7 +90,7 @@ ceb2c608fea62cfb0648adcd96319033|JumpScale/baselib/graphite/__init__.py
 1cd7c1b1fbf7172958908666fd8bd3f4|JumpScale/baselib/hash/HashTool.py
 c7a8aabcc68fad9c606c07faab16a9eb|JumpScale/baselib/hash/__init__.py
 2a5afd8e6e5ff13f46b78ef9a9f39481|JumpScale/baselib/hash/extension.cfg
-2bbbe93022bfccbecbb30d9b4a792a09|JumpScale/baselib/hrd/HumanReadableData.py
+7abab39138a8d94bda317d72e6ee76ae|JumpScale/baselib/hrd/HumanReadableData.py
 e8fe9e91790c36635b76f283e605be78|JumpScale/baselib/hrd/__init__.py
 043627151e89a3188b947d14909e617b|JumpScale/baselib/hrd/extension.cfg
 0f8957f48c8a63832f6935703666214d|JumpScale/baselib/http_client/HttpClient.py
@@ -107,7 +107,7 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 7c915b9a1e4aa977a90f4e6a928d86c2|JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
 902e8dbb1c6dc96be63adf2f80e8c8b2|JumpScale/baselib/jpackages/ActionManager.py
-27f281b72fd57f6b1364434d3f01455b|JumpScale/baselib/jpackages/CodeManagementRecipe.py
+6ce694d92bd1d8f25e2a625ff4a6ec3d|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 de744f544c3797e9e8e5939453583d39|JumpScale/baselib/jpackages/Domain.py
 a816fe032f731a1b3699c45e53175946|JumpScale/baselib/jpackages/JPackageClient.py
 236e5af5032e01abe990f574247b9cdb|JumpScale/baselib/jpackages/JPackageObject.py
@@ -181,6 +181,8 @@ c55980e4e3c9a307afb3654698b3eda1|JumpScale/baselib/mercurial/hglib/context.py
 3f96f8f29c379368c1291b905ac2f0fd|JumpScale/baselib/mercurial/hglib/merge.py
 73239d1c3f3f07013f54e255cac8e17f|JumpScale/baselib/mercurial/hglib/templates.py
 45af690f156e01f8af2cd60c45ac40f1|JumpScale/baselib/mercurial/hglib/util.py
+13719a4b45ff028c943226bacc854fee|JumpScale/baselib/netconfig/Netconfig.py
+0551dd30d54bfc65d3819b340d35aec1|JumpScale/baselib/netconfig/__init__.py
 912aec2fc2c5b689cc218b8c622400a3|JumpScale/baselib/params/Params.py
 f22f85d319b1fb946ba8e1e904fc97ba|JumpScale/baselib/params/__init__.py
 cd1768d9b6ec7b217c1fd69c154896dc|JumpScale/baselib/params/extension.cfg
@@ -323,8 +325,8 @@ c2244a432d0235647a9981ff820b6b18|JumpScale/core/enumerators/ErrorConditionLevel.
 3a623a3a0ff9681d401f81b6cd3a286c|JumpScale/core/enumerators/WinRegHiveType.py
 08067b5dfc9e8cf2ab35e72bd51d7d5e|JumpScale/core/enumerators/WinRegValueType.py
 413920c50ff92c45b1fe288e481eb108|JumpScale/core/enumerators/__init__.py
-c31a13f403c6484168ae58014e532fc1|JumpScale/core/errorhandling/ErrorConditionHandler.py
-301793630946d4270367f7d1ab24dabf|JumpScale/core/errorhandling/ErrorConditionObject.py
+34898bb1c46f66d419382d52c74015e8|JumpScale/core/errorhandling/ErrorConditionHandler.py
+e4e64ed4e8254c4ca1cad5e634dcace3|JumpScale/core/errorhandling/ErrorConditionObject.py
 14a8fa15a2a5095dff93b334f8e0bdda|JumpScale/core/errorhandling/EventHandler.py
 897bf06401fffc892a8a999451adec3c|JumpScale/core/errorhandling/RaiseHandler.py
 894eda45022d75aefd90b8dfef66179c|JumpScale/core/errorhandling/__init__.py
@@ -376,7 +378,7 @@ e8ac75481e67749ad29b0c4fcc0a6daa|JumpScale/core/system/System.py
 45a9765f8cd6e9cac39cf0665b1d61e7|JumpScale/core/system/TarFile.py
 a84c367b650cebf8a3c5253f8702c540|JumpScale/core/system/ZipFile.py
 133823c667248c69521b87c850f9c197|JumpScale/core/system/__init__.py
-d9fbc75702423e8eda7432f3c82b0602|JumpScale/core/system/fs.py
+2f34372ced05c4858555eca48fc14b43|JumpScale/core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|JumpScale/core/system/fswalker.py
 2a12bef5669afa0c98abf1d27ae1c4d7|JumpScale/core/system/net.py
 5058369a91aa0a19bb6633b676b4645e|JumpScale/core/system/process.py
