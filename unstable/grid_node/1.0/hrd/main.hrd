@@ -23,11 +23,6 @@ jp.dependency.2.domain = jumpscale
 jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
 
-jp.dependency.3.name = processmanager
-jp.dependency.3.domain = jumpscale
-jp.dependency.3.minversion=
-jp.dependency.3.maxversion=
-
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=55d1c71af0bc0ee16a52acfbec600dd2
 jp.process.tcpports=
