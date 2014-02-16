@@ -1,5 +1,4 @@
 def main(j,jp):
-   
     masterip=""
 
     if j.application.config.get("processmanager.osis.addr")=="":
@@ -7,13 +6,13 @@ def main(j,jp):
             masterip =j.application.config.get("grid.master.ip")
             port=5544
         else:
-            masterip=j.console.askString("addr of logmaster")
+            masterip=j.console.askString("Addr of logmaster")
             port=j.console.askInteger("port for logmaster, default 5544", defaultValue=5544)
 
         if j.system.net.tcpPortConnectionTest(masterip, 5544)==False:
-            raise RuntimeError("Cannot reach log master on ip %s (using port test 5544 to see if there is an osis server)"%masterip)     
+            raise RuntimeError("Cannot reach log master on ip %s (using port test 5544 to see if there is an osis server)"%masterip)
 
-        if masterip=="":        
+        if masterip=="":
             raise RuntimeError("Could not find ip addr of log master, is master osis running? We did connection test on port 5544, but failed")
 
 
@@ -29,7 +28,7 @@ def main(j,jp):
     #now register node
     import JumpScale.grid.osis
     print "make connection to master logger"
-    client = j.core.osis.getClient(masterip, user='root',passwd=passwd)
+    client = j.core.osis.getClient(masterip, user='root',passwd=passwdmd5)
     print "client ok"
     client_node=j.core.osis.getClientForCategory(client,"system","node")
     print "client for client 'node' ok"
@@ -40,7 +39,7 @@ def main(j,jp):
     obj.nid = j.application.whoAmI.nid
     obj.initFromLocalNodeInfo()
     obj.gid = j.application.whoAmI.gid
-    obj.nid = j.application.whoAmI.nid    
+    obj.nid = j.application.whoAmI.nid
     key, new, changed = client_node.set(obj)
     print "save to log master osis"
 
@@ -51,4 +50,3 @@ def main(j,jp):
     j.application.config.set("processmanager.osis.port",port)
 
     print "initialization of processmanager done"
-    
