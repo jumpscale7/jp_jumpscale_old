@@ -42,8 +42,7 @@ def main(j,jp):
             j.packages.findNewest(domain="jumpscale",name="osis").install()
             j.tools.startupmanager.startProcess("jumpscale","osis")
             j.packages.findNewest(domain="jumpscale",name="workers").install()       
-            j.packages.findNewest(domain="jumpscale",name="processmanager").install()
-            # j.tools.startupmanager.startJPackage(j.packages.findNewest(domain="jumpscale",name="workers"))
+            j.packages.findNewest(domain="jumpscale",name="grid_master").install()
     
         if j.system.net.tcpPortConnectionTest(masterip, 5544)==False:
             raise RuntimeError("Cannot reach grid master on ip %s (using port test 5544 to see if there is an osis server)"%masterip)     

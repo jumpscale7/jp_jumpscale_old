@@ -13,7 +13,7 @@ def main(j,jp):
             raise RuntimeError("Cannot reach log master on ip %s (using port test 5544 to see if there is an osis server)"%masterip)
 
         if masterip=="":
-            raise RuntimeError("Could not find ip addr of log master, is master osis running? We did connection test on port 5544, but failed")
+            raise RuntimeError("Could not find ip addr of log master, it needs tp be filled in, is in hrd 'grid.master.ip'")
 
 
     if j.application.config.get("grid.master.superadminpasswd") == "":
