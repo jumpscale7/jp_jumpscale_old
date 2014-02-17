@@ -16,4 +16,6 @@ def main(j,jp):
     
     #can configure more apps to start than just 1 linked to the jpackage
 
-    pass
+    jp=j.packages.findNewest("jumpscale","portals_base")
+    j.tools.startupmanager.stopJPackage(jp)
+    j.tools.startupmanager.startJPackage(jp)
