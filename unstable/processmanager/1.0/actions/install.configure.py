@@ -2,12 +2,12 @@ def main(j,jp):
     masterip=""
 
     if j.application.config.get("processmanager.osis.addr")=="":
-        if not j.console.askYesNo("Do you want to log to the log master? or to other node? (Y means to gridmaster)"):
-            masterip =j.application.config.get("grid.master.ip")
-            port=5544
-        else:
-            masterip=j.console.askString("Addr of logmaster")
-            port=j.console.askInteger("port for logmaster, default 5544", defaultValue=5544)
+        # if not j.console.askYesNo("Do you want to log to the log master? or to other node? (Y means to gridmaster)"):
+        masterip =j.application.config.get("grid.master.ip")
+        port=5544
+        # else:
+        #     masterip=j.console.askString("Addr of logmaster")
+        #     port=j.console.askInteger("port for logmaster, default 5544", defaultValue=5544)
 
         if j.system.net.tcpPortConnectionTest(masterip, 5544)==False:
             raise RuntimeError("Cannot reach log master on ip %s (using port test 5544 to see if there is an osis server)"%masterip)

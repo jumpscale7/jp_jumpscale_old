@@ -27,3 +27,4 @@ jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
 jp.process.tcpports=
 jp.process.startuptime=30
+jp.debug=1

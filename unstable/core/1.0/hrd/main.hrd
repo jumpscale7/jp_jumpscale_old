@@ -24,3 +24,4 @@ jp.dependency.1.maxversion=
 jp.repositories.generic.jumpscale_jumpscale_core=5f729274fd4d
 jp.process.tcpports=
 jp.process.startuptime=30
+jp.debug=1

@@ -24,6 +24,27 @@ def main(j,jp):
         masterip =j.application.config.get("grid.master.ip")
         if masterip=="":
             masterip=j.console.askString("Please provide, ip address of grid master")
+
+        j.packages.findNewest(domain="jumpscale",name="libs").install()
+
+        if j.system.net.isIpLocal(masterip):
+            j.packages.findNewest(domain="jumpscale",name="sentry").install()
+            j.tools.startupmanager.startProcess("jumpscale","sentry")
+            j.packages.findNewest(domain="jumpscale",name="redis").install()
+            j.tools.startupmanager.startProcess("jumpscale","redisp")
+            j.tools.startupmanager.startProcess("jumpscale","redisc")
+            j.packages.findNewest(domain="jumpscale",name="elasticsearch").install()
+            j.tools.startupmanager.startProcess("jumpscale","elasticsearch")
+            j.packages.findNewest(domain="jumpscale",name="grid").install()
+            j.packages.findNewest(domain="jumpscale",name="portal").install()
+            j.packages.findNewest(domain="jumpscale",name="osis").install()
+            j.tools.startupmanager.startProcess("jumpscale","osis")            
+            j.packages.findNewest(domain="jumpscale",name="osis").install()
+            j.tools.startupmanager.startProcess("jumpscale","osis")
+            j.packages.findNewest(domain="jumpscale",name="workers").install()       
+            j.packages.findNewest(domain="jumpscale",name="processmanager").install()
+            # j.tools.startupmanager.startJPackage(j.packages.findNewest(domain="jumpscale",name="workers"))
+    
         if j.system.net.tcpPortConnectionTest(masterip, 5544)==False:
             raise RuntimeError("Cannot reach grid master on ip %s (using port test 5544 to see if there is an osis server)"%masterip)     
 
@@ -73,3 +94,4 @@ def main(j,jp):
 
     print "save to local hrd"
     print "initialization of node done"
+

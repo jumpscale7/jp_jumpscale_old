@@ -1,7 +1,7 @@
 jp.name=logger
 jp.version=1.0
 jp.autobuild=0
-jp.debug=0
+jp.debug=1
 
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=linux
