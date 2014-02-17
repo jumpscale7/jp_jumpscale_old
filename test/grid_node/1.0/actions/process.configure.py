@@ -1,5 +1,5 @@
 def main(j,jp):
-   
+    pass   
     #configure the application to autostart
     
     # jp.log("set autostart $(jp.name)")
@@ -11,5 +11,4 @@ def main(j,jp):
     # j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=1, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[])
     
 
-
-    pass
+    

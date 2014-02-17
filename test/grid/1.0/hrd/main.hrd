@@ -1,13 +1,13 @@
 jp.name=grid
 jp.version=1.0
 jp.autobuild=0
-jp.debug=0
+jp.debug=1
 
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=60
-jp.taskletschecksum=8894b420457b52917ba1b0fbcffa2f2b
+jp.buildnr=102
+jp.taskletschecksum=9a00e9ced4f6e6435c87dd59bc3c0a8b
 jp.export=0
 
 jp.bundles=generic:a674da16648ae0ec010b69d8df5b9c55

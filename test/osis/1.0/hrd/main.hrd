@@ -1,24 +1,30 @@
 jp.name=osis
 jp.version=1.0
 jp.autobuild=0
-jp.debug=0
+jp.debug=1
 
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=76
+jp.buildnr=126
 jp.export=0
 jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:830f44339ec43e7716a2a8391ca92877
 
 jp.taskletschecksum=832c766681b41be144c5535b5615441d
 jp.descrchecksum=e97c7617cedebc3b55880686925a01b8
-jp.hrdchecksum=5ab81d8d977adbea0df1404c3ff07418
+jp.hrdchecksum=9db5eb92d1c5f3b416921eff5d6f056e
 
 ##dependencies
 jp.dependency.0.domain= jumpscale
 jp.dependency.0.name= grid
 
 jp.dependency.1.domain= jumpscale
-jp.dependency.1.name= elasticsearch
+jp.dependency.1.name= portal
+
+jp.dependency.2.domain= jumpscale
+jp.dependency.2.name= elasticsearch
+
+
+
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 jp.dependency.0.minversion=
@@ -26,3 +32,5 @@ jp.dependency.0.maxversion=
 jp.domain=jumpscale
 jp.process.tcpports=5544
 jp.process.startuptime=30
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=

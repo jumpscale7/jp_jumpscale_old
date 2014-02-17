@@ -2,13 +2,13 @@ jp.name=portal
 jp.domain=jumpscale
 jp.version=1.0
 jp.autobuild=0
-jp.debug=0
+jp.debug=1
 
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=83
-jp.taskletschecksum=103c2fd83d791be1f623731bcc76766a
+jp.buildnr=118
+jp.taskletschecksum=796d9d590ac5a8789025dd98db4235d2
 jp.export=0
 
 jp.bundles=generic:44e16e68277b5cb8201af50de4b4345e
@@ -20,19 +20,25 @@ jp.dependency.0.name=osis
 jp.dependency.0.minversion=
 jp.dependency.0.maxversion=
 
-jp.dependency.1.domain=jumpscale
-jp.dependency.1.name=nginx
-jp.dependency.1.minversion=
-jp.dependency.1.maxversion=
+#jp.dependency.1.domain=jumpscale
+#jp.dependency.1.name=nginx
+#jp.dependency.1.minversion=
+#jp.dependency.1.maxversion=
+
+#jp.dependency.2.domain=jumpscale
+#jp.dependency.2.name=php5
+#jp.dependency.2.minversion=
+#jp.dependency.2.maxversion=
 
 jp.dependency.2.domain=jumpscale
-jp.dependency.2.name=php5
+jp.dependency.2.name=redis
 jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
 
+
 jp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=d9ad1978e911ad3161608e516ef29582
+jp.hrdchecksum=79a95efa336842a2869fb73b18b3a05f
 jp.domain=jumpscale
 jp.process.tcpports=9999
 jp.process.startuptime=30

@@ -1,6 +1,6 @@
 jp.domain=jumpscale
 jp.name=grid_portal
-jp.process.tcpports=9900
+jp.process.tcpports=81
 jp.process.startuptime=30
 jp.version=1.0
 jp.autobuild=0
@@ -12,9 +12,9 @@ jp.supportedplatforms=generic
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=9
+jp.buildnr=28
 
-jp.taskletschecksum=13893d1abc00e51c2d993d17cf14c922
+jp.taskletschecksum=49f1077862f8168a3b2ebcfe9599da61
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
 
@@ -23,3 +23,4 @@ jp.dependency.1.name = grid_master
 jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
+jp.debug=1
