@@ -7,7 +7,7 @@ def main(j,jp):
     j.system.platform.ubuntu.checkInstall("redis-server", "redis-server")
 
     cmd="killall redis-server"
-    j.system.process.execute(cmd)
+    j.system.process.execute(cmd,dieOnNonZeroExitCode=False)
 
     j.system.fs.createDir("/opt/redis/db/redis_cache")
     j.system.fs.createDir("/opt/redis/db/redis_prod")
