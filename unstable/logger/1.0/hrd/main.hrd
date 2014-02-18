@@ -15,7 +15,7 @@ jp.repositories.generic.jumpscale_jumpscale_grid=86f25532657c
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=b7a2ad6f234904fb1c9903af87685899
 
-jp.dependency.1.name = osis
+jp.dependency.1.name = processmanager
 jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
