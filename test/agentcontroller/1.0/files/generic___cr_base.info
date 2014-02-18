@@ -1,4 +1,4 @@
-693b6b76274865827f0d0cc830590861
+92dd066f7fc11e9525f2c9fbc275ca6b
 3e35fd41d8ce23c55dc54de77067fd48|apps/agentcontroller/client.py
 ddb9ad0846e6b2c3ebd1da9f7ea75cab|apps/agentcontroller/controller.py
 e591a120902970cef3196dd2c694df35|apps/agentcontroller/jumpscripts/fake/fake.py
@@ -22,5 +22,5 @@ ae2975321a90dc777f44ee7483541144|apps/agentcontroller/jumpscripts/grid/test/wait
 48687a7f34d0d84bb15ee1fa05169f70|apps/agentcontroller/jumpscripts/monitoring/system_monitoring.py
 8e03d7d723739e310ff40ce90c74ca1d|apps/agentcontroller/jumpscripts/system/clean_stat_aggregator.py
 fd8b8f09fc17498d46fab464f7790263|apps/agentcontroller/jumpscripts/system/restart.py
-51f5a2c9a6a617d8dbb75ddfa2c97926|apps/agentcontroller/jumpscripts/system/send2carbon.py
+410c3b93280d07c8b27a2961dc7d8e8e|apps/agentcontroller/jumpscripts/system/send2osis.py
 789d2747c37c367485a2f73132ae00fe|apps/agentcontroller/test.py
