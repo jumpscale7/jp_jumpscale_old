@@ -25,4 +25,4 @@ jp.hrdchecksum=bc134bd04a91dc395a612c13fdb3d2b1
 
 jp.process.tcpports=
 jp.process.startuptime=30
-jp.debug=1
+jp.debug=0
