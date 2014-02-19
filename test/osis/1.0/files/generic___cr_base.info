@@ -1,4 +1,4 @@
-1fccbf1ef7096059773a1745a1f07a29
+23207fae6f93af56a5eb0272092cd1fb
 2e3194d47eb895949da7a169faf0eac3|apps/osis/arakoonStart.py
 ffb6832d8ece284de1d7cddf56ca1895|apps/osis/logic/_arakoonmodelobjects/OSIS_auth.py
 49a7d72f266b3f508f4ee54d5a410501|apps/osis/logic/_arakoonmodelobjects/OSIS_category_template.py
@@ -57,7 +57,7 @@ a91518d3d06d3cbff959550ef459a93a|apps/osis/logic/system/stats/OSIS_stats_impl.py
 43317e4f747aaf295d60a0bd3ff767cb|apps/osis/logic/system/user/OSIS_user_impl.py
 b1e8c659a06cf92e4618bf4a0aa56ee9|apps/osis/logic/system/user/model.py
 c433d42530449dda0e7f0993c1a3db72|apps/osis/logic/system/vdisk/OSIS_vdisk_impl.py
-466cc682fed25916cbdae3977b2999cf|apps/osis/logic/system/vdisk/model.py
+24d8b40b7af0da3da46e2f8da7ac15e1|apps/osis/logic/system/vdisk/model.py
 69ce00b4c2f13e5b73581e3765a240e0|apps/osis/logic/test_complextype/OSIS_auth.py
 cccaaf0eeb58dafbc420a3ff3fcab024|apps/osis/logic/test_complextype/OSIS_category_template.py
 0b1c810a67481b91c9ce3ceee48f394c|apps/osis/logic/test_complextype/OSIS_parent.py
