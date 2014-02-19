@@ -1,4 +1,4 @@
-a0afa0f2b8904058ba103ec0e41ad0eb
+a68c4c7a3baf95f4ee5208dc191fcc3a
 e9ab5755ba0c653a9c5fbd86c6bd6ff4|JumpScale/portal/__init__.py
 86aca37a31285cf5ad70ec47e12a42e4|JumpScale/portal/_socketprocess/MessageRouter.py
 5987b0566e1b8dc324d24291a84728b4|JumpScale/portal/_socketprocess/SQLDBClient6.py
@@ -15,7 +15,7 @@ e9b31dd273c0ca7ee394a08917857496|JumpScale/portal/codegentools/CodeGeneratorEnum
 18f034036ac47aecba92bbf74606e430|JumpScale/portal/codegentools/__init__.py
 b4f3ad2907cc61c45de50574a439eded|JumpScale/portal/codegentools/_archive/CodeGeneratorOSISTasklets.py
 be741b7073b401aef47d787f7e951e3f|JumpScale/portal/codegentools/extension.cfg
-773208cd9906f61aa5abd57cec0c72ca|JumpScale/portal/docgenerator/Confluence2HTML.py
+77cbb956f6d9a98cbf5e05cd13fbbbc8|JumpScale/portal/docgenerator/Confluence2HTML.py
 2564a82735d34a4688580ccc4dcc5eb4|JumpScale/portal/docgenerator/Confluence2RST.py
 595bb0c916597c19a784afdcf0e48bce|JumpScale/portal/docgenerator/Docgenerator.py
 66a7e1f669d499f3cd7e54ff070c71c3|JumpScale/portal/docgenerator/Page.py
@@ -640,6 +640,8 @@ e961ce874f332d3adae8a7e7d9f5985e|JumpScale/portal/macrolib/div_base.py
 480abf9bbd903b3404043d8c5c4820d8|JumpScale/portal/macrolib/imagelib/ImageLib.py
 161a5541efe7b7f1eedf95288c354ee7|JumpScale/portal/macrolib/imagelib/__init__.py
 04b5e15f4814f9c4e9e656a2d46db66d|JumpScale/portal/macrolib/imagelib/extension.cfg
+7d54bc07bea4ab572cef2772723384c1|JumpScale/portal/macrolib/plantuml/__init__.py
+f0010f7b0a9bfebc27714fc49994bde4|JumpScale/portal/macrolib/plantuml/plantuml.jar
 0c075811c05714643ccdd4e504781fbc|JumpScale/portal/portal/MacroExecutor.py
 37b406c38a6ae9fcfb681762544ae1ea|JumpScale/portal/portal/PortalAuthenticatorOSIS.py
 8279391a1b28d8c77fea1b0b6a83c0c1|JumpScale/portal/portal/PortalClient.py
