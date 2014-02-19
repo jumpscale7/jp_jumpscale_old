@@ -41,7 +41,7 @@ def main(j,jp):
             j.tools.startupmanager.startProcess("jumpscale","osis")            
             j.packages.findNewest(domain="jumpscale",name="osis").install()
             j.tools.startupmanager.startProcess("jumpscale","osis")
-            j.packages.findNewest(domain="jumpscale",name="workers").install()       
+            # j.packages.findNewest(domain="jumpscale",name="workers").install()       
             j.packages.findNewest(domain="jumpscale",name="grid_master").install()
     
         if j.system.net.tcpPortConnectionTest(masterip, 5544)==False:
