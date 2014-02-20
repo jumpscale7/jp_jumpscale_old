@@ -1,0 +1,39 @@
+jp.domain=jumpscale
+jp.name=portals_base
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=3
+
+jp.taskletschecksum=
+jp.descrchecksum=
+jp.hrdchecksum=
+
+##dependencies
+jp.dependency.1.name = processmanager
+jp.dependency.1.domain = jumpscale
+
+
+jp.dependency.2.name = osis
+jp.dependency.2.domain = jumpscale
+
+jp.dependency.3.name = grid_master
+jp.dependency.3.domain = jumpscale
+
+jp.process.tcpports=
+jp.process.startuptime=30
+
+jp.debug=0
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

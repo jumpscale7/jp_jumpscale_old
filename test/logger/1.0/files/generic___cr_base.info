@@ -1,0 +1,7 @@
+13237c01dda4606ce21ddcc72f7cf1a8
+1d9b0c6d63712649340735b1b6047b7a|apps/processmanager/eventhandling/1_init.py
+81770e15936ee6e41942534d1b5ec407|apps/processmanager/eventhandling/2_del_fromkeywords.py
+506e31a67822d7d7d896895d56c90c08|apps/processmanager/eventhandling/5_findDuplicates.py
+60d1ed1bbe7d171ad8d8012582741ced|apps/processmanager/loghandling/1_init.py
+2c39cb7b4888bfcaaff553a6c301654c|apps/processmanager/loghandling/2_ignoreNonCategorized.py
+5920b76fbe2c44c01e52e12d1f6a4920|apps/processmanager/loghandling/2_toStdOut.py

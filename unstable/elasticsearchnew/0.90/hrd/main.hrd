@@ -1,0 +1,24 @@
+jp.domain=jumpscale
+jp.name=elasticsearchnew
+jp.version=0.90
+jp.autobuild=0
+
+jp.supportedplatforms=linux
+jp.description=!(../description.wiki)
+jp.buildnr=14
+
+jp.taskletschecksum=94e212c31e48ad6eb0ca8241efd5b64a
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=dfc8d7b101755e716d7f4fb5cdd4d750
+
+jp.export=0
+
+jp.bundles=ubuntu:ba3b33f200a62ec27dfa5b6356a00a6f,linux:67007dfa764c3c484eb069375c370155
+
+jp.dependency.1.name = java
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
+jp.process.tcpports=9200
+jp.process.startuptime=30
