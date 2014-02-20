@@ -1,4 +1,4 @@
-5d5097f85c2ec811c81ea39fb9f52bb7
+4f15f35cc8fe51165b22c6182f654d80
 e9ab5755ba0c653a9c5fbd86c6bd6ff4|JumpScale/portal/__init__.py
 86aca37a31285cf5ad70ec47e12a42e4|JumpScale/portal/_socketprocess/MessageRouter.py
 5987b0566e1b8dc324d24291a84728b4|JumpScale/portal/_socketprocess/SQLDBClient6.py
@@ -22,7 +22,7 @@ d9b783d6c87e222b68000a6886c000d9|JumpScale/portal/docgenerator/Confluence2HTML.p
 53e6ef902152d9c06b230ff40f2ef1b0|JumpScale/portal/docgenerator/PageAlkira.py
 cf4a496e3faabcc862f5bb91b2403885|JumpScale/portal/docgenerator/PageConfluence.py
 416e3e67c69adc109623914d19c0db2f|JumpScale/portal/docgenerator/PageGroup.py
-accfacd3a361a51b7f68389860b0b260|JumpScale/portal/docgenerator/PageHTML.py
+876644b9c31afa587a181d3750dd3974|JumpScale/portal/docgenerator/PageHTML.py
 0305ab52de828fb7c46f602b5bb39cdb|JumpScale/portal/docgenerator/WikiClientAlkira.py
 f2ee5666386e507148937174980aa4aa|JumpScale/portal/docgenerator/WikiClientConfluence.py
 832854cd44a959d089662e01b7d80a43|JumpScale/portal/docgenerator/__init__.py
@@ -41,7 +41,7 @@ b0a0986a57ba33bb523cb8bb9fbe7d30|JumpScale/portal/docpreprocessor/extension.cfg
 b1c0887d7372149dca89b39131b7b817|JumpScale/portal/html/BootStrapForm.py
 d0b0779f35ea0b9cf587506146d91beb|JumpScale/portal/html/GridDataTables.py
 b5fcf98cc1d47900b892ab323e126aae|JumpScale/portal/html/HTMLGalleria.py
-bfb0e6b4801195531cd94db0299fe0d5|JumpScale/portal/html/HtmlFactory.py
+d34e13f174a1b720ec979fcdb1616d38|JumpScale/portal/html/HtmlFactory.py
 23e146efa8ced160eb2fbe3dbe39907f|JumpScale/portal/html/__init__.py
 0416dd1fe70f409bdfca32c48f256c40|JumpScale/portal/html/elFinder.py
 d897b11797c680480c61831666b1d786|JumpScale/portal/html/extension.cfg
