@@ -27,11 +27,9 @@ def main(j,jp):
 
     #now register node
     import JumpScale.grid.osis
-    print "make connection to master logger"
+    print "connect to osis"
     client = j.core.osis.getClient(masterip, user='root',passwd=passwdmd5)
-    print "client ok"
     client_node=j.core.osis.getClientForCategory(client,"system","node")
-    print "client for client 'node' ok"
     print "connection done, osis ok."
 
     obj = client_node.new()
