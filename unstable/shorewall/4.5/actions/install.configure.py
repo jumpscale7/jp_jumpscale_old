@@ -1,6 +1,6 @@
 
 def main(j,jp):
-    fwtypes=["shorewall_protect_node","shorewall_dual_nic"]
+    fwtypes=["shorewall_protect_node", "shorewall_dual_nic", "shorewall_three_nics"]
 
     fwtype=j.console.askChoice(fwtypes)        
 
@@ -25,14 +25,14 @@ def main(j,jp):
     except:
         pass
 
-    if j.application.config.get("firewall.nics.private").strip()=="":    
+    if j.application.config.get("firewall.nics.loc").strip()=="":    
         intnics=j.console.askChoiceMultiple(nics,"Choose nics which are private")
         for nic in intnics:
             nics.pop(nics.index(nic))
         intnic=",".join(intnics).strip(",")
         if intnic=="":
             intnic="none"
-        j.application.config.set("firewall.nics.private",intnic)
+        j.application.config.set("firewall.nics.loc",intnic)
 
     if j.application.config.get("firewall.nics.dmz").strip()=="":
         dmznics=j.console.askChoiceMultiple(nics,"Choose nics which are for dmz")
