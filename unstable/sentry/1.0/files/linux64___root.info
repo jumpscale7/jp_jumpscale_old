@@ -1,4 +1,4 @@
-917eac086332f909181a42a7979c56f9
+d521cefca41b80143a686241a0a9f953
 763901d6d24b7535163afb227d6b8fcd|opt/sentry/bin/activate
 c9a39c0928fdc75402d1b0c009208c9c|opt/sentry/bin/activate.csh
 04118b6c08ab3fbc7a81cb60e945e1f3|opt/sentry/bin/activate.fish
@@ -30,6 +30,7 @@ e03770f725f934759ef1436f612cf087|opt/sentry/bin/python2.7
 fdb83fb639406035d03a1f191fb3615b|opt/sentry/bin/sentry
 7d143eece0d207eab3567417250ecb40|opt/sentry/cfg/sentry.conf.py
 3d356b600fbddfd8f5aad1d992dde9fc|opt/sentry/data/sentry.db
+3d356b600fbddfd8f5aad1d992dde9fc|opt/sentry/data/sentry_template.db
 c392a997cab4c306fc25211d676b23ea|opt/sentry/lib/python2.7/UserDict.py
 626fb8b157d0eaefd5d53421a51f581c|opt/sentry/lib/python2.7/_abcoll.py
 92397d3931f159b536887c22802b7fa5|opt/sentry/lib/python2.7/_weakrefset.py
