@@ -1,0 +1,30 @@
+jp.domain=jumpscale
+jp.name=grid_broker
+jp.version=1.0
+jp.autobuild=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=12
+
+jp.taskletschecksum=d483d41b04483c6e50397337120f596e
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=a0d8c7eca86084684b788c14d0ddaab6
+
+jp.export=0
+
+jp.bundles=linux:d7949e15185c77123eb4ecf973915bfb
+
+jp.dependency.1.name = grid
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.2.name = osis
+jp.dependency.2.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+jp.process.tcpports=
+jp.process.startuptime=30
+jp.debug=0

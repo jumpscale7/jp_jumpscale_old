@@ -1,0 +1,5 @@
+##when @ASK then there needs to be a value, will ask for it when needed, if not possible to ask will fail
+
+redis.cache.port=7767
+redis.prod.port=7768
+
