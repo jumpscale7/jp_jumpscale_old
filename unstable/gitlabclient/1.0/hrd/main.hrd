@@ -1,12 +1,12 @@
 jp.domain=jumpscale
-jp.name=blobserver2
+jp.name=gitlabclient
 jp.version=1.0
 jp.autobuild=0
 
 jp.export=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-jp.supportedplatforms=linux
+jp.supportedplatforms=generic
 
 jp.description=!(../description.wiki)
 
@@ -17,8 +17,10 @@ jp.descrchecksum=
 jp.hrdchecksum=
 
 ##dependencies
-#jp.dependency.1.name = processmanager
-#jp.dependency.1.domain = jumpscale
+jp.dependency.1.name = gitclient
+jp.dependency.1.domain = jumpscale
+
 jp.process.tcpports=
 jp.process.startuptime=30
-jp.debug=0
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
