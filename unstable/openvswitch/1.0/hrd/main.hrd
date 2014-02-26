@@ -1,5 +1,5 @@
 jp.domain=jumpscale
-jp.name=blobserver2
+jp.name=openvswitch
 jp.version=1.0
 jp.autobuild=0
 
@@ -21,4 +21,3 @@ jp.hrdchecksum=
 #jp.dependency.1.domain = jumpscale
 jp.process.tcpports=
 jp.process.startuptime=30
-jp.debug=0
