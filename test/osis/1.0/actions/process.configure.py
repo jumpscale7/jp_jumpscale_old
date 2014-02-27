@@ -8,6 +8,6 @@ def main(j,jp):
     args = 'osisServerStart.py'
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'osis')
 
-    j.tools.startupmanager.addProcess("osis", cmd, args=args, priority=15, workingdir=workingdir,jpackage=jp,ports=[5544])
+    j.tools.startupmanager.addProcess("osis", cmd, args=args, priority=15, workingdir=workingdir,jpackage=jp)
     # j.tools.startupmanager.startJPackage(jp)
     
