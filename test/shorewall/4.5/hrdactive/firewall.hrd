@@ -1,5 +1,5 @@
 firewall.nics.pub=
-firewall.nics.private=
+firewall.nics.loc=
 firewall.nics.dmz=
 firewall.nics.vpn=
 firewall.type=shorewall

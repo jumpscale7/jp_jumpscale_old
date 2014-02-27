@@ -30,9 +30,9 @@ def main(j,jp):
         if j.system.net.isIpLocal(masterip):
             j.packages.findNewest(domain="jumpscale",name="sentry").install()
             j.tools.startupmanager.startProcess("jumpscale","sentry")
-            j.packages.findNewest(domain="jumpscale",name="redis").install()
-            j.tools.startupmanager.startProcess("jumpscale","redisp")
-            j.tools.startupmanager.startProcess("jumpscale","redisc")
+            redis=j.packages.findNewest(domain="jumpscale",name="redis")
+            redis.install()
+            redis.start()
             j.packages.findNewest(domain="jumpscale",name="elasticsearch").install()
             j.tools.startupmanager.startProcess("jumpscale","elasticsearch")
             j.packages.findNewest(domain="jumpscale",name="grid").install()
@@ -41,7 +41,7 @@ def main(j,jp):
             j.tools.startupmanager.startProcess("jumpscale","osis")            
             j.packages.findNewest(domain="jumpscale",name="osis").install()
             j.tools.startupmanager.startProcess("jumpscale","osis")
-            j.packages.findNewest(domain="jumpscale",name="workers").install()       
+            # j.packages.findNewest(domain="jumpscale",name="workers").install()       
             j.packages.findNewest(domain="jumpscale",name="grid_master").install()
     
         if j.system.net.tcpPortConnectionTest(masterip, 5544)==False:

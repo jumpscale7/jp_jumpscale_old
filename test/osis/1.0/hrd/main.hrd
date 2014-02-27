@@ -16,21 +16,26 @@ jp.hrdchecksum=9db5eb92d1c5f3b416921eff5d6f056e
 ##dependencies
 jp.dependency.0.domain= jumpscale
 jp.dependency.0.name= grid
+jp.dependency.0.minversion=
+jp.dependency.0.maxversion=
 
 jp.dependency.1.domain= jumpscale
 jp.dependency.1.name= portal
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
 
 jp.dependency.2.domain= jumpscale
 jp.dependency.2.name= elasticsearch
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
 
 
+jp.dependency.3.domain=jumpscale
+jp.dependency.3.name=graphite
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
 
-jp.dependency.1.minversion=
-jp.dependency.1.maxversion=
-jp.dependency.0.minversion=
-jp.dependency.0.maxversion=
+
 jp.domain=jumpscale
 jp.process.tcpports=5544
 jp.process.startuptime=30
-jp.dependency.2.minversion=
-jp.dependency.2.maxversion=
