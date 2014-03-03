@@ -1,4 +1,4 @@
-172e8143976acc2ccf9d239d485876cf
+3bcc974bf40099605d262e30d264dd08
 18dae097ccad1b912342bf0fab9c5674|blosc/__init__.py
 e7f57df8156cdbc0755014e7689ac8ca|blosc/blosc_extension.so
 08108208397d6e04a9391949f3ac3ca5|blosc/test.py
@@ -15,6 +15,12 @@ a151031749a76f15424e6da9f2f86195|hiredis-0.1.2.egg-info/installed-files.txt
 7968f28143a6ad33d9752735a17c7f90|hiredis/__init__.py
 1557441f152884e3e49e17e2afadfbc8|hiredis/hiredis.so
 06ab141645cd708655a12ae12bfc349e|hiredis/version.py
+878aa08d3ddc7a392a081cc88739e138|marisa_trie-0.6.egg-info/PKG-INFO
+5deebd20bd202a4d9d15804a5cd95399|marisa_trie-0.6.egg-info/SOURCES.txt
+68b329da9893e34099c7d8ad5cb9c940|marisa_trie-0.6.egg-info/dependency_links.txt
+173d4e301b2e042bf1f25a80eb07bbbe|marisa_trie-0.6.egg-info/installed-files.txt
+0f35b67921badeb7f03c3f7ae27268e5|marisa_trie-0.6.egg-info/top_level.txt
+206fc4be8bfd662bb886ba43d78e5e29|marisa_trie.so
 8ce39d7c598d0cd31f71ee082f793e90|msgpack/__init__.py
 bc6935e5f8f1638a7048cb2707b01e26|msgpack/_packer.so
 f92524b64758af58d4cbe5413f50456b|msgpack/_unpacker.so
