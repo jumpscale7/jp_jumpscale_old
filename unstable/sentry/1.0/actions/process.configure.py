@@ -23,8 +23,10 @@ def main(j,jp):
     name = 'sentry'
     domain = "jumpscale"
     ports = [9000]
+    startstoptimeout=20
     j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=1, \
-       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports)
+       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports,\
+       check=True,timeoutcheck=startstoptimeout))
 
 
     pass
