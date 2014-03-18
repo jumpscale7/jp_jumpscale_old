@@ -1,4 +1,4 @@
-1ef8526ae3aa95374e3eb6361a9121fa
+a3fe28dd0d762fef4e5f9f3ed5decf95
 b3d7d0ef865b5caacd74f2473ed39a23|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -90,14 +90,14 @@ c0f9c5cb229a22e21575322b4ba77741|JumpScale/baselib/http_client/httplib2/iri2uri.
 abf4fc3372fc295b2e52ee2c59e5a1ef|JumpScale/baselib/inifile/IniFile.py
 55dd2b1a6d8eff663b745515c9193074|JumpScale/baselib/inifile/__init__.py
 e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
-777a188dc22916b8a2a32db32e414ae1|JumpScale/baselib/installtools/InstallTools.py
+40c8cac7d7b33357c854bda4c90bd89a|JumpScale/baselib/installtools/InstallTools.py
 7c915b9a1e4aa977a90f4e6a928d86c2|JumpScale/baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|JumpScale/baselib/installtools/extension.cfg
 0863dedf041970069e38a277836f995d|JumpScale/baselib/jpackages/ActionManager.py
 f4a2c57b88a1947190a720899c426699|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 bf8577a094a6fece4e92739c14021bf9|JumpScale/baselib/jpackages/Domain.py
-68ae972be8f29d3bbfed12b3325e3fe4|JumpScale/baselib/jpackages/JPackageClient.py
-dbc1476e4f41fc1e65bade03e850491e|JumpScale/baselib/jpackages/JPackageObject.py
+ea7861b3b0026cef7d0ce4fd37858319|JumpScale/baselib/jpackages/JPackageClient.py
+1fb7d89b95d554a41c3a7b1e3c46b435|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
 c3e7272809fb9c6dfd5e68e25763454f|JumpScale/baselib/jpackages/JPackagesGenDocs.py
 5eeb432f3597909767f68411fcafe079|JumpScale/baselib/jpackages/PythonPackage.py
@@ -175,7 +175,7 @@ cd1768d9b6ec7b217c1fd69c154896dc|JumpScale/baselib/params/extension.cfg
 14888c6bbe67f68d6bbe54b6d5be68e3|JumpScale/baselib/performancetrace/PerformanceTrace.py
 8bc5ff552e45bc38893c294c24d65cae|JumpScale/baselib/performancetrace/__init__.py
 8b9b10be2f65097b0ce1f18330919fc0|JumpScale/baselib/performancetrace/extension.cfg
-3e479ebbed9fc91d3a6ebfeface65e8f|JumpScale/baselib/platforms/__init__.py
+6c6bda32dcdabc9e752f22177bee7067|JumpScale/baselib/platforms/__init__.py
 bf4bc14f851fa116d962660626582291|JumpScale/baselib/platforms/ubuntu/Ubuntu.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/platforms/ubuntu/__init__.py
 9f30eefd6efb050cfe936967e9f9e106|JumpScale/baselib/platforms/ubuntu/extension.cfg
@@ -255,7 +255,7 @@ c9b5be36a67fd6c42adc625d47fe62fa|JumpScale/baselib/winconsole/extension.cfg
 9df215ae1640e0d5a9a4ab84de259e15|JumpScale/baselib/yaml/extension.cfg
 2c1ff81bbbde4805a5df478a523be4eb|JumpScale/core/Application.py
 7d9a9cdbe3dba222568d464bd8b5e726|JumpScale/core/Dirs.py
-68ffaaa78730e8dac5092efa0af3a304|JumpScale/core/PlatformTypes.py
+1a4937f5333aa40d04674c03ebd85389|JumpScale/core/PlatformTypes.py
 8bc5d426eb36e74e8dc177988f410a63|JumpScale/core/Shell.py
 4e1e21f7320313c9314fc9f3d3c4ea17|JumpScale/core/Time.py
 78145a24afbe9e1471f4bdbde5800f62|JumpScale/core/Util.py
@@ -353,7 +353,7 @@ a3c00521a2a060de236e88e96355328e|JumpScale/core/shellconfig/ConfigFileManager.py
 e8ac75481e67749ad29b0c4fcc0a6daa|JumpScale/core/system/System.py
 45a9765f8cd6e9cac39cf0665b1d61e7|JumpScale/core/system/TarFile.py
 a84c367b650cebf8a3c5253f8702c540|JumpScale/core/system/ZipFile.py
-f6194342524aea73ee826511790b9754|JumpScale/core/system/__init__.py
+133823c667248c69521b87c850f9c197|JumpScale/core/system/__init__.py
 a4d517ec694a406b06c2ef8117dc1414|JumpScale/core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|JumpScale/core/system/fswalker.py
 b3d31d3bc3f83f38fee5dd17258f42e1|JumpScale/core/system/net.py
@@ -362,4 +362,4 @@ c164fa838188cef6a2d6acac05e488db|JumpScale/core/system/process.py
 80bd0458289bbb37833230b9652401dd|JumpScale/core/system/string.py
 4f7849725988ef618a5f7cfb87f81e14|JumpScale/core/system/text.py
 5ef6591b9e3efb65b3aa9f36f4faea13|JumpScale/core/system/unix.py
-51c6b8c5aa6505d93d0e29108c85cef1|JumpScale/core/system/windows.py
+95fb439d7d41c6b1e7643588ef1a0bdb|JumpScale/core/system/windows.py
