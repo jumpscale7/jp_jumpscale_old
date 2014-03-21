@@ -1,5 +1,5 @@
 jp.domain=jumpscale
-jp.name=blobclient
+jp.name=blobmaster
 jp.version=1.0
 jp.autobuild=0
 
@@ -17,9 +17,9 @@ jp.descrchecksum=
 jp.hrdchecksum=
 
 ##dependencies
-#jp.dependency.1.name = processmanager
-#jp.dependency.1.domain = jumpscale
-jp.process.tcpports=
+jp.dependency.1.name = blobserver2
+jp.dependency.1.domain = jumpscale
+jp.process.tcpports= 2344
 jp.process.startuptime=30
-
-jp.debug=1
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
