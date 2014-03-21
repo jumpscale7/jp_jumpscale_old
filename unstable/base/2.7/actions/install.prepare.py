@@ -1,3 +1,3 @@
 
 def main(j,jp):
-    pass
+    j.system.fs.remove("/opt/jumpscale/cfg/hrd/python.hrd")
