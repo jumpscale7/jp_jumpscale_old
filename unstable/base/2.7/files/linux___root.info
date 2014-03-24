@@ -1,4 +1,4 @@
-8d5b9a26f10c3d59bebb46bb62e19030
+ec8f7b4a9d4399105c1ed0a4f1b77747
 9bbef19f64ef79dbbb8c50ecc434e70b|opt/jumpscale/lib/.path
 11d37771fd72d86f5072387ca65b2d8e|opt/jumpscale/lib/Crypto/Cipher/AES.py
 6019629514416bdccb8b71402ed1a2c5|opt/jumpscale/lib/Crypto/Cipher/ARC2.py
@@ -2577,3 +2577,4 @@ bde286cdc5a392195c9cd22e4acc6b66|opt/jumpscale/lib/zmq/utils/z85.py
 43832e69d0f68f68f54f768cee106506|opt/jumpscale/lib/zmq/utils/zmq_compat.h
 7dfed47217a211b096683dcc885d449f|opt/jumpscale/lib/zmq/utils/zmq_constants.h
 207426e3eaee2cbef451f32794adfa5f|opt/jumpscale/lib/zmq/web.py
+f4f8b39c1f4be7ab719124356ea758d2|usr/local/lib/python2.7/dist-packages/jumpscale.pth
