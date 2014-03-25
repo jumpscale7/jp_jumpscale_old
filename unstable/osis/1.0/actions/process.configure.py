@@ -7,7 +7,7 @@ def main(j,jp):
     cmd = 'python'
     args = 'osisServerStart.py'
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'osis')
-    startstoptimeout=10
+    startstoptimeout=20
     j.tools.startupmanager.addProcess("osis", cmd, args=args, priority=15, workingdir=workingdir,jpackage=jp,\
         check=True,timeoutcheck=startstoptimeout)
     # j.tools.startupmanager.startJPackage(jp)
