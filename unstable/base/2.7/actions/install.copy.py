@@ -6,7 +6,11 @@ def main(j,jp):
     #     'python-apt', 'python-pip', 'python-requests', "byobu", "tmux",\
     #     "python-paramiko", "python-mhash", "python-snappy", "python-m2crypto", "python-iowait", "python-psutil","python-ipdb","python-regex","python-netaddr")
 
-    debpackages = ('libleveldb1', "byobu", "tmux", 'liblapack3')
+    debpackages = ('libleveldb1', # required by leveldb
+                   "byobu",
+                   "tmux",
+                   'liblapack3', # required by numpy
+                   'libmhash2') # required by mhash
 
 
     for name in debpackages:
