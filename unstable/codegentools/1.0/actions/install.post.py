@@ -1,15 +1,13 @@
 def main(j,jp):
-   
-    #copying of files is not done in this step
-    # the order is:
-    # first do prepare
-    # then the system automatically copies (if not in debug) starting from the files section of the jpackage
-    # then do this tasklet (postinstall)
+    sitepackages = j.application.config.get('python.paths.local.sitepackages')
+    portalinit = j.system.fs.joinPaths(sitepackages, 'JumpScale', 'portal', '__init__.py')
+    if not j.system.fs.exists(portalinit):
+        myinit = """
+from JumpScale import j
+import JumpScale.baselib.key_value_store
+import JumpScale.baselib.taskletengine
+import JumpScale.baselib.specparser
 
-    #shortcut to some usefull install tools
-    #do=j.system.installtools
-
-    #configuration is not done in this step !!!!!
-    #preparation like system preps like ubuntu deb installs also not done here
-    
-    pass
+import codegentools
+"""
+        j.system.fs.writeFile(portalinit, myinit)
