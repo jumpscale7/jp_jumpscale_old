@@ -1,4 +1,4 @@
 
 jumpscale.paths.base=
-jumpscale.paths.jpackages.files=/opt/jumpscale/var/jpackages/files
+jumpscale.paths.jpackages.files=/tmp/jpackages/files
 #/mnt/wd/jpackagefiles
