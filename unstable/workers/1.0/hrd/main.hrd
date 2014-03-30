@@ -10,11 +10,11 @@ jp.supportedplatforms=generic
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=49
+jp.buildnr=54
 
-jp.taskletschecksum=3ed46a0cdbce62dce4695414d1b055f0
+jp.taskletschecksum=0128fcfba0531e7fc129cb1cdc063812
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=bc134bd04a91dc395a612c13fdb3d2b1
+jp.hrdchecksum=21576288b60da0f22a3c8dadc50d85f1
 
 ##dependencies
 #jp.dependency.1.name = grid_node
