@@ -14,7 +14,13 @@ jp.bundles=
 
 jp.net.ports=
 
-##dependencies (DONE IN TASKLETS)
+##dependencies (MOST DONE IN TASKLETS)
+
+jp.dependency.1.name = grid
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
 
 jp.taskletschecksum=fd943a56ee86073833c6341d49c62bf7
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3

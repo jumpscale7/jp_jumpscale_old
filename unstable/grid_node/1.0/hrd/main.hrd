@@ -13,6 +13,11 @@ jp.export=0
 jp.bundles=
 
 ##dependencies
+jp.dependency.1.name = grid
+jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
 jp.dependency.2.name = libs
 jp.dependency.2.domain = jumpscale
 jp.dependency.2.minversion=
