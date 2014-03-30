@@ -10,7 +10,7 @@ jp.supportedplatforms=generic
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=54
+jp.buildnr=56
 
 jp.taskletschecksum=0128fcfba0531e7fc129cb1cdc063812
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
