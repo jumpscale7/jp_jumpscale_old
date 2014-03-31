@@ -40,8 +40,9 @@ def main(j,jp):
 
     j.packages.findNewest(domain="jumpscale",name="grid_portal").install()
 
-    j.packages.findNewest(domain="jumpscale",name="workers").install()       
-    j.tools.startupmanager.startProcess("jumpscale","workers")
+    workers = j.packages.findNewest(domain="jumpscale",name="workers")
+    workers.install()
+    workers.start()
 
     j.tools.startupmanager.restartProcess('jumpscale', 'osis') #to make sure we have objects loaded from portal 
 
