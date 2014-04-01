@@ -1,6 +1,6 @@
-ec938d28d8e6a38ebb9bd6fde4ede7a5
+8f3d00124f0f3d79ace418c6ede35471
 2db511f53c83cb3a9784bd76ab79973b|apps/portalbase/cfg/contentdirs.cfg
-db161c878b581528988b53274e9ccded|apps/portalbase/cfg/portal.cfg
+6d37ac85391aaaaf8b9b1f4091d5660f|apps/portalbase/cfg/portal.cfg
 e05ea7dcfa1fd6a9c13fa5704883f7b7|apps/portalbase/cfg/users.cfg
 d00ab9c4a7b3e41cbcf6340bec2baa3b|apps/portalbase/macros/_beta/page/stats/1_main.py
 f25d9f90aa3769c23cfd3b1540043227|apps/portalbase/macros/_beta/page/statsdata/1_main.py
@@ -303,7 +303,7 @@ cbad7288ccbdc26f7b798ce32cd5c27b|apps/portalexample/base/test__taskmanager/specs
 066f173695a1f37cbc6ece6690160c8a|apps/portalexample/base/test__taskmanager/wikimacros/preprocess/test1/5_defaultpreprocessmacro.py
 3495111a2dddbfec59719b0defc428aa|apps/portalexample/base/test__taskmanager/wikimacros/wiki/test2/5_wikimacro_test.py
 2db511f53c83cb3a9784bd76ab79973b|apps/portalexample/cfg/contentdirs.cfg
-101c8c1e2e98bb8a3fab96204387cc74|apps/portalexample/cfg/portal.cfg
+c0b6096a6286430aaa0aefc92849f476|apps/portalexample/cfg/portal.cfg
 e05ea7dcfa1fd6a9c13fa5704883f7b7|apps/portalexample/cfg/users.cfg
 6efb205a269b7d4311a8733c5b721655|apps/portalexample/portal_client.py
 2c2b0b5f9a6b3e217f704655d5ab19fe|apps/portalexample/portal_start.py
