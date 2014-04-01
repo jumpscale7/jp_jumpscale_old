@@ -30,3 +30,4 @@ jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
+jp.debug=1
