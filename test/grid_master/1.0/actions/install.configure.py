@@ -16,8 +16,18 @@ def main(j,jp):
     
     passwdmd5 = j.application.config.get("grid.master.superadminpasswd")
 
-    j.tools.startupmanager.restartProcess('jumpscale', 'osis')
 
+    j.packages.findNewest(domain="jumpscale",name="libs").install()
+
+    redis=j.packages.findNewest(domain="jumpscale",name="redis")
+    redis.install()
+    redis.start()
+
+    j.packages.findNewest(domain="jumpscale",name="elasticsearch").install()
+    j.tools.startupmanager.startProcess("jumpscale","elasticsearch")
+
+    j.packages.findNewest(domain="jumpscale",name="osis").install()
+    j.tools.startupmanager.startProcess("jumpscale","osis")
 
     #register in osis
     import JumpScale.grid.osis
@@ -28,6 +38,13 @@ def main(j,jp):
     gridobj.initFromLocalNodeInfo()
     key, new, changed = client_grid.set(gridobj)
 
+    j.packages.findNewest(domain="jumpscale",name="grid_portal").install()
+
+    workers = j.packages.findNewest(domain="jumpscale",name="workers")
+    workers.install()
+    workers.start()
+
+    j.tools.startupmanager.restartProcess('jumpscale', 'osis') #to make sure we have objects loaded from portal 
 
     #configure avahi
     if j.application.config.getBool("gridmaster.useavahi"):

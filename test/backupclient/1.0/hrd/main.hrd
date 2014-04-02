@@ -10,11 +10,11 @@ jp.supportedplatforms=generic
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=-1
+jp.buildnr=1
 
-jp.taskletschecksum=
-jp.descrchecksum=
-jp.hrdchecksum=
+jp.taskletschecksum=2b417486ba28e2456232b008226dd13c
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=f4b8f0c46abe921ea0918c862f4f578f
 
 ##dependencies
 jp.dependency.1.name = gitlabclient
@@ -30,3 +30,4 @@ jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
+jp.debug=1

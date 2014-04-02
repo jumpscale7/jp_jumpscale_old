@@ -1,4 +1,4 @@
-465c83d1751c6395333cd7eeb4f69334
+dcea053e4e6b69f26b579830e50bd296
 e21f9de3589a881f658f1e1bc55f9d37|apps/examples/backup/__dev.tgz
 63df064ea15739c1f5db75f2e26f746f|apps/examples/backup/_backup.py
 aeaba8361365929cd99ae7642fb459dc|apps/examples/backup/backup.py
@@ -20,7 +20,7 @@ fcf2c2402c3ef1d120e47bc16b2206c0|apps/examples/exampleportal/base/MySpace/Produc
 b919e18d8035833771793434a97136bc|apps/examples/exampleportal/base/MySpace/Products/Product2.wiki
 b919e18d8035833771793434a97136bc|apps/examples/exampleportal/base/MySpace/Products/Product3.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/examples/exampleportal/base/MySpace/Products/Products.wiki
-b8555ea94e7983dfddfe4595a9d2e93a|apps/examples/exampleportal/cfg/appserver.cfg
+5f6b2f805d3d1e8e66ca459d1fbcfce8|apps/examples/exampleportal/cfg/appserver.cfg
 ec9c462b9d95888c3fe279108fc128c1|apps/examples/exampleportal/start_appserver.py
 0e9264227e4e99f861ceb21f96b71d42|apps/examples/geventwsdaemon/client.py
 660c311bc5a9a25d64300aeef6b1ee2f|apps/examples/geventwsdaemon/mycmds.py
@@ -47,11 +47,11 @@ a7fb491ccb108efd7352bca6725956f2|apps/examples/routerboard/test.py
 d0e6de341edf3af9d93c9d009f1ba1ce|apps/examples/rsa_encrypt_decrypt/rsa.py
 e7f09053b9553dd4e986b740d5d6a215|apps/examples/sandboxer/build.sh
 74ee3772b7e948ea11672b31ea327828|apps/examples/sandboxer/cfg/owconfig/bitbucket.cfg
-110917d0cb7b7a11c65c041e140a999a|apps/examples/sandboxer/cfg/owconfig/blobstor.cfg
+c99b1f57d69bff7457011b3736931ec0|apps/examples/sandboxer/cfg/owconfig/blobstor.cfg
 2df1523bbd4ce28595bcb0142ffd7173|apps/examples/sandboxer/cfg/owconfig/main.cfg
 0bd840d2f16e6581de6f6d32ca546833|apps/examples/sandboxer/cfg/owpackages/sources.cfg
 f331868d64a4772d0ba7ad7ed81551cd|apps/examples/sandboxer/readme.txt
-2f05826bb4560a296298f7aa7979827d|apps/examples/sandboxer/setup.py
+f89264bb105461d33d1e8b88758ab689|apps/examples/sandboxer/setup.py
 2892f959bbaebe3c8918787d007ec174|apps/examples/sandboxer/test.py
 b4d077514061d06ed7b52711240fed93|apps/examples/serializers/blowfishtest.py
 fa4cca6af83e32e7915ec89323c8bef6|apps/examples/serializers/multiserialze.py

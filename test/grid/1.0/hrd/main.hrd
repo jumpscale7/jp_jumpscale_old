@@ -1,13 +1,13 @@
 jp.name=grid
 jp.version=1.0
 jp.autobuild=0
-jp.debug=0
+jp.debug=1
 
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=111
-jp.taskletschecksum=9a00e9ced4f6e6435c87dd59bc3c0a8b
+jp.buildnr=110
+jp.taskletschecksum=2caa0e339f3b9d8db1cb62c4b2aabeee
 jp.export=0
 
 jp.bundles=generic:a674da16648ae0ec010b69d8df5b9c55
@@ -21,6 +21,12 @@ jp.dependency.1.name = core
 jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
+
+jp.dependency.2.name = codegentools
+jp.dependency.2.domain = jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+
 jp.domain=jumpscale
 jp.process.tcpports=
 jp.process.startuptime=30

@@ -6,9 +6,9 @@ jp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=113
+jp.buildnr=90
 
-jp.taskletschecksum=d0cc02fcf053ad0a0c97c0e50cb34d4c
+jp.taskletschecksum=7a2649ec2727cdb09193d1a2874b653f
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=de01d6901187f426d7a2fa8e6f9745ff
 
@@ -25,4 +25,4 @@ jp.process.startuptime=30
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 
-jp.debug=0
+jp.debug=1

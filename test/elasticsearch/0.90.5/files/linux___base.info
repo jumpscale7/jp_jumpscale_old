@@ -1,4 +1,4 @@
-f6e1e64ecb6c16ce1fc8d13bbe9ee0c7
+cb8a8e0def61cdd14d87efbab03ce82e
 fecd62d052d39d0a8f84943c2a83dabe|apps/elasticsearch/NOTICE.txt
 55085000b20ac7584a38406dcb0558f7|apps/elasticsearch/README.textile
 b0ef3a86445a2e7461762133131f16af|apps/elasticsearch/bin/elasticsearch
@@ -142,3 +142,5 @@ dcb26c7239d850266941e80370e207c1|apps/elasticsearch/webui/src/vendor/font-awesom
 0e92521073faedf38b510270a771364c|apps/elasticsearch/webui/src/vendor/i18n/i18n.js
 1edb98624854aab77f9c10422c4fa770|apps/elasticsearch/webui/src/vendor/jquery/jquery.js
 e432c7247a2177f016a18a28ee833b87|apps/elasticsearch/webui/src/vendor/nohtml/jquery-nohtml.js
+018c49bc9d0d3f13bd4327ce91d0f7eb|etc/elasticsearch/elasticsearch.yml
+b114b7900c5cc0d7cdd29c467008eebb|etc/elasticsearch/logging.yml

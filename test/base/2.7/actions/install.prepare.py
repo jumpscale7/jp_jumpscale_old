@@ -1,3 +1,4 @@
 
 def main(j,jp):
-    pass
+    j.system.fs.createDir("/usr/local/lib/python2.7/dist-packages/")
+    j.system.fs.createDir("/usr/local/lib/python2.7/site-packages/")

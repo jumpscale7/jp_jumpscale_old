@@ -13,5 +13,10 @@ def main(j,jp):
 
     #configuration is not done in this step !!!!!
     #copying files from files section of jpackages is not done in this step
-    
-    pass
+
+    # j.tools.startupmanager.stopJPackage(j.packages.findNewest(name="workers"))
+    for proc in [item for item in j.tools.startupmanager.listProcesses() if item.find("_worker")<>-1]:
+        dom,name=proc.split("__")
+        j.tools.startupmanager.removeProcess(dom,name)
+
+    j.system.fs.remove(j.system.fs.joinPaths(j.dirs.cfgDir,"hrd","workers.hrd"))

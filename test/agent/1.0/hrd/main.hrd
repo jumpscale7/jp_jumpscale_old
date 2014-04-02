@@ -10,9 +10,9 @@ jp.supportedplatforms=generic
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=58
+jp.buildnr=62
 
-jp.taskletschecksum=39bb43af29b45e6f2f35787298ed6c4e
+jp.taskletschecksum=fae5bc97b11200fc18640bb62ecd4c82
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=bb527999e396634942cf1da93af9e4ed
 
@@ -25,4 +25,4 @@ jp.dependency.1.maxversion =
 
 jp.process.tcpports=
 jp.process.startuptime=30
-jp.debug=0
+jp.debug=1

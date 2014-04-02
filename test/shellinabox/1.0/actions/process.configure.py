@@ -5,7 +5,7 @@ def main(j,jp):
     jp.log("set autostart $(jp.name)")
 
     
-    cmd = 'shellinaboxd -t -s '/:root:root:/:byobu -d -r shellinabox' -p 5577 -g root -u root --linkify=normal --localhost-only'
+    cmd = "shellinaboxd -t -s '/:root:root:/:byobu -d -r shellinabox' -p 5577 -g root -u root --linkify=normal --localhost-only"
     name= "shellinabox"
     args = ''
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps')

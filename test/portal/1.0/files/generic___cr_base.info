@@ -1,6 +1,6 @@
-cdc37a09a0086401bc56e028aed55bee
+8f3d00124f0f3d79ace418c6ede35471
 2db511f53c83cb3a9784bd76ab79973b|apps/portalbase/cfg/contentdirs.cfg
-db161c878b581528988b53274e9ccded|apps/portalbase/cfg/portal.cfg
+6d37ac85391aaaaf8b9b1f4091d5660f|apps/portalbase/cfg/portal.cfg
 e05ea7dcfa1fd6a9c13fa5704883f7b7|apps/portalbase/cfg/users.cfg
 d00ab9c4a7b3e41cbcf6340bec2baa3b|apps/portalbase/macros/_beta/page/stats/1_main.py
 f25d9f90aa3769c23cfd3b1540043227|apps/portalbase/macros/_beta/page/statsdata/1_main.py
@@ -17,7 +17,7 @@ e9c7475be31776be610a9fa8920afcaa|apps/portalbase/macros/page/barchart/1_main.py
 8624189b1e6aade43776b02a4728a6bb|apps/portalbase/macros/page/blog_title/1_blog_title.py
 f89798205b8ba75aa553b52790cd8ca5|apps/portalbase/macros/page/body/1_main.py
 af768d6efb76c9c867a91d12066e5f23|apps/portalbase/macros/page/bootstrap/1_main.py
-ebc31b29cebafc960b07409435bc37a3|apps/portalbase/macros/page/breadcrumbs/1_breadcrumbs.py
+f7ca74888a2e4303aabfb70519fd22e6|apps/portalbase/macros/page/breadcrumbs/1_breadcrumbs.py
 991eaaffa30ff266a04e1e6a1ac78b02|apps/portalbase/macros/page/capitalize/1_capitalize.py
 1d099b3155ec9362a002be076c71113f|apps/portalbase/macros/page/carousel/1_main.py
 defcd45ef12e518246f47a9064991d58|apps/portalbase/macros/page/childrentree/1_main.py
@@ -120,7 +120,7 @@ e5010bafda9fa5f296014553c2ecca16|apps/portalbase/macros/wiki/spaceaccesslog/3_ma
 ac472516758c7774543c913092673fa1|apps/portalbase/portal_start.py
 f4100678fdddedfe7f94d613f335b16a|apps/portalbase/system/system__contentmanager/.actor/acl.cfg
 1bc64da7826fb0de6ef8dd5a5f86a07d|apps/portalbase/system/system__contentmanager/.actor/main.cfg
-1d38d72e283aa9e1b2bec0b982b3e422|apps/portalbase/system/system__contentmanager/extensions/extension_datatable/DataTables.py
+efa30239558acede10ade473c9761a98|apps/portalbase/system/system__contentmanager/extensions/extension_datatable/DataTables.py
 e54a63e074c9354d9741ede20dfa3cc6|apps/portalbase/system/system__contentmanager/extensions/extension_datatable/extension.cfg
 77fe002f00b45a4d44c31ee658b89c12|apps/portalbase/system/system__contentmanager/extensions/extension_defmgr/DefManager.py
 944806110805c5357f942493f43565e1|apps/portalbase/system/system__contentmanager/extensions/extension_defmgr/extension.cfg
@@ -180,7 +180,9 @@ b8af6978955bc21d04eb5677e57577a9|apps/portalbase/wiki/Help/.space/notfound.wiki
 42c4b9d58a09972d25b717cdeaff78d2|apps/portalbase/wiki/Help/.space/template.wiki
 8072ffae1d6fe7976d33fe624bd023ed|apps/portalbase/wiki/Help/Help.wiki
 eebbe8a627bbd4108e298a18e4875775|apps/portalbase/wiki/Help/Macros/Element/BreadCrumbs/BreadCrumbs.wiki
+42c4b9d58a09972d25b717cdeaff78d2|apps/portalbase/wiki/Help/Macros/Element/Element.wiki
 ea071df1168ad502b6eb92baf607ca58|apps/portalbase/wiki/Help/Macros/Element/PlantUML/PlantUML.wiki
+42c4b9d58a09972d25b717cdeaff78d2|apps/portalbase/wiki/Help/Macros/Macros.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/portalbase/wiki/System/.files/.files.wiki
 f27bfa505854cf004e4600c0b2d2f34d|apps/portalbase/wiki/System/.files/toggle/toggle_inactive.gif
 efd280dee2a01ee1e042519cf5bd0099|apps/portalbase/wiki/System/.files/toggle/toggle_off.gif
@@ -301,7 +303,7 @@ cbad7288ccbdc26f7b798ce32cd5c27b|apps/portalexample/base/test__taskmanager/specs
 066f173695a1f37cbc6ece6690160c8a|apps/portalexample/base/test__taskmanager/wikimacros/preprocess/test1/5_defaultpreprocessmacro.py
 3495111a2dddbfec59719b0defc428aa|apps/portalexample/base/test__taskmanager/wikimacros/wiki/test2/5_wikimacro_test.py
 2db511f53c83cb3a9784bd76ab79973b|apps/portalexample/cfg/contentdirs.cfg
-101c8c1e2e98bb8a3fab96204387cc74|apps/portalexample/cfg/portal.cfg
+c0b6096a6286430aaa0aefc92849f476|apps/portalexample/cfg/portal.cfg
 e05ea7dcfa1fd6a9c13fa5704883f7b7|apps/portalexample/cfg/users.cfg
 6efb205a269b7d4311a8733c5b721655|apps/portalexample/portal_client.py
 2c2b0b5f9a6b3e217f704655d5ab19fe|apps/portalexample/portal_start.py

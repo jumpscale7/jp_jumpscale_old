@@ -10,15 +10,15 @@ jp.supportedplatforms=linux
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=-1
+jp.buildnr=10
 
-jp.taskletschecksum=
-jp.descrchecksum=
-jp.hrdchecksum=
+jp.taskletschecksum=e34b61b0426bc1e725a7f88ff42447a8
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
 
 ##dependencies
 #jp.dependency.1.name = processmanager
 #jp.dependency.1.domain = jumpscale
-jp.process.tcpports=
+jp.process.tcpports= 2345
 jp.process.startuptime=30
-jp.debug=0
+jp.debug=1

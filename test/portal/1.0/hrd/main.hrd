@@ -2,12 +2,12 @@ jp.name=portal
 jp.domain=jumpscale
 jp.version=1.0
 jp.autobuild=0
-jp.debug=0
+jp.debug=1
 
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=136
+jp.buildnr=131
 jp.taskletschecksum=796d9d590ac5a8789025dd98db4235d2
 jp.export=0
 
@@ -35,6 +35,10 @@ jp.dependency.2.name=redis
 jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
 
+jp.dependency.3.domain=jumpscale
+jp.dependency.3.name=codegentools
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
 
 jp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3

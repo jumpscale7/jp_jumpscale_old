@@ -11,8 +11,9 @@ def main(j,jp):
     name = 'graphite'
     domain = "serverapps"
     ports = [8081]
+    startstoptimeout=20
     j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=30, \
-       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports)
+       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports,check=True,timeoutcheck=startstoptimeout)
 
     #start carbon
     cmd = 'source /opt/graphite/bin/activate;cd /opt/graphite/bin;python carbon-cache.py --debug start'
@@ -21,8 +22,9 @@ def main(j,jp):
     name = 'carbon'
     domain = "serverapps"
     ports = [2003]
+    startstoptimeout=20
     j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=31, \
-       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports)
+       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports,check=True,timeoutcheck=startstoptimeout)
     
     #can configure more apps to start than just 1 linked to the jpackage
 
