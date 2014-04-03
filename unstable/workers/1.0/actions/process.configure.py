@@ -3,12 +3,9 @@ def main(j,jp):
     # jp.log("set autostart $(jp.name)")
 
     #e.g. default:2,hypervisor:1,io:1
-    for q in "$(workers.queues)".split(","):
-        print "Queue:%s"%q
-        splitted=q.split(":")
-        if len(splitted)<>2:
-            raise RuntimeError("format needs to be: default:2,hypervisor:1,io:1")
-        qname,nrinstances=splitted
+    workers = j.application.config.getDict('workers.queues')
+    for qname, nrinstances in workers.iteritems():
+        print "Queue:%s"% qname
 
         for nr in range(int(nrinstances)):
             cmd = 'python'
