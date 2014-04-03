@@ -3,5 +3,5 @@ def main(j,jp):
     if j.application.config.exists(key):
         workers = j.application.config.getDict(key)
         if 'monitor' not in workers:
-            workers['monitor'] = 2
+            workers['monitor'] = 1
             j.application.config.setDict(key, workers)
