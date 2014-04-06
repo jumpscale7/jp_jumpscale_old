@@ -10,7 +10,7 @@ def main(j,jp):
                    "byobu",
                    "tmux",
                    'liblapack3', # required by numpy
-                   'libmhash2') # required by mhash
+                   'libmhash2') # required by mhash #@todo copy to sandbox
 
 
     for name in debpackages:
