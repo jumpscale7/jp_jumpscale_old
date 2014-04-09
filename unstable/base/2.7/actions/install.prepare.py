@@ -1,14 +1,14 @@
 def main(j,jp):
     import os
     j.logger.consoleloglevel = 6
-    hrd = j.applicatoin.config
+    hrd = j.application.config
     sitekey = 'python.paths.local.sitepackages'
     distkey = 'python.paths.local.distpackages'
     if 'JSBASE' not in os.environ:
         if not hrd.get(sitekey):
-            hrd.set('sitekey', '/usr/local/lib/python2.7/site-packages/')
+            hrd.set(sitekey, '/usr/local/lib/python2.7/site-packages/')
         if not hrd.get(distkey):
-            hrd.set('distkey', '/usr/local/lib/python2.7/dist-packages/')
+            hrd.set(distkey, '/usr/local/lib/python2.7/dist-packages/')
     j.system.fs.createDir("/usr/local/lib/python2.7/dist-packages/")
     j.system.fs.createDir("/usr/local/lib/python2.7/site-packages/")
 
