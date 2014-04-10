@@ -9,5 +9,5 @@ def main(j,jp):
     args="-fD es.config=%s" % ymlfile
     startstoptimeout=60
     j.tools.startupmanager.addProcess(name, cmd, args=args, domain="jumpscale",jpackage=jp,ports=[9200],priority=1,\
-        check=True,timeoutcheck=startstoptimeout)
+        check=True,timeoutcheck=startstoptimeout,isJSapp=0)
     # j.tools.startupmanager.startJPackage(jp)
