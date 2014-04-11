@@ -10,7 +10,7 @@ jp.supportedplatforms=linux64
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=9
+jp.buildnr=11
 
 jp.taskletschecksum=eb0668e58bb049168c0af530703fd722
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3

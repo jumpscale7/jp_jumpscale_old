@@ -1,3 +1,35 @@
 def main(j,jp):
-    j.system.platform.ubuntu.serviceInstall('processmanager', '/usr/bin/python', 'processmanager.py', pwd='$(jumpscale.paths.base)/apps/processmanager')
-    j.system.platform.ubuntu.startService('processmanager')
+
+    if j.application.sandbox:
+        cmd="$base/bin/python"
+    else:
+        cmd="python"
+
+    pd=j.tools.startupmanager.addProcess(\
+        name=jp.name,\
+        cmd=cmd, \
+        args="processmanager.py",\
+        env={},\
+        numprocesses=1,\
+        priority=100,\
+        shell=False,\
+        workingdir='$base/apps/processmanager',\
+        jpackage=jp,\
+        domain=jp.domain,\
+        ports=[],\
+        autostart=True,\
+        reload_signal=0,\
+        user="root",\
+        log=True,\
+        stopcmd=None,\
+        check=True,\
+        timeoutcheck=20,\
+        isJSapp=0,\
+        upstart=True,\
+        stats=True,\
+        processfilterstr="processmanager.py")#what to look for when doing ps ax to find the process
+    
+    pd.start()
+
+
+    #4445

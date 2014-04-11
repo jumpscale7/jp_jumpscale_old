@@ -17,16 +17,19 @@ def main(j,jp):
     #can configure more apps to start than just 1 linked to the jpackage
 
 
-    cmd = 'source /opt/sentry/bin/activate;cd /opt/sentry;sentry --config=/opt/sentry/cfg/sentry.conf.py start'
+    j.dirs.replaceFilesDirVars("$base/apps/sentry/cfg/")
+
+    cmd = 'source $base/apps/sentry/bin/activate;cd $base/apps/sentry;sentry --config=$base/apps/sentry/cfg/sentry.conf.py start'
     args = ''
     workingdir = ""
     name = 'sentry'
     domain = "jumpscale"
     ports = [9000]
     startstoptimeout=20
+    processfilterstr="sentry --config"
     j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=1, \
        shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=ports,\
-       check=True,timeoutcheck=startstoptimeout)
+       check=True,timeoutcheck=startstoptimeout,stats=True,isJSapp=False,upstart=False,processfilterstr=processfilterstr)
 
 
     pass

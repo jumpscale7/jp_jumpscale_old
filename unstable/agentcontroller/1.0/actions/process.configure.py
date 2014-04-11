@@ -8,9 +8,6 @@ def main(j,jp):
     name="agentcontroller"
     startstoptimeout=20
     j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=20, shell=False, workingdir=workingdir,jpackage=jp,domain="",\
-        ports=[4444],check=True,timeoutcheck=startstoptimeout)
+        ports=[4444],check=True,timeoutcheck=startstoptimeout,stats=True,upstart=False)
 
-    import JumpScale.baselib.redis
-    j.clients.redis.deleteInstance("redisac")
-    j.clients.redis.configureInstance("redisac",7769,100,True)
 
