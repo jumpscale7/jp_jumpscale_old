@@ -2,7 +2,12 @@ def main(j,jp):
    
     #stop the application (only relevant for server apps)
     
-    import JumpScale.baselib.redis
-    j.clients.redis.stopInstance("redisp")
-    j.clients.redis.stopInstance("redisc")
+    jp.log("stop $(jp.name)")
+
+    if j.tools.startupmanager.existsJPackage(jp):
+        
+        j.tools.startupmanager.stopJPackage(jp)
+
+        # for port in jp.tcpPorts:
+        #     j.system.process.killProcessByPort(port)
 

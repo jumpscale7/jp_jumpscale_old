@@ -8,6 +8,7 @@ def main(j,jp):
     ymlfile = j.system.fs.joinPaths(j.dirs.baseDir, 'etc', 'elasticsearch', 'elasticsearch.yml')
     args="-fD es.config=%s" % ymlfile
     startstoptimeout=60
+    processfilterstr="elasticsearch.yml org.elasticsearch.bootstrap.ElasticSearch"
     j.tools.startupmanager.addProcess(name, cmd, args=args, domain="jumpscale",jpackage=jp,ports=[9200],priority=1,\
-        check=True,timeoutcheck=startstoptimeout,isJSapp=0)
+        check=True,timeoutcheck=startstoptimeout,isJSapp=0,processfilterstr=processfilterstr,stats=True)
     # j.tools.startupmanager.startJPackage(jp)

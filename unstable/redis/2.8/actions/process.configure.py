@@ -1,11 +1,38 @@
 def main(j,jp):
    
-    #configure the application to autostart
-    import JumpScale.baselib.redis
-    j.clients.redis.deleteInstance("redisp")
-    j.clients.redis.deleteInstance("redisc")
-    j.clients.redis.configureInstance("redisp",7768,500,True)
-    j.clients.redis.configureInstance("redisc",7767,100,False)
+    names=["redisp","redisc"]
 
-    
+    if j.application.config.getBool("redis.ac.enable"):
+        names.append("redisac")
 
+    for name in names:
+        dpath = "$vardir/redis/%s" % name
+        cpath = j.system.fs.joinPaths(dpath, "redis.conf")
+        port=j.application.config.getInt("redis.port.%s"%name)
+        pd=j.tools.startupmanager.addProcess(\
+            name=name,\
+            cmd="redis-server", \
+            args=cpath,\
+            env={},\
+            numprocesses=1,\
+            priority=1,\
+            shell=False,\
+            workingdir='$vardir',\
+            jpackage=jp,\
+            domain=jp.domain,\
+            ports=[port],\
+            autostart=True,\
+            reload_signal=0,\
+            user="root",\
+            log=True,\
+            stopcmd=None,\
+            check=True,\
+            timeoutcheck=2,\
+            isJSapp=0,\
+            upstart=True,\
+            stats=True,\
+            processfilterstr="redis/%s/%s.conf"%(name,name))#what to look for when doing ps ax to find the process
+        
+        pd.start()
+
+        # self.startInstance(name)
