@@ -14,6 +14,6 @@ def main(j,jp):
             args = 'worker.py -a $(agent.redis.addr) -p $(agent.redis.port) -qn %s -wn %s'%(qname,wname)
         workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agent')
         j.tools.startupmanager.addProcess(wname, cmd, args=args, env={}, numprocesses=nrinstances, priority=21, shell=False, \
-            workingdir=workingdir,jpackage=jp,domain="workers",ports=[])
+            workingdir=workingdir,jpackage=jp,domain="workers",ports=[],upstart=False)
         j.tools.startupmanager.startProcess("workers",wname)
 

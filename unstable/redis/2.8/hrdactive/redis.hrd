@@ -3,6 +3,7 @@
 redis.port.redisc=7767
 redis.port.redisp=7768
 redis.port.redisac=7769
+redis.port.redism=7766
 
 redis.ac.enable=@ASK default:0
 

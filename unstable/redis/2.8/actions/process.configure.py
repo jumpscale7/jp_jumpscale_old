@@ -1,6 +1,6 @@
 def main(j,jp):
    
-    names=["redisp","redisc"]
+    names=["redisp","redisc","redism"]
 
     if j.application.config.getBool("redis.ac.enable"):
         names.append("redisac")
@@ -31,7 +31,7 @@ def main(j,jp):
             isJSapp=0,\
             upstart=True,\
             stats=True,\
-            processfilterstr="redis/%s/%s.conf"%(name,name))#what to look for when doing ps ax to find the process
+            processfilterstr="redis/%s/redis.conf"%(name))#what to look for when doing ps ax to find the process
         
         pd.start()
 
