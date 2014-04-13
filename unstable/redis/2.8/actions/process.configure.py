@@ -1,6 +1,6 @@
 def main(j,jp):
    
-    names=["redisp","redisc","redism"]
+    names=["redism","redisp","redisc"]
 
     if j.application.config.getBool("redis.ac.enable"):
         names.append("redisac")
