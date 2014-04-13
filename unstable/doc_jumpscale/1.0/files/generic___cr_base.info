@@ -1,4 +1,4 @@
-bfd7ac9a55caf83ab8973295bc87df37
+98aa73d3b98f634120adb03f81db9c98
 a25f212ecd42f769013a9c6957b74eed|apps/incubaidportals/base/Doc_Jumpscale_Core/.macros/wiki/menuadmin_jdoc/1_menuadmin.py
 16c1af4d89a24943ccc91c5b4b2e60a5|apps/incubaidportals/base/Doc_Jumpscale_Core/.space/acl.cfg
 3aa5d51f689770c8913164cd80a1b8a8|apps/incubaidportals/base/Doc_Jumpscale_Core/.space/default.wiki
@@ -16,7 +16,8 @@ fe39500a4f91c8e586495e685f3a0508|apps/incubaidportals/base/Doc_Jumpscale_Core/Do
 c857a0a92886ed89d735657ab7a26559|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/JPackages/JPackageCMD.wiki
 485403538c53bd28c80ed0cbd748cd06|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/JPackages/JPackages.wiki
 9b97751aa2dd7cbd352363d8807db5c7|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/JPackages/JPackagesABC.wiki
-16c587864b1c631adaa43d279e861c4e|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/JPackages/JpackageDetails.wiki
+d07b11c7e7fb183fd7a007b738e95f6a|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/JPackages/JpackageDestinationTypes.wiki
+20e4c46330d5a51c705e022d506b2760|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/JPackages/JpackageDetails.wiki
 4b11761aec3b3e74e3036ec8cd0462b0|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/ProcessManagement/JSProcess
 8af92ddf206f5e3aaabcf2701bc4602b|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/ProcessManagement/ProcessManagement.wiki
 afc028754c294394c9abb483b5b1494b|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/ToSort/Application Configuration.wiki
@@ -40,8 +41,8 @@ f4a68c79e76282cbdf0f631cea4725e1|apps/incubaidportals/base/Doc_Jumpscale_Core/Do
 38fb333ecd232e74411698636daa65f0|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/ToSort/Tricks.wiki
 40b14e0439b671e61cc64bb7ae3aa58a|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/ToSort/Tricks_LocalBlobServer.wiki
 fabd090a3e75a1c420ac6292cd134d33|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/ToSort/Tricks_RebuildBunchJpackages.wiki
-6fdd212fa38ee00240222643b5f630b8|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/ToSort/UbuntuManual.wiki
-50a4047686f415779bfbf8731c39aa39|apps/incubaidportals/base/Doc_Jumpscale_Core/Home.wiki
+b9248c9f7cbb0423b3556799bea5d7e4|apps/incubaidportals/base/Doc_Jumpscale_Core/Docs/ToSort/UbuntuManual.wiki
+fe9b32ec16be8d3fe2464dc338fe43ad|apps/incubaidportals/base/Doc_Jumpscale_Core/Home.wiki
 a25f212ecd42f769013a9c6957b74eed|apps/incubaidportals/base/Doc_Jumpscale_Devel/.macros/wiki/menuadmin_jdoc/1_menuadmin.py
 16c1af4d89a24943ccc91c5b4b2e60a5|apps/incubaidportals/base/Doc_Jumpscale_Devel/.space/acl.cfg
 22f05e64b475e0af6cf52cd292f1f75a|apps/incubaidportals/base/Doc_Jumpscale_Devel/.space/default.wiki
@@ -94,6 +95,7 @@ cb0cd5e22548cd6736e71f5b5ced188a|apps/incubaidportals/base/Doc_Jumpscale_Grid/Do
 7c8469ce387150dd890e4b2e92d7dc7a|apps/incubaidportals/base/Doc_Jumpscale_Grid/Docs/OSIS/OSISRemote.wiki
 22ae9e311fe07766ee7cce71fdb71c00|apps/incubaidportals/base/Doc_Jumpscale_Grid/Docs/OSIS/OsisModelSpec.wiki
 b1028051cdd07406b7b8f9dba0cf8686|apps/incubaidportals/base/Doc_Jumpscale_Grid/Docs/OSIS/Types.wiki
+99348d1fcde37d5c77c83c6d061e11cc|apps/incubaidportals/base/Doc_Jumpscale_Grid/Docs/Redis.wiki
 7760c78b3aad3887ac1c519bdc701256|apps/incubaidportals/base/Doc_Jumpscale_Grid/Docs/ZDaemon.wiki
 54f570f828c69c658e7934d313b3a283|apps/incubaidportals/base/Doc_Jumpscale_Grid/Docs/ZDaemonProtocol.wiki
 80226652a66a982e78e5f4265d391394|apps/incubaidportals/base/Doc_Jumpscale_Grid/Home.wiki
@@ -127,7 +129,7 @@ b8af6978955bc21d04eb5677e57577a9|apps/incubaidportals/base/Doc_Jumpscale_Portal/
 d41d8cd98f00b204e9800998ecf8427e|apps/incubaidportals/base/Doc_Jumpscale_Portal/.space/params.cfg
 86a73a4e562fd001808cf6d80cc876da|apps/incubaidportals/base/Doc_Jumpscale_Portal/.space/template.wiki
 4ecab28aeda282c749e355e581d1939a|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Configuration/Configuration.wiki
-a4dddafb4c00812c04c8013cbaeba58d|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Configuration/SpaceConfiguration/SpaceConfiguration.wiki
+d5f2c06984b352b1d5099d35f3666e95|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Configuration/SpaceConfiguration/SpaceConfiguration.wiki
 352cff09d700e7dfde871629baeaee23|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Configuration/Templates/Templates.wiki
 4cdb97b808d47dcaa43254d01ed38a7b|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Configuration/UserManagement/UserManagement.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Docs.wiki
@@ -208,7 +210,7 @@ de4948442a160c113a21ca0e540b7957|apps/incubaidportals/base/Doc_Jumpscale_Portal/
 86a73a4e562fd001808cf6d80cc876da|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Macros/Utils/Utils.wiki
 bb5e88401efcd27682c6e0a1f3fd706f|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Macros/Utils/google_analytics/google_analytics.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Macros/WebSiteElements/WebSiteElements.wiki
-8bf5cf3bcdc4547702c8f5f2b5243d15|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Macros/WebSiteElements/contact_form/contact_form.wiki
+e3dfa26facffea67901dbd72e2b10adc|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Macros/WebSiteElements/contact_form/contact_form.wiki
 c200f046f9283e753e63c116fb96ecc7|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Modules/Blogs/Blogs.wiki
 9b7b01e94df543f43f3240bd184b1ec4|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Modules/DocConverter/DocConverter.wiki
 4ecab28aeda282c749e355e581d1939a|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Modules/Modules.wiki
@@ -216,7 +218,7 @@ c200f046f9283e753e63c116fb96ecc7|apps/incubaidportals/base/Doc_Jumpscale_Portal/
 23f2468f84611f5f89615e60d3c89156|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/WebServices/RestFullWebservices/RestFullWebservices.wiki
 70fb25a2fc4271a13b493f94cc66016b|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/WebServices/RestWebservices/RestWebservices.wiki
 a51a854226cde1ee571a24ab97536e34|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/WebServices/WebServices.wiki
-9148253e1340225782bceef0af419540|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Wiki Syntax/Wiki Syntax.wiki
+a6d5e7d6f6cd0db3c97700b2fa757fdd|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/Wiki Syntax/Wiki Syntax.wiki
 cd99ebbd2529abe388fd6c85d0c7d341|apps/incubaidportals/base/Doc_Jumpscale_Portal/Docs/params.cfg
 5ae3126a37ef75f14fcff1b44e84884f|apps/incubaidportals/base/Doc_Jumpscale_Portal/Home.wiki
 09b1f971f443ca9dd536606e024e7e1b|apps/incubaidportals/base/Doc_Jumpscale_Portal/How to connect to a remote appserver & work with actors.wiki
