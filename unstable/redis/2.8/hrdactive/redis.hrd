@@ -5,5 +5,5 @@ redis.port.redisp=7768
 redis.port.redisac=7769
 redis.port.redism=7766
 
-redis.ac.enable=@ASK default:0
+redis.ac.enable=@ASK @descr=are__you__agentcontroller default:0
 
