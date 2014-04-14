@@ -1,7 +1,7 @@
 def main(j,jp):
-    sitepackages = j.application.config.get('python.paths.local.sitepackages')
-    portalinit = j.system.fs.joinPaths(sitepackages, 'JumpScale', 'portal', '__init__.py')
+    portalinit = j.system.fs.joinPaths(j.dirs.libDir, 'portal', '__init__.py')
     if not j.system.fs.exists(portalinit):
+        j.system.fs.createDir(j.system.fs.getParent(portalinit))
         myinit = """
 from JumpScale import j
 import JumpScale.baselib.key_value_store
