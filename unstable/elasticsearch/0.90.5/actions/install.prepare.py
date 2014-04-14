@@ -1,6 +1,5 @@
 
 def main(j,jp):
-    j.system.platform.python.install('pyelasticsearch')
 
     cmd='dpkg -r elasticsearch'
     j.system.installtools.execute(cmd,dieOnNonZeroExitCode=False,ignoreErrorOutput=True, useShell=True)

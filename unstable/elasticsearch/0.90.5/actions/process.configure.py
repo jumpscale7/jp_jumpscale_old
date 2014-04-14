@@ -5,7 +5,7 @@ def main(j,jp):
     name="elasticsearch"
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'elasticsearch','bin')
     cmd="%s/elasticsearch"%workingdir
-    ymlfile = j.system.fs.joinPaths(j.dirs.baseDir, 'etc', 'elasticsearch', 'elasticsearch.yml')
+    ymlfile = j.system.fs.joinPaths(j.dirs.cfgDir, 'elasticsearch', 'elasticsearch.yml')
     args="-fD es.config=%s" % ymlfile
     startstoptimeout=60
     processfilterstr="elasticsearch.yml org.elasticsearch.bootstrap.ElasticSearch"
