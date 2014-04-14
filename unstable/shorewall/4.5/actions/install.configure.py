@@ -3,7 +3,7 @@ def main(j,jp):
 
 
 
-    basedir="$(jumpscale.paths.base)/apps/shorewallconfig/"
+    basedir="$base/apps/shorewallconfig/"
 
     if j.application.config.exists("firewall.ruletemplate"):
         fwtype=j.application.config.get("firewall.ruletemplate")
