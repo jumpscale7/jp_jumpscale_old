@@ -1,4 +1,4 @@
-f2fee6ec3b494d44ec462b5518cf6cb7
+ae251373a64957e1ed4c1fd72e74896b
 0f852327b313ddfffde2e64775836d0e|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -25,7 +25,7 @@ f36f6dd464dacfb3986457241554d40c|JumpScale/baselib/bitbucket/Bitbucket.py
 4fd96e2a082567efe94459921fdb431f|JumpScale/baselib/bitbucket/BitbucketConfigManagement.py
 1659af198ed7d67538a3d5b0e4770ef3|JumpScale/baselib/bitbucket/BitbucketInterface.py
 244a70049e04d5129667ba356bc883d2|JumpScale/baselib/bitbucket/__init__.py
-3206f9b4c4502470062831547cee843e|JumpScale/baselib/blobstor/BlobStor.py
+accd7fcbbde15ba9238ff8c1378575b7|JumpScale/baselib/blobstor/BlobStor.py
 0b26fcb1ec039a54799f65a995709f80|JumpScale/baselib/blobstor/BlobStorConfigManagement.py
 4b898febfc0e1fc0e40c8ad9a7963d22|JumpScale/baselib/blobstor/__init__.py
 542973a38d8900c253a370c75c673165|JumpScale/baselib/blobstor2/BlobStorClient.py
@@ -121,13 +121,13 @@ e7c301b883aaf038e042c4892646de88|JumpScale/baselib/inifile/extension.cfg
 339cec6fb8998df8d72fda7f6db59fa1|JumpScale/baselib/jpackages/ActionManager.py
 55605c44163d07e7e6032c19d163bed0|JumpScale/baselib/jpackages/CodeManagementRecipe.py
 2b2f552ba0bde641d19cd5b1232b4023|JumpScale/baselib/jpackages/Domain.py
-d86e73c04ffb3f518a9c86857e8ee9f4|JumpScale/baselib/jpackages/JPackageClient.py
-1195618278ce41598bb9c97b8e31e1f8|JumpScale/baselib/jpackages/JPackageObject.py
+fdfba822bc04bf20ecfa7d5ac57aa4f1|JumpScale/baselib/jpackages/JPackageClient.py
+589b9248846902d75d2a04f3b8df017b|JumpScale/baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|JumpScale/baselib/jpackages/JPackageStateObject.py
 3f227672e069535ac6d274eb52c681a5|JumpScale/baselib/jpackages/JPackagesGenDocs.py
 a465359f88e9e8fe21ea76dc39fdec39|JumpScale/baselib/jpackages/PythonPackage.py
 da3d09031196ad227188ac48358e6a1c|JumpScale/baselib/jpackages/ReleaseMgmt.py
-69b0de1525ca3dd6423a5a8f622dad23|JumpScale/baselib/jpackages/__init__.py
+6160ef6e3c64138e6d87d39ffe0a21b5|JumpScale/baselib/jpackages/__init__.py
 10f1c2b84a81de09af195ef046af9c44|JumpScale/baselib/jpackages/enumerators4.py
 46d408966a98bb78ab40485a9097045f|JumpScale/baselib/jpackages/extension.cfg
 5f4200e632955e658abfd222713b026b|JumpScale/baselib/jpackages/templates/actions/code.commit.py
@@ -201,7 +201,7 @@ cd1768d9b6ec7b217c1fd69c154896dc|JumpScale/baselib/params/extension.cfg
 68b167eef8372c2e39ada56902ba4bff|JumpScale/baselib/performancetrace/PerformanceTrace.py
 d8bf3b045762df4d3df25318a3805c98|JumpScale/baselib/performancetrace/__init__.py
 6c6bda32dcdabc9e752f22177bee7067|JumpScale/baselib/platforms/__init__.py
-912ad877de326c20d11361247ff227dd|JumpScale/baselib/platforms/ubuntu/Ubuntu.py
+8dbd05ab83df5185f0ef98dd45a46684|JumpScale/baselib/platforms/ubuntu/Ubuntu.py
 d41d8cd98f00b204e9800998ecf8427e|JumpScale/baselib/platforms/ubuntu/__init__.py
 9f30eefd6efb050cfe936967e9f9e106|JumpScale/baselib/platforms/ubuntu/extension.cfg
 c08c4b0b9db931cc8b05fe60843c512d|JumpScale/baselib/portapps/PortApps.py
@@ -213,7 +213,7 @@ d655862862b61044b9bb25150e5b5bf8|JumpScale/baselib/redis/geventredis/RedisQueue.
 e7815f2b85b0756b3ad8442f79cb2330|JumpScale/baselib/redisworker/RedisWorker.py
 da7c7dbc59ee6f69a677572e362d514a|JumpScale/baselib/redisworker/__init__.py
 7684d67b0d04a249d168defa0895c485|JumpScale/baselib/remote/__init__.py
-dec8760418073b1921f3da39fa7c5fe1|JumpScale/baselib/remote/avahi/Avahi.py
+f793e4e58dbe9cc472a1c9a78e88d9da|JumpScale/baselib/remote/avahi/Avahi.py
 cbf6495c6ee27e866a93ff99b1caf8ac|JumpScale/baselib/remote/avahi/__init__.py
 9f6a6d2d200d0e01592664ae76f6ebdc|JumpScale/baselib/remote/avahi/extension.cfg
 0d0bf9ef5673b7e23c0b9c299d503b2a|JumpScale/baselib/remote/cluster/Cluster.py
@@ -266,9 +266,9 @@ e0bd3623ca693862f2d526fe4a667b39|JumpScale/baselib/specparser/__init__.py
 2a9202cf2095fb4f409ab405825e431e|JumpScale/baselib/ssl/SSL.py
 d18bc2e58a151750012977ddc03ebac9|JumpScale/baselib/ssl/__init__.py
 f44de53c0524f056ae69777448583877|JumpScale/baselib/ssl/extension.cfg
-3dafea3e0818eb5c87d6bf8fdb8d20c9|JumpScale/baselib/startupmanager/StartupManager.py
+645e2b6251283a3409c143a87f7c123e|JumpScale/baselib/startupmanager/StartupManager.py
 eb77908b00053af412691b2739295481|JumpScale/baselib/startupmanager/__init__.py
-897013975f6b55b2845921ee166344da|JumpScale/baselib/stataggregator/StatAggregator.py
+3f7939aeb592a5a21d2b4c5284e5d535|JumpScale/baselib/stataggregator/StatAggregator.py
 6859875858ae676698ae7a59d432a1b4|JumpScale/baselib/stataggregator/__init__.py
 7073c879c38dc6902ffcd86d4f6da3bf|JumpScale/baselib/statmanager/StatManager.py
 e1e62dbfdd06abe6690c0144c846f027|JumpScale/baselib/statmanager/__init__.py
@@ -402,7 +402,7 @@ a84c367b650cebf8a3c5253f8702c540|JumpScale/core/system/ZipFile.py
 1308b51498956de780c6f13acbf85d90|JumpScale/core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|JumpScale/core/system/fswalker.py
 8931783223024f2157588ce47bdb23cd|JumpScale/core/system/net.py
-259e91fcd3c544ba26171c92a82b9966|JumpScale/core/system/process.py
+253f5bb0e835a5e8447f1c6f5b800425|JumpScale/core/system/process.py
 2087b5562b95e19fd89e8251a744fb3c|JumpScale/core/system/processhelper.py
 80bd0458289bbb37833230b9652401dd|JumpScale/core/system/string.py
 4f7849725988ef618a5f7cfb87f81e14|JumpScale/core/system/text.py
