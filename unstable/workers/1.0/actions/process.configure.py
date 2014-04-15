@@ -8,10 +8,7 @@ def main(j,jp):
         print "Queue:%s"% qname
         cmd = 'python'
         wname="worker_%s"%(qname)
-        if "$(agent.redis.auth)".strip()<>"":
-            args = 'worker.py -pw $(agent.redis.auth) -a $(agent.redis.addr) -p $(agent.redis.port) -qn %s -wn %s'%(qname,wname)
-        else:
-            args = 'worker.py -a $(agent.redis.addr) -p $(agent.redis.port) -qn %s -wn %s'%(qname,wname)
+        args = "worker.py -a '127.0.0.1' -p 7768 -qn %s -wn %s"%(qname,wname)
         workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agent')
         j.tools.startupmanager.addProcess(wname, cmd, args=args, env={}, numprocesses=nrinstances, priority=21, shell=False, \
             workingdir=workingdir,jpackage=jp,domain="workers",ports=[],upstart=False)
