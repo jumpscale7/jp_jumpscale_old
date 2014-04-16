@@ -19,10 +19,10 @@ def main(j,jp):
         #we are updating
         j.console.askYesNo("do you want to remove the old database of elasticsearch, this is required for this version.")
         j.system.fs.removeDirTree("/opt/data/elasticsearch/")
+        j.system.fs.removeDirTree("$vardir/elasticsearch/")
 
 
-    j.system.fs.createDir("/opt/data/elasticsearch/data")
-    j.system.fs.createDir("/opt/data/elasticsearch/tmp")
-    j.system.fs.createDir("/opt/data/elasticsearch/logs")
+    j.system.fs.createDir("$vardir/elasticsearch1/data")
+    j.system.fs.createDir("$vardir/elasticsearch1/tmp")
+    j.system.fs.createDir("$vardir/elasticsearch1/logs")
 
-    j.system.platform.python.install('pyelasticsearch')

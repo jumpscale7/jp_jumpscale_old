@@ -1,6 +1,6 @@
 jp.domain=jumpscale
-jp.name=elasticsearchnew
-jp.version=0.90
+jp.name=elasticsearch1
+jp.version=1.1
 jp.autobuild=0
 
 jp.supportedplatforms=linux
@@ -20,5 +20,5 @@ jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 
-jp.process.tcpports=9200
+jp.process.tcpports=9200,9300
 jp.process.startuptime=30
