@@ -1,4 +1,4 @@
-ae251373a64957e1ed4c1fd72e74896b
+87e1cadc5fcb7da5838a35b94c88c390
 0f852327b313ddfffde2e64775836d0e|JumpScale/__init__.py
 b88ffbccd568c349469b94d380f383c5|JumpScale/base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|JumpScale/base/ERRORHANDLER.py
@@ -305,7 +305,7 @@ e3c66f62a2897606a2869922b1e4a773|JumpScale/core/_defaultcontent/cfg/hrd/python.h
 40f06c9a71934a218a79fb09899290af|JumpScale/core/_defaultcontent/cfg/hrd/system.hrd
 cfe99ec06473e4d5036b861228a67dd2|JumpScale/core/_defaultcontent/cfg/jpackages/sources.cfg
 4ce08b18fbed21f5bb56a4c96a3935a8|JumpScale/core/_defaultcontent/cfg/jsconfig/bitbucket.cfg
-0a96cb1343b42a5b68e6249884088dcc|JumpScale/core/_defaultcontent/cfg/jsconfig/blobstor.cfg
+c860ad0ac0b7ee1f3aaeb93515ce47e4|JumpScale/core/_defaultcontent/cfg/jsconfig/blobstor.cfg
 8b8dc6843e555462e524c9783981b212|JumpScale/core/_defaultcontent/cfg/jsconfig/main.cfg
 2eead760c07347935d69b4c4a6bfac29|JumpScale/core/_defaultcontent/linux/bin/readme.txt
 2eead760c07347935d69b4c4a6bfac29|JumpScale/core/_defaultcontent/linux/utils/readme.txt
