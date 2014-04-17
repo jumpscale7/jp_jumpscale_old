@@ -23,7 +23,7 @@ def main(j,jp):
     redis.install()
     redis.start()
 
-    j.packages.findNewest(domain="jumpscale",name="elasticsearch").install()
+    j.packages.findNewest(domain="jumpscale",name="elasticsearch1").install()
     j.tools.startupmanager.startProcess("jumpscale","elasticsearch")
 
     j.packages.findNewest(domain="jumpscale",name="osis").install()
