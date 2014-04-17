@@ -9,10 +9,13 @@ def main(j,jp):
     cmd="killall redis-server"
     j.system.process.execute(cmd,dieOnNonZeroExitCode=False)
 
-    import JumpScale.baselib.redis
+    try:
+        import JumpScale.baselib.redis
 
-    j.clients.redis.deleteInstance("redisp")
-    j.clients.redis.deleteInstance("redisc")
-    j.clients.redis.deleteInstance("redisac")
+        j.clients.redis.deleteInstance("redisp")
+        j.clients.redis.deleteInstance("redisc")
+        j.clients.redis.deleteInstance("redisac")
+    except:
+        pass
 
 
