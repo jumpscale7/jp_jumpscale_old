@@ -1,7 +1,7 @@
 def main(j,jp):
     import time   
 
-    j.dirs.replaceFilesDirVars("$base/apps/sentry/cfg/")
+    j.dirs.replaceFilesDirVars("$cfgdir/sentry")
 
     import os
     ospath=os.environ["PATH"]
@@ -14,7 +14,7 @@ def main(j,jp):
 
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
-        cmd="./sentry --config=$base/apps/sentry/cfg/sentry.conf.py start", \
+        cmd="./sentry --config=$cfgdir/sentry.conf.py start", \
         args="",\
         env=env,\
         numprocesses=1,\
@@ -49,7 +49,8 @@ def main(j,jp):
     sql="SELECT 1 from pg_database WHERE datname='sentry';"
     cur.execute(sql)
     res=cur.fetchall()
-    if not res[0][0]==1:
+    
+    if res==[] or not res[0][0]==1:
         #db does not exist
         cur.execute("CREATE DATABASE sentry;") 
     
