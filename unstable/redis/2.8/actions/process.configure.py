@@ -11,13 +11,13 @@ def main(j,jp):
         port=j.application.config.getInt("redis.port.%s"%name)
         pd=j.tools.startupmanager.addProcess(\
             name=name,\
-            cmd="redis-server", \
+            cmd="./redis-server", \
             args=cpath,\
             env={},\
             numprocesses=1,\
             priority=1,\
             shell=False,\
-            workingdir='$vardir',\
+            workingdir='$base/apps/redis/',\
             jpackage=jp,\
             domain=jp.domain,\
             ports=[port],\

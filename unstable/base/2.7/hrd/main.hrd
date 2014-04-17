@@ -15,4 +15,4 @@ jp.descrchecksum=6eb3d439d91ba5942a4e12599508c777
 jp.hrdchecksum=07a9e1ac52cfd2af8a75443534d00740
 jp.process.tcpports=
 jp.process.startuptime=30
-jp.debug=1
+jp.debug=0

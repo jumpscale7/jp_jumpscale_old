@@ -1,3 +1,6 @@
 
 def main(j,jp):
-    pass
+
+    j.application.config.applyOnDir("$cfgdir/elasticsearch1")
+    j.dirs.replaceFilesDirVars("$cfgdir/elasticsearch1")
+    
