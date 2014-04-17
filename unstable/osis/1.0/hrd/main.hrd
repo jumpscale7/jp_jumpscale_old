@@ -25,7 +25,7 @@ jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 
 jp.dependency.2.domain= jumpscale
-jp.dependency.2.name= elasticsearch
+jp.dependency.2.name= elasticsearch1
 jp.dependency.2.minversion=
 jp.dependency.2.maxversion=
 
