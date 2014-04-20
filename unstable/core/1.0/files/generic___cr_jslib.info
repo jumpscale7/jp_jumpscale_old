@@ -1,4 +1,4 @@
-897014753fc3dc57768b6755b912b4eb
+bfd0faec52e718d4974a63bb9ec8703d
 0f852327b313ddfffde2e64775836d0e|__init__.py
 b88ffbccd568c349469b94d380f383c5|base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|base/ERRORHANDLER.py
@@ -18,6 +18,8 @@ bc0aa28ef752bee229b2d2260de3786f|baselib/actions/action/ActionController.py
 b908d6012b786ab9391ef3bda3529c9f|baselib/actions/transaction/TransactionController.py
 d41d8cd98f00b204e9800998ecf8427e|baselib/actions/transaction/__init__.py
 ab3220765645fa3c0722123b3ec48808|baselib/actions/transaction/extension.cfg
+9f85aecea8f7817932ae21c7e96544d0|baselib/admin/Admin.py
+45c34951a905c6b46935e08cbdf647b4|baselib/admin/__init__.py
 fd97379105a803cf385e468d030b7d4f|baselib/backup/BackupClient.py
 7cc12c11fef9245542afda6e713917a7|baselib/backup/BackupFactory.py
 ceb46dc149f89866a00be7d95a2fee47|baselib/backup/__init__.py
@@ -56,7 +58,7 @@ b9cc5f93f1ca22488a9115115b0d18c3|baselib/cmdline/extension.cfg
 8e263208375c21e8e28b3e4a6b6dab1b|baselib/code/Appserver6GreenletScheduleBase.py
 023045bafca5ac278b6f4618415ff468|baselib/code/Appserver6GreenletTaskletsBase.py
 1ad680329b8eb2611f4f0d84de1ebabf|baselib/code/ClassBase.py
-b6689119b3c9f8009f62787b3fe3388a|baselib/code/Code.py
+8542873153c2fd463464be8b08c76c2b|baselib/code/Code.py
 afc6ff846b9596ea2afe3032d66e3331|baselib/code/__init__.py
 ca4e9f1e60f6e3535395730f70eb707c|baselib/code/extension.cfg
 52308ff203ac3fbddbb3179734ef620b|baselib/codeexecutor/CodeExecutor.py
@@ -118,12 +120,12 @@ e7c301b883aaf038e042c4892646de88|baselib/inifile/extension.cfg
 84e06e93c748d1572bc91ac4d6bce0d7|baselib/installtools/InstallTools.py
 7c915b9a1e4aa977a90f4e6a928d86c2|baselib/installtools/__init__.py
 04f4a08825ecf46730cee6409c503c22|baselib/installtools/extension.cfg
-4b37347447abc3246fda8875aad0cc9b|baselib/jpackages/.JPackageObject.py.swp
+e4ef2c2ddc3bd903707ff10562eeaac1|baselib/jpackages/.CodeManagementRecipe.py.swp
 339cec6fb8998df8d72fda7f6db59fa1|baselib/jpackages/ActionManager.py
-55605c44163d07e7e6032c19d163bed0|baselib/jpackages/CodeManagementRecipe.py
+101388c53c3e3f628e5c0edc61ed43dc|baselib/jpackages/CodeManagementRecipe.py
 2b2f552ba0bde641d19cd5b1232b4023|baselib/jpackages/Domain.py
-bb9f19bc1d906f0f7c8152c455473554|baselib/jpackages/JPackageClient.py
-2c8f22ef6de8bf351fcebed0b3abd60d|baselib/jpackages/JPackageObject.py
+fab2eb3a9c1012fa0662b66785adbb50|baselib/jpackages/JPackageClient.py
+6239a877ae0db36976e23b7a8c5e20bd|baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|baselib/jpackages/JPackageStateObject.py
 3f227672e069535ac6d274eb52c681a5|baselib/jpackages/JPackagesGenDocs.py
 a465359f88e9e8fe21ea76dc39fdec39|baselib/jpackages/PythonPackage.py
@@ -165,7 +167,7 @@ ccc35ca973eeb347435798ce5e799870|baselib/jpackages/templates/hrd/main.hrd
 c41a8583ecea369917c697a5c5ebab20|baselib/jpackages/templates/hrdactive/readme.txt
 6e7d8564ed9247cc3d008da87d9d5a65|baselib/jpackages/templates/releasenotes.wiki
 9998d22b71a755607b096bf6f8189bd8|baselib/jsdeveltools/JSDevelTools.py
-34e304e6a425fab915636d6e08fc782d|baselib/jsdeveltools/JSDevelToolsInstaller.py
+7a3b61058966db5274d250687b7d18e3|baselib/jsdeveltools/JSDevelToolsInstaller.py
 7b2bc26cb62a84ef16f2fc8d49da28d5|baselib/jsdeveltools/__init__.py
 3a6fa24c61c2d77888bcbf71dcb3e942|baselib/key_value_store/__init__.py
 4d24466fe9e5bbe4577a25750b41cdc3|baselib/key_value_store/arakoon_store.py
@@ -183,7 +185,7 @@ b8de973c764339377f4baf5d8cf9ea7b|baselib/lrucache/RWCache.py
 df69fd931770afcf7774102ae9bbad55|baselib/lrucache/__init__.py
 815969c78589b425436bf12599dc4e97|baselib/manage/__init__.py
 5753e8adb05dde5608c69b7cda04d0d7|baselib/manage/managerbase.py
-ddc668c4d027a9aa358fbe247f65d526|baselib/mercurial/HgLibClient.py
+7108f0025e36e98b138487dcf7b2f4db|baselib/mercurial/HgLibClient.py
 9e87b7fa8cba1976db77a8aeda655ec3|baselib/mercurial/HgLibFactory.py
 6fe0e3eb4f585a60030ce74fe732efc4|baselib/mercurial/__init__.py
 53665df450577a0b632c041434e44bb7|baselib/mercurial/extension.cfg
@@ -206,7 +208,7 @@ d8bf3b045762df4d3df25318a3805c98|baselib/performancetrace/__init__.py
 d41d8cd98f00b204e9800998ecf8427e|baselib/platforms/ubuntu/__init__.py
 9f30eefd6efb050cfe936967e9f9e106|baselib/platforms/ubuntu/extension.cfg
 c08c4b0b9db931cc8b05fe60843c512d|baselib/portapps/PortApps.py
-625a1057b771093df6ded6e2aeff5865|baselib/redis/Redis.py
+21006701523812424e1b3199c80a01e5|baselib/redis/Redis.py
 5915621f3a2e746a381e42b3f27e6831|baselib/redis/__init__.py
 5b8487c41aa5b1d71375b1a088e2b7c5|baselib/redis/geventredis/RedisQueue.py
 784b5c681a8c2f165feb57de9c47839e|baselib/redis/geventredis/__init__.py
@@ -295,8 +297,9 @@ c9b5be36a67fd6c42adc625d47fe62fa|baselib/winconsole/extension.cfg
 d0af86777afec8111def75edc2818f14|baselib/zredisgw/ZRedisGWClient.py
 5e016858b27f25af97168123518fb42b|baselib/zredisgw/ZRedisGWFactory.py
 eedc37611bf89c07a869165c3cbbd909|baselib/zredisgw/__init__.py
-05f24983e9dd6c4bbfb8e0a4601d397e|core/Application.py
-84f804b49ec722673957b24a21cbc97b|core/Dirs.py
+47b304130ea664ae1a3e7d590d26b37b|core/.Dirs.py.swp
+3770c56007aacbd8737d594c2d775cfd|core/Application.py
+6140e3bc3ad83a0dfbf2d71cd1448ffe|core/Dirs.py
 1a4937f5333aa40d04674c03ebd85389|core/PlatformTypes.py
 8bc5d426eb36e74e8dc177988f410a63|core/Shell.py
 4e1e21f7320313c9314fc9f3d3c4ea17|core/Time.py
@@ -306,7 +309,7 @@ e3c66f62a2897606a2869922b1e4a773|core/_defaultcontent/cfg/hrd/python.hrd
 40f06c9a71934a218a79fb09899290af|core/_defaultcontent/cfg/hrd/system.hrd
 cfe99ec06473e4d5036b861228a67dd2|core/_defaultcontent/cfg/jpackages/sources.cfg
 4ce08b18fbed21f5bb56a4c96a3935a8|core/_defaultcontent/cfg/jsconfig/bitbucket.cfg
-0a96cb1343b42a5b68e6249884088dcc|core/_defaultcontent/cfg/jsconfig/blobstor.cfg
+dc7df2a593e156a10e010e1c39ed8345|core/_defaultcontent/cfg/jsconfig/blobstor.cfg
 8b8dc6843e555462e524c9783981b212|core/_defaultcontent/cfg/jsconfig/main.cfg
 2eead760c07347935d69b4c4a6bfac29|core/_defaultcontent/linux/bin/readme.txt
 2eead760c07347935d69b4c4a6bfac29|core/_defaultcontent/linux/utils/readme.txt
