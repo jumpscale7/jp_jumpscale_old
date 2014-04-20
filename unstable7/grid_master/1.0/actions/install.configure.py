@@ -5,6 +5,9 @@ def main(j,jp):
     j.application.config.set("grid.id",gridid)
     j.application.config.set("grid.master.ip","127.0.0.1")
 
+    j.packages.findNewest(domain="jumpscale",name="elasticsearch1").install()
+    j.tools.startupmanager.startProcess("jumpscale","elasticsearch")
+
     #check osis installed
     if not j.system.net.tcpPortConnectionTest("127.0.0.1", 5544):
         j.tools.startupmanager.startProcess('jumpscale', 'elasticsearch')
@@ -22,9 +25,6 @@ def main(j,jp):
     redis=j.packages.findNewest(domain="jumpscale",name="redis")
     redis.install()
     redis.start()
-
-    j.packages.findNewest(domain="jumpscale",name="elasticsearch1").install()
-    j.tools.startupmanager.startProcess("jumpscale","elasticsearch")
 
     j.packages.findNewest(domain="jumpscale",name="osis").install()
     j.tools.startupmanager.startProcess("jumpscale","osis")
