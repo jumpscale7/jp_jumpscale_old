@@ -1,5 +1,5 @@
 def main(j,jp):
-     portalinit = j.system.fs.joinPaths(j.dirs.JSlibDir, 'portal', '__init__.py')
+     portalinit = j.system.fs.joinPaths(j.dirs.jsLibDir, 'portal', '__init__.py')
      if not j.system.fs.exists(portalinit):
          myinit = """
  from JumpScale import j
