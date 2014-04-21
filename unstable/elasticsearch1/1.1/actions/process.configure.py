@@ -4,7 +4,7 @@ def main(j,jp):
 
     name="elasticsearch"
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'elasticsearch1','bin')
-    cmd="%s/elasticsearch"%workingdir
+    cmd="export JAVA_HOME=$base/apps/openjdk7/;%s/elasticsearch"%workingdir
     ymlfile = j.system.fs.joinPaths(j.dirs.cfgDir, 'elasticsearch1', 'elasticsearch.yml')
     args="-fD es.config=%s" % ymlfile
     startstoptimeout=60

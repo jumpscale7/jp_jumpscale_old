@@ -17,3 +17,4 @@ jp.export=0
 jp.bundles=linux:3787bb57ab6ce865da084a19ba730270
 jp.process.tcpports=
 jp.process.startuptime=30
+jp.debug=0
