@@ -1,4 +1,4 @@
-c01040190c3e270488fa9c8c792c91bd
+8b89c15bb30833f9287827e132bd4e2c
 2e3194d47eb895949da7a169faf0eac3|apps/osis/arakoonStart.py
 ffb6832d8ece284de1d7cddf56ca1895|apps/osis/logic/_arakoonmodelobjects/OSIS_auth.py
 49a7d72f266b3f508f4ee54d5a410501|apps/osis/logic/_arakoonmodelobjects/OSIS_category_template.py
@@ -75,8 +75,8 @@ be2c1e2fe2bef6cc996b4fe93a97e406|apps/osis/logic/test_complextype/project/test_c
 ce09fe121f15949ac7948a6323f44951|apps/osis/logic/test_complextype/user/test_complextype_user_osismodelbase.py
 ec9c35bf8c56568ccad40a71f01dd6d9|apps/osis/osisClient.py
 e623c40a6175b4241a060198ec2a3deb|apps/osis/osisServerStart.py
-94dc173e249f72f6427a302283444128|apps/osis/tests/netmgr__test.py
-0855f4768e2dfe2e281d2230ed38a1e5|apps/osis/tests/osisbasic__test.py
+bc8763e107c04404f83400d7645438d0|apps/osis/tests/netmgr__test.py
+b1f9d5eff6a3565a59b0ebc4528a29cc|apps/osis/tests/osisbasic__test.py
 0dd8296e03f52c989f19db79472d08af|apps/osis/tests/osiscomplextype__test.py
-c3fd5278bc886b7da6efc0e59a171242|apps/osis/tests/osisperformance__test.py
+f343741b92f1c9c252b6fc9e2d127b6a|apps/osis/tests/osisperformance__test.py
 7839b166235273b4e6b80dde06489468|apps/osis/tests/osispopulation__test.py

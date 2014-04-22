@@ -5,7 +5,7 @@ jp.debug=1
 
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=146
+jp.buildnr=147
 jp.export=0
 jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:830f44339ec43e7716a2a8391ca92877
 
