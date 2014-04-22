@@ -3,7 +3,7 @@ def main(j,jp):
     #prepare the platform before copying the files
 
     # can happen by e.g. installing a debian package e.g. by
-    j.system.platform.ubuntu.install("python-virtualenv")
+    #j.system.platform.ubuntu.install("python-virtualenv")
        
     #install found debs they need to be in debs dir of one or more of the platforms (all relevant platforms will be used)
     #args.qp.installUbuntuDebs()
