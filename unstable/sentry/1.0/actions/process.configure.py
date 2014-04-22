@@ -14,7 +14,7 @@ def main(j,jp):
 
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
-        cmd="./sentry --config=$cfgdir/sentry.conf.py start", \
+        cmd="./sentry --config=$cfgdir/sentry/sentry.conf.py start", \
         args="",\
         env=env,\
         numprocesses=1,\
