@@ -6,7 +6,7 @@ def main(j,jp):
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'elasticsearch1','bin')
     cmd="export JAVA_HOME=$base/apps/openjdk7/;%s/elasticsearch"%workingdir
     ymlfile = j.system.fs.joinPaths(j.dirs.cfgDir, 'elasticsearch1', 'elasticsearch.yml')
-    args="-fD es.config=%s" % ymlfile
+    args="-D es.config=%s" % ymlfile
     startstoptimeout=60
     processfilterstr="elasticsearch.yml org.elasticsearch.bootstrap.ElasticSearch"
     j.tools.startupmanager.addProcess(name, cmd, args=args, domain="jumpscale",jpackage=jp,ports=[9200],priority=1,\

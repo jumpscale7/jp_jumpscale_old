@@ -19,6 +19,10 @@ jp.hrdchecksum=8df2dc1252e89bdc64fee2bf20ab5daa
 ##dependencies
 jp.dependency.1.name = postfix
 jp.dependency.1.domain = jumpscale
+
+jp.dependency.1.name = postgresql
+jp.dependency.1.domain = jumpscale
+
 jp.process.tcpports=
 jp.process.startuptime=30
 jp.dependency.1.minversion=
