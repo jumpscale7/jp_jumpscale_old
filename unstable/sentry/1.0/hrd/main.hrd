@@ -21,7 +21,7 @@ jp.dependency.1.name = postfix
 jp.dependency.1.domain = jumpscale
 
 jp.dependency.1.name = postgresql
-jp.dependency.1.domain = jumpscale
+jp.dependency.1.domain = serverapps
 
 jp.process.tcpports=
 jp.process.startuptime=30
