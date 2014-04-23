@@ -1,29 +1,23 @@
 def main(j,jp):
     masterip=""
 
-    if j.application.config.get("processmanager.osis.addr")=="":
-        # if not j.console.askYesNo("Do you want to log to the log master? or to other node? (Y means to gridmaster)"):
-        masterip =j.application.config.get("grid.master.ip")
-        port=5544
-        # else:
-        #     masterip=j.console.askString("Addr of logmaster")
-        #     port=j.console.askInteger("port for logmaster, default 5544", default=5544)
+    masterip =j.application.config.get("grid.master.ip")
+    port=5544
+    # else:
+    #     masterip=j.console.askString("Addr of logmaster")
+    #     port=j.console.askInteger("port for logmaster, default 5544", default=5544)
 
-        if j.system.net.tcpPortConnectionTest(masterip, 5544)==False:
-            raise RuntimeError("Cannot reach log master on ip %s (using port test 5544 to see if there is an osis server)"%masterip)
+    if j.system.net.tcpPortConnectionTest(masterip, 5544)==False:
+        raise RuntimeError("Cannot reach log master on ip %s (using port test 5544 to see if there is an osis server)"%masterip)
 
-        if masterip=="":
-            raise RuntimeError("Could not find ip addr of log master, it needs tp be filled in, is in hrd 'grid.master.ip'")
+    if masterip=="":
+        raise RuntimeError("Could not find ip addr of log master, it needs tp be filled in, is in hrd 'grid.master.ip'")
 
 
     if j.application.config.get("grid.master.superadminpasswd") == "":
         passwdmd5 = j.tools.hash.md5_string(j.console.askString("Please provide: grid.master.superadminpasswd", regex="^(?!\s*$).+", retry=5))
     else:
         passwdmd5 = j.application.config.get("grid.master.superadminpasswd")
-
-    if masterip=="":
-        masterip =j.application.config.get("processmanager.osis.addr")
-        port=int(j.application.config.get("processmanager.osis.port"))
 
     #now register node
     import JumpScale.grid.osis

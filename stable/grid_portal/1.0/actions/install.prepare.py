@@ -1,6 +1,6 @@
 
 def main(j,jp):
-    path="/opt/jumpscale/apps/gridportal"
+    path="$basedir/apps/gridportal"
     if j.system.fs.isLink(path):
         j.system.fs.unlink(path)
 
