@@ -63,67 +63,89 @@ def main(j,jp):
 
     time.sleep(1)
 
-    import os
-    import sys
-
-    j.system.fs.changeDir("$base/cfg/sentry")
-
-    sys.path.insert(0,"$base/apps/sentry/lib/python2.7/")
-    sys.path.insert(0,"$base/apps/sentry/lib/python2.7/lib-dynload/")
-    sys.path.insert(0,"$base/apps/sentry/lib/python2.7/site-packages/")
-
-    for item in j.system.fs.fileGetContents("$base/apps/sentry/lib/python2.7/site-packages/easy-install.pth").split("\n"):
-        if item.strip()=="":
-            continue
-        if item[0]==".":
-            sys.path.insert(0,"$base/apps/sentry/lib/python2.7/site-packages/%s"%item[2:])
-
-
-    # Bootstrap the Sentry environment
-    from sentry.utils.runner import configure
-
-    configure()
-
-    from sentry.models import Team, Project, ProjectKey, User
-
-    user = User()
-    user.username = 'admin'
-    user.email = 'admin@localhost'
-    user.is_superuser = True
-    user.set_password('admin')
-
-    try:
-        user.save()
-    except:
-        pass
-
-    team = Team()
-    team.name = 'default'
-    team.owner = user
-
-    try:
-        team.save()
-    except:
-        pass
-
     j.application.redis.delete("sentry:dsn")
 
-    for pname in ["Default","Ops","Bugs"]:
+    rc,out=j.system.process.execute("unset PYTHONPATH;sh /opt/jsbox/apps/sentry/configure.sh")
+    if rc<>0:
+        raise RuntimeError("Could not init the default projects & administrator")
+    dsn={}
+    for line in out.split("\n"):
+        if line.find("SENTRY_DSN")==-1:
+            continue        
+        line=line.split("for")[1].strip()        
+        name=line.split("=")[0].strip()
+        dsnval=line.split("//")[1].split("@")[0]
+        dsn[name]=dsnval
 
-        project = Project()
-        project.team = team
-        project.owner = user
-        project.name = pname
+        j.application.redis.hset("sentry:dsn",name.lower(),dsnval)
 
-        try:
-            project.save()
-        except:
-            pass
+        print 'SENTRY_DSN for %s = "%s"' % (name,dsnval)
+    
 
-        key = ProjectKey.objects.filter(project=project)[0]
-        dsn=key.get_dsn()
+    # import os
+    # import sys
+
+    # j.system.fs.changeDir("$base_data/cfg/sentry")
+
+    
+
+    # sys.path.insert(0,"$base/apps/sentry/lib/python2.7/")
+    # sys.path.insert(0,"$base/apps/sentry/lib/python2.7/lib-dynload/")
+    # sys.path.insert(0,"$base/apps/sentry/lib/python2.7/site-packages/")
+
+    # for item in j.system.fs.fileGetContents("$base/apps/sentry/lib/python2.7/site-packages/easy-install.pth").split("\n"):
+    #     if item.strip()=="":
+    #         continue
+    #     if item[0]==".":
+    #         sys.path.insert(0,"$base/apps/sentry/lib/python2.7/site-packages/%s"%item[2:])
+
+
+    # # Bootstrap the Sentry environment
+    # from sentry.utils.runner import configure
+
+    # configure()
+
+
+    # from sentry.models import Team, Project, ProjectKey, User
+
+    # user = User()
+    # user.username = 'admin'
+    # user.email = 'admin@localhost'
+    # user.is_superuser = True
+    # user.set_password('admin')
+
+    # try:
+    #     user.save()
+    # except:
+    #     pass
+
+    # team = Team()
+    # team.name = 'default'
+    # team.owner = user
+
+    # try:
+    #     team.save()
+    # except:
+    #     pass
+
+    # j.application.redis.delete("sentry:dsn")
+
+    # for pname in ["Default","Ops","Bugs"]:
+
+    #     project = Project()
+    #     project.team = team
+    #     project.owner = user
+    #     project.name = pname
+
+    #     try:
+    #         project.save()
+    #     except:
+    #         pass
+
+    #     key = ProjectKey.objects.filter(project=project)[0]
+    #     dsn=key.get_dsn()
         
-        j.application.redis.hset("sentry:dsn",pname.lower(),dsn)
+    #     j.application.redis.hset("sentry:dsn",pname.lower(),dsn)
 
-        print 'SENTRY_DSN for %s = "%s"' % (pname,dsn,)
+    #     print 'SENTRY_DSN for %s = "%s"' % (pname,dsn,)
 

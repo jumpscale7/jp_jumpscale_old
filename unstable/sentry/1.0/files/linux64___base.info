@@ -1,4 +1,4 @@
-ba724bc9e30cc04ac91da46168b35879
+55f8b1404f9fded8ae7159547a485f99
 78583cfcdb7401ce406874ae4178a752|apps/sentry/bin/activate
 87f3b3c1646b53c8e04e08338fb82df7|apps/sentry/bin/activate.csh
 8a1c22daa837b2e2c16bd94f0e3dc88f|apps/sentry/bin/activate.fish
@@ -28,6 +28,8 @@ e03770f725f934759ef1436f612cf087|apps/sentry/bin/python2
 e03770f725f934759ef1436f612cf087|apps/sentry/bin/python2.7
 5984f01e4b56aeccbe506fa394622521|apps/sentry/bin/raven
 93ed3456b96436eb70182cfda37fe201|apps/sentry/bin/sentry
+f201de22ecfb86d8dc78456eed8f0182|apps/sentry/configure.py
+bc9ea67e21b56ee908de0f6666396e26|apps/sentry/configure.sh
 8976e2597883a3bb56968c375f65e269|apps/sentry/include/python2.7/ImDib.h
 fe51c26027a25eb536b9d3623c857fd1|apps/sentry/include/python2.7/ImPlatform.h
 f3f99f12312817c9b10e0d1772bc1a33|apps/sentry/include/python2.7/Imaging.h
@@ -18533,3 +18535,4 @@ b8cb0c9764cf0a58cbd99027bff1ac14|apps/sentry/local/lib/python2.7/sre_parse.py
 0f443c15753459fc012f1c68fdd810dc|apps/sentry/local/lib/python2.7/stat.py
 98497bf8e230377571bd6cb23ef009b6|apps/sentry/local/lib/python2.7/types.py
 a0eb9b4a8c53f54bdfc880b06b477668|apps/sentry/local/lib/python2.7/warnings.py
+3c2b4391bb07e6b4058d9203de8ea3ab|apps/sentry/sentry.conf.py

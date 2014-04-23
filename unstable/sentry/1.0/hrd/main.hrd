@@ -10,7 +10,7 @@ jp.supportedplatforms=linux64
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=15
+jp.buildnr=16
 
 jp.taskletschecksum=b4ce754d4d07e9f8eafac94735ebd490
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
@@ -20,8 +20,11 @@ jp.hrdchecksum=8df2dc1252e89bdc64fee2bf20ab5daa
 jp.dependency.1.name = postfix
 jp.dependency.1.domain = jumpscale
 
-jp.dependency.1.name = postgresql
-jp.dependency.1.domain = serverapps
+jp.dependency.2.name = memcache
+jp.dependency.2.domain = serverapps
+
+jp.dependency.3.name = postgresql
+jp.dependency.3.domain = serverapps
 
 jp.process.tcpports=
 jp.process.startuptime=30
