@@ -8,7 +8,7 @@ def main(j,jp):
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
         cmd=cmd, \
-        args="processmanager.py",\
+        args="processmanager.py --nodeid=$nodeid",\
         env={},\
         numprocesses=1,\
         priority=100,\
@@ -27,9 +27,8 @@ def main(j,jp):
         isJSapp=0,\
         upstart=True,\
         stats=True,\
-        processfilterstr="processmanager.py")#what to look for when doing ps ax to find the process
+        processfilterstr="processmanager.py --nodeid=$nodeid")#what to look for when doing ps ax to find the process
     
     pd.start()
 
 
-    #4445
