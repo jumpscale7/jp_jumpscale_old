@@ -24,7 +24,7 @@ def main(j,jp):
         shell=False,\
         workingdir='$base/apps/nginx',\
         jpackage=jp,\
-        domain=jp.domain,\
+        domain='serverapps',\
         ports=[80],\
         autostart=True,\
         reload_signal=0,\
