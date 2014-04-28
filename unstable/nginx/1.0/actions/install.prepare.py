@@ -17,4 +17,7 @@ def main(j,jp):
     j.system.platform.ubuntu.remove("nginx-common")
     j.system.platform.ubuntu.remove("nginx-extras")
 
+    #hack for sandboxed nginx to start properly
+    j.system.fs.createDir(j.system.fs.joinPaths('/var', 'lib', 'nginx'))
+
 
