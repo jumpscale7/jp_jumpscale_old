@@ -4,23 +4,22 @@ def main(j,jp):
     
     # jp.log("set autostart $(jp.name)")
 
+    j.system.fs.createDir('$vardir/webdis')
 
-    j.system.fs.createDir('$vardir/ssdb')
-
-    j.system.fs.remove("$tmpdir/ssdb.pid")
+    # j.system.fs.remove("$tmpdir/webdis.pid")
 
     pd=j.tools.startupmanager.addProcess(\
-        name="ssdb",\
-        cmd="./ssdb-server", \
-        args="$cfgdir/ssdb/ssdb.conf",\
+        name="webdis",\
+        cmd="./webdis", \
+        args="$cfgdir/webdis/webdis.json",\
         env={},\
         numprocesses=1,\
         priority=1,\
         shell=False,\
-        workingdir='$base/apps/ssdb',\
+        workingdir='$base/apps/webdis',\
         jpackage=jp,\
         domain="serverapps",\
-        ports=[8888],\
+        ports=[7779],\
         autostart=True,\
         reload_signal=0,\
         user="root",\
@@ -31,10 +30,6 @@ def main(j,jp):
         isJSapp=0,\
         upstart=False,\
         stats=True,\
-        processfilterstr="ssdb-server")#what to look for when doing ps ax to find the process
+        processfilterstr="./webdis")#what to look for when doing ps ax to find the process
     
-    pd.start()
-
-    j.system.fs.createDir("$cfgdir/ssdb")
-    j.dirs.replaceFilesDirVars("$cfgdir/ssdb")
-
+    pd.start()    

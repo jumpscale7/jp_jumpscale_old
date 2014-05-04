@@ -1,5 +1,5 @@
 jp.domain=jumpscale
-jp.name=ssdb
+jp.name=webdis
 jp.version=1.0
 jp.autobuild=0
 
@@ -10,15 +10,14 @@ jp.supportedplatforms=linux64
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=10
+jp.buildnr=6
 
-jp.taskletschecksum=293615f7936e34770bfcf34d46f73959
-jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
+jp.taskletschecksum=
+jp.descrchecksum=
+jp.hrdchecksum=
 
 ##dependencies
 #jp.dependency.1.name = processmanager
 #jp.dependency.1.domain = jumpscale
 jp.process.tcpports=
 jp.process.startuptime=30
-jp.debug=0
