@@ -1,4 +1,4 @@
-e1125f72e501f699f6f181ab709f0f2d
+549c51214f1fe28c6d73299dab3e8c78
 0445aa8aab38aa7f0d23f98a30c7671a|apps/admin/cfg/hosts
 1c000ff32e8c182d1f42e56c8761ef63|apps/admin/cfg/superadmin.hrd
 de6267d0082edd2b61aecf2879f74095|apps/admin/cfgs/computenode/jscfg/jpackages/sources.cfg
@@ -6,8 +6,8 @@ de6267d0082edd2b61aecf2879f74095|apps/admin/cfgs/computenode/jscfg/jpackages/sou
 d80876f961739f0ee9a1f5c811fe0904|apps/admin/cfgs/computenode/jscfg/jsconfig/blobstor.cfg
 c3a08584a7cf8a9ccb02ef5feb658601|apps/admin/examples.sh
 8d0a06ff303b21a75ca4c429b76ee2e0|apps/admin/jumpscripts/deploy/configure.py
-7147ed647b814ab7edcb236ab37f2ad6|apps/admin/jumpscripts/deploy/coredebug.py
-fb6d5219a005894dc14fc3272ba9d2f3|apps/admin/jumpscripts/deploy/grid_master.py
+0ebd904a9dcd3bcb576aec1db46eec95|apps/admin/jumpscripts/deploy/coredebug.py
+6d5d389edd1d8b018b5152a2c00dfd59|apps/admin/jumpscripts/deploy/grid_master.py
 db5631308a01091fff69da3c06bd1e72|apps/admin/jumpscripts/deploy/securitydeployshorewall.py
 647cc0828a31c20f6387efd85e47f565|apps/admin/jumpscripts/processmanager/all_restart.py
 d671d8506dcd4f067d0ada1c3dba5326|apps/admin/jumpscripts/processmanager/all_stop.py
@@ -29,5 +29,5 @@ b9e2f09ebc7aa4f7a90bf750b640edf4|apps/admin/jumpscripts/varia/jumpscale_test.py
 faf1c3e670f7192b93c1868697b503bd|apps/admin/jumpscripts/varia/rsync_share_code.py
 843580723cd6f908c43642513ce6f99c|apps/admin/jumpscripts/varia/shorewall.py
 ad845aac74c4902a4c58ea2e6b0f7daa|apps/admin/jumpscripts/varia/test.py
-ca05467a75b7580c016f6fc5b2ff89cf|apps/admin/jumpscripts/varia/upload_root_keys.py
+75a26667838992117597bfb1bd42f00e|apps/admin/jumpscripts/varia/upload_root_keys.py
 db724a0f16bc5a13d362d219c5c7d2e9|apps/admin/jumpscripts/varia/uploadetc.py

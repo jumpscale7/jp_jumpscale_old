@@ -1,4 +1,4 @@
-939ebb07320f31e5280e885b5dbf2203
+1fcbac330e92846f629b660e2a31b8a2
 0f852327b313ddfffde2e64775836d0e|__init__.py
 035c5b38c2aad0a1ed5a7426ee767cd6|base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|base/ERRORHANDLER.py
@@ -18,7 +18,7 @@ bc0aa28ef752bee229b2d2260de3786f|baselib/actions/action/ActionController.py
 b908d6012b786ab9391ef3bda3529c9f|baselib/actions/transaction/TransactionController.py
 d41d8cd98f00b204e9800998ecf8427e|baselib/actions/transaction/__init__.py
 ab3220765645fa3c0722123b3ec48808|baselib/actions/transaction/extension.cfg
-70ee9288c3c5f1b291f89f746eb8e726|baselib/admin/Admin.py
+dc950e932bf3274b378560191aaf9da5|baselib/admin/Admin.py
 45c34951a905c6b46935e08cbdf647b4|baselib/admin/__init__.py
 fd97379105a803cf385e468d030b7d4f|baselib/backup/BackupClient.py
 7cc12c11fef9245542afda6e713917a7|baselib/backup/BackupFactory.py
@@ -78,8 +78,8 @@ b9c597307997459f9191c3274a889dd3|baselib/codetools/TextLineEditor.py
 34bef67286b2d135bc7e8898a641053c|baselib/codetools/WordReplacer.py
 ad0445f07e5abfa3f8eaddf3a8d6215c|baselib/codetools/__init__.py
 57a20b245138d2d551c28c011cbebb90|baselib/codetools/extension.cfg
-d9a95a9d3a8436710d3eefef7483e6f2|baselib/credis/CRedis.py
-d13c138641b80c25db80f9c08d23e0da|baselib/credis/CRedisQueue.py
+e7383c71752d93ad1edd3e140df8d5f5|baselib/credis/CRedis.py
+3fe17e346b7accd07f0dfb3952eb3212|baselib/credis/CRedisQueue.py
 d8229437e1e5e5bba124d7ea65d0c39f|baselib/credis/__init__.py
 9e76083920a1d8db07c2b2cec43880f9|baselib/dnsmasq/__init__.py
 462f4ad001e487d7067184357b3f007c|baselib/dnsmasq/dnsmasq.py
@@ -99,7 +99,7 @@ b6c1638e530ac6f22af4e01440733e19|baselib/gitlab/GitlabInstance.py
 f87e19bf772c1c4812895f71d2628019|baselib/gitlab/__init__.py
 2bfd0c65f3ef8908e9c332dff545a1a5|baselib/gitlab/gitlab/__init__.py
 61c8c72c4efb3846daf6e318f4b749e5|baselib/gitlab/gitlab/exceptions.py
-bbdf90ff7b746ff1741a35af66b2f471|baselib/graphite/GraphiteClient.py
+2abd32f12a8270ea87c86f04d5979a51|baselib/graphite/GraphiteClient.py
 ceb2c608fea62cfb0648adcd96319033|baselib/graphite/__init__.py
 1cd7c1b1fbf7172958908666fd8bd3f4|baselib/hash/HashTool.py
 c7a8aabcc68fad9c606c07faab16a9eb|baselib/hash/__init__.py
@@ -286,8 +286,12 @@ eea7c5feb1d51cc03f6e658f26d755bb|baselib/taskletengine/extension.cfg
 368085b2c65bd0f9f6477d9fea85a500|baselib/testengine/__init__.py
 b996cef75460664d2a51a269c6e90549|baselib/units/__init__.py
 3e29be145dc188317c9a267615e582b1|baselib/units/units.py
-08716c6904acd0a8ed3d4d18881c3b23|baselib/wedbis/Webdis.py
-b7ceca118a7b9e0b19db53464f3a17db|baselib/wedbis/__init__.py
+9ef450eb930513903b8ffe6df6b8d46b|baselib/watchdogclient/WatchdogClient.py
+bc7932509cdf4f62c94f5111fdac80e1|baselib/watchdogclient/__init__.py
+8000b5291900882e2f389c6d1a741ffc|baselib/watchdogmanager/WatchdogFactory.py
+be45eb308b50e04e97338f878382226c|baselib/watchdogmanager/__init__.py
+4abc116f05859367317831e72bba7d73|baselib/webdis/Webdis.py
+b7ceca118a7b9e0b19db53464f3a17db|baselib/webdis/__init__.py
 ffd8ccd42be34b93c7e9ba36d5bd59d1|baselib/winconsole/WinConsole.py
 c9b5be36a67fd6c42adc625d47fe62fa|baselib/winconsole/extension.cfg
 393507a8f97f82307ea3b28587e76a80|baselib/yaml/YAMLTool.py
@@ -351,7 +355,7 @@ c2244a432d0235647a9981ff820b6b18|core/enumerators/ErrorConditionLevel.py
 413920c50ff92c45b1fe288e481eb108|core/enumerators/__init__.py
 7744fcdc5daef88154a58c3f0bba9dcc|core/errorhandling/ErrorConditionHandler.py
 c11bf9135071e05012e70424a2c4580f|core/errorhandling/ErrorConditionObject.py
-3b346e87fe5e1f704b17b87b273730a3|core/errorhandling/EventHandler.py
+896d51bcce091ba55d40943d3cfc8b95|core/errorhandling/EventHandler.py
 894eda45022d75aefd90b8dfef66179c|core/errorhandling/__init__.py
 b569bdc3cd263791176b8fde8a3a2028|core/errorhandling/six.py
 48290cfc1e556dfbe3b07071ec4c0e63|core/errorhandling/stacks.py
@@ -403,7 +407,7 @@ a84c367b650cebf8a3c5253f8702c540|core/system/ZipFile.py
 133823c667248c69521b87c850f9c197|core/system/__init__.py
 23a221fdec3395ba60ff226424848cc4|core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|core/system/fswalker.py
-8931783223024f2157588ce47bdb23cd|core/system/net.py
+2533253c09ee8282aa496e572e7c001f|core/system/net.py
 253f5bb0e835a5e8447f1c6f5b800425|core/system/process.py
 2087b5562b95e19fd89e8251a744fb3c|core/system/processhelper.py
 80bd0458289bbb37833230b9652401dd|core/system/string.py

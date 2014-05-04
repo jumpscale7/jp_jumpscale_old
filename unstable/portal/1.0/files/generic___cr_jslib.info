@@ -1,4 +1,4 @@
-a1a54601ec4b27dbb081482455a9322d
+84700f4cda4d446dc7bad331a617851e
 9826d27ce095c8c8eeaabae630dd8957|portal/__init__.py
 4a655bdbf9bde0b0f6520741a3e8d3be|portal/_socketprocess/MessageRouter.py
 cce97e1c252fccbaacb06b308a96bfe7|portal/_socketprocess/SQLDBClient6.py
@@ -632,8 +632,6 @@ e961ce874f332d3adae8a7e7d9f5985e|portal/macrolib/div_base.py
 04b5e15f4814f9c4e9e656a2d46db66d|portal/macrolib/imagelib/extension.cfg
 baf47004595b34fcd4a84dd98a1ac986|portal/macrolib/plantuml/__init__.py
 f0010f7b0a9bfebc27714fc49994bde4|portal/macrolib/plantuml/plantuml.jar
-c598ae0bf8e5520e7ac1efa557ee0c80|portal/portal/.PortalAuthenticatorOSIS.py.swp
-d9fc9953c6cc871c0ccc2e90ebb91552|portal/portal/.PortalServer.py.swp
 b69e2ad2c2bd2a95800cb842b6a4c720|portal/portal/MacroExecutor.py
 d22b6bba0340c9b2e660b3cfaf0d7416|portal/portal/PortalAuthenticatorOSIS.py
 8279391a1b28d8c77fea1b0b6a83c0c1|portal/portal/PortalClient.py
