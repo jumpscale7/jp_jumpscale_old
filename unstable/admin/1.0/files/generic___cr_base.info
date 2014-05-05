@@ -1,4 +1,4 @@
-de379c4398346755b22202f2d1177335
+5035fb170941aad84d08dd5bfc2fda99
 0445aa8aab38aa7f0d23f98a30c7671a|apps/admin/cfg/hosts
 1c000ff32e8c182d1f42e56c8761ef63|apps/admin/cfg/superadmin.hrd
 de6267d0082edd2b61aecf2879f74095|apps/admin/cfgs/computenode/jscfg/jpackages/sources.cfg
@@ -6,13 +6,13 @@ de6267d0082edd2b61aecf2879f74095|apps/admin/cfgs/computenode/jscfg/jpackages/sou
 d80876f961739f0ee9a1f5c811fe0904|apps/admin/cfgs/computenode/jscfg/jsconfig/blobstor.cfg
 c3a08584a7cf8a9ccb02ef5feb658601|apps/admin/examples.sh
 8d0a06ff303b21a75ca4c429b76ee2e0|apps/admin/jumpscripts/deploy/configure.py
-0ebd904a9dcd3bcb576aec1db46eec95|apps/admin/jumpscripts/deploy/coredebug.py
-6d5d389edd1d8b018b5152a2c00dfd59|apps/admin/jumpscripts/deploy/grid_master.py
+7147ed647b814ab7edcb236ab37f2ad6|apps/admin/jumpscripts/deploy/coredebug.py
+fb6d5219a005894dc14fc3272ba9d2f3|apps/admin/jumpscripts/deploy/grid_master.py
 db5631308a01091fff69da3c06bd1e72|apps/admin/jumpscripts/deploy/securitydeployshorewall.py
 647cc0828a31c20f6387efd85e47f565|apps/admin/jumpscripts/processmanager/all_restart.py
 d671d8506dcd4f067d0ada1c3dba5326|apps/admin/jumpscripts/processmanager/all_stop.py
 35fcea3b1e99bb3e6ad7caa47023bbf8|apps/admin/jumpscripts/processmanager/processmanager_restart.py
-ef32146938afabf8037d9c097453175a|apps/admin/jumpscripts/processmanager/processmanager_restart_reset.py
+55434d22b11733cb7f412f178bc0e3dc|apps/admin/jumpscripts/processmanager/processmanager_restart_reset.py
 cd8160ceaf8703cad3c3b64a81b544e2|apps/admin/jumpscripts/processmanager/processmanager_start.py
 286e6e19b329c37c6fcec8a029b9cef2|apps/admin/jumpscripts/processmanager/workers_restart.py
 51c37fd9c8925127fc324c825b70246d|apps/admin/jumpscripts/processmanager/workers_start.py
@@ -29,5 +29,5 @@ b9e2f09ebc7aa4f7a90bf750b640edf4|apps/admin/jumpscripts/varia/jumpscale_test.py
 faf1c3e670f7192b93c1868697b503bd|apps/admin/jumpscripts/varia/rsync_share_code.py
 843580723cd6f908c43642513ce6f99c|apps/admin/jumpscripts/varia/shorewall.py
 ad845aac74c4902a4c58ea2e6b0f7daa|apps/admin/jumpscripts/varia/test.py
-08933c67fa40e872f2f48b6ad37fc43f|apps/admin/jumpscripts/varia/upload_root_keys.py
+95fc2041eb1fe86e64f854b6df00d3d2|apps/admin/jumpscripts/varia/upload_root_keys.py
 db724a0f16bc5a13d362d219c5c7d2e9|apps/admin/jumpscripts/varia/uploadetc.py
