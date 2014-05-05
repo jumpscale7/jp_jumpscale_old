@@ -1,4 +1,4 @@
-1fcbac330e92846f629b660e2a31b8a2
+75760cf3698aa875af92bf49be20150e
 0f852327b313ddfffde2e64775836d0e|__init__.py
 035c5b38c2aad0a1ed5a7426ee767cd6|base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|base/ERRORHANDLER.py
@@ -182,6 +182,8 @@ f7160da69e575daa12d611236566baab|baselib/key_value_store/store.py
 352c2e22ec2edb1066383738eac1d8b0|baselib/lrucache/LRUCacheFactory.py
 b8de973c764339377f4baf5d8cf9ea7b|baselib/lrucache/RWCache.py
 df69fd931770afcf7774102ae9bbad55|baselib/lrucache/__init__.py
+20d943b7eeaa8f71cb2d823a1edec22f|baselib/mailclient/__init__.py
+3870acae3ef225af4a009f3ca6c3eb2a|baselib/mailclient/emailclient.py
 815969c78589b425436bf12599dc4e97|baselib/manage/__init__.py
 5753e8adb05dde5608c69b7cda04d0d7|baselib/manage/managerbase.py
 7108f0025e36e98b138487dcf7b2f4db|baselib/mercurial/HgLibClient.py
@@ -286,7 +288,7 @@ eea7c5feb1d51cc03f6e658f26d755bb|baselib/taskletengine/extension.cfg
 368085b2c65bd0f9f6477d9fea85a500|baselib/testengine/__init__.py
 b996cef75460664d2a51a269c6e90549|baselib/units/__init__.py
 3e29be145dc188317c9a267615e582b1|baselib/units/units.py
-9ef450eb930513903b8ffe6df6b8d46b|baselib/watchdogclient/WatchdogClient.py
+6e4fff1d910e92f2e6695a5685d15e43|baselib/watchdogclient/WatchdogClient.py
 bc7932509cdf4f62c94f5111fdac80e1|baselib/watchdogclient/__init__.py
 8000b5291900882e2f389c6d1a741ffc|baselib/watchdogmanager/WatchdogFactory.py
 be45eb308b50e04e97338f878382226c|baselib/watchdogmanager/__init__.py
@@ -355,7 +357,7 @@ c2244a432d0235647a9981ff820b6b18|core/enumerators/ErrorConditionLevel.py
 413920c50ff92c45b1fe288e481eb108|core/enumerators/__init__.py
 7744fcdc5daef88154a58c3f0bba9dcc|core/errorhandling/ErrorConditionHandler.py
 c11bf9135071e05012e70424a2c4580f|core/errorhandling/ErrorConditionObject.py
-896d51bcce091ba55d40943d3cfc8b95|core/errorhandling/EventHandler.py
+1bf59c580fdf7b40351f709dd799aa27|core/errorhandling/EventHandler.py
 894eda45022d75aefd90b8dfef66179c|core/errorhandling/__init__.py
 b569bdc3cd263791176b8fde8a3a2028|core/errorhandling/six.py
 48290cfc1e556dfbe3b07071ec4c0e63|core/errorhandling/stacks.py
