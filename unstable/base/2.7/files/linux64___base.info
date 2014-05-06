@@ -1,4 +1,4 @@
-142bb3e04870d6753e25b8dc32612f40
+b811922eac65814ae6793f02c3a1890d
 0f44b2d4562f4c8eba46865fb53ea6c5|bin/Python-2.7.egg-info
 e9c2d3723498cdfd64c0231cf37f74db|bin/_bsddb.x86_64-linux-gnu.so
 73d48a1edff94ec29c237f391a38aa2e|bin/_codecs_cn.x86_64-linux-gnu.so
@@ -44,6 +44,7 @@ b93708bdd247ec609447950d3d7c6380|bin/libgpg-error.so.0
 09eea93ed20ed13f50516ac84495d879|bin/libjbig.so.0
 ad179ae557c55a69d0df6249c3aa6e66|bin/libjli.so
 cb1eb4229a6c3c27de31aa8f86734214|bin/libjpeg.so.8
+b3b949d61e8784997bd8c2c7a819c1ac|bin/liblapack.so.3
 47e1a8ba401df7ab273d4fa984738b08|bin/libleveldb.so.1
 cba1eede7d4ee2d8601cf7709cbaaefa|bin/liblua5.1.so.0
 2b4c75c5fbd9587c1d0fbe143ee408b1|bin/liblzma.so.5
@@ -54,6 +55,7 @@ dd65e5e3a658c37ad86471ff7591090b|bin/libpcre.so.3
 a5a3d308031ee6b407156eaa73ec60fd|bin/libpng12.so.0
 4a367710523ec7a17f11426c73a50b5f|bin/libpq.so.5
 69a72661d18d57fb36e84df7ab586ad0|bin/libpthread.so.0
+7aa0f396d6a4707ca5b8d5b166fcd43d|bin/libquadmath.so.0
 73df1780bcd91e1bd10df5cc737ae40b|bin/libsnappy.so.1
 1b7fa237fbc4b0effaa67c1f55407346|bin/libssl.so.1.0.0
 fc2298bb0e6edb2cd13352925fd7fae5|bin/libvpx.so.1
