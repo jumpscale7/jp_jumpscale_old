@@ -1,0 +1,8 @@
+
+def main(j,jp):
+    path="$(jumpscale.paths.base)/apps/gridportal"
+    if j.system.fs.isLink(path):
+        j.system.fs.unlink(path)
+
+
+    pass
