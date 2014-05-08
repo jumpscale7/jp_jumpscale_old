@@ -1,4 +1,4 @@
-3286f58da4b95190812b336357e03335
+f4c28d9fbb950b5bbb41d5e6c4da71bd
 762a47fb75f2028a0ec1e785f44d800e|apps/gridportal/base/Grid/.files/app.js
 b7c50c3d91eee206a3edea2ad33803b1|apps/gridportal/base/Grid/.files/directives.js
 dc9994fb5e79035777808b9f17d3bbf3|apps/gridportal/base/Grid/.files/lib/angular-1.2.5/angular-animate.js
@@ -504,6 +504,7 @@ f39c2a01b2ac7afcea2c6531819fbbbd|apps/gridportal/base/Grid/.files/lib/jqplot-1.0
 bd42b401ab68f9eb54eee47a873b5769|apps/gridportal/base/Grid/.files/lib/jquery/jquery-1.10.1.js
 6dc59d3a72ad547168cf823c2fddc728|apps/gridportal/base/Grid/.files/lib/underscore-1.4.4/underscore-min.js
 ba5c11e83668c43afaf12f0054736113|apps/gridportal/base/Grid/.files/lib/underscore-1.4.4/underscore.js
+ea065ff0bfb286f4359fa551efd22807|apps/gridportal/base/Grid/.macros/page/alerts/3_alerts.py
 8dffd06124278cab32e3b44dda8216be|apps/gridportal/base/Grid/.macros/page/breadcrumbs/1_breadcrumbs.py
 a3d30bc6aae8c7e5fcbfd53f245b2360|apps/gridportal/base/Grid/.macros/page/disks/1_disks.py
 7b92d82707f753cff8ca52a58e502ce8|apps/gridportal/base/Grid/.macros/page/ecos/1_ecos.py
@@ -516,7 +517,7 @@ ac5b1c0f8191dc2f5f9579f02de62c5b|apps/gridportal/base/Grid/.macros/page/realtime
 245b5c7b8c755e63434b436100c21a02|apps/gridportal/base/Grid/.macros/page/systemlogs/1_main.py
 e1a9cf6dbd0b1bf8a528b0de27c6adb4|apps/gridportal/base/Grid/.macros/wiki/acjobqueues/1_acjobqueues.py
 2576b65ed49e69dbc395feda696f48fe|apps/gridportal/base/Grid/.macros/wiki/acjobs/3_acjobs.py
-cadf493d0af75c768bf50b51ec382d94|apps/gridportal/base/Grid/.macros/wiki/alert/1_alert.py
+8c7a241d966f9903c65d37dafb97decf|apps/gridportal/base/Grid/.macros/wiki/alert/1_alert.py
 e76910f8b82e36b841aa3c2fc9bf41b9|apps/gridportal/base/Grid/.macros/wiki/alerts/1_alerts.py
 98e8ed6314f427fd09379d63e334d931|apps/gridportal/base/Grid/.macros/wiki/disk/1_disk.py
 d2889943df3b009e37b33282dfd72ea2|apps/gridportal/base/Grid/.macros/wiki/diskscheck/1_diskcheck.py
@@ -560,8 +561,8 @@ d41d8cd98f00b204e9800998ecf8427e|apps/gridportal/base/Grid/.space/nav.wiki
 b8af6978955bc21d04eb5677e57577a9|apps/gridportal/base/Grid/.space/notfound.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/gridportal/base/Grid/.space/template.wiki
 6ed8d925e64b0a3937a932f8c4c2677e|apps/gridportal/base/Grid/ACJobs.wiki
-27681233c9a48a40e6e09eb6f65ae934|apps/gridportal/base/Grid/Alert.wiki
-d03275203556bec9e467dd3d82824d78|apps/gridportal/base/Grid/Alerts.wiki
+19ec56ed48032ad6ee70090cdf088bc2|apps/gridportal/base/Grid/Alert.wiki
+82fbcff0cdbd82e4ade4048945ee2a4a|apps/gridportal/base/Grid/Alerts.wiki
 07fac4422e095182ff718f4319b1638a|apps/gridportal/base/Grid/CheckStatus.wiki
 86fdeb055b66090ecccc472bb1dd4da5|apps/gridportal/base/Grid/DashBoard.wiki
 ae115e9eae250aab47ea16dbbaac9b64|apps/gridportal/base/Grid/Disk.wiki
@@ -645,7 +646,7 @@ d8db580e0c3094e5d5f0ea2999e587eb|apps/gridportal/base/system__gridmanager/specs/
 01abfc750a0c942167651c40d088531d|apps/gridportal/base/system__gridmanager/specs/model.spec
 f4100678fdddedfe7f94d613f335b16a|apps/gridportal/base/system__logs/.actor/acl.cfg
 33bca74bafdfa4bcd1dee28dd9d26037|apps/gridportal/base/system__logs/.actor/main.cfg
-1d635724d78e4ab4b40108097bd5e3ad|apps/gridportal/base/system__logs/methodclass/system_logs.py
+1d480ecd7dee2565e4474fa3102fdcd5|apps/gridportal/base/system__logs/methodclass/system_logs.py
 743fdc7013d67044e215ec99ac76693a|apps/gridportal/base/system__logs/specs/actor.spec
 f4100678fdddedfe7f94d613f335b16a|apps/gridportal/base/system__packagemanager/.actor/acl.cfg
 2f425fc83feb18e83b8c4bd9190e3350|apps/gridportal/base/system__packagemanager/.actor/main.cfg
