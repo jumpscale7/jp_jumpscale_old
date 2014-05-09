@@ -39,7 +39,7 @@ def main(j,jp):
     #make sure superadminpasswd is known
     if j.application.config.get("grid.master.superadminpasswd") == "" and j.application.config.get("grid.master.superadminpasswd").lower() <> "none":
         passwdmd5 = j.tools.hash.md5_string(j.console.askString("Please provide: grid.master.superadminpasswd", regex="^(?!\s*$).+", retry=5))
-        if not j.console.askYesNo("do you want to remember the superadmin passwd for the grid (only do this on trusted machines)"):
+        if j.console.askYesNo("do you want to remember the superadmin passwd for the grid (only do this on trusted machines)"):
             j.application.config.set("grid.master.superadminpasswd", passwdmd5)
         else:
             j.application.config.set("grid.master.superadminpasswd", "None")
