@@ -16,6 +16,12 @@ def main(j,jp):
     passwdmd5 = j.application.config.get("grid.master.superadminpasswd")
 
 
+    roles = j.application.config.getList("grid.node.roles")
+    if "master" not in roles:
+        roles.append("master")
+        j.application.config.set("grid.node.roles",",".join(roles))
+
+
     redis=j.packages.findNewest(domain="jumpscale",name="redis")
     redis.start()
 

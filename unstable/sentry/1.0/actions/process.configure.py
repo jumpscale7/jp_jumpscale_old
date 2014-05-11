@@ -65,7 +65,10 @@ def main(j,jp):
 
     j.application.redis.delete("sentry:dsn")
 
-    rc,out=j.system.process.execute("unset PYTHONPATH;sh /opt/jsbox/apps/sentry/configure.sh")
+    print "configure sentry"
+    rc,out=j.system.process.execute("unset PYTHONPATH;sh %s/apps/sentry/configure.sh"%j.dirs.baseDir)
+    print out
+
     if rc<>0:
         raise RuntimeError("Could not init the default projects & administrator")
     dsn={}
@@ -81,6 +84,7 @@ def main(j,jp):
 
         print 'SENTRY_DSN for %s = "%s"' % (name,dsnval)
     
+    time.sleep(1)
 
     # import os
     # import sys
