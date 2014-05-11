@@ -22,6 +22,11 @@ jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 
+jp.dependency.2.name = grid_node
+jp.dependency.2.domain = jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+
 jp.process.tcpports=
 jp.process.startuptime=30
 jp.debug=1
