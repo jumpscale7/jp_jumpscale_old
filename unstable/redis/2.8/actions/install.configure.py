@@ -18,8 +18,8 @@ def main(j,jp):
     port=j.application.config.getInt("redis.port.%s"%name)
     j.clients.redis.configureInstance(name,port,100,False)
     
-    # name="redisw"
-    # port=j.application.config.getInt("redis.port.%s"%name)
-    # j.clients.redis.configureInstance(name,port,200,True)
+    name="redisw"
+    port=j.application.config.getInt("redis.port.%s"%name)
+    j.clients.redis.configureInstance(name,port,300,True)
 
     

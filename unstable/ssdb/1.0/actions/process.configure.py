@@ -11,7 +11,7 @@ def main(j,jp):
 
     pd=j.tools.startupmanager.addProcess(\
         name="ssdb",\
-        cmd="./ssdb-server", \
+        cmd="rm -rf /opt/jumpscale/var/ssdb/ssdb.pid;./ssdb-server", \
         args="$cfgdir/ssdb/ssdb.conf",\
         env={},\
         numprocesses=1,\
