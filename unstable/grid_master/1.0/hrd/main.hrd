@@ -6,7 +6,7 @@ jp.autobuild=0
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=27
+jp.buildnr=28
 
 jp.export=0
 
@@ -54,7 +54,7 @@ jp.dependency.7.domain = jumpscale
 jp.dependency.7.minversion=
 jp.dependency.7.maxversion=
 
-jp.taskletschecksum=da00597603e9b55729db8b58c83fca94
+jp.taskletschecksum=239b4efdf9bb0e8c61a0c1492d7734ee
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=f20f47d58f840c783fdd178ca182dc42
 jp.process.tcpports=

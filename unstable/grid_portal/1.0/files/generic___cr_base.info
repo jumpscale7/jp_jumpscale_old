@@ -1,4 +1,4 @@
-471618436195279183daaf957d859594
+e5e21071e970d6965015322ff2ce2477
 762a47fb75f2028a0ec1e785f44d800e|apps/gridportal/base/Grid/.files/app.js
 b7c50c3d91eee206a3edea2ad33803b1|apps/gridportal/base/Grid/.files/directives.js
 dc9994fb5e79035777808b9f17d3bbf3|apps/gridportal/base/Grid/.files/lib/angular-1.2.5/angular-animate.js
@@ -504,6 +504,8 @@ f39c2a01b2ac7afcea2c6531819fbbbd|apps/gridportal/base/Grid/.files/lib/jqplot-1.0
 bd42b401ab68f9eb54eee47a873b5769|apps/gridportal/base/Grid/.files/lib/jquery/jquery-1.10.1.js
 6dc59d3a72ad547168cf823c2fddc728|apps/gridportal/base/Grid/.files/lib/underscore-1.4.4/underscore-min.js
 ba5c11e83668c43afaf12f0054736113|apps/gridportal/base/Grid/.files/lib/underscore-1.4.4/underscore.js
+a1c39c7157878af3ab98f1a507156181|apps/gridportal/base/Grid/.macros/page/adminjumpscripts/3_adminjumpscripts.py
+e7e948bdb573cf46e321b9bf28c0e3e6|apps/gridportal/base/Grid/.macros/page/adminnodes/3_adminnodes.py
 d880bc60f438a720fb555aa2dcaa2deb|apps/gridportal/base/Grid/.macros/page/alerts/3_alerts.py
 8dffd06124278cab32e3b44dda8216be|apps/gridportal/base/Grid/.macros/page/breadcrumbs/1_breadcrumbs.py
 a3d30bc6aae8c7e5fcbfd53f245b2360|apps/gridportal/base/Grid/.macros/page/disks/1_disks.py
@@ -517,7 +519,7 @@ ac5b1c0f8191dc2f5f9579f02de62c5b|apps/gridportal/base/Grid/.macros/page/realtime
 245b5c7b8c755e63434b436100c21a02|apps/gridportal/base/Grid/.macros/page/systemlogs/1_main.py
 e1a9cf6dbd0b1bf8a528b0de27c6adb4|apps/gridportal/base/Grid/.macros/wiki/acjobqueues/1_acjobqueues.py
 2576b65ed49e69dbc395feda696f48fe|apps/gridportal/base/Grid/.macros/wiki/acjobs/3_acjobs.py
-8c7a241d966f9903c65d37dafb97decf|apps/gridportal/base/Grid/.macros/wiki/alert/1_alert.py
+104216414f18523d187233c6f867f67e|apps/gridportal/base/Grid/.macros/wiki/alert/1_alert.py
 3037edda98875abccd69033662eae37c|apps/gridportal/base/Grid/.macros/wiki/alertswiki/1_alerts.py
 98e8ed6314f427fd09379d63e334d931|apps/gridportal/base/Grid/.macros/wiki/disk/1_disk.py
 d2889943df3b009e37b33282dfd72ea2|apps/gridportal/base/Grid/.macros/wiki/diskscheck/1_diskcheck.py
@@ -561,6 +563,8 @@ d41d8cd98f00b204e9800998ecf8427e|apps/gridportal/base/Grid/.space/nav.wiki
 b8af6978955bc21d04eb5677e57577a9|apps/gridportal/base/Grid/.space/notfound.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/gridportal/base/Grid/.space/template.wiki
 6ed8d925e64b0a3937a932f8c4c2677e|apps/gridportal/base/Grid/ACJobs.wiki
+186fb4f4c238ee93844a36341e68c6d1|apps/gridportal/base/Grid/AdminJumpscripts.wiki
+15d4a48f05f5ca0ddae5149cb14675bc|apps/gridportal/base/Grid/AdminNodes.wiki
 19ec56ed48032ad6ee70090cdf088bc2|apps/gridportal/base/Grid/Alert.wiki
 82fbcff0cdbd82e4ade4048945ee2a4a|apps/gridportal/base/Grid/Alerts.wiki
 07fac4422e095182ff718f4319b1638a|apps/gridportal/base/Grid/CheckStatus.wiki

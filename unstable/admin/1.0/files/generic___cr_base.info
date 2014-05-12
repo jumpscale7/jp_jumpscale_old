@@ -1,4 +1,4 @@
-5035fb170941aad84d08dd5bfc2fda99
+531059cdb9555fcdb8c415556e253d41
 0445aa8aab38aa7f0d23f98a30c7671a|apps/admin/cfg/hosts
 1c000ff32e8c182d1f42e56c8761ef63|apps/admin/cfg/superadmin.hrd
 de6267d0082edd2b61aecf2879f74095|apps/admin/cfgs/computenode/jscfg/jpackages/sources.cfg
@@ -6,8 +6,8 @@ de6267d0082edd2b61aecf2879f74095|apps/admin/cfgs/computenode/jscfg/jpackages/sou
 d80876f961739f0ee9a1f5c811fe0904|apps/admin/cfgs/computenode/jscfg/jsconfig/blobstor.cfg
 c3a08584a7cf8a9ccb02ef5feb658601|apps/admin/examples.sh
 8d0a06ff303b21a75ca4c429b76ee2e0|apps/admin/jumpscripts/deploy/configure.py
-7147ed647b814ab7edcb236ab37f2ad6|apps/admin/jumpscripts/deploy/coredebug.py
-fb6d5219a005894dc14fc3272ba9d2f3|apps/admin/jumpscripts/deploy/grid_master.py
+e1d3335f092bea57f05e1b94b1000b9c|apps/admin/jumpscripts/deploy/coredebug.py
+c38448b638173c0a06738305ef391091|apps/admin/jumpscripts/deploy/grid_master.py
 db5631308a01091fff69da3c06bd1e72|apps/admin/jumpscripts/deploy/securitydeployshorewall.py
 647cc0828a31c20f6387efd85e47f565|apps/admin/jumpscripts/processmanager/all_restart.py
 d671d8506dcd4f067d0ada1c3dba5326|apps/admin/jumpscripts/processmanager/all_stop.py
