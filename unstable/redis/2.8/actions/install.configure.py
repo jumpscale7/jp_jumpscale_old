@@ -5,6 +5,10 @@ def main(j,jp):
         name="redisac"
         port=j.application.config.getInt("redis.port.%s"%name)
         j.clients.redis.configureInstance("redisac",port,500,True)
+    
+        name="redisw"
+        port=j.application.config.getInt("redis.port.%s"%name)
+        j.clients.redis.configureInstance(name,port,300,True)
 
     name="redisp"
     port=j.application.config.getInt("redis.port.%s"%name)
@@ -17,9 +21,5 @@ def main(j,jp):
     name="redisc"
     port=j.application.config.getInt("redis.port.%s"%name)
     j.clients.redis.configureInstance(name,port,100,False)
-    
-    name="redisw"
-    port=j.application.config.getInt("redis.port.%s"%name)
-    j.clients.redis.configureInstance(name,port,300,True)
 
     

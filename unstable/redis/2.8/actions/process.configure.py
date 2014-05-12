@@ -4,6 +4,7 @@ def main(j,jp):
 
     if j.application.config.getBool("redis.ac.enable"):
         names.append("redisac")
+        names.append("redisw")
 
     for name in names:
         dpath = "$vardir/redis/%s" % name
