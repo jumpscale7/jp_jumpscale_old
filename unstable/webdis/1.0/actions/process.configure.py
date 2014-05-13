@@ -14,7 +14,7 @@ def main(j,jp):
         args="$cfgdir/webdis/webdis.json",\
         env={},\
         numprocesses=1,\
-        priority=5,\
+        priority=6,\
         shell=False,\
         workingdir='$base/apps/webdis',\
         jpackage=jp,\
