@@ -1,4 +1,4 @@
-e5e21071e970d6965015322ff2ce2477
+c5367d6058f3d8a39bda180301dd1113
 762a47fb75f2028a0ec1e785f44d800e|apps/gridportal/base/Grid/.files/app.js
 b7c50c3d91eee206a3edea2ad33803b1|apps/gridportal/base/Grid/.files/directives.js
 dc9994fb5e79035777808b9f17d3bbf3|apps/gridportal/base/Grid/.files/lib/angular-1.2.5/angular-animate.js
@@ -504,8 +504,9 @@ f39c2a01b2ac7afcea2c6531819fbbbd|apps/gridportal/base/Grid/.files/lib/jqplot-1.0
 bd42b401ab68f9eb54eee47a873b5769|apps/gridportal/base/Grid/.files/lib/jquery/jquery-1.10.1.js
 6dc59d3a72ad547168cf823c2fddc728|apps/gridportal/base/Grid/.files/lib/underscore-1.4.4/underscore-min.js
 ba5c11e83668c43afaf12f0054736113|apps/gridportal/base/Grid/.files/lib/underscore-1.4.4/underscore.js
-a1c39c7157878af3ab98f1a507156181|apps/gridportal/base/Grid/.macros/page/adminjumpscripts/3_adminjumpscripts.py
-e7e948bdb573cf46e321b9bf28c0e3e6|apps/gridportal/base/Grid/.macros/page/adminnodes/3_adminnodes.py
+f9c75ef3d9f84e7c292c86df846e82f1|apps/gridportal/base/Grid/.macros/page/adminjumpscripts/3_adminjumpscripts.py
+b95660b7cd2c9f06576d5a0784b2b358|apps/gridportal/base/Grid/.macros/page/adminnodes/3_adminnodes.py
+46e6a715c3c1c0b2ab0eef29b652a361|apps/gridportal/base/Grid/.macros/page/adminwatchdogs/3_adminwatchdogs.py
 d880bc60f438a720fb555aa2dcaa2deb|apps/gridportal/base/Grid/.macros/page/alerts/3_alerts.py
 8dffd06124278cab32e3b44dda8216be|apps/gridportal/base/Grid/.macros/page/breadcrumbs/1_breadcrumbs.py
 a3d30bc6aae8c7e5fcbfd53f245b2360|apps/gridportal/base/Grid/.macros/page/disks/1_disks.py
@@ -519,6 +520,9 @@ ac5b1c0f8191dc2f5f9579f02de62c5b|apps/gridportal/base/Grid/.macros/page/realtime
 245b5c7b8c755e63434b436100c21a02|apps/gridportal/base/Grid/.macros/page/systemlogs/1_main.py
 e1a9cf6dbd0b1bf8a528b0de27c6adb4|apps/gridportal/base/Grid/.macros/wiki/acjobqueues/1_acjobqueues.py
 2576b65ed49e69dbc395feda696f48fe|apps/gridportal/base/Grid/.macros/wiki/acjobs/3_acjobs.py
+bdcf76f4c72de3e03cc5eacc60ef51c9|apps/gridportal/base/Grid/.macros/wiki/adminjumpscript/3_adminjumpscript.py
+7d6e199327af4899359a4094a35ddda3|apps/gridportal/base/Grid/.macros/wiki/adminnode/3_adminnode.py
+924e1ed6f7b46ce2ab8c851a6f6aeaf5|apps/gridportal/base/Grid/.macros/wiki/adminwatchdog/3_adminwatchdog.py
 104216414f18523d187233c6f867f67e|apps/gridportal/base/Grid/.macros/wiki/alert/1_alert.py
 3037edda98875abccd69033662eae37c|apps/gridportal/base/Grid/.macros/wiki/alertswiki/1_alerts.py
 98e8ed6314f427fd09379d63e334d931|apps/gridportal/base/Grid/.macros/wiki/disk/1_disk.py
@@ -536,7 +540,7 @@ d873c93ec59ab9dea94cde5f9a067480|apps/gridportal/base/Grid/.macros/wiki/jumpscri
 cb0947229cf75c000705a0f5b58c0a0f|apps/gridportal/base/Grid/.macros/wiki/log/1_log.py
 b53a48ba298a07e521ca117d2c20b993|apps/gridportal/base/Grid/.macros/wiki/machine/1_machine.py
 a72441ebe21000c6584676e6de7ecd4b|apps/gridportal/base/Grid/.macros/wiki/machines/1_machines.py
-6bc2b679c31bf860a3affc95878796f3|apps/gridportal/base/Grid/.macros/wiki/menuadmin_grid/1_menuadmin.py
+632c2f0799f1c6ae7edb6b584f429ceb|apps/gridportal/base/Grid/.macros/wiki/menuadmin_grid/1_menuadmin.py
 5ca87a746b1f8d951c78ee0ed4b55044|apps/gridportal/base/Grid/.macros/wiki/nic/1_nic.py
 ef9f57e9c9f4d19990ec3afbe928f76d|apps/gridportal/base/Grid/.macros/wiki/nics/1_nics.py
 3b00af5b5fc90bc38f08d8b13ba31857|apps/gridportal/base/Grid/.macros/wiki/nicstat/1_nicstat.py
@@ -563,8 +567,12 @@ d41d8cd98f00b204e9800998ecf8427e|apps/gridportal/base/Grid/.space/nav.wiki
 b8af6978955bc21d04eb5677e57577a9|apps/gridportal/base/Grid/.space/notfound.wiki
 86a73a4e562fd001808cf6d80cc876da|apps/gridportal/base/Grid/.space/template.wiki
 6ed8d925e64b0a3937a932f8c4c2677e|apps/gridportal/base/Grid/ACJobs.wiki
+18a8969d29c269ea99ef3ac402072c52|apps/gridportal/base/Grid/AdminJumpScript.wiki
 186fb4f4c238ee93844a36341e68c6d1|apps/gridportal/base/Grid/AdminJumpscripts.wiki
-15d4a48f05f5ca0ddae5149cb14675bc|apps/gridportal/base/Grid/AdminNodes.wiki
+e018d7118e816b7d349c683414138d0d|apps/gridportal/base/Grid/AdminNode.wiki
+0add0df612df1ecdf8c5c9c6ac20a5e8|apps/gridportal/base/Grid/AdminNodes.wiki
+2c39251ef176b15a6ecd36cb1a762454|apps/gridportal/base/Grid/AdminWatchdog.wiki
+e9f6cfe1ad6535933b0995733e50909b|apps/gridportal/base/Grid/AdminWatchdogs.wiki
 19ec56ed48032ad6ee70090cdf088bc2|apps/gridportal/base/Grid/Alert.wiki
 82fbcff0cdbd82e4ade4048945ee2a4a|apps/gridportal/base/Grid/Alerts.wiki
 07fac4422e095182ff718f4319b1638a|apps/gridportal/base/Grid/CheckStatus.wiki
@@ -644,7 +652,6 @@ f4100678fdddedfe7f94d613f335b16a|apps/gridportal/base/desktop__manager/.actor/ac
 3495111a2dddbfec59719b0defc428aa|apps/gridportal/base/desktop__manager/wikimacros/wiki/test2/5_wikimacro_test.py
 f4100678fdddedfe7f94d613f335b16a|apps/gridportal/base/system__gridmanager/.actor/acl.cfg
 ebbbbe01cfa3ef17ff3c458c3d83a308|apps/gridportal/base/system__gridmanager/.actor/main.cfg
-1da7b94c619ca8226e8aa62cbd7d9970|apps/gridportal/base/system__gridmanager/methodclass/system_gridmanager.gen.py
 65866b0bb706e8e3a235d3a5eb4c607d|apps/gridportal/base/system__gridmanager/methodclass/system_gridmanager.py
 d8db580e0c3094e5d5f0ea2999e587eb|apps/gridportal/base/system__gridmanager/specs/actor.spec
 01abfc750a0c942167651c40d088531d|apps/gridportal/base/system__gridmanager/specs/model.spec
