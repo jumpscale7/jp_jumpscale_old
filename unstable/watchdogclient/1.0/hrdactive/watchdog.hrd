@@ -1,3 +1,0 @@
-##when @ASK then there needs to be a value, will ask for it when needed, if not possible to ask will fail
-grid.watchdog.addr=@ASK watchdog_ip_address:var type:str
-grid.watchdog.secret=@ASK watchdog_secret:var type:str
