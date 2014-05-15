@@ -1,4 +1,4 @@
-501376ad57515d830f6264afeac6bcfe
+ca3002f7d7fb3bc7af9085439040913b
 c7c5889c5ca6b6db869bcbfe391fcc99|jpackage
 2d50d523aa9940d5291515a0db042485|js
 33365d282a8e371f6c0b2c5f6f62b2f0|jsadmin
@@ -19,7 +19,7 @@ b16a8acee416f1ec8da97c7fdce625cc|jslogpipe
 127546640e1f98c3d35bbd03153a1e17|jsprocess_monitor
 e839ddaa3d391c9d099cb513d538c62b|jsprocess_startAllReset
 8362fbc0f6eb6e38f39be5ea2b06db49|jspython
-207156be3082aafecacdc06a77e58865|jsredis
+17cc98de8a05f7c77c396dfbdbd35779|jsredis
 f0cf3eb9e3344ffd7d83588030a355bf|jsshell
 64b5a515a238c76e7af60f3c7f31eb89|jssync
 4c06f9f69a42d845df5af8836698f828|jstest
