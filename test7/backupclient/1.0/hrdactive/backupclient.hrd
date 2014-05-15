@@ -1,4 +1,0 @@
-
-#default which blobserver to use
-backupclient.blobserver.default=default
-backupclient.gitlab.default=default

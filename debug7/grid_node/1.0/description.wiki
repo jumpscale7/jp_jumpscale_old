@@ -1,5 +1,0 @@
-h2. $(jp.name) $(jp.version)
-
-this is the main jpackage for installing a node in a grid.
-there needs to be a grid master active !!! otherwise the configure step will fail.
-

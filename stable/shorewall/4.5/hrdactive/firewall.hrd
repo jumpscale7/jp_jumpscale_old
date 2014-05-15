@@ -1,6 +1,0 @@
-firewall.nics.pub=
-firewall.nics.private=
-firewall.nics.dmz=
-firewall.nics.vpn=
-firewall.type=shorewall
-firewall.ruletemplate=
