@@ -1,0 +1,12 @@
+##when @ASK then there needs to be a value, will ask for it when needed, if not possible to ask will fail
+
+redis.port.redisc=7767
+redis.port.redisp=7768
+redis.port.redisac=7769
+redis.port.redism=7766
+redis.port.redisw=7770
+
+
+redis.ac.enable=1
+#@ASK @descr=are__you__agentcontroller default:0
+
