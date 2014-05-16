@@ -1,6 +1,5 @@
-9fc963a8f2d04f391d20be711a7193c5
-72eb76f6801838e7711ba227aa1f6d94|apps/processmanager/processmanager.py
-996d725a8be85f08ab34523854ea4804|apps/processmanager/processmanager.py.orig
+4aa86d6002a6b21b4c65904461b13343
+6cbc98905582acb4dd730e17bf495a52|apps/processmanager/processmanager.py
 88e6a502c026884fba4b75d51ad0f789|apps/processmanager/reload.py
 321f7e9c3357fba9d3ed985f3b434069|apps/processmanager/test.py
 fcb11528fe53d0fd8b483ed59cba2eeb|apps/processmanager/tests/core/core_logging__test.py
