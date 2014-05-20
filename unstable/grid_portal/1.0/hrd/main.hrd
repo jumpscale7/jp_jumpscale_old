@@ -1,0 +1,30 @@
+jp.domain=jumpscale
+jp.name=grid_portal
+jp.process.tcpports=81
+jp.process.startuptime=30
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=53
+
+jp.taskletschecksum=6de62c06e06f0d59a0dcc7f95d27d690
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
+
+##dependencies
+jp.dependency.1.name = graphite
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.1.name = portal
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+jp.debug=1
