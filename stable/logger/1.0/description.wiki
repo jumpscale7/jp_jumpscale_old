@@ -1,0 +1,5 @@
+h2. logger
+
+is a local daemon which gets the logging info & forwards it to the osis server.
+the osis server is a daemon which is installed on the master.
+
