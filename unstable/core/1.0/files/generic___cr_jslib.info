@@ -1,4 +1,4 @@
-79aff5e440902b6e735ad3ca179b8a45
+b74a4db2152ae5f111e57d3b15a1c04a
 0f852327b313ddfffde2e64775836d0e|__init__.py
 035c5b38c2aad0a1ed5a7426ee767cd6|base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|base/ERRORHANDLER.py
@@ -211,7 +211,7 @@ d41d8cd98f00b204e9800998ecf8427e|baselib/platforms/ubuntu/__init__.py
 c08c4b0b9db931cc8b05fe60843c512d|baselib/portapps/PortApps.py
 91befcdc7deb8a5f7771be71b2b2b667|baselib/redis/Redis.py
 5915621f3a2e746a381e42b3f27e6831|baselib/redis/__init__.py
-7774a937c05c326da01b48ed29d730e3|baselib/redisworker/RedisWorker.py
+db88957f55c6c7ba3e008bd433c18104|baselib/redisworker/RedisWorker.py
 da7c7dbc59ee6f69a677572e362d514a|baselib/redisworker/__init__.py
 7684d67b0d04a249d168defa0895c485|baselib/remote/__init__.py
 f793e4e58dbe9cc472a1c9a78e88d9da|baselib/remote/avahi/Avahi.py
