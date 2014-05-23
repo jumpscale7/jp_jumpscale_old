@@ -1,4 +1,4 @@
-c50b04ca408348ba044054a1f08773a5
+548de148d4c5c0203187e3889b3a81b3
 2db511f53c83cb3a9784bd76ab79973b|apps/portalbase/cfg/contentdirs.cfg
 6d37ac85391aaaaf8b9b1f4091d5660f|apps/portalbase/cfg/portal.cfg
 e05ea7dcfa1fd6a9c13fa5704883f7b7|apps/portalbase/cfg/users.cfg
@@ -121,7 +121,7 @@ e5010bafda9fa5f296014553c2ecca16|apps/portalbase/macros/wiki/spaceaccesslog/3_ma
 ac472516758c7774543c913092673fa1|apps/portalbase/portal_start.py
 f4100678fdddedfe7f94d613f335b16a|apps/portalbase/system/system__contentmanager/.actor/acl.cfg
 1bc64da7826fb0de6ef8dd5a5f86a07d|apps/portalbase/system/system__contentmanager/.actor/main.cfg
-1f1594640069b28e7520df3ce206af37|apps/portalbase/system/system__contentmanager/extensions/extension_datatable/DataTables.py
+8ad9deb10856a97f4d06e686d2869a25|apps/portalbase/system/system__contentmanager/extensions/extension_datatable/DataTables.py
 e54a63e074c9354d9741ede20dfa3cc6|apps/portalbase/system/system__contentmanager/extensions/extension_datatable/extension.cfg
 77fe002f00b45a4d44c31ee658b89c12|apps/portalbase/system/system__contentmanager/extensions/extension_defmgr/DefManager.py
 944806110805c5357f942493f43565e1|apps/portalbase/system/system__contentmanager/extensions/extension_defmgr/extension.cfg
