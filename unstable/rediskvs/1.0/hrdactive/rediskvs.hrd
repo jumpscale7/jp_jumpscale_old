@@ -1,0 +1,5 @@
+
+rediskvs.secret=@ASK
+rediskvs.master.addr=@ASK
+rediskvs.master.port=7772
+
