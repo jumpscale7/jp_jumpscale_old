@@ -7,9 +7,9 @@ jp.autobuild=0
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
 <<<<<<< local
-jp.buildnr=121
+jp.buildnr=122
 =======
-jp.buildnr=121
+jp.buildnr=122
 >>>>>>> other
 
 jp.taskletschecksum=7a3b49b6b8e3a7b4cb3acac10bc59266
