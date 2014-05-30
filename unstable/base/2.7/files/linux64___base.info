@@ -1,4 +1,4 @@
-e5e33d531c7a3c0f78eef5b6ddd43db5
+00fa8e5114f02b3e4a3db5808b343b1d
 0f44b2d4562f4c8eba46865fb53ea6c5|bin/Python-2.7.egg-info
 e9c2d3723498cdfd64c0231cf37f74db|bin/_bsddb.x86_64-linux-gnu.so
 73d48a1edff94ec29c237f391a38aa2e|bin/_codecs_cn.x86_64-linux-gnu.so
@@ -560,6 +560,7 @@ e42726d9a0a8c9053c4abae9080da820|lib/gitdb/typ.py
 024766b9a51538011646f88185101a80|lib/libxml2mod.so
 9d4d1c12ecc68530b1b14e106253e193|lib/lxml/etree.so
 55d415af0d76c97296fe1f19d40d23e1|lib/lxml/objectify.so
+77e211066396248de3cd58b467209757|lib/lz4.so
 99a4712b4e7a1c3c4990e815a5362f45|lib/lzma.so
 206fc4be8bfd662bb886ba43d78e5e29|lib/marisa_trie.so
 d41d8cd98f00b204e9800998ecf8427e|lib/mercurial/__init__.py
