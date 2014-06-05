@@ -1,4 +1,4 @@
-bbf2747840daa773897bfb0631926993
+c5469e7d360873c4b01136800cc6b99e
 9826d27ce095c8c8eeaabae630dd8957|portal/__init__.py
 4a655bdbf9bde0b0f6520741a3e8d3be|portal/_socketprocess/MessageRouter.py
 cce97e1c252fccbaacb06b308a96bfe7|portal/_socketprocess/SQLDBClient6.py
@@ -23,7 +23,7 @@ d984e3c0f5930db1c01d70df356245b0|portal/docgenerator/templates/chart.js
 8ccc25a996d1be68ea8f3df19a3661ca|portal/docgenerator/templates/line.js
 ca5147a9081b0f35b7af57641209f664|portal/docgenerator/templates/pie.js
 c1a9e0ba84afdbd2ef28e8a9d8793dbc|portal/docpreprocessor/DocParser.py
-ffff90b2430639d657576fa0aa3b7028|portal/docpreprocessor/DocPreprocessor.py
+a0a126e1c8e138664606eab9ddea105e|portal/docpreprocessor/DocPreprocessor.py
 aab25bddfc54b52d7fe083146ab2ca28|portal/docpreprocessor/DocPreprocessorFactory.py
 11e4a14113675dc29d4d8666cbc75b67|portal/docpreprocessor/__init__.py
 b0a0986a57ba33bb523cb8bb9fbe7d30|portal/docpreprocessor/extension.cfg
@@ -642,6 +642,7 @@ cb293933a0afbd35b40bbd2309d65a8a|portal/portal/PortalFactory.py
 70cbd7c15080df1cb41409a7b40c2724|portal/portal/PortalServer.py
 a0bdf310b4cebedac6395dadb1da42b5|portal/portal/RequestContext.py
 2023b858548dc796e44c2e5f9572cddf|portal/portal/__init__.py
+1e11faf22b9f64298ac616adff9420e9|portal/portal/auth.py
 94b6d3ff922f0449c5c0207ec9cca37c|portal/portalloaders/ActorsInfo.py
 40500fc9ff16ead2bb95c39c2b6c80cd|portal/portalloaders/ActorsLoader.py
 32fc8686c16503dfadc95797f77f1af9|portal/portalloaders/BucketLoader.py

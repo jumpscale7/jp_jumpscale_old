@@ -1,4 +1,4 @@
-51e27a1d5d0cf6d460c3203e6eeacbd7
+67a301171c077cf58f98d27470b715b6
 762a47fb75f2028a0ec1e785f44d800e|apps/gridportal/base/Grid/.files/app.js
 b7c50c3d91eee206a3edea2ad33803b1|apps/gridportal/base/Grid/.files/directives.js
 dc9994fb5e79035777808b9f17d3bbf3|apps/gridportal/base/Grid/.files/lib/angular-1.2.5/angular-animate.js
@@ -508,6 +508,7 @@ f9c75ef3d9f84e7c292c86df846e82f1|apps/gridportal/base/Grid/.macros/page/adminjum
 3324bdbd9403ecbb9510cc87c2cf49c7|apps/gridportal/base/Grid/.macros/page/adminnodes/3_adminnodes.py
 46e6a715c3c1c0b2ab0eef29b652a361|apps/gridportal/base/Grid/.macros/page/adminwatchdogs/3_adminwatchdogs.py
 d880bc60f438a720fb555aa2dcaa2deb|apps/gridportal/base/Grid/.macros/page/alerts/3_alerts.py
+16fb51629031345a33e913bf0ea561a6|apps/gridportal/base/Grid/.macros/page/audits/1_audits.py
 8dffd06124278cab32e3b44dda8216be|apps/gridportal/base/Grid/.macros/page/breadcrumbs/1_breadcrumbs.py
 a3d30bc6aae8c7e5fcbfd53f245b2360|apps/gridportal/base/Grid/.macros/page/disks/1_disks.py
 7b92d82707f753cff8ca52a58e502ce8|apps/gridportal/base/Grid/.macros/page/ecos/1_ecos.py
@@ -515,16 +516,17 @@ a3d30bc6aae8c7e5fcbfd53f245b2360|apps/gridportal/base/Grid/.macros/page/disks/1_
 1aaad51f1a8ebc5dea8f62a4dc3619e5|apps/gridportal/base/Grid/.macros/page/jobs/1_jobs.py
 bd692ea3c2a982d94bcf056521f8e9e8|apps/gridportal/base/Grid/.macros/page/logs/1_logs.py
 a822cec651f983a3450ae3161010a436|apps/gridportal/base/Grid/.macros/page/nodes/1_nodes.py
-cf2d38de22d94625add4d29c9b7bfcd4|apps/gridportal/base/Grid/.macros/page/processes/1_processes.py
+8ad109b5809cdfafcfd8fa8cf704a169|apps/gridportal/base/Grid/.macros/page/processes/1_processes.py
 ac5b1c0f8191dc2f5f9579f02de62c5b|apps/gridportal/base/Grid/.macros/page/realtimestat/1_main.py
 245b5c7b8c755e63434b436100c21a02|apps/gridportal/base/Grid/.macros/page/systemlogs/1_main.py
 e1a9cf6dbd0b1bf8a528b0de27c6adb4|apps/gridportal/base/Grid/.macros/wiki/acjobqueues/1_acjobqueues.py
-2576b65ed49e69dbc395feda696f48fe|apps/gridportal/base/Grid/.macros/wiki/acjobs/3_acjobs.py
+b69d330f3bb3b4c56074066ee4c091dd|apps/gridportal/base/Grid/.macros/wiki/acjobs/3_acjobs.py
 bdcf76f4c72de3e03cc5eacc60ef51c9|apps/gridportal/base/Grid/.macros/wiki/adminjumpscript/3_adminjumpscript.py
 fe96661ce302b7fddc9bd2d302703a13|apps/gridportal/base/Grid/.macros/wiki/adminnode/3_adminnode.py
 924e1ed6f7b46ce2ab8c851a6f6aeaf5|apps/gridportal/base/Grid/.macros/wiki/adminwatchdog/3_adminwatchdog.py
 104216414f18523d187233c6f867f67e|apps/gridportal/base/Grid/.macros/wiki/alert/1_alert.py
 3037edda98875abccd69033662eae37c|apps/gridportal/base/Grid/.macros/wiki/alertswiki/1_alerts.py
+bf15e537a9dcee6f908589c93d1780b7|apps/gridportal/base/Grid/.macros/wiki/audit/1_audit.py
 98e8ed6314f427fd09379d63e334d931|apps/gridportal/base/Grid/.macros/wiki/disk/1_disk.py
 d2889943df3b009e37b33282dfd72ea2|apps/gridportal/base/Grid/.macros/wiki/diskscheck/1_diskcheck.py
 2934879104bd86bf8bed4493837fb33e|apps/gridportal/base/Grid/.macros/wiki/diskstat/1_diskstat.py
@@ -534,7 +536,7 @@ ce4c7b14414cf737b73cdac787194d3c|apps/gridportal/base/Grid/.macros/wiki/errorres
 74a8c517f850d39edbb43230a69e9817|apps/gridportal/base/Grid/.macros/wiki/escheck/1_escheck.py
 9dec1b93f4850a71fe376bfc51e86e7d|apps/gridportal/base/Grid/.macros/wiki/eventgauge/1_eventgauge.py
 bcacca54d8364773984c8598953ad158|apps/gridportal/base/Grid/.macros/wiki/healthcheck/3_healthcheck.py
-1e3cc7effdf30e7d46061efce7a71732|apps/gridportal/base/Grid/.macros/wiki/job/1_job.py
+c05d77cae738239a69c310e5fcf68092|apps/gridportal/base/Grid/.macros/wiki/job/1_job.py
 d873c93ec59ab9dea94cde5f9a067480|apps/gridportal/base/Grid/.macros/wiki/jumpscript/1_jumpscript.py
 61bd58dcf48273910b0ee4f9918f6851|apps/gridportal/base/Grid/.macros/wiki/jumpscripts/1_jumpscripts.py
 cb0947229cf75c000705a0f5b58c0a0f|apps/gridportal/base/Grid/.macros/wiki/log/1_log.py
@@ -546,7 +548,7 @@ ef9f57e9c9f4d19990ec3afbe928f76d|apps/gridportal/base/Grid/.macros/wiki/nics/1_n
 3b00af5b5fc90bc38f08d8b13ba31857|apps/gridportal/base/Grid/.macros/wiki/nicstat/1_nicstat.py
 b230b9ab2a451eb7697d9a633d3c4da4|apps/gridportal/base/Grid/.macros/wiki/node_getdata/1_node.py
 134bee2f9297939f3119f6409ea96a65|apps/gridportal/base/Grid/.macros/wiki/nodestat/1_nodestat.py
-54b9eb8328e60abb60c935191a93b14b|apps/gridportal/base/Grid/.macros/wiki/process/1_process.py
+9836e0474569affea5645c7c35e36d82|apps/gridportal/base/Grid/.macros/wiki/process/1_process.py
 44bd82a48001b524fea1572867b9e9d3|apps/gridportal/base/Grid/.macros/wiki/processchecks/1_processchecks.py
 4fda2b8eef8a0a5eae1ed2c0f6828f57|apps/gridportal/base/Grid/.macros/wiki/processstat/1_processstat.py
 7491ace212fbcf209ff55c0c0737a23b|apps/gridportal/base/Grid/.macros/wiki/redis_jobs/1_job.py
@@ -575,13 +577,15 @@ e018d7118e816b7d349c683414138d0d|apps/gridportal/base/Grid/AdminNode.wiki
 e9f6cfe1ad6535933b0995733e50909b|apps/gridportal/base/Grid/AdminWatchdogs.wiki
 19ec56ed48032ad6ee70090cdf088bc2|apps/gridportal/base/Grid/Alert.wiki
 82fbcff0cdbd82e4ade4048945ee2a4a|apps/gridportal/base/Grid/Alerts.wiki
+4f16380fe53adc5ece77f27a8354abf4|apps/gridportal/base/Grid/Audit.wiki
+15939828e069c4ee6da1cd34f69f2c4c|apps/gridportal/base/Grid/Audits.wiki
 07fac4422e095182ff718f4319b1638a|apps/gridportal/base/Grid/CheckStatus.wiki
 93fdcaf14862bddd2e6a83b69cc7eeb4|apps/gridportal/base/Grid/DashBoard.wiki
 ae115e9eae250aab47ea16dbbaac9b64|apps/gridportal/base/Grid/Disk.wiki
 166d639aad1b8d2dcd818916840b4273|apps/gridportal/base/Grid/Disks.wiki
 6c752fb6904655e6b26c9535e9d4923d|apps/gridportal/base/Grid/ECO.wiki
 fd20e1b55b85458a505b83e58a0ae7b7|apps/gridportal/base/Grid/ECOs.wiki
-635fd88d978118d225e340bf1926da6d|apps/gridportal/base/Grid/Grid.wiki
+14c71592d4c0692c4807b785a340ed35|apps/gridportal/base/Grid/Grid.wiki
 350b693194010958f63097b010e0cd93|apps/gridportal/base/Grid/Job.wiki
 8956908a7ecb998ef7185835458c30b9|apps/gridportal/base/Grid/JobQueues.wiki
 3de237372e596a532c845d60e5f68687|apps/gridportal/base/Grid/Jobs.wiki
@@ -597,7 +601,7 @@ b0e743381bdb6f4018d54ad04282ac8b|apps/gridportal/base/Grid/Node.wiki
 1af536c7613846ec6b368c139978e98c|apps/gridportal/base/Grid/NodeStats.wiki
 58c785450a23ca38d6652d831b66724f|apps/gridportal/base/Grid/NodeStatus.wiki
 3b76db7a63bc16a5c310167ca61314bc|apps/gridportal/base/Grid/Nodes.wiki
-b2d34ed6a48616242f1d88a711789110|apps/gridportal/base/Grid/Process.wiki
+d831284f9fdadcd99523ee2a8f3677a5|apps/gridportal/base/Grid/Process.wiki
 644b91e1ce2930c32b2ebbc236fcbc0e|apps/gridportal/base/Grid/ProcessStats.wiki
 5fc83017e0ace9adff33cc1ca1d1a46a|apps/gridportal/base/Grid/Processes.wiki
 04758ef93ba7523856ee104a80f5693a|apps/gridportal/base/Grid/RealTimeStatsNode.wiki
