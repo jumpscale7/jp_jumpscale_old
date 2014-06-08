@@ -1,4 +1,4 @@
-c5469e7d360873c4b01136800cc6b99e
+81d8857b4c57785eb3d8bd3dda3deec1
 9826d27ce095c8c8eeaabae630dd8957|portal/__init__.py
 4a655bdbf9bde0b0f6520741a3e8d3be|portal/_socketprocess/MessageRouter.py
 cce97e1c252fccbaacb06b308a96bfe7|portal/_socketprocess/SQLDBClient6.py
@@ -635,14 +635,14 @@ f0010f7b0a9bfebc27714fc49994bde4|portal/macrolib/plantuml/plantuml.jar
 b69e2ad2c2bd2a95800cb842b6a4c720|portal/portal/MacroExecutor.py
 718ef939b2e4df716a40fd204252d4e9|portal/portal/OsisBeaker.py
 4b046643004b2b06e6d37573018690cb|portal/portal/PortalAuthenticatorOSIS.py
-8279391a1b28d8c77fea1b0b6a83c0c1|portal/portal/PortalClient.py
+38dc09014da152aee70251448fbda74b|portal/portal/PortalClient.py
 3499836bd325a17fade3e86ba08b7499|portal/portal/PortalClientWS.py
 cb293933a0afbd35b40bbd2309d65a8a|portal/portal/PortalFactory.py
 747a24a70fbb036b4851e5cca5ce41aa|portal/portal/PortalRest.py
 70cbd7c15080df1cb41409a7b40c2724|portal/portal/PortalServer.py
 a0bdf310b4cebedac6395dadb1da42b5|portal/portal/RequestContext.py
 2023b858548dc796e44c2e5f9572cddf|portal/portal/__init__.py
-1e11faf22b9f64298ac616adff9420e9|portal/portal/auth.py
+35d950daa836c10872eda63c6619aaab|portal/portal/auth.py
 94b6d3ff922f0449c5c0207ec9cca37c|portal/portalloaders/ActorsInfo.py
 40500fc9ff16ead2bb95c39c2b6c80cd|portal/portalloaders/ActorsLoader.py
 32fc8686c16503dfadc95797f77f1af9|portal/portalloaders/BucketLoader.py
