@@ -1,5 +1,4 @@
 def main(j,jp):
-   
     name="rediskvs_master"
     dpath = "$vardir/redis/%s" % name
     cpath = j.system.fs.joinPaths(dpath, "redis.conf")
@@ -26,7 +25,6 @@ def main(j,jp):
         upstart=True,\
         stats=True,\
         processfilterstr="redis/%s/redis.conf"%(name))#what to look for when doing ps ax to find the process
-        
     pd.start()
 
         # self.startInstance(name)
