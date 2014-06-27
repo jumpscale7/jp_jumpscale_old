@@ -1,4 +1,4 @@
-9473208faf2c9bf078a41d0868974018
+d394a9cc0938a270a62824126884204c
 2db511f53c83cb3a9784bd76ab79973b|apps/portalbase/cfg/contentdirs.cfg
 6d37ac85391aaaaf8b9b1f4091d5660f|apps/portalbase/cfg/portal.cfg
 e05ea7dcfa1fd6a9c13fa5704883f7b7|apps/portalbase/cfg/users.cfg
@@ -48,6 +48,7 @@ d48a28a6ec4cee67d38472125fc5db7d|apps/portalbase/macros/page/explorer/1_main.py
 cba8859fa575cfa072fa7292ada74fbc|apps/portalbase/macros/page/find/1_main.py
 be2c554dfc9891904536282a12feb978|apps/portalbase/macros/page/footer/1_main.py
 7960760ec034bf9883cc9e57c6340118|apps/portalbase/macros/page/gallery/1_main.py
+ad6af89ebda9391cc49e36c98531ba75|apps/portalbase/macros/page/gallery_bs3/1_gallery_bs3.py
 54d6d5eb1aa58a8469d76f09a718ec21|apps/portalbase/macros/page/google_analytics/1_main.py
 15f842c430ad8d54a171818f73c21951|apps/portalbase/macros/page/hostbasedcontent/1_main.py
 65e1b5c8894cd9db149b965efcbfb0f2|apps/portalbase/macros/page/html/1_main.py
@@ -143,7 +144,7 @@ d698ca0cf9cf218f5d4c23cdbda633d1|apps/portalbase/system/system__docgenerator/met
 d41d8cd98f00b204e9800998ecf8427e|apps/portalbase/system/system__emailsender/.actor/acl.cfg
 d34599a5416df03a43a1d9740e6e5924|apps/portalbase/system/system__emailsender/.actor/main.cfg
 5e5d97bbb6183802316bb04ec7075ec6|apps/portalbase/system/system__emailsender/methodclass/system_emailsender.gen.py
-d8d1a7ea06f8161eab16b2193306963d|apps/portalbase/system/system__emailsender/methodclass/system_emailsender.py
+b54082484acd9e7cb4299225ec73326e|apps/portalbase/system/system__emailsender/methodclass/system_emailsender.py
 8cacb656d74726be816b2a5633c0e8c7|apps/portalbase/system/system__emailsender/specs/actor.spec
 f4100678fdddedfe7f94d613f335b16a|apps/portalbase/system/system__errorconditionhandler/.actor/acl.cfg
 2c492a70b42335f634be268a22245963|apps/portalbase/system/system__errorconditionhandler/.actor/main.cfg
