@@ -35,16 +35,10 @@ jp.dependency.3.name= elasticsearch1
 jp.dependency.3.minversion=
 jp.dependency.3.maxversion=
 
-jp.dependency.4.domain=jumpscale
-jp.dependency.4.name=rediskvs
+jp.dependency.4.domain= jumpscale
+jp.dependency.4.name= graphite
 jp.dependency.4.minversion=
 jp.dependency.4.maxversion=
-
-jp.dependency.5.domain= jumpscale
-jp.dependency.5.name= graphite
-jp.dependency.5.minversion=
-jp.dependency.5.maxversion=
-
 
 jp.domain=jumpscale
 jp.process.tcpports=5544
