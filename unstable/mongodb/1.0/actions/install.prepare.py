@@ -34,8 +34,8 @@ def main(j,jp):
         
     j.system.fs.createDir("$vardir/mongodb")
 
-    do.execute("apt-get install python-pip -f")
-    do.execute("apt-get install build-essential python-dev -f")
+    do.execute("apt-get install python-pip -y")
+    do.execute("apt-get install build-essential python-dev -y")
     do.execute("pip install pymongo")
 
 
