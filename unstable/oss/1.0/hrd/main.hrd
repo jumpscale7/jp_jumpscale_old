@@ -23,8 +23,11 @@ jp.dependency.1.domain = jumpscale
 jp.dependency.2.name = portal
 jp.dependency.2.domain = jumpscale
 
-jp.dependency.2.name = mongodb
-jp.dependency.2.domain = jumpscale
+jp.dependency.3.name = mongodb
+jp.dependency.3.domain = jumpscale
+
+jp.dependency.4.name = agentcontroller
+jp.dependency.4.domain = jumpscale
 
 
 jp.process.tcpports=

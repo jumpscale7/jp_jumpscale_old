@@ -10,5 +10,7 @@ def main(j,jp):
     startstoptimeout=20
     j.tools.startupmanager.addProcess("osis", cmd, args=args, priority=15, workingdir=workingdir,jpackage=jp,\
         check=True,timeoutcheck=startstoptimeout,stats=True,upstart=False)
-    # j.tools.startupmanager.startJPackage(jp)
     
+    j.tools.startupmanager.startJPackage(jp)
+
+        

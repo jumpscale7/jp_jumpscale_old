@@ -40,6 +40,12 @@ jp.dependency.4.name=rediskvs
 jp.dependency.4.minversion=
 jp.dependency.4.maxversion=
 
+jp.dependency.5.domain= jumpscale
+jp.dependency.5.name= graphite
+jp.dependency.5.minversion=
+jp.dependency.5.maxversion=
+
+
 jp.domain=jumpscale
 jp.process.tcpports=5544
 jp.process.startuptime=30
