@@ -13,6 +13,7 @@ grid.node.roles = @ASK name:roles descr:roles__comma_separated type:str default:
 grid.node.machineguid =
 
 
-grid.watchdog.secret=
-grid.watchdog.addr=
+grid.watchdog.secret=@ASK default:4567812
+grid.watchdog.addr=@ASK default:127.0.0.1
+
 

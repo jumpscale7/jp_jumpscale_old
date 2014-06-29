@@ -23,6 +23,9 @@ jp.dependency.1.domain = jumpscale
 jp.dependency.2.name = portal
 jp.dependency.2.domain = jumpscale
 
+jp.dependency.2.name = mongodb
+jp.dependency.2.domain = jumpscale
+
 
 jp.process.tcpports=
 jp.process.startuptime=30

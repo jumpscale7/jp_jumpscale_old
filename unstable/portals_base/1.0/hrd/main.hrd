@@ -27,6 +27,10 @@ jp.dependency.2.domain = jumpscale
 jp.dependency.3.name = grid_master
 jp.dependency.3.domain = jumpscale
 
+jp.dependency.4.name = mailclient
+jp.dependency.4.domain = jumpscale
+
+
 jp.process.tcpports=
 jp.process.startuptime=30
 
