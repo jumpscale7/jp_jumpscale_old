@@ -18,10 +18,8 @@ def main(j,jp):
     print "update apt metadata"
     j.system.platform.ubuntu.updatePackageMetadata()
 
-    from IPython import embed
-    print "DEBUG NOW id"
-    embed()
-    
+    j.system.platform.ubuntu.install("mongodb-org")
+
     R="""
 /etc/mongod.conf
 /etc/init/mongod.conf
