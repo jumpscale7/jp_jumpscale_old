@@ -20,6 +20,8 @@ def main(j,jp):
 
     j.system.platform.ubuntu.install("mongodb-org")
 
+    do.execute("killall mongod")
+
     R="""
 /etc/mongod.conf
 /etc/init/mongod.conf
