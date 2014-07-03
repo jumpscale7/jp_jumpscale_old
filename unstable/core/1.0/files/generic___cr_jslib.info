@@ -1,4 +1,4 @@
-ab677b22629a0968c302c956f7f8c686
+5fb3eedc5140c5781017679f9512b0bc
 0f852327b313ddfffde2e64775836d0e|__init__.py
 035c5b38c2aad0a1ed5a7426ee767cd6|base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|base/ERRORHANDLER.py
@@ -126,8 +126,8 @@ e7c301b883aaf038e042c4892646de88|baselib/inifile/extension.cfg
 339cec6fb8998df8d72fda7f6db59fa1|baselib/jpackages/ActionManager.py
 101388c53c3e3f628e5c0edc61ed43dc|baselib/jpackages/CodeManagementRecipe.py
 2b2f552ba0bde641d19cd5b1232b4023|baselib/jpackages/Domain.py
-9b9db28437314f3753e91019a5cd8e71|baselib/jpackages/JPackageClient.py
-bdbb18467568844d65326c4469cfd058|baselib/jpackages/JPackageObject.py
+b01a4801ceb426b9faaa7440164fc536|baselib/jpackages/JPackageClient.py
+ddabb2272fa1517dccd14d7f269e0b43|baselib/jpackages/JPackageObject.py
 61f481b55306bff2b76a66acf340a411|baselib/jpackages/JPackageStateObject.py
 3f227672e069535ac6d274eb52c681a5|baselib/jpackages/JPackagesGenDocs.py
 a465359f88e9e8fe21ea76dc39fdec39|baselib/jpackages/PythonPackage.py
@@ -174,12 +174,13 @@ c41a8583ecea369917c697a5c5ebab20|baselib/jpackages/templates/hrdactive/readme.tx
 3a6fa24c61c2d77888bcbf71dcb3e942|baselib/key_value_store/__init__.py
 a6d4fd5d09ad118daf59750a9bc7d9d9|baselib/key_value_store/arakoon_store.py
 a4adda8387fcb81a3debc4e4ef557dfb|baselib/key_value_store/extension.cfg
-8f0a91a3693ed3ac3eb87fdd11ac27c4|baselib/key_value_store/file_system_store.py
+82e69e61367a7333ed059aadbec86729|baselib/key_value_store/file_system_store.py
 8300021d1c4de95c87d4cc869185d57c|baselib/key_value_store/leveldb_store.py
 dd041c862ed5c9155a228e9e3c374498|baselib/key_value_store/memory_store.py
+924967f5c61cfbaf0bb7b4bb99badd58|baselib/key_value_store/mongodb_store.py
 de9ed86792ab5092eec3986949aaeac5|baselib/key_value_store/redis_store.py
 77ae3b606fb5feecb853e50e81397b45|baselib/key_value_store/store.py
-e2d605ba428feec06fd8bda4d01ee37e|baselib/key_value_store/store_factory.py
+90b48524b554e9b12a38b84f3f732932|baselib/key_value_store/store_factory.py
 7933208b11ed5790fd928a234647eb40|baselib/key_value_store/test_store.py
 41e6d19dd026b96df062016fcfb61ce1|baselib/lrucache/LRUCache.py
 352c2e22ec2edb1066383738eac1d8b0|baselib/lrucache/LRUCacheFactory.py
@@ -212,9 +213,9 @@ ad86b21c112cae72463a6815c7c3c911|baselib/platforms/ubuntu/Ubuntu.py
 d41d8cd98f00b204e9800998ecf8427e|baselib/platforms/ubuntu/__init__.py
 9f30eefd6efb050cfe936967e9f9e106|baselib/platforms/ubuntu/extension.cfg
 c08c4b0b9db931cc8b05fe60843c512d|baselib/portapps/PortApps.py
-6260567007b832d0d1c641352b5097ff|baselib/redis/Redis.py
+8008329f683e9fb01d74e72effed0ca9|baselib/redis/Redis.py
 5915621f3a2e746a381e42b3f27e6831|baselib/redis/__init__.py
-c335adff03a8fc3c6aecc8fda1421dd5|baselib/redisworker/RedisWorker.py
+92a758fc8da9552e3605786760406535|baselib/redisworker/RedisWorker.py
 da7c7dbc59ee6f69a677572e362d514a|baselib/redisworker/__init__.py
 7684d67b0d04a249d168defa0895c485|baselib/remote/__init__.py
 f793e4e58dbe9cc472a1c9a78e88d9da|baselib/remote/avahi/Avahi.py

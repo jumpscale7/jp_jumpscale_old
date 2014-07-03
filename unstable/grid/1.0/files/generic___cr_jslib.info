@@ -1,4 +1,4 @@
-d08707f605a71070c3f76db81b392713
+01c35e8a8cefecb8e8066d2dd6a8a01e
 0d3794ba47871f55658fb632f6654f09|grid/__init__.py
 d17be0759e19126bb68d8204ca3d6713|grid/agentcontroller/AgentControllerFactory.py
 fa0bfe91579adf988f164d7968fc7b4c|grid/agentcontroller/__init__.py
@@ -45,9 +45,9 @@ e50b17fdf903d7df25f15b2b81741f54|grid/messagehandling/server_management.py
 fed5c39f66e2bc3a468bf5d3c9409d3c|grid/messagehandling/test/test_performance.py
 7e493c7611150e78e500289c4d3c0724|grid/messagehandling/utils.py
 ef7c156d8ff51d7e3f26ba35803d1601|grid/osis/OSISBaseObject.py
-0e897e6b6daaaabc653024da7b84b983|grid/osis/OSISBaseObjectComplexType.py
-22726fdff328285e79b864227bf69705|grid/osis/OSISCMDS.py
-061fd4f2cc7ee4c77625f782476c4662|grid/osis/OSISClientForCat.py
+d9f7fc775c93c4aa6152b7ea688d3692|grid/osis/OSISBaseObjectComplexType.py
+ea8f9fb39afaf7730858468c09acf0fb|grid/osis/OSISCMDS.py
+37cf5a7b7ed57e282dcdf908a1bd32b8|grid/osis/OSISClientForCat.py
 a03cfd3155c0538974e0b6b5b82c4698|grid/osis/OSISFactory.py
 987c4e530474682ae7523d282fd7a5a0|grid/osis/OSISStore.py
 2d1c41b2e820df40b98e9db2830f45f6|grid/osis/OSISStoreES.py
