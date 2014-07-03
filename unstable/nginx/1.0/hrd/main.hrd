@@ -16,9 +16,5 @@ jp.taskletschecksum=
 jp.descrchecksum=
 jp.hrdchecksum=
 
-##dependencies
-jp.dependency.1.name = base
-jp.dependency.1.domain = jumpscale
-
 jp.process.tcpports=
 jp.process.startuptime=30
