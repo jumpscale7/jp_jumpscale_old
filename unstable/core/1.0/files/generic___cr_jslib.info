@@ -1,4 +1,4 @@
-5fb3eedc5140c5781017679f9512b0bc
+4247256da3295b1650bbb398af42e997
 0f852327b313ddfffde2e64775836d0e|__init__.py
 035c5b38c2aad0a1ed5a7426ee767cd6|base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|base/ERRORHANDLER.py
@@ -412,10 +412,10 @@ a84c367b650cebf8a3c5253f8702c540|core/system/ZipFile.py
 133823c667248c69521b87c850f9c197|core/system/__init__.py
 d92c53beff2faea2ee5f280f36a137a8|core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|core/system/fswalker.py
-a9c4a888a1ac8c866c1d4c9a8d37b877|core/system/net.py
+64602064bd13d6b479d5a5fc9f6e855d|core/system/net.py
 74977bbc43c5f1673d09ac90c95ee794|core/system/process.py
 2087b5562b95e19fd89e8251a744fb3c|core/system/processhelper.py
 80bd0458289bbb37833230b9652401dd|core/system/string.py
-03cb8d790e9711fbf9cc1653e59b1a91|core/system/text.py
+52734a49e4fe77e6cef398dbe3ac7ec9|core/system/text.py
 5ef6591b9e3efb65b3aa9f36f4faea13|core/system/unix.py
 95fb439d7d41c6b1e7643588ef1a0bdb|core/system/windows.py
