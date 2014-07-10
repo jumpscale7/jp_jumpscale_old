@@ -20,7 +20,7 @@ def main(j,jp):
         args="",\
         env={},\
         numprocesses=1,\
-        priority=100,\
+        priority=2,\
         shell=False,\
         workingdir='',\
         jpackage=jp,\
