@@ -1,0 +1,44 @@
+jp.domain=jumpscale
+jp.name=oss
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=linux64
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=-1
+
+jp.taskletschecksum=
+jp.descrchecksum=
+jp.hrdchecksum=
+
+##dependencies
+jp.dependency.1.name = osis
+jp.dependency.1.domain = jumpscale
+
+jp.dependency.2.name = portal
+jp.dependency.2.domain = jumpscale
+
+jp.dependency.3.name = mongodb
+jp.dependency.3.domain = jumpscale
+
+jp.dependency.4.name = agentcontroller
+jp.dependency.4.domain = jumpscale
+
+
+jp.process.tcpports=
+jp.process.startuptime=30
+
+jp.debug=1
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+jp.dependency.4.minversion=
+jp.dependency.4.maxversion=
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=

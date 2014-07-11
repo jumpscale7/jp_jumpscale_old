@@ -1,0 +1,45 @@
+jp.name=osis
+jp.version=1.0
+jp.autobuild=0
+jp.debug=1
+
+jp.supportedplatforms=generic
+jp.description=!(../description.wiki)
+jp.buildnr=163
+jp.export=0
+jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:830f44339ec43e7716a2a8391ca92877
+
+jp.taskletschecksum=c2d37cc43d4157dfdae8039dc78a7d89
+jp.descrchecksum=e97c7617cedebc3b55880686925a01b8
+jp.hrdchecksum=32badbe0e76def432013ccce3197dfef
+
+##dependencies
+jp.dependency.0.domain= jumpscale
+jp.dependency.0.name= grid
+jp.dependency.0.minversion=
+jp.dependency.0.maxversion=
+
+jp.dependency.1.domain= jumpscale
+jp.dependency.1.name= redis
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
+
+
+jp.dependency.2.domain= jumpscale
+jp.dependency.2.name= portal
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+
+jp.dependency.3.domain= jumpscale
+jp.dependency.3.name= elasticsearch1
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
+
+jp.dependency.4.domain= jumpscale
+jp.dependency.4.name= graphite
+jp.dependency.4.minversion=
+jp.dependency.4.maxversion=
+
+jp.domain=jumpscale
+jp.process.tcpports=5544
+jp.process.startuptime=30

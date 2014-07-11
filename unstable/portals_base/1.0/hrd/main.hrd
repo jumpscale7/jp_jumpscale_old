@@ -1,0 +1,43 @@
+jp.domain=jumpscale
+jp.name=portals_base
+jp.version=1.0
+jp.autobuild=0
+
+jp.export=0
+
+#supported platforms linux, linux32, linux64, win32, win64, win
+jp.supportedplatforms=generic
+
+jp.description=!(../description.wiki)
+
+jp.buildnr=17
+
+jp.taskletschecksum=8c1d27dea5d4b95276fed5c2d88840db
+jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
+jp.hrdchecksum=cd41d09b18b7a9de7cb25580051b4a22
+
+##dependencies
+jp.dependency.1.name = processmanager
+jp.dependency.1.domain = jumpscale
+
+
+jp.dependency.2.name = osis
+jp.dependency.2.domain = jumpscale
+
+jp.dependency.3.name = grid_master
+jp.dependency.3.domain = jumpscale
+
+jp.dependency.4.name = mailclient
+jp.dependency.4.domain = jumpscale
+
+
+jp.process.tcpports=
+jp.process.startuptime=30
+
+jp.debug=1
+jp.dependency.3.minversion=
+jp.dependency.3.maxversion=
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

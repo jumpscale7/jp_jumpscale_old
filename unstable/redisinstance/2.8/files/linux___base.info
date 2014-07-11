@@ -1,0 +1,9 @@
+9ac03db282366c0d9bf7665e94cc2798
+9dd114d42ba3a2f5dadd41c65bbed92e|apps/redis/redis-benchmark
+e389d1ed2d77303332239961d76d96f8|apps/redis/redis-check-aof
+71b656c769072ea850d86513dbda5e96|apps/redis/redis-check-dump
+a861741a8640421f8ceb984f78937491|apps/redis/redis-cli
+1cecbacc3144cce94952d273ab1d4081|apps/redis/redis-sentinel
+1cecbacc3144cce94952d273ab1d4081|apps/redis/redis-server
+f5adf3ca81645a2ad7cc1fe7130c3cd6|apps/redis/redis.conf
+c8759f213c9fe7c633538e4055c8df0f|apps/redis/sentinel.conf
