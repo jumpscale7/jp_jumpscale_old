@@ -2,8 +2,11 @@ def main(j,jp):
     #configure the application to autostart
     # jp.log("set autostart $(jp.name)")
 
-    cmd = 'python'
-    args = 'controller.py'
+
+    sm=j.tools.startupmanager
+
+    cmd = 'jsprocess restart -n webdis;python controller.py'
+    args = ''
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agentcontroller')
     name="agentcontroller"
     startstoptimeout=20
