@@ -20,7 +20,5 @@ jp.hrdchecksum=
 jp.dependency.1.name = redis
 jp.dependency.1.domain = jumpscale
 
-jp.process.tcpports=
-jp.process.startuptime=30
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=

@@ -5,7 +5,7 @@ def main(j,jp):
 
     sm=j.tools.startupmanager
 
-    cmd = 'jsprocess restart -n webdis;python controller.py'
+    cmd = 'python controller.py'
     args = ''
     workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'agentcontroller')
     name="agentcontroller"

@@ -22,6 +22,4 @@ jp.bundles=ubuntu64:23dc154b39e9279cafa94602b62b822d
 #jp.dependency.1.minversion= 1
 #jp.dependency.1.maxversion= 2
 jp.repositories.generic.jumpscale_jumpscale_examples=77316fcf290e
-jp.process.tcpports=
-jp.process.startuptime=30
 jp.debug=1

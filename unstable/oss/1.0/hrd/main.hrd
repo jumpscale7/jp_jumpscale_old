@@ -30,8 +30,6 @@ jp.dependency.4.name = agentcontroller
 jp.dependency.4.domain = jumpscale
 
 
-jp.process.tcpports=
-jp.process.startuptime=30
 
 jp.debug=1
 jp.dependency.2.minversion=
