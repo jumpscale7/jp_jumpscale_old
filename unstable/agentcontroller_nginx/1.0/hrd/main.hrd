@@ -19,3 +19,5 @@ jp.hrdchecksum=
 ##dependencies
 jp.dependency.1.name = nginx
 jp.dependency.1.domain = jumpscale
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=
