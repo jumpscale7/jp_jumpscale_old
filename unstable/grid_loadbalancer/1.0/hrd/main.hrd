@@ -1,5 +1,5 @@
 jp.domain=jumpscale
-jp.name=agentcontroller_nginx
+jp.name=grid_loadbalancer
 jp.version=1.0
 jp.autobuild=0
 
