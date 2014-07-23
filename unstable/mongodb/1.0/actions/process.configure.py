@@ -16,7 +16,7 @@ def main(j,jp):
 
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
-        cmd="mongod --dbpath $vardir/mongodb --httpinterface --rest", \
+        cmd="mongod --dbpath $vardir/mongodb --smallfiles --rest", \
         args="",\
         env={},\
         numprocesses=1,\
