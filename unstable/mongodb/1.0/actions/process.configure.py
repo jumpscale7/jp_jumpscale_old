@@ -36,7 +36,6 @@ def main(j,jp):
         isJSapp=0,\
         upstart=False,\
         stats=False,\
-        processfilterstr="mongod --dbpath=")#what to look for when doing ps ax to find the process
-    
+        processfilterstr="mongod --dbpath")#what to look for when doing ps ax to find the process
     pd.start()
     pass

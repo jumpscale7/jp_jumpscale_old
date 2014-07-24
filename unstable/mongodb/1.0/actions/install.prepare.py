@@ -8,7 +8,8 @@ def main(j,jp):
     do.execute("echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | tee /etc/apt/sources.list.d/mongodb.list")
     print "update apt metadata"
     j.system.platform.ubuntu.updatePackageMetadata()
-
     j.system.platform.ubuntu.install("mongodb-org")
-
     j.system.fs.createDir("$vardir/mongodb")
+
+    j.system.platform.ubuntu.stopService("mongod")
+    j.system.platform.ubuntu.serviceDisableStartAtBoot("mongod")
