@@ -26,8 +26,6 @@ jp.dependency.2.domain = serverapps
 jp.dependency.3.name = postgresql
 jp.dependency.3.domain = serverapps
 
-jp.process.tcpports=
-jp.process.startuptime=30
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 jp.debug=0

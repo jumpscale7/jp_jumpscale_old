@@ -19,7 +19,5 @@ jp.hrdchecksum=52fc5f8fb2c97d03d4f79d377f44369a
 ##dependencies
 #jp.dependency.1.name = processmanager
 #jp.dependency.1.domain = jumpscale
-jp.process.tcpports=
-jp.process.startuptime=30
 
 jp.debug=1

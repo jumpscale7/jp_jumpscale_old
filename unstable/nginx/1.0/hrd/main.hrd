@@ -15,6 +15,3 @@ jp.buildnr=5
 jp.taskletschecksum=
 jp.descrchecksum=
 jp.hrdchecksum=
-
-jp.process.tcpports=
-jp.process.startuptime=30

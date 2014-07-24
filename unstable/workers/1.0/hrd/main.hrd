@@ -23,6 +23,4 @@ jp.hrdchecksum=a0e479e811c364c6094ac590ad735e3b
 #jp.dependency.1.maxversion =
 
 
-jp.process.tcpports=
-jp.process.startuptime=30
 jp.debug=1

@@ -1,0 +1,2 @@
+mongodb.host=@ASK type:str default:127.0.0.1
+mongodb.port=@ASK type:int default:27017
