@@ -2,8 +2,6 @@ jp.name=osis
 jp.version=1.0
 jp.autobuild=0
 jp.debug=1
-jp.process.tcpports=5544
-jp.process.startuptime=30
 
 
 
