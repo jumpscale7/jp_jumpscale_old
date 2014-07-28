@@ -16,8 +16,8 @@ def main(j,jp):
 
     pd=j.tools.startupmanager.addProcess(\
         name="shellinabox",\
-        cmd="shellinaboxd -s /:root:root:/root:'python $base/apps/jail/shellinabox_launcher.py ${url}' -p $(shellinabox.port) -t --linkify=aggressive", \
-        args="",\
+        cmd="shellinaboxd -s ", \
+        args="'/:root:root:/root:python  $base/apps/jail/shellinabox_launcher.py ${url} -p $(shellinabox.port)' -t --linkify=aggressive",\
         env={},\
         numprocesses=1,\
         priority=100,\
