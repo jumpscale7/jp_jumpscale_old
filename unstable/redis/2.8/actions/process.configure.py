@@ -20,7 +20,7 @@ def main(j,jp):
             shell=False,\
             workingdir='$base/apps/redis/',\
             jpackage=jp,\
-            domain=jp.domain,\
+            domain="redis",\
             ports=[port],\
             autostart=True,\
             reload_signal=0,\
