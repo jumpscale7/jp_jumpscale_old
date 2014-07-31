@@ -16,13 +16,13 @@ def main(j,jp):
 
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
-        cmd="mongod --dbpath $vardir/mongodb --smallfiles --rest", \
+        cmd="mongod --dbpath $vardir/mongodb/$(mongodb.name)/ --smallfiles --rest", \
         args="",\
         env={},\
         numprocesses=1,\
         priority=2,\
         shell=False,\
-        workingdir='',\
+        workingdir='$base/bin',\
         jpackage=jp,\
         domain=jp.domain,\
         ports=[27017,28017],\
