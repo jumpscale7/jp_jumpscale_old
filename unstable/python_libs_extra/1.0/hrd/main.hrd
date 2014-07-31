@@ -1,16 +1,16 @@
 jp.domain=jumpscale
-jp.name=pymongo
+jp.name=python_libs_extra
 jp.version=1.0
 jp.autobuild=0
 
 jp.export=0
 
 #supported platforms linux, linux32, linux64, win32, win64, win
-jp.supportedplatforms=linux
+jp.supportedplatforms=linux64
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=6
+jp.buildnr=-1
 
 jp.taskletschecksum=
 jp.descrchecksum=

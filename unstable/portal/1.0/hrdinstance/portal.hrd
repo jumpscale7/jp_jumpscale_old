@@ -1,0 +1,17 @@
+
+portal.auth.source.type=osis
+portal.auth.source.addr=127.0.0.1
+portal.auth.source.login=root
+
+#if nothing then will be superadministratorpasswd
+portal.auth.source.passwd=
+
+portal.port=@ASK default:82
+portal.ipaddr=@ASK default:127.0.0.1
+
+portal.admin.passwd=@ASK
+
+portal.name=@ASK default:example
+
+
+

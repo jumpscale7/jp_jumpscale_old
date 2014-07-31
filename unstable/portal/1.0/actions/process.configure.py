@@ -5,11 +5,14 @@ def main(j,jp):
     # jp.log("set autostart $(jp.name)")
 
     # #example start osis
-    # cmd = 'python'
-    # args = 'osisServerStart.py'
-    # workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'osis')
-    # j.tools.startupmanager.addProcess(name, cmd, args=args, env={}, numprocesses=1, priority=1, shell=False, workingdir=workingdir,jpackage=jp,domain="",ports=[])
+    cmd = 'python'
+    args = 'portal_start.py'
+    workingdir = "$base/apps/portals/$(portal.name)"
+    name = jp.name
+    domain = jp.domain
+    ports = j.basetype.integer.fromString('$(portal.port)')
     
+    j.tools.startupmanager.addProcess(name=name, cmd=cmd, args=args, env={}, numprocesses=1, priority=90, \
+       shell=False, workingdir=workingdir,jpackage=jp,domain=domain,ports=[ports])
 
 
-    pass

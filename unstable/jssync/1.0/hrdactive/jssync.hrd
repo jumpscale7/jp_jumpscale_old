@@ -1,7 +1,8 @@
 
-jssync.addr=@ASK default:95.85.60.252
+jssync.addr=@ASK default:install.jumpscale.org
 jssync.login=
 jssync.passwd=
-jssync.key.default=@ASK default:test
+jssync.key.default=@ASK default:unstable
+
 
 
