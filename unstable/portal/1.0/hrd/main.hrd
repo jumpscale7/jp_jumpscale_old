@@ -7,8 +7,8 @@ jp.debug=1
 #supported platforms linux, linux32, linux64, win32, win64, win
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=161
-jp.taskletschecksum=b65e7fbfa5bcbf2094b6d25951ebb6a9
+jp.buildnr=163
+jp.taskletschecksum=740c165b6a9563a52421428c7b9e4d69
 jp.export=0
 
 jp.bundles=generic:44e16e68277b5cb8201af50de4b4345e
@@ -23,5 +23,5 @@ jp.dependency.1.maxversion=
 
 jp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
-jp.hrdchecksum=79a95efa336842a2869fb73b18b3a05f
+jp.hrdchecksum=af10c2265920cf9fa87f932f80d2ae83
 jp.domain=jumpscale
