@@ -1,12 +1,12 @@
 def main(j,jp):
    
-    dpath = "$vardir/redis/%s" % name
+    dpath = "$vardir/redis/$(redis.name)"
     cpath = j.system.fs.joinPaths(dpath, "redis.conf")
-    port=j.application.config.getInt("redis.port.%s"%name)
+    port=int($(redis.port))
     pd=j.tools.startupmanager.addProcess(\
-        name=name,\
+        name="redis_$(redis.name)",\
         cmd="./redis-server", \
-        args=cpath,\
+        args="$vardir/redis/$(redis.name)/redis.conf",\
         env={},\
         numprocesses=1,\
         priority=1,\
@@ -25,7 +25,7 @@ def main(j,jp):
         isJSapp=0,\
         upstart=True,\
         stats=True,\
-        processfilterstr="redis/%s/redis.conf"%(name))#what to look for when doing ps ax to find the process
+        processfilterstr="redis-server 127.0.0.1:$(redis.port)")#what to look for when doing ps ax to find the process
         
     pd.start()
 

@@ -14,4 +14,10 @@ def main(j,jp):
     #configuration is not done in this step !!!!!
     #copying files from files section of jpackages is not done in this step
     
-    pass
+    jp2=j.packages.findNewest("jumpscale","redis")
+    jp2.instance="system"    
+    if not jp2.isInstalled():
+        jp2.install(hrddata={"redis.name":"production","redis.port":"7768","redis.disk":"1","redis.mem":400},instance="production")
+    jp2.start()
+
+    

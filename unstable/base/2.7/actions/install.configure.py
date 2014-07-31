@@ -1,4 +1,7 @@
 
 def main(j,jp):
-    j.application.config.set("jumpscale.paths.base",j.dirs.baseDir)
+
+    if not j.application.sandbox:
+
+        j.application.config.set("jumpscale.paths.base",j.dirs.baseDir)
 

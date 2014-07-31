@@ -1,2 +1,3 @@
 def main(j,jp):
-    jp._copyfiles()
+    if not j.application.sandbox:
+        jp._copyfiles()
