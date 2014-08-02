@@ -5,10 +5,10 @@ jp.autobuild=0
 
 jp.supportedplatforms=linux64
 jp.description=!(../description.wiki)
-jp.buildnr=76
+jp.buildnr=77
 jp.export=0
 
-jp.taskletschecksum=e7d9ab8454323dbe40608853cef83291
+jp.taskletschecksum=fa768c1dc9a9ce90adaf3ddb597ef328
 jp.bundles=generic:,linux64:312e186048439e76d98fbb80d0a3b550,linux:2ff690fd37c926d3032a447d0285521a
 
 jp.descrchecksum=6eb3d439d91ba5942a4e12599508c777

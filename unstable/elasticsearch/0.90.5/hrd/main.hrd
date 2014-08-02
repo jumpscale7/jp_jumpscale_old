@@ -5,9 +5,9 @@ jp.autobuild=0
 
 jp.supportedplatforms=linux
 jp.description=!(../description.wiki)
-jp.buildnr=19
+jp.buildnr=20
 
-jp.taskletschecksum=2feaf04df7b0a9be30d724f4897deae9
+jp.taskletschecksum=dc5e0102b9b7903e372d280d8050815c
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=379304cecd3c2c3c75ec27fc7c13960f
 
