@@ -33,11 +33,3 @@ def main(j,jp):
         toremove = ["blosc", "msgpack", "zmq", "pylzma", "ujson", "urllib3"]  # DO NOT REMOVE ipython
 
         j.system.platform.python.remove(toremove)
-
-
-
-    jp2=j.packages.findNewest("jumpscale","redis")
-    jp2.instance="system"    
-    if not jp2.isInstalled():
-        jp2.install(hrddata={"redis.name":"system","redis.port":"7766","redis.disk":"0","redis.mem":200},instance="system")
-    jp2.start()
