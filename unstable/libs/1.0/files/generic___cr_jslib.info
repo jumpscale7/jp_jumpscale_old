@@ -1,4 +1,4 @@
-6f3eedf3cb340788f15039685cf55609
+dcbef10d44b5e4061f809c31bf9673de
 d41d8cd98f00b204e9800998ecf8427e|lib/__init__.py
 df6b3fa99cbfed853c39437d29a11e74|lib/btrfs/__init__.py
 af62dbfefae63a99282c4563137e89a7|lib/btrfs/btrfs.py
@@ -25,6 +25,8 @@ d41d8cd98f00b204e9800998ecf8427e|lib/dataprocessors/__init__.py
 1873fad6620b9006f5b3973fc8a5aea0|lib/dhcp/dhcp.py
 f4d9d0a453ada3bdeb7a1cbfbc2e6c83|lib/diskmanager/Diskmanager.py
 a001ec6eefc3441cd954bb24f5a223ef|lib/diskmanager/__init__.py
+86dc1674fae11d20d43ec501a5e62dcc|lib/docker/Docker.py
+bf9fa29991052534432f62b7a4075398|lib/docker/__init__.py
 bf464f4a6ca0394dfe3fbf3afb518cee|lib/html/HTML2Text.py
 68edacd81153a24794600e2f2cb7a46b|lib/html/HTMLFactory.py
 5e2b1181ef55c70c22bc1f3c953cdd65|lib/html/__init__.py

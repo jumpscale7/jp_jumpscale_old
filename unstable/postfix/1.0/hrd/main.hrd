@@ -10,9 +10,9 @@ jp.supportedplatforms=ubuntu
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=4
+jp.buildnr=5
 
-jp.taskletschecksum=0f53e5528c73270880895482d66f65a3
+jp.taskletschecksum=96f335091d25e71c1ff336359760d06b
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
 
