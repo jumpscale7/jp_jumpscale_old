@@ -2,5 +2,7 @@
 osis.key=
 #@ASK encryptionkey:var descr:give_encryption_key_for_osis type:str regex:^(?!\s*$).+ retry:5
 
-elasticsearch.connection=@ASK
+
+#example: mongodb:main influxdb:main redis:rediskvs elasticsearch:main
+osis.connection=@ASK
 
