@@ -17,10 +17,10 @@ def main(j,jp):
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
         cmd = 'python', \
-        args = 'osisServerStart.py',\
+        args = 'osisServerStart.py $(elasticsearch.connection)',\
         env={},\
         numprocesses=1,\
-        priority=100,\
+        priority=4,\
         shell=False,\
         workingdir="$base/apps/osis",\
         jpackage=jp,\
