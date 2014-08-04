@@ -5,7 +5,7 @@ def main(j,jp):
     port=int($(redis.port))
     pd=j.tools.startupmanager.addProcess(\
         name="redis_$(redis.name)",\
-        cmd="./redis-server", \
+        cmd="$base/apps/redis/redis-server", \
         args="$vardir/redis/$(redis.name)/redis.conf",\
         env={},\
         numprocesses=1,\
