@@ -25,7 +25,7 @@ def main(j,jp):
         workingdir="$base/apps/osis",\
         jpackage=jp,\
         domain=jp.domain,\
-        ports="5544",\
+        ports=[5544],\
         autostart=True,\
         reload_signal=0,\
         user="root",\
