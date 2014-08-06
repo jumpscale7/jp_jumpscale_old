@@ -6,7 +6,7 @@ def main(j,jp):
 
     # #example start osis
     cmd = 'python'
-    args = 'portal_start.py'
+    args = 'portal_start.py $jp_instance'
     workingdir = "$base/apps/portals/$(portal.name)"
     name = jp.name
     domain = jp.domain
