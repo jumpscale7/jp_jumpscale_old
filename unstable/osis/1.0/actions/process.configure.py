@@ -17,7 +17,7 @@ def main(j,jp):
     pd=j.tools.startupmanager.addProcess(\
         name=jp.name,\
         cmd = 'python', \
-        args = 'osisServerStart.py $(osis.connection)',\
+        args = 'osisServerStart.py $jp_instance $(osis.connection)',\
         env={},\
         numprocesses=1,\
         priority=4,\

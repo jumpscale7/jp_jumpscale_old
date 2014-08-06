@@ -5,4 +5,6 @@ osis.key=
 
 #example: mongodb:main influxdb:main redis:rediskvs elasticsearch:main
 osis.connection=@ASK
+osis.superadmin.passwd=@ASK
+
 

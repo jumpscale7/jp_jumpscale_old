@@ -7,19 +7,19 @@ jp.debug=1
 
 jp.supportedplatforms=generic
 jp.description=!(../description.wiki)
-jp.buildnr=165
+jp.buildnr=168
 jp.export=0
 jp.bundles=generic:8d773154a4bd8d281976ad28134f54dd,linux:830f44339ec43e7716a2a8391ca92877
 
-jp.taskletschecksum=32c00bb807b75e54aee78cc01b1d9e34
+jp.taskletschecksum=89683e6a24ffba2a13e4766eb4b330ba
 jp.descrchecksum=e97c7617cedebc3b55880686925a01b8
-jp.hrdchecksum=32badbe0e76def432013ccce3197dfef
+jp.hrdchecksum=6e598abe25de3690aefb02f2e6511533
 
 ##dependencies
-jp.dependency.1.domain= jumpscale
-jp.dependency.1.name= grid
-jp.dependency.1.minversion=
-jp.dependency.1.maxversion=
+#jp.dependency.1.domain= jumpscale
+#jp.dependency.1.name= grid
+#jp.dependency.1.minversion=
+#jp.dependency.1.maxversion=
 
 jp.dependency.0.domain= jumpscale
 jp.dependency.0.name= redis

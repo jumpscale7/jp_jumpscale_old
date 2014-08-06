@@ -1,4 +1,4 @@
-0a5df55a69c8aac550eb71db7857595d
+7eb81e05bc1c85366f7b4d701b0d86b5
 0f852327b313ddfffde2e64775836d0e|__init__.py
 035c5b38c2aad0a1ed5a7426ee767cd6|base/BYTEPROCESSOR.py
 0057347ecae50e25a12f839bbbbb812c|base/ERRORHANDLER.py
@@ -86,7 +86,7 @@ ad0445f07e5abfa3f8eaddf3a8d6215c|baselib/codetools/__init__.py
 d8229437e1e5e5bba124d7ea65d0c39f|baselib/credis/__init__.py
 9e76083920a1d8db07c2b2cec43880f9|baselib/dnsmasq/__init__.py
 462f4ad001e487d7067184357b3f007c|baselib/dnsmasq/dnsmasq.py
-1826c1b4a970e9975f3d6d7bb8380f15|baselib/elasticsearch/Elasticsearch.py
+243b8ceff32fdbcb74e6eb9ed20f2973|baselib/elasticsearch/Elasticsearch.py
 488caa794fc405c664338e14c5f47dc5|baselib/elasticsearch/__init__.py
 3db0078211e4b1a4c7968fbf83e42b5d|baselib/elasticsearch/extension.cfg
 50395cbfe4586e76e076a7dfa6b6ae35|baselib/expect/Expect.py
@@ -117,6 +117,8 @@ e8fe9e91790c36635b76f283e605be78|baselib/hrd/__init__.py
 2dc185f345f7ca634aec690243f346d8|baselib/http_client/httplib2/cacerts.txt
 c0f9c5cb229a22e21575322b4ba77741|baselib/http_client/httplib2/iri2uri.py
 41b2cb7f2bc06fceb01461a8e980aa92|baselib/http_client/httplib2/socks.py
+71d1f89d6304572c4d8b8b4c05498371|baselib/influxdb/Influxdb.py
+50688939a134e9ad5b8cffb4cbac664f|baselib/influxdb/__init__.py
 abf4fc3372fc295b2e52ee2c59e5a1ef|baselib/inifile/IniFile.py
 55dd2b1a6d8eff663b745515c9193074|baselib/inifile/__init__.py
 e7c301b883aaf038e042c4892646de88|baselib/inifile/extension.cfg
@@ -180,7 +182,7 @@ dd041c862ed5c9155a228e9e3c374498|baselib/key_value_store/memory_store.py
 924967f5c61cfbaf0bb7b4bb99badd58|baselib/key_value_store/mongodb_store.py
 7efd88f1de042bdcb399706b8f25c320|baselib/key_value_store/redis_store.py
 77ae3b606fb5feecb853e50e81397b45|baselib/key_value_store/store.py
-90b48524b554e9b12a38b84f3f732932|baselib/key_value_store/store_factory.py
+a43455f0eb8ee58d53d1b1bea91e636c|baselib/key_value_store/store_factory.py
 7933208b11ed5790fd928a234647eb40|baselib/key_value_store/test_store.py
 41e6d19dd026b96df062016fcfb61ce1|baselib/lrucache/LRUCache.py
 352c2e22ec2edb1066383738eac1d8b0|baselib/lrucache/LRUCacheFactory.py
@@ -195,7 +197,7 @@ df69fd931770afcf7774102ae9bbad55|baselib/lrucache/__init__.py
 6fe0e3eb4f585a60030ce74fe732efc4|baselib/mercurial/__init__.py
 53665df450577a0b632c041434e44bb7|baselib/mercurial/extension.cfg
 2867d3e61b0a53e43c1f7e8ea6b45b25|baselib/mercurial/hglib/__init__.py
-b38e312fba36b14d60669828e50bd671|baselib/mercurial/hglib/client.py
+56807e51214c30dd590971b35624e4a5|baselib/mercurial/hglib/client.py
 c55980e4e3c9a307afb3654698b3eda1|baselib/mercurial/hglib/context.py
 61080a054ee94b8792a3f48cc7fad002|baselib/mercurial/hglib/error.py
 3f96f8f29c379368c1291b905ac2f0fd|baselib/mercurial/hglib/merge.py
@@ -246,7 +248,7 @@ c7d2debb41a2102365b33653b0085e51|baselib/screen/Screen.py
 f619b426e7b753e4a5de7b21d9d72dc7|baselib/screen/extension.cfg
 77bed4a140744453aaa63516f3d44054|baselib/serializers/SerializerBase64.py
 b511d7ab77e1b544654120411a684a02|baselib/serializers/SerializerBlosc.py
-4ccedcc123994e32355e1427f6846473|baselib/serializers/SerializerBlowfish.py
+02cf17667051e8688b3d51c6e047a573|baselib/serializers/SerializerBlowfish.py
 9545ba93258c6ff854b9b1a25f4e2118|baselib/serializers/SerializerCRC.py
 73bcce50017b7d8f225474fa39c45dee|baselib/serializers/SerializerDict.py
 cd249eec250ab88d6f26462c99e6df69|baselib/serializers/SerializerHRD.py
@@ -271,7 +273,7 @@ e0bd3623ca693862f2d526fe4a667b39|baselib/specparser/__init__.py
 2a9202cf2095fb4f409ab405825e431e|baselib/ssl/SSL.py
 d18bc2e58a151750012977ddc03ebac9|baselib/ssl/__init__.py
 f44de53c0524f056ae69777448583877|baselib/ssl/extension.cfg
-570e653cef61308fc12552fa1d772ee3|baselib/startupmanager/StartupManager.py
+d67b019119032e9c74424104d3d604a7|baselib/startupmanager/StartupManager.py
 eb77908b00053af412691b2739295481|baselib/startupmanager/__init__.py
 3f7939aeb592a5a21d2b4c5284e5d535|baselib/stataggregator/StatAggregator.py
 6859875858ae676698ae7a59d432a1b4|baselib/stataggregator/__init__.py
@@ -412,7 +414,7 @@ a84c367b650cebf8a3c5253f8702c540|core/system/ZipFile.py
 43738aa40b8f06ad5bf89ae6a8cdb347|core/system/fs.py
 7a28a019ab7ab8c578051e6de7b6b008|core/system/fswalker.py
 baa39ca38578866f223926bbf503cc65|core/system/net.py
-f0ae6dbf3b96d2ee78ebdfda2abb08df|core/system/process.py
+91ecde77806e3c7fc79da70bcda603f4|core/system/process.py
 2087b5562b95e19fd89e8251a744fb3c|core/system/processhelper.py
 80bd0458289bbb37833230b9652401dd|core/system/string.py
 f599eb5d5e48d2e97accb6a68e281b5b|core/system/text.py
