@@ -4,11 +4,12 @@ def main(j,jp):
         cmd="$base/bin/python"
     else:
         cmd="python"
-
+    
+    name = "%s_%s" % (jp.name, jp.instance)
     pd=j.tools.startupmanager.addProcess(\
-        name=jp.name,\
+        name=name,\
         cmd=cmd, \
-        args="processmanager.py --nodeid=$nodeid",\
+        args="processmanager.py --nodeid=$nodeid --instance=%s" % jp.instance,\
         env={},\
         numprocesses=1,\
         priority=100,\
