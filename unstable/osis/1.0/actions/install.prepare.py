@@ -1,8 +1,7 @@
 def main(j,jp):
     # redis system
     jp2=j.packages.findNewest("jumpscale","redis")
-    jp2.instance="production"
-    if not jp2.isInstalled():
+    if not jp2.isInstalled('production'):
         jp2.install(hrddata={"redis.name":"production","redis.port":"7768","redis.disk":"1","redis.mem":400},instance="production")
     jp2.start()
     # grid lib 
