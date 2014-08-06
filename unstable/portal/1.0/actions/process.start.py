@@ -4,8 +4,9 @@ def main(j,jp):
 
 
     osisclientjp = j.packages.findNewest('jumpscale', 'osis_client')
-    osisclientjp.loadActions()
-    osisip = osisclientjp.get('osis.client.addr')
+    osisinstance = jp.hrd_instance.get('portal.osis.connection')
+    osisclientjp = osisclientjp.getInstance(osisinstance)
+    osisip = osisclientjp.hrd_instance.get('osis.client.addr')
 
     if j.system.net.isIpLocal(osisip):
         jposis=j.packages.findByName("osis")
