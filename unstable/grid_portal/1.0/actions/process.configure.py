@@ -5,5 +5,5 @@ def main(j,jp):
     # #example start osis
     cmd = 'python'
     args = 'portal_start.py'
-    workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'gridportal')
+    workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'portals', '$(grid.portal.instance)')
     j.tools.startupmanager.addProcess(jp.name, cmd, args=args, workingdir=workingdir,jpackage=jp,priority=50,ports=[81])
