@@ -21,13 +21,9 @@ jp.bundles=
 jp.dependency.1.name = webdis
 jp.dependency.1.domain = jumpscale
 
-jp.dependency.2.name = grid_node
-jp.dependency.2.domain = jumpscale
 
 jp.dependency.3.name = workers
 jp.dependency.3.domain = jumpscale
-
-
 
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
@@ -35,5 +31,3 @@ jp.dependency.1.maxversion=
 jp.debug=1
 jp.dependency.3.minversion=
 jp.dependency.3.maxversion=
-jp.dependency.2.minversion=
-jp.dependency.2.maxversion=

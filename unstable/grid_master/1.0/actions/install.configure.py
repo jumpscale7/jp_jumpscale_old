@@ -48,7 +48,6 @@ def main(j,jp):
         j.application.config.set("grid.useavahi",0)
 
     # needs to be done in this order after grid_master is registered
-    j.packages.findNewest(domain="jumpscale",name="grid_node").install()
     j.tools.startupmanager.startProcess("jumpscale","agentcontroller")
     j.tools.startupmanager.startProcess("workers",None)
     jp = j.packages.findNewest(domain="jumpscale",name="processmanager")
