@@ -9,5 +9,7 @@ def main(j,jp):
     acinstance = jp.hrd_instance.get('agentcontroller.connection')
     import JumpScale.grid.agentcontroller
     acclient = j.clients.agentcontroller.getByInstance(acinstance)
-    node = acclient.register()
+    machineguid = j.application.getUniqueMachineId()
+    j.application.config.set('grid.node.machineguid', machineguid)
+    node = acclient.registerNode(j.system.net.getHostname(), machineguid)
     j.application.config.set('grid.node.id', node['id'])
