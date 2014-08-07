@@ -22,7 +22,7 @@ def main(j,jp):
         j.system.fs.removeDirTree("$vardir/elasticsearch/")
 
 
-    j.system.fs.createDir("$vardir/elasticsearch1/data")
-    j.system.fs.createDir("$vardir/elasticsearch1/tmp")
-    j.system.fs.createDir("$vardir/elasticsearch1/logs")
+    j.system.fs.createDir("$vardir/elasticsearch/data")
+    j.system.fs.createDir("$vardir/elasticsearch/tmp")
+    j.system.fs.createDir("$vardir/elasticsearch/logs")
 
