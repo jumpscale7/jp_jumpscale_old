@@ -1,9 +1,7 @@
 def main(j,jp):
    
-    jp.log("set autostart $(jp.name)")
+    jp=j.packages.findNewest("jumpscale","portal")
+    jp.load("$(portal.instance)")
+    jp.restart()
 
-    # #example start osis
-    cmd = 'python'
-    args = 'portal_start.py'
-    workingdir = j.system.fs.joinPaths(j.dirs.baseDir, 'apps', 'portals', '$(grid.portal.instance)')
-    j.tools.startupmanager.addProcess(jp.name, cmd, args=args, workingdir=workingdir,jpackage=jp,priority=50,ports=[81])
+    
