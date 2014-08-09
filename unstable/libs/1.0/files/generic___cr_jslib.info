@@ -1,4 +1,4 @@
-dcbef10d44b5e4061f809c31bf9673de
+9f7f6d962a292735ae0919be5f92c037
 d41d8cd98f00b204e9800998ecf8427e|lib/__init__.py
 df6b3fa99cbfed853c39437d29a11e74|lib/btrfs/__init__.py
 af62dbfefae63a99282c4563137e89a7|lib/btrfs/btrfs.py
@@ -9,7 +9,7 @@ ac56d0cf826610248e7fbfaaaa7de737|lib/ceph/OSD.py
 376727cb19875dafb3b3210c73f2e964|lib/cisco_ios/CiscoSwitchManager.py
 5929d18cbb7217dbe9dcb23d8b11193e|lib/cisco_ios/Router.py
 7c2ff5cf238a848edea14316507520d5|lib/cisco_ios/__init__.py
-36ee1d1facebac4501b09dc7e55b5973|lib/cloudrobots/CloudRobotFactory.py
+87c03bbd3b0856b7d3e89f941e10cb0b|lib/cloudrobots/CloudRobotFactory.py
 a2d9cd6e260f1b790ec4ca1888408c3f|lib/cloudrobots/FileRobot.py
 f3f5bdb23b148716873cd2de37d29db7|lib/cloudrobots/HTTPRobot.py
 67ca6308d8964d5c447c99e64e73d1df|lib/cloudrobots/MailRobot.py
@@ -18,6 +18,13 @@ f3f5bdb23b148716873cd2de37d29db7|lib/cloudrobots/HTTPRobot.py
 d41d8cd98f00b204e9800998ecf8427e|lib/cloudrobots/httprobot.py
 52d4c8fd3eb0df7416265edf9085a5d2|lib/cloudrobots/jumpscripts/mailrobotrequest.py
 52d4c8fd3eb0df7416265edf9085a5d2|lib/cloudrobots/jumpscripts/robotrequest.py
+d41d8cd98f00b204e9800998ecf8427e|lib/cloudrobotservices/__init__.py
+c14a3987a743471f7d8aab6f5792cc19|lib/cloudrobotservices/ms1_iaas/MS1IaasRobot.py
+44943ceb14059f555d3b784e6ec43e63|lib/cloudrobotservices/ms1_iaas/__init__.py
+829af21e2002bad97dd970aa58019340|lib/cloudrobotservices/usermgmt/UserMgmtRobot.py
+2d78a045bcc96d0c0aa77512337d212c|lib/cloudrobotservices/usermgmt/__init__.py
+b3d8b7041960002749cef937254cac29|lib/cloudrobotservices/youtrack/YoutrackRobot.py
+1ec528837377f66aa995a1fa81bbfee8|lib/cloudrobotservices/youtrack/__init__.py
 d41d8cd98f00b204e9800998ecf8427e|lib/dataprocessors/__init__.py
 7398be52ba487de16061edefdf757e06|lib/dataprocessors/imagelib/ImageLib.py
 04b5e15f4814f9c4e9e656a2d46db66d|lib/dataprocessors/imagelib/extension.cfg
@@ -37,11 +44,8 @@ bf464f4a6ca0394dfe3fbf3afb518cee|lib/html/HTML2Text.py
 b7d1533843c8c04136920b68d86a0799|lib/kvm/readme.txt
 8db9af647a90851adab0ef363684103f|lib/lxc/Lxc.py
 1cf6b0b294dc7ff76a31781636f0492c|lib/lxc/__init__.py
-46c897cb3eb9a4bd76ebc5b513137e97|lib/mailrobot/MailRobot.py
-5a502509eb409b1a6ed9727738e0d017|lib/mailrobot/extension.cfg
-3d2b252cb57d1a4223dd8285a57545b0|lib/ms1/__init__.py
-0cab9c9fae78b00c48deb35407b3d35b|lib/ms1/ms1.py
-bf1e9a3ca369a5c7a61bb8ba65ec20f4|lib/ms1/ms1factory.py
+54cc74304bb43aca99d873a4c0be5a32|lib/ms1/__init__.py
+2c5ad0f89d41cbe2029eb2d2ff0d361b|lib/ms1/ms1.py
 eb0de5fb1c486bb8a9b769835617a3d0|lib/mysql/MySQLFactory.py
 3c4ae50cdf41350c0388f11550b8ca70|lib/mysql/__init__.py
 232113d2fcc177667ba201a4ca91eb37|lib/nginx/__init__.py
@@ -123,9 +127,7 @@ b24d0992a7627acab7b2b8bff9f052c0|lib/shorewall/shorewall.py
 d8e8064f5d82366c48f8d4c00e23aada|lib/txtrobot/TxtRobotFactory.py
 4555daf6f979e3ba1df4194af4045081|lib/txtrobot/TxtRobotHelp.py
 cb726ee95a0839bc658857467fabcec5|lib/txtrobot/__init__.py
-46d987cae49711e48055a9021c584196|lib/usermgmt/UserFactory.py
-0eea1766758bccd57aed23685b2f8765|lib/usermgmt/__init__.py
-0cee15a1fe00bb6e43cf58986051f1d3|lib/youtrackclient/YoutrackFactory.py
+069c57dbdbe185129333f81c4667ad5d|lib/youtrackclient/YoutrackFactory.py
 1838efa062e837769214fc6a2a5d9703|lib/youtrackclient/__init__.py
 81fe4be59e7ec9ffa4b48099511b896c|lib/youtrackclient/youtrack/__init__.py
 b7d5314a6231604732bb6420077056dd|lib/youtrackclient/youtrack/connection.py

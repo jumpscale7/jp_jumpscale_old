@@ -7,5 +7,5 @@ def main(j,jp):
     
     #does tcp as well as pid test
     test=j.tools.startupmanager.getStatus4JPackage(jp)
-
+    
     return test    

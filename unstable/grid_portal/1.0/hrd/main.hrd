@@ -10,9 +10,9 @@ jp.supportedplatforms=generic
 
 jp.description=!(../description.wiki)
 
-jp.buildnr=63
+jp.buildnr=66
 
-jp.taskletschecksum=3f44c3666525966cc457a9db4531c9c7
+jp.taskletschecksum=e718d16bbb5b0decce442c2f1e03514c
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=0ad664910a921dc4bc6aa6589d85ae0f
 
@@ -26,3 +26,6 @@ jp.dependency.1.domain = jumpscale
 jp.dependency.1.minversion=
 jp.dependency.1.maxversion=
 jp.debug=1
+
+
+jp.app.path=$base/apps/portals/$(grid.portal.instance)/

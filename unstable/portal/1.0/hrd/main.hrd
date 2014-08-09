@@ -18,10 +18,14 @@ jp.bundles=generic:44e16e68277b5cb8201af50de4b4345e
 jp.dependency.1.domain=jumpscale
 jp.dependency.1.name=codegentools
 
-jp.dependency.1.minversion=
-jp.dependency.1.maxversion=
+jp.dependency.2.domain=jumpscale
+jp.dependency.2.name=portal_jslib
 
 jp.repositories.generic.jumpscale_jumpscale_portal=de009efcb30a
 jp.descrchecksum=400304f8eea1d81743bad25e030c65e3
 jp.hrdchecksum=af10c2265920cf9fa87f932f80d2ae83
 jp.domain=jumpscale
+jp.dependency.2.minversion=
+jp.dependency.2.maxversion=
+jp.dependency.1.minversion=
+jp.dependency.1.maxversion=

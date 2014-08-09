@@ -3,9 +3,10 @@ def main(j,jp):
     jp.log("start $(jp.name)")
 
 
-    osisclientjp = j.packages.findNewest('jumpscale', 'osis_client')
     osisinstance = jp.hrd_instance.get('portal.osis.connection')
-    osisclientjp = osisclientjp.getInstance(osisinstance)
+    osisclientjp = j.packages.findNewest('jumpscale', 'osis_client')
+    osisclientjp.load(osisinstance)
+    
     osisip = osisclientjp.hrd_instance.get('osis.client.addr')
 
     if j.system.net.isIpLocal(osisip):
