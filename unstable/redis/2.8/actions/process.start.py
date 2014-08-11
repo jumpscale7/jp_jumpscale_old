@@ -1,8 +1,8 @@
 def main(j,jp):
-   
-    #start the application (only relevant for server apps)
+    #stop the application (only relevant for server apps)
     jp.log("start $(jp.name)")
-    j.tools.startupmanager.startJPackage(jp)
+
+    name="redis_$(redis.name)"
+    j.tools.startupmanager.startProcess('redis', name)
+
     jp.waitUp(timeout=20)
-
-
