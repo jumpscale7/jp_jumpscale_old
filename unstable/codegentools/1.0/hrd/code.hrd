@@ -1,4 +1,5 @@
 jp.code.account=jumpscale
-jp.code.repo=jumpscale_portal
-jp.code.type=bitbucket
-jp.code.branch=default
+jp.code.repo=jumpscale_core
+jp.code.branch=master
+jp.code.type=git
+jp.code.provider=github
